@@ -4,6 +4,9 @@ const image = document.getElementById('arrow');
 const originalSrc = 'Images/Arrow_Bottom.svg';
 const hoverSrc = 'Images/Arrow_Bottom_Hover.svg';
 const clickSrc = 'Images/Arrow_Left.svg';
+
+const languagesDropdown = document.getElementById('languages-dropdown');
+
 button.addEventListener('mouseover', function() {
     if(!isClicked)
         image.src = hoverSrc;
@@ -17,9 +20,11 @@ button.addEventListener('click', function() {
     if (isClicked) {
         image.src = originalSrc;
         isClicked = false;
+        languagesDropdown.classList.add('hidden');
     } else {
         image.src = clickSrc;
-        isClicked = true;
+        isClicked = true;   
+        languagesDropdown.classList.remove('hidden');
     }
     event.stopPropagation();
 });
@@ -27,6 +32,7 @@ document.addEventListener('click', function() {
     if (isClicked) {
         image.src = originalSrc;
         isClicked = false;
+        languagesDropdown.classList.add('hidden');
     }
 });
 
