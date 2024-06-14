@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title id="title">My Website</title>
+</head>
+<body>
+  <nav>
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('es')">Español</button>
+  </nav>
+  <h1 id="welcome">Welcome</h1>
+  <p id="content">This is the English version of the site.</p>
+
+  <script>
+    function changeLanguage(lang) {
+      fetch(`translations/${lang}.json`)
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('title').innerText = data.title;
+          document.getElementById('welcome').innerText = data.welcome;
+          document.getElementById('content').innerText = data.content;
+        });
+    }
+  </script>
+</body>
+</html>
