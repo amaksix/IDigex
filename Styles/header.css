@@ -30,7 +30,7 @@ button{
 .languages{
     position: absolute;
     width: 10.2vw;
-    height: 10vw;
+    height: 5vw;
     background-color: #0C0C0C;
     border-radius: 1.2vw;
     background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,

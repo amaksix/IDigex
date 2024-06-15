@@ -1,5 +1,7 @@
 body{
     background-color: #0C0C0C;
+    overflow-x: hidden;
+    height: 2000px;
 }
 h1{
     font-size: 10.5vw;
@@ -11,7 +13,13 @@ h1{
     letter-spacing: 0;
     line-height: 7.2vw;
 }
-
+h2{
+    font-size: 5.5vw;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #F9F9F9;
+}
 .menu-grid{
     margin-top: 7.5vw;
     margin-left: 4.25vw;
@@ -58,4 +66,19 @@ h1{
 }
 .menu-button:active{
     color: #666666;
+}
+.side-moving{
+    width: 150%;
+    position: relative;
+    text-wrap: nowrap;
+    background:  linear-gradient(to right, #F9F9F9, #7090FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.side-moving-container{
+    margin-top: 6.5vw;
+    width: 100%;
+    transform: rotate(3.5deg);
+    position: relative;
+    overflow: hidden;
 }
