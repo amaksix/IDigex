@@ -20,6 +20,14 @@ h2{
     font-weight: 400;
     color: #F9F9F9;
 }
+h5{
+    font-size: 1.15vw;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #666666;
+    letter-spacing: -0.005vw;
+}
 .menu-grid{
     margin-top: 7.5vw;
     margin-left: 4.25vw;
@@ -81,4 +89,9 @@ h2{
     transform: rotate(3.5deg);
     position: relative;
     overflow: hidden;
+}
+.about-text-container{
+    margin-top: 6vw;
+    margin-left: 5vw;
+    width: 30.5vw;
 }
