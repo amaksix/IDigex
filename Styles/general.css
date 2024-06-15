@@ -19,7 +19,7 @@ body{
     grid-template-columns: auto auto;
 }
 .arrow{
-    margin-top: 0.75vh;
+    margin-top: 0.4vw;
     margin-left: 0.7vw;
     width: 0.75vw;
 }
