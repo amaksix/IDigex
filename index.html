@@ -3,6 +3,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 <head>
+ 
+</head>
+<body> 
     <div class="header-div">
         <img class="logo" src="Images/Logo_IDigex.svg" alt="Logo">
         <div class="languages—container">
@@ -17,14 +20,38 @@
                     <button id="russian" class="languages-button" onclick="changeLanguage('ru')">Russian</button>
                 </div>
             </div>
-            <button id="languages-button" class="selected-language"><span id="selected-language-text">EN</span><img id="arrow"class="arrow" src="Images/Arrow_Bottom.svg"></button>
-           
+            <button id="languages-button" class="selected-language"><span id="selected-language-text">EN</span><img id="arrow"class="arrow" src="Images/Arrow_Bottom.svg"></button>   
         </div>
     </div>
-</head>
-<body>   
+    <div class="menu-grid">
+        <div class="menu-elem">
+            <h1>I</h1>
+            <div class="menu-button-container">
+                <button id="about" class="menu-button">ABOUT</button>
+            </div>      
+        </div>
+        <div class="menu-elem menu-elem-second">
+            <h1>DI</h1>
+            <div class="menu-button-container">
+                <button id="services" class="menu-button">SERVICES</button>
+            </div>      
+        </div>
+        <div class="menu-elem menu-elem-third">
+            <h1>G</h1>
+            <div class="menu-button-container">
+                <button id="projects" class="menu-button">PROJECTS</button>
+            </div> 
+        </div>
+        <div class="menu-elem menu-elem-fourth">
+            <div class="menu-button-container">
+                <button id="contact" class="menu-button menu-button-exception">CONTACT</button>
+            </div> 
+            <h1>EX</h1>          
+        </div>
+    </div> 
 </body>
 <link rel='stylesheet' type='text/css' href='Styles/general.css'>
+<link rel='stylesheet' type='text/css' href='Styles/header.css'>
 <script type="text/javascript" src="Scripts/languageButton.js"></script>
 <script type="text/javascript" src="Scripts/changeLanguage.js"></script>
 </html>

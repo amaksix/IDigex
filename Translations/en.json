@@ -1,3 +1,7 @@
 {
-    "language": "EN"    
+    "language": "EN",
+    "about": "ABOUT",    
+    "contact": "CONTACT",
+    "services": "SERVICES",
+    "projects": "PROJECTS"
 }

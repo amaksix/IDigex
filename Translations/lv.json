@@ -1,3 +1,8 @@
 {
-    "language": "LV"    
+    "language": "LV",
+    "about": "PAR",    
+    "contact": "KONTAKTI",
+    "services": "PAKALPOJUMI",
+    "projects": "PROJEKTI"
+
 }
