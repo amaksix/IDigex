@@ -45,6 +45,7 @@ h1{
     padding: 0;
     margin-top: 6vw;
     margin-left: 0.5vw;
+    text-wrap: nowrap;
 }
 .menu-button-exception{
     margin: 0;
