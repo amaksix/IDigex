@@ -8,16 +8,16 @@
         <div class="languages—container">
             <div id="languages-dropdown" class="languages hidden">
                 <div class="languages-button-container">
-                    <button id="english" class="languages-button">English</button>
+                    <button id="english" class="languages-button" onclick="changeLanguage('en')">English</button>
                 </div>
                 <div class="languages-button-container">
-                    <button id="latvian" class="languages-button">Latviešu</button>
+                    <button id="latvian" class="languages-button" onclick="changeLanguage('lv')">Latviešu</button>
                 </div>
                 <div class="languages-button-container">
-                    <button id="russian" class="languages-button">Russian</button>
+                    <button id="russian" class="languages-button" onclick="changeLanguage('ru')">Russian</button>
                 </div>
             </div>
-            <button id="languages-button" class="selected-language">EN<img id="arrow"class="arrow" src="Images/Arrow_Bottom.svg"></button>
+            <button id="languages-button" class="selected-language"><span id="selected-language-text">EN</span><img id="arrow"class="arrow" src="Images/Arrow_Bottom.svg"></button>
            
         </div>
     </div>
@@ -26,4 +26,5 @@
 </body>
 <link rel='stylesheet' type='text/css' href='Styles/general.css'>
 <script type="text/javascript" src="Scripts/languageButton.js"></script>
+<script type="text/javascript" src="Scripts/changeLanguage.js"></script>
 </html>
