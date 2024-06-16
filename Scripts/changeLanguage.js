@@ -7,7 +7,7 @@ function changeLanguage(lang) {
         document.getElementById('contact').innerText = data.contact;
         document.getElementById('services').innerText = data.services;
         document.getElementById('projects').innerText = data.projects;
-        document.getElementById('aboutText').innerText = data.aboutText;
+        document.getElementById('descriptionText').innerText = data.descriptionText;
       });
   }
 
