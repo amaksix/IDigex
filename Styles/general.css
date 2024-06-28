@@ -39,6 +39,13 @@ h2{
     font-weight: 400;
     color: #F9F9F9;
 }
+h3{
+    font-size: 2vw;
+    font-family: "Outfit", sans-serif;
+    font-style: light;
+    font-weight: 300;
+    color: #F9F9F9;
+}
 h5{
     font-size: 1.15vw;
     font-family: "Outfit", sans-serif;
@@ -46,6 +53,7 @@ h5{
     font-weight: 300;
     color: #666666;
     line-height: 1.6vw;
+    letter-spacing: 1%;
 }
 .menu-grid{
     margin-top: 7.5vw;
@@ -143,13 +151,10 @@ h5{
 }
 .about-text-first{
     width: 20vw;
-    line-height: 130%;
-    letter-spacing: 1%;
+    
 }
 .about-text-second{
     width: 20vw;
     margin-left:48.75vw;
     margin-top: 10.5vw;
-    line-height: 130%;
-    letter-spacing: 1%;
 }
