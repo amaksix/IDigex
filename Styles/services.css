@@ -1,5 +1,5 @@
 .services-container{
-    margin-top: 88vw;
+    margin-top: 87vw;
     margin-left: 5vw;
     padding-top: 0;
     width: 90%;
@@ -30,7 +30,20 @@ margin-top: -1vw;
 .service-button-text{
     margin:0;
     text-align: left;
+    color:#A9A9A9;
   }
 .service-text{
     margin:0;
 }
+.service-image{
+    
+    position: absolute;
+    top: 50%;
+    left: 70vw;
+    transform: translate(-50%, -50%);
+    width:23vw;
+    z-index: 4;
+    opacity:0;
+    /*transition: transform 0.9s;
+    /* Add any other styles as needed */
+  }
