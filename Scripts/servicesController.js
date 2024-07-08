@@ -6,7 +6,7 @@ function getDocHeight() {
         D.body.clientHeight, D.documentElement.clientHeight
     );
   }
-  
+  var stopProjectScroll = false;
   // Get all target div elements
   const targetDivs = document.getElementsByClassName('services-menu-elem');
   
@@ -28,42 +28,26 @@ function getDocHeight() {
   }
   var previousElem = null;
   // Function to check if each target div is in the custom viewport area
-  var previousElem = null;
-  // Function to check if each target div is in the custom viewport area
-  /*var hoverStyle = {
-    //transition: '0.9s',
-    width: '214px',
-    gap: '36px'
-  };*/
   var hoverTextStyle={
-   //transition: '0.9s',
     color:'#0C0C0C'
   }
   var textStyle = {
-    //transition: '0.9s',
     color:'#A9A9A9'
   }
-  var textDissablesStyle = {
-    color:'#777777'
-  }
-  /*var normalStyle = {
-    gap: '22px',
-    width: '250px',
-  }*/
   var hoverContanerStyle={
     background:'#F9F9F9',
-    //transition: '0.9s',
+
   }
   var normalContainerStyle={
     background: 'linear-gradient(#0C0C0C, #0C0C0C) padding-box,linear-gradient(to top,rgba(224,223,222,0) 65%, #A9A9A9 145%) border-box',
-   // transition: '0.9s',
   }
   var imageSources = [
     "Images/Arrow_Right.svg",
     "Images/Arrow_Right_Dark.svg"
   ];
-  
   function checkElementsVisibility() {
+    if(!stopProjectScroll)
+    {
       for (let i = 0; i < targetDivs.length; i++) {
         const targetDiv = targetDivs[i];
         if (isElementInCustomViewport(targetDiv)) { 
@@ -74,8 +58,8 @@ function getDocHeight() {
                 //Object.assign(targetDiv.children[0].children[0].style, hoverStyle); 
                 Object.assign(targetDiv.children[0].children[0].children[1].style, hoverTextStyle); 
                 targetDiv.children[0].children[0].children[0].src = imageSources[1];
-                  targetDiv.children[0].children[0].children[0].style.opacity = 1;
-                  Object.assign(previousElem.children[1].style, {opacity:1});    
+                targetDiv.children[0].children[0].children[0].style.opacity = 1;
+                Object.assign(previousElem.children[1].style, {opacity:1});    
             }
             else
             {
@@ -84,14 +68,7 @@ function getDocHeight() {
               
               Object.assign(previousElem.style, normalContainerStyle); 
                 //Object.assign(previousElem.children[0].children[0].style, normalStyle); 
-                if(previousElem.children[0].children[0].children[1].dataset.dissabled == "false")
-                {
-                  Object.assign(previousElem.children[0].children[0].children[1].style, textStyle);
-                }
-                else
-                {
-                  Object.assign(previousElem.children[0].children[0].children[1].style, textDissablesStyle);
-                }
+                Object.assign(previousElem.children[0].children[0].children[1].style, textStyle);  
                 //Object.assign(previousElem.children[0].children[0].children[1].style, textStyle); 
                 previousElem.children[0].children[0].children[0].src = imageSources[0];
                 previousElem.children[0].children[0].children[0].style.opacity = 1;
@@ -116,14 +93,7 @@ function getDocHeight() {
           {
             Object.assign(previousElem.style, normalContainerStyle); 
           //  Object.assign(previousElem.children[0].children[0].style, normalStyle); 
-            if(previousElem.children[0].children[0].children[1].dataset.dissabled == "false")
-            {
-              Object.assign(previousElem.children[0].children[0].children[1].style, textStyle);
-            }
-            else
-            {
-              Object.assign(previousElem.children[0].children[0].children[1].style, textDissablesStyle);
-            }
+          Object.assign(previousElem.children[0].children[0].children[1].style, textStyle);
            // Object.assign(previousElem.children[0].children[0].children[1].style, textStyle); 
             
             previousElem.children[0].children[0].children[0].src = imageSources[0];
@@ -133,5 +103,42 @@ function getDocHeight() {
           }
         }
       }
+    }
   }
   window.addEventListener('scroll', checkElementsVisibility);
+var openedService = null;
+
+function openService(serviceId) {
+    if (openedService != null)
+    {
+        if(openedService != serviceId)
+        {
+            var curr =  document.getElementById(openedService);
+            var next = document.getElementById(serviceId);
+            curr.classList.remove("service-description-container");
+            curr.classList.add("service-description-container-hidden");
+            curr.style.height = 0;
+            for (const child of next.children) {
+              next.style.height = child.clientHeight;
+            }
+            next.classList.remove("service-description-container-hidden");
+            next.classList.add("service-description-container");     
+            openedService = serviceId;
+        }
+        else{
+            var curr =  document.getElementById(openedService);
+            curr.classList.remove("service-description-container");
+            curr.style.height = 0;
+            curr.classList.add("service-description-container-hidden");
+            openedService = null
+        }
+    }else{
+        var next = document.getElementById(serviceId);
+        for (const child of next.children) {
+          next.style.height = child.clientHeight;
+        }
+        next.classList.remove("service-description-container-hidden");
+        next.classList.add("service-description-container");
+        openedService = serviceId;      
+    }
+}

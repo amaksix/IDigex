@@ -26,12 +26,21 @@ margin-top: -1vw;
     grid-template-columns: 2.5vw auto;
     gap:1.5vw;
     margin-top:0.5vw;
+    text-align: left;
+    transition: 1s;
+}
+.services-buttons:hover{
+    gap:3vw;
+    transition: 1s;
+}
+.services-buttons:active .service-button-text{
+    color:#F9F9F9;
 }
 .service-button-text{
     margin:0;
-    text-align: left;
     color:#A9A9A9;
-  }
+}
+
 .service-text{
     margin:0;
 }
@@ -46,4 +55,26 @@ margin-top: -1vw;
     opacity:0;
     /*transition: transform 0.9s;
     /* Add any other styles as needed */
+  }
+  .service-description-container-hidden{
+        height: 0;
+        overflow: hidden;
+        transition: 1s;
+  }
+    .service-description-container
+    {
+        overflow: hidden;
+        
+        margin-bottom: 5vw;
+        margin-top:3.5vw;
+        transition: 1s;      
+    }
+    .service-description-text{   
+        width: 48.5vw;
+        margin: 0;
+        margin-left: 4.7vw;
+    }
+
+  .services-highlight{
+    color:#A9A9A9;
   }
