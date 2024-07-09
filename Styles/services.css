@@ -40,6 +40,10 @@ margin-top: -1vw;
     margin:0;
     color:#A9A9A9;
 }
+.service-button-text-hover{
+    color:#0C0C0C;
+    margin:0;
+}
 
 .service-text{
     margin:0;

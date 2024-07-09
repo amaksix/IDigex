@@ -55,11 +55,11 @@ function getDocHeight() {
             {
                 previousElem = targetDiv;
                 Object.assign(targetDiv.style, hoverContanerStyle); 
-                //Object.assign(targetDiv.children[0].children[0].style, hoverStyle); 
-                Object.assign(targetDiv.children[0].children[0].children[1].style, hoverTextStyle); 
+                targetDiv.children[0].children[0].children[1].classList.remove("service-button-text");
+                targetDiv.children[0].children[0].children[1].classList.add("service-button-text-hover");
                 targetDiv.children[0].children[0].children[0].src = imageSources[1];
                 targetDiv.children[0].children[0].children[0].style.opacity = 1;
-                Object.assign(previousElem.children[1].style, {opacity:1});    
+                Object.assign(previousElem.children[1].style, {opacity:1});  
             }
             else
             {
@@ -67,21 +67,21 @@ function getDocHeight() {
               {
               
               Object.assign(previousElem.style, normalContainerStyle); 
-                //Object.assign(previousElem.children[0].children[0].style, normalStyle); 
-                Object.assign(previousElem.children[0].children[0].children[1].style, textStyle);  
-                //Object.assign(previousElem.children[0].children[0].children[1].style, textStyle); 
+                previousElem.children[0].children[0].children[1].classList.remove("service-button-text-hover");
+                previousElem.children[0].children[0].children[1].classList.add("service-button-text");
+                
+
                 previousElem.children[0].children[0].children[0].src = imageSources[0];
                 previousElem.children[0].children[0].children[0].style.opacity = 1;
                 Object.assign(previousElem.children[1].style, {opacity:0});    
                 previousElem = targetDiv;
-              // childElem = document.querySelector(targetDiv.children[0].children[0].class);
-              Object.assign(targetDiv.style, hoverContanerStyle); 
-                //Object.assign(targetDiv.children[0].children[0].style, hoverStyle);    
-                Object.assign(targetDiv.children[0].children[0].children[1].style, hoverTextStyle);   
+              Object.assign(targetDiv.style, hoverContanerStyle);  
+                targetDiv.children[0].children[0].children[1].classList.remove("service-button-text");
+                targetDiv.children[0].children[0].children[1].classList.add("service-button-text-hover"); 
               
                 targetDiv.children[0].children[0].children[0].src = imageSources[1];
                   targetDiv.children[0].children[0].children[0].style.opacity = 1;
-                  Object.assign( targetDiv.children[1].style,{opacity:1});           
+                  Object.assign( targetDiv.children[1].style,{opacity:1});         
               }    
             }
             break;
@@ -91,20 +91,61 @@ function getDocHeight() {
         
           if(previousElem)
           {
+
             Object.assign(previousElem.style, normalContainerStyle); 
-          //  Object.assign(previousElem.children[0].children[0].style, normalStyle); 
-          Object.assign(previousElem.children[0].children[0].children[1].style, textStyle);
-           // Object.assign(previousElem.children[0].children[0].children[1].style, textStyle); 
+            previousElem.children[0].children[0].children[1].classList.add("service-button-text");
+            previousElem.children[0].children[0].children[1].classList.remove("service-button-text-hover");
             
             previousElem.children[0].children[0].children[0].src = imageSources[0];
             previousElem.children[0].children[0].children[0].style.opacity = 1;
+
             Object.assign(previousElem.children[1].style, {opacity:0});    
             previousElem = null;
+          
           }
         }
       }
     }
   }
+  function updateFocusedElement(targetDiv, open)
+  {
+      if(targetDiv!= previousElem)
+      {
+        Object.assign(previousElem.style, normalContainerStyle); 
+        previousElem.children[0].children[0].children[1].classList.remove("service-button-text-hover");
+        previousElem.children[0].children[0].children[1].classList.add("service-button-text");
+        
+
+        previousElem.children[0].children[0].children[0].src = imageSources[0];
+        previousElem.children[0].children[0].children[0].style.opacity = 1;
+        Object.assign(previousElem.children[1].style, {opacity:0});    
+        previousElem = targetDiv;
+        Object.assign(targetDiv.style, hoverContanerStyle);  
+        targetDiv.children[0].children[0].children[1].classList.remove("service-button-text");
+        targetDiv.children[0].children[0].children[1].classList.add("service-button-text-hover");
+
+      
+        targetDiv.children[0].children[0].children[0].src = imageSources[1];
+        targetDiv.children[0].children[0].children[0].style.opacity = 1;
+        Object.assign( targetDiv.children[1].style,{opacity:1});  
+      }else{
+        if(!open)
+        {
+          Object.assign(previousElem.style, normalContainerStyle); 
+
+          previousElem.children[0].children[0].children[1].classList.add("service-button-text");
+          previousElem.children[0].children[0].children[1].classList.remove("service-button-text-hover");
+  
+            
+            previousElem.children[0].children[0].children[0].src = imageSources[0];
+            previousElem.children[0].children[0].children[0].style.opacity = 1;
+  
+            Object.assign(previousElem.children[1].style, {opacity:0});    
+            previousElem = null;
+        }  
+      }
+  }
+
   window.addEventListener('scroll', checkElementsVisibility);
 var openedService = null;
 
@@ -124,13 +165,17 @@ function openService(serviceId) {
             next.classList.remove("service-description-container-hidden");
             next.classList.add("service-description-container");     
             openedService = serviceId;
+            stopProjectScroll = true;
+            updateFocusedElement(document.getElementById(serviceId).parentElement.children[0],true);
         }
         else{
             var curr =  document.getElementById(openedService);
             curr.classList.remove("service-description-container");
             curr.style.height = 0;
             curr.classList.add("service-description-container-hidden");
-            openedService = null
+            updateFocusedElement(document.getElementById(openedService).parentElement.children[0],false);
+            openedService = null;
+            stopProjectScroll = false;
         }
     }else{
         var next = document.getElementById(serviceId);
@@ -139,6 +184,8 @@ function openService(serviceId) {
         }
         next.classList.remove("service-description-container-hidden");
         next.classList.add("service-description-container");
-        openedService = serviceId;      
+        openedService = serviceId;    
+        updateFocusedElement(document.getElementById(openedService).parentElement.children[0],true);
+        stopProjectScroll = true;  
     }
 }
