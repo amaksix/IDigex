@@ -74,7 +74,7 @@
         <h2 id="services" class="services-header">OUR SERVICES</h2>
         <div class="services-menu">
             <div class="service-container">
-                <div id="firstService" class="services-menu-elem" onclick="openService('firstServiceDescription')">
+                <div id="firstService" class="services-menu-elem" onclick="openService('firstServiceDescription','first-service-description-container')">
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
@@ -84,12 +84,17 @@
                     </div>
                     <div class="service-image"><img loading="lazy" style="width:23vw;" src="Images/Websites_Serivices.svg"></div>
                 </div>
-                <div id="firstServiceDescription" class="service-description-container-hidden" >
-                    <img src="Images/FirstService.svg" style="width:61vw">
+                <div id="firstServiceDescription" class="service-description-container-hidden">
+                    <img loading="lazy" src="Images/FirstService.svg" style="width:61vw; height: 28.75vw;">
+                    <div class="websites-description-container">
+                        <h5>Interfaces</h5>
+                        <h3>01</h3>
+                        <h5>We create UI/UX based on analytical data from marketing audits: about the preferences of the target audience.</h5>
+                    </div>
                 </div>
             </div>
             <div class="service-container">
-                <div id="secondService" class="services-menu-elem" onclick="openService('secondServiceDescription')">
+                <div id="secondService" class="services-menu-elem" onclick="openService('secondServiceDescription','service-description-container')">
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
@@ -106,7 +111,7 @@
             <div class="service-container">
                 <div id="thirdService" class="services-menu-elem">
                     <div class="services-text-grid">
-                        <button id="services-buttons" class="services-buttons" onclick="openService('thirdServiceDescription')">
+                        <button id="services-buttons" class="services-buttons" onclick="openService('thirdServiceDescription','service-description-container')">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
                             <h3 class="service-button-text" >BRAND BOOK</h3>
                         </button>
@@ -121,7 +126,7 @@
             <div class="service-container">
                 <div id="fourthService" class="services-menu-elem">
                     <div class="services-text-grid">
-                        <button id="services-buttons" class="services-buttons" onclick="openService('fourthServiceDescription')">
+                        <button id="services-buttons" class="services-buttons" onclick="openService('fourthServiceDescription','service-description-container')">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
                             <h3 class="service-button-text" >LOGO</h3>
                         </button>
@@ -137,7 +142,7 @@
             <div class="service-container">
                 <div id="fifthService" class="services-menu-elem">
                     <div class="services-text-grid">
-                        <button id="services-buttons" class="services-buttons" onclick="openService('fifthServiceDescription')">
+                        <button id="services-buttons" class="services-buttons" onclick="openService('fifthServiceDescription','service-description-container')">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
                             <h3 class="service-button-text" >BANNERS</h3>
                         </button>

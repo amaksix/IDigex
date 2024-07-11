@@ -109,7 +109,15 @@ function getDocHeight() {
   }
   function updateFocusedElement(targetDiv, open)
   {
-      if(targetDiv!= previousElem)
+      if(previousElem == null){
+        previousElem = targetDiv;
+        Object.assign(targetDiv.style, hoverContanerStyle);  
+        targetDiv.children[0].children[0].children[1].classList.remove("service-button-text");
+        targetDiv.children[0].children[0].children[1].classList.add("service-button-text-hover");
+        targetDiv.children[0].children[0].children[0].src = imageSources[1];
+        targetDiv.children[0].children[0].children[0].style.opacity = 1;
+        Object.assign( targetDiv.children[1].style,{opacity:1});  
+      }else if(targetDiv!= previousElem)
       {
         Object.assign(previousElem.style, normalContainerStyle); 
         previousElem.children[0].children[0].children[1].classList.remove("service-button-text-hover");
@@ -149,43 +157,72 @@ function getDocHeight() {
   window.addEventListener('scroll', checkElementsVisibility);
 var openedService = null;
 
-function openService(serviceId) {
+function openService(serviceId, container) {
     if (openedService != null)
     {
         if(openedService != serviceId)
         {
             var curr =  document.getElementById(openedService);
             var next = document.getElementById(serviceId);
-            curr.classList.remove("service-description-container");
-            curr.classList.add("service-description-container-hidden");
-            curr.style.height = 0;
-            for (const child of next.children) {
-              next.style.height = child.clientHeight;
+            console.log(container);
+            console.log(openedService);
+            if(openedService != "firstServiceDescription" && container != "first-service-description-container"){
+              curr.classList.remove(container);
+              curr.classList.add("service-description-container-hidden");
+              curr.style.height = 0;     
+              for (const child of next.children) {
+                next.style.height = child.clientHeight;
+              }  
+              }else if(container == "first-service-description-container" ){
+                curr.classList.remove("service-description-container");
+                curr.classList.add("service-description-container-hidden"); 
+                curr.style.height = 0;    
+              }
+              else{
+                curr.classList.remove("first-service-description-container");
+                curr.classList.add("service-description-container-hidden");
+                for (const child of next.children) {
+                  next.style.height = child.clientHeight;
+                }  
             }
+            
             next.classList.remove("service-description-container-hidden");
-            next.classList.add("service-description-container");     
+            next.classList.add(container);     
             openedService = serviceId;
             stopProjectScroll = true;
             updateFocusedElement(document.getElementById(serviceId).parentElement.children[0],true);
+            console.log(1);
         }
         else{
             var curr =  document.getElementById(openedService);
-            curr.classList.remove("service-description-container");
-            curr.style.height = 0;
+            if(openedService != "firstServiceDescription"){
+                curr.classList.remove(container);
+                curr.style.height = 0;
+
+            }else{
+                curr.classList.remove("first-service-description-container");
+            }
+            
+            
             curr.classList.add("service-description-container-hidden");
             updateFocusedElement(document.getElementById(openedService).parentElement.children[0],false);
             openedService = null;
             stopProjectScroll = false;
+            console.log(2);
         }
     }else{
         var next = document.getElementById(serviceId);
-        for (const child of next.children) {
-          next.style.height = child.clientHeight;
+        if(container != "first-service-description-container"){
+          for (const child of next.children) {
+            next.style.height = child.clientHeight;
+          }
         }
+       
         next.classList.remove("service-description-container-hidden");
-        next.classList.add("service-description-container");
+        next.classList.add(container);
         openedService = serviceId;    
         updateFocusedElement(document.getElementById(openedService).parentElement.children[0],true);
         stopProjectScroll = true;  
+        console.log(3);
     }
 }

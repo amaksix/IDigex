@@ -78,7 +78,17 @@ margin-top: -1vw;
         margin: 0;
         margin-left: 4.7vw;
     }
-
+.first-service-description-container{
+    height: 28.75vw;
+    transition: 1s;    
+    overflow: hidden;  
+    margin-bottom: 5vw;
+    margin-top:3.5vw;
+}
   .services-highlight{
     color:#A9A9A9;
+  }
+  .websites-description-container{
+    position: relative;
+    margin-top: -30vw;
   }
