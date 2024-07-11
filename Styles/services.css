@@ -17,7 +17,7 @@ margin-top: -1vw;
 }
 .services-text-grid{
     display: grid;
-    grid-template-columns: 23vw 27vw;
+    grid-template-columns: 23vw 26vw;
     margin-left: 4.7vw;
     margin-top:1.7vw;
   }
@@ -82,13 +82,24 @@ margin-top: -1vw;
     height: 28.75vw;
     transition: 1s;    
     overflow: hidden;  
-    margin-bottom: 5vw;
-    margin-top:3.5vw;
+    margin-bottom: 1.5vw;
+    margin-top:1.5vw;
+    
 }
   .services-highlight{
     color:#A9A9A9;
   }
-  .websites-description-container{
+  .websites-descriptions-container{
     position: relative;
-    margin-top: -30vw;
+    margin-top: -26vw;
+    margin-left: 4.75vw;
+  }
+  .websites-description-container{
+    width:18.25vw;
+
+  }
+  .websites-description-header{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 1.5vw;
   }
