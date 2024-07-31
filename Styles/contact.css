@@ -1,0 +1,30 @@
+.contact{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.contact-header-first{
+    width: 45vw;
+    background:  linear-gradient(135deg, #F9F9F9 -20%,#7090FF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 5.5vw;
+    margin-bottom: 0px;
+}
+.contact-header-second{
+    text-align: right;
+    margin-top: 10vw;
+}
+.headers-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.email-container{
+    width: 32vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2vw;
+}
+.email{
+    margin: 0;
+    text-align: right;
+}
