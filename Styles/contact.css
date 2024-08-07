@@ -56,23 +56,22 @@
 }
 .contact-input-message{
     height:10vw; 
-    width:89vw;
-     float:none;
+    width:100%;
+    float:none;
     clear:none;
     resize: none;
-    margin-top: -7.5vw;
     padding-left: 2.75vw;
   }
   .send-message{
     height:5.5vw; 
-    width:89vw;
+    width:100%;
     border:solid;
     border-color: #d9d9d9;
     background-color:transparent;
     border-width: 0.2vw;
     border-radius: 1.5vw;
     transition: 0.9s;
-    margin-top: -9vw;
+    margin-top: 1.5vw;
   }
   .send-message-text{
       color:  #d9d9d9;
