@@ -12,19 +12,88 @@
 }
 .contact-header-second{
     text-align: right;
-    margin-top: 10vw;
+    margin-top:6vw;
 }
 .headers-container{
     display: grid;
     grid-template-columns: auto auto;
 }
 .email-container{
-    width: 32vw;
+    width: 32.5vw;
     display: grid;
     grid-template-columns: auto auto;
-    margin-top: 2vw;
+    margin-top: 1.25vw;
 }
 .email{
     margin: 0;
     text-align: right;
 }
+.contact-input{
+    width:50.75vw;
+    height:4.5vw;
+    background: transparent;
+    border-radius: 1.5vw;
+    border:solid;
+    border-color: #666666;
+    border-width: 0.2vw;
+    padding-left: 2.75vw;
+    outline: none;
+    font-size: 1.135vw;
+    font-family: "Outfit", sans-serif;
+    font-style: light;
+    font-weight: 500;
+    color: #A9A9A9;
+    line-height: 1.5vw;
+    letter-spacing: 1%;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    float: right;
+    clear: both;
+   
+}
+.contact-input:focus {
+    border-color: #A9A9A9;
+}
+.contact-input-message{
+    height:10vw; 
+    width:89vw;
+     float:none;
+    clear:none;
+    resize: none;
+    margin-top: -7.5vw;
+    padding-left: 2.75vw;
+  }
+  .send-message{
+    height:5.5vw; 
+    width:89vw;
+    border:solid;
+    border-color: #d9d9d9;
+    background-color:transparent;
+    border-width: 0.2vw;
+    border-radius: 1.5vw;
+    transition: 0.9s;
+    margin-top: -9vw;
+  }
+  .send-message-text{
+      color:  #d9d9d9;
+      font-size: 1.135vw;
+      font-family: "Outfit", sans-serif;
+      font-style: light;
+      font-weight: 500;
+      line-height: 1.5vw;
+      letter-spacing: 1%;
+      text-align: center;
+  }
+  .send-message:hover{
+    background-color:#d9d9d9;
+    transition: 0.9s;
+  }
+  .send-message:hover .send-message-text{
+    color: #0C0C0C;
+    transition: 0.9s;
+  }
+  
+  .send-message:active .send-message-text{
+    color:  #A9A9A9;
+    transition: 0.9s;
+  }

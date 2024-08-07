@@ -180,9 +180,21 @@
             <h2 class="contact-header-second">CONTACT</h2>
         </div>
         <div class="email-container">
-            <img style="width:3.5vw; margin-top:1.25vw;" src="Images/Arrow_Right.svg">
+            <img style="width:3.25vw; margin-top:1.25vw;" src="Images/Arrow_Right.svg">
             <h3 style="font-size: 3.5vw;" class="email">Idigex@gmail.com</h3>
         </div>
+        <div  style="height:4.5vw; ">
+            <input id="Email Name" style=" margin-top: -8.25vw;" oninput="TextChange('Email Name')" class="contact-input" type="text" placeholder="NAME"/>
+        </div>
+        <div  style="height:4.5vw; ">
+            <input id="Email Subject" style="margin-top: -6.75vw;" oninput="TextChange('Email Subject')" class="contact-input" type="text" placeholder="SUBJECT"/>
+        </div>
+        <div  style="height:180px; margin-top:30px">
+            <textarea id="Email Message" oninput="TextChange('Email Message')" class="contact-input contact-input-message" type="text" placeholder="MESSAGE"></textarea>
+        </div>
+        <button class="send-message" onclick="sendEmail()">
+            <h3 class="send-message-text" >SEND MESSAGE</h3>
+        </button>
     </div>
     <div style="height: 1000px;"></div>
 </body>
@@ -200,6 +212,13 @@
 window.addEventListener("load", (event) => {
     var elems = document.getElementsByClassName("preload")[0].classList.remove("preload");
   });
-
+  function sendEmail()
+{
+    var emailName = document.getElementById("Email Name").value;
+    var emailSubject = document.getElementById("Email Subject").value;
+    var emailMessage = document.getElementById("Email Message").value;
+    emailMessage.replaceAll("\n","%0D%0A");
+    window.open('mailto:lizagvozdeckaya@gmail.com?subject='+emailSubject+'&body='+emailMessage+'%0D%0A'+'Kind Regards,'+'%0D%0A'+emailName+".");
+}
   </script>
 </html>
