@@ -27,13 +27,13 @@
         <div class="menu-elem">
             <h1>I</h1>
             <div class="menu-button-container">
-                <button id="about" class="menu-button">ABOUT</button>
+                <button onclick="ScrollToAnchor('about-anchor-id')" id="about" class="menu-button">ABOUT</button>
             </div>      
         </div>
         <div class="menu-elem menu-elem-second">
             <h1>DI</h1>
             <div class="menu-button-container">
-                <button id="services" class="menu-button">SERVICES</button>
+                <button onclick="ScrollToAnchor('services-anchor-id')" id="services" class="menu-button">SERVICES</button>
             </div>      
         </div>
         <div class="menu-elem menu-elem-third">
@@ -44,7 +44,7 @@
         </div>
         <div class="menu-elem menu-elem-fourth">
             <div class="menu-button-container">
-                <button id="contact" class="menu-button menu-button-exception">CONTACT</button>
+                <button onclick="ScrollToAnchor('contact-anchor-id')" id="contact" class="menu-button menu-button-exception">CONTACT</button>
             </div> 
             <h1>EX</h1>          
         </div>
@@ -62,7 +62,9 @@
             <button class="social-media-button">LinkedIn.</button>
         </div>
     </div> 
+
     <div class="about-container">
+        <div class="about-anchor" id="about-anchor-id"></div>
         <img class="about-image" src="Images/About ID.png" >
         <h2 id="about" class="about-header">ABOUT</h2>
         <div class="about-text-container">
@@ -71,6 +73,7 @@
         </div>
     </div>
     <div class="services-container">
+        <div class="services-anchor" id="services-anchor-id"></div>
         <h2 id="services" class="services-header">OUR SERVICES</h2>
         <div class="services-menu">
             <div class="service-container">
@@ -200,6 +203,7 @@
 
         </div>
     </div>
+    <div class="contact-anchor" id="contact-anchor-id"></div>
     <div class="contact">
         <div class="headers-container">
             <h2 class="contact-header-first">LET'S BUILD THE FUTURE TOGETHER.</h2>
@@ -246,6 +250,11 @@ window.addEventListener("load", (event) => {
     var emailMessage = document.getElementById("Email Message").value;
     emailMessage.replaceAll("\n","%0D%0A");
     window.open('mailto:lizagvozdeckaya@gmail.com?subject='+emailSubject+'&body='+emailMessage+'%0D%0A'+'Kind Regards,'+'%0D%0A'+emailName+".");
+}
+function ScrollToAnchor(anchor)
+{
+    var element = document.getElementById(anchor);
+    element.scrollIntoView({behavior: "smooth"});
 }
   </script>
 </html>
