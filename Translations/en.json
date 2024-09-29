@@ -3,6 +3,11 @@
     "about": "ABOUT",    
     "contact": "CONTACT",
     "services": "SERVICES",
+    "ourServices":"OUR SERVICES",
     "projects": "PROJECTS",
-    "descriptionText": "We are a digital studio specializing in the development of modern and functional landing pages, websites, logos, branding, 3D modeling for various businesses and organizations. We strive to ensure that every project we create reflects the uniqueness of our clients and their values."
+    "descriptionText": "We are a digital studio specializing in the development of modern and functional landing pages, websites, logos, branding, 3D modeling for various businesses and organizations. We strive to ensure that every project we create reflects the uniqueness of our clients and their values.",
+    "aboutTextFirst":"Our team of creative professionals has deep knowledge of UI/UX design, programming and 3d modeling, allowing us to create designs that are not only visually appealing, but also easy to use and effective in achieving business goals. We pride ourselves on our ability to provide a personalized approach to every project and work on it from start to finish to meet all of our client's needs and expectations.",
+    "aboutTextSecond":"We don't just design websites - we create digital stories that capture attention and inspire trust in your audience. Combining aesthetics with functionality, we strive to ensure that each project reflects the unique needs and values of our clients.",
+    "websitesHeader":"Websites",
+    "websitesText":"Our team will create a website that will tell about your services."
 }

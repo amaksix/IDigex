@@ -27,24 +27,24 @@
         <div class="menu-elem">
             <h1>I</h1>
             <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('about-anchor-id')" id="about" class="menu-button">ABOUT</button>
+                <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">ABOUT</button>
             </div>      
         </div>
         <div class="menu-elem menu-elem-second">
             <h1>DI</h1>
             <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('services-anchor-id')" id="services" class="menu-button">SERVICES</button>
+                <button onclick="ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button">SERVICES</button>
             </div>      
         </div>
         <div class="menu-elem menu-elem-third">
             <h1>G</h1>
             <div class="menu-button-container">
-                <button id="projects" class="menu-button">PROJECTS</button>
+                <button id="projects-button" class="menu-button">PROJECTS</button>
             </div> 
         </div>
         <div class="menu-elem menu-elem-fourth">
             <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('contact-anchor-id')" id="contact" class="menu-button menu-button-exception">CONTACT</button>
+                <button onclick="ScrollToAnchor('contact-anchor-id')" id="contact-button" class="menu-button menu-button-exception">CONTACT</button>
             </div> 
             <h1>EX</h1>          
         </div>
@@ -81,9 +81,9 @@
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
-                            <h3 class="service-button-text" >WEBSITES</h3>
+                            <h3 id="websites-header" class="service-button-text" >WEBSITES</h3>
                         </button>
-                        <h5 class="service-text">Our team will create a website that will tell about your services.</h5>
+                        <h5 id="websites-text" class="service-text">Our team will create a website that will tell about your services.</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image" loading="lazy" src="Images/Websites_Serivices.jpg"></div>
                 </div>
@@ -207,7 +207,7 @@
     <div class="contact">
         <div class="headers-container">
             <h2 class="contact-header-first">LET'S BUILD THE FUTURE TOGETHER.</h2>
-            <h2 class="contact-header-second">CONTACT</h2>
+            <h2 id="contact" class="contact-header-second">CONTACT</h2>
         </div>
         <div class="email-container">
             <img style="width:3.25vw; margin-top:1.25vw;" src="Images/Arrow_Right.svg">

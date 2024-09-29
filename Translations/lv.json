@@ -3,6 +3,11 @@
     "about": "PAR",    
     "contact": "KONTAKTI",
     "services": "PAKALPOJUMI",
+    "ourServices":"MŪSU PAKALPOJUMI",
     "projects": "PROJEKTI",
-    "descriptionText": "Mēs esam digitālā studija, kas specializējas mūsdienīgu un funkcionālu galveno lapu, vietņu, logotipu, zīmolu veidošanā, 3D modelēšanā dažādiem uzņēmumiem un organizācijām. Mēs cenšamies nodrošināt, lai katrs mūsu radītais projekts atspoguļotu mūsu klientu unikalitāti un viņu vērtības."
+    "descriptionText": "Mēs esam digitālā studija, kas specializējas mūsdienīgu un funkcionālu galveno lapu, vietņu, logotipu, zīmolu veidošanā, 3D modelēšanā dažādiem uzņēmumiem un organizācijām. Mēs cenšamies nodrošināt, lai katrs mūsu radītais projekts atspoguļotu mūsu klientu unikalitāti un viņu vērtības.",
+    "aboutTextFirst":"Mūsu radošo profesionāļu komanda ir dziļas zināšanas par UI/UX dizainu, programmēšanu un 3D modelēšanu, kas ļauj mums radīt dizainus, kas ne tikai ir vizuāli pievilcīgi, bet arī viegli lietojami un efektīvi sasniegt biznesa mērķus. Mēs lepojamies ar spēju nodrošināt personalizētu pieeju katram projektam un strādāt pie tā no sākuma līdz beigām, lai apmierinātu visus mūsu klientu vajadzības un cerības.",
+    "aboutTextSecond":"Mēs ne tikai veidojam vietnes - mēs radām digitālas stāstus, kas piesaista uzmanību un iedvesmo uzticību jūsu auditorijā. Apvienojot estētiku ar funkcionalitāti, mēs cenšamies nodrošināt, lai katrs projekts atspoguļotu mūsu klientu unikālās vajadzības un vērtības.",
+    "websitesHeader":"Vietnes",
+    "websitesText":"Mūsu komanda izveidos vietni, kas pastāstīs par jūsu pakalpojumiem."
 }
