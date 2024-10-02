@@ -49,8 +49,6 @@
             <h1>EX</h1>          
         </div>
     </div> 
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/rHtACZO2v1pJZq5X/scene.splinecode"></spline-viewer>
     <div class="side-moving-container">
         <h2 class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO</h2>
     </div>
@@ -140,7 +138,7 @@
                         </button>
                         <h5 id="brandBookDescription" class="service-text">Brand book is an important tool that helps maintain a consistent style and image of your brand.</h5>
                     </div>
-                    <div class="service-image-container"><img class="service-image"  src="Images/Websites_Serivices.jpg"></div>
+                    <div class="service-image-container"><img class="service-image"  src="Images/BrandBook_Services.jpg"></div>
                 </div>
                 <div id="thirdServiceDescription" class="service-description-container-hidden">
                     <h5 id="thirdServiceDescriptionText" class="service-description-text">The <span class="services-highlight">brand book</span> is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.</h5>
@@ -260,7 +258,7 @@ function ScrollToAnchor(anchor)
 }
 
     // JavaScript function to search for the element and delete it
-    const searchAndDeleteElement = () => {
+  /*  const searchAndDeleteElement = () => {
 
       const interval = setInterval(() => {
         const splineViever = document.getElementsByTagName('spline-viewer');
@@ -276,6 +274,80 @@ function ScrollToAnchor(anchor)
     };
 
     // Call the function, passing in the ID of the element you want to delete
-    searchAndDeleteElement();
+    searchAndDeleteElement();*/
+/*
+    document.addEventListener("DOMContentLoaded", function() {
+      const splineContainer = document.getElementById('spline-container');
+
+      // Set up IntersectionObserver to lazy load the Spline viewer
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Load the Spline script dynamically when the container is in view
+            loadSplineViewer();
+            observer.unobserve(splineContainer); // Stop observing after loading
+          }
+        });
+      });*/
+
+      // Observe the spline container
+     /* observer.observe(splineContainer);
+    
+      // Function to dynamically load the Spline viewer script
+      function loadSplineViewer() {
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = 'https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js';
+
+        // Append the script to the document
+        document.body.appendChild(script);
+
+        // Once the script is loaded, insert the Spline viewer element
+        script.onload = function() {
+          const splineViewer = document.createElement('spline-viewer');
+          splineViewer.setAttribute('url', 'https://prod.spline.design/tDX3AVYxiR8REJSk/scene.splinecode');
+          splineContainer.innerHTML = ''; // Clear the placeholder text
+          splineContainer.appendChild(splineViewer); // Insert the Spline viewer
+        };
+      }
+    });*/
+   /* document.addEventListener("DOMContentLoaded", function() {
+      const splineContainer = document.getElementById('spline-container');
+
+      // Function to load the Spline viewer dynamically
+      function loadSpline() {
+        const splineViewer = document.createElement('spline-viewer');
+        splineViewer.setAttribute('url', 'https://prod.spline.design/rHtACZO2v1pJZq5X/scene.splinecode');
+        splineViewer.id = 'splineScene';
+        splineContainer.innerHTML = ''; // Clear the placeholder text
+        splineContainer.appendChild(splineViewer); // Insert the Spline viewer
+        console.log('Spline scene loaded.');
+      }
+
+      // Function to unload the Spline viewer
+      function unloadSpline() {
+        const splineViewer = document.getElementById('splineScene');
+        if (splineViewer) {
+          splineViewer.remove(); // Remove the Spline viewer from the DOM
+          console.log('Spline scene unloaded.');
+        }
+      }
+
+      // Set up IntersectionObserver to load and unload the Spline viewer
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Scene is in view, load it
+            loadSpline();
+          } else {
+            // Scene is out of view, unload it
+            unloadSpline();
+          }
+        });
+      });
+
+      // Start observing the spline container
+      observer.observe(splineContainer);
+    });*/
   </script>
 </html>
