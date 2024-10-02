@@ -9,5 +9,18 @@
     "aboutTextFirst":"Mūsu radošo profesionāļu komanda ir dziļas zināšanas par UI/UX dizainu, programmēšanu un 3D modelēšanu, kas ļauj mums radīt dizainus, kas ne tikai ir vizuāli pievilcīgi, bet arī viegli lietojami un efektīvi sasniegt biznesa mērķus. Mēs lepojamies ar spēju nodrošināt personalizētu pieeju katram projektam un strādāt pie tā no sākuma līdz beigām, lai apmierinātu visus mūsu klientu vajadzības un cerības.",
     "aboutTextSecond":"Mēs ne tikai veidojam vietnes - mēs radām digitālas stāstus, kas piesaista uzmanību un iedvesmo uzticību jūsu auditorijā. Apvienojot estētiku ar funkcionalitāti, mēs cenšamies nodrošināt, lai katrs projekts atspoguļotu mūsu klientu unikālās vajadzības un vērtības.",
     "websitesHeader":"Vietnes",
-    "websitesText":"Mūsu komanda izveidos vietni, kas pastāstīs par jūsu pakalpojumiem."
+    "websitesText":"Mūsu komanda izveidos vietni, kas pastāstīs par jūsu pakalpojumiem.",
+    "interfacesHeader":"Saskarnes",
+    "interfacesText":"Mēs izveidojam UI/UX, pamatojoties uz analītiskajiem datiem no mārketinga auditu: par mērķauditorijas priekšrodiem.",
+    "designHeader":"Dizains",
+    "designText":"Mēs izveidojam unikālu dizainu, pamatojoties uz labi pārdomātām shēmām, ievērojot labākās tendences un globālos nozares standartus.",
+    "technologiesHeader": "Tehnoloģijas",
+    "technologiesText":"Mēs izstrādājam vietnes, izmantojot mūsdienīgas programmēšanas tehnoloģijas.",
+    "modelingHeader": "3D MODEĻI",
+    "modelingText":"Mēs izveidojam augstas kvalitātes 3D modeļus, kas palīdzēs jums vizualizēt savu produktu vai ideju pilnā apjomā.",
+    "modelingDescription": "IDigex var iedzīvināt jūsu idejas ar neiedomājamu detalizāciju un realizmu. Mēs izstrādājam <span class='services-highlight'>3D modeļus</span>, kā arī <span class='services-highlight'>konfiguratorus</span>, kas atspoguļo jūsu projekta būtību. Mēs nodrošināsim jums inovatīvas risinājumus, kas palīdzēs jums izcelties tirgū un apmierināt jūsu auditorijas vajadzības.",
+    "brandBookHeader": "ZĪMOLU GRĀMATA",
+    "brandBookDescription": "Zīmolu grāmata ir svarīgs instruments, kas palīdz uzturēt konsistentu jūsu zīmola stilu un tēlu.",
+    "thirdServiceDescriptionText" : "<span class='services-highlight'>Zīmolu grāmata</span> ir svarīgs oficiāls uzņēmuma dokuments, kurā detalizēti aprakstīti visi zīmola attīstības aspekti. Tajā ir norādītas jūsu logotipa, krāsu palešu, tipogrāfijas un citu svarīgu zīmola elementu izmantošanas noteikumi, lai nodrošinātu jūsu zīmola atpazīstamību."
+
 }

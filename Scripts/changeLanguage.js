@@ -16,6 +16,18 @@ function changeLanguage(lang) {
         document.getElementById('about-text-second').innerText = data.aboutTextSecond;
         document.getElementById('websites-header').innerText = data.websitesHeader;
         document.getElementById('websites-text').innerText = data.websitesText;
+        document.getElementById('interfaces-header').innerText = data.interfacesHeader;
+        document.getElementById('interfaces-text').innerText = data.interfacesText;
+        document.getElementById('design-header').innerText = data.designHeader;
+        document.getElementById('design-text').innerText = data.designText;
+        document.getElementById('technologies-header').innerText = data.technologiesHeader;
+        document.getElementById('technologies-text').innerText = data.technologiesText;
+        document.getElementById('3dModelingHeader').innerText = data.modelingHeader;
+        document.getElementById('3dModelingText').innerText = data.modelingText;
+        document.getElementById('secondServiceDescriptionText').innerHTML = data.modelingDescription;
+        document.getElementById('brandBookHeader').innerText = data.brandBookHeader;
+        document.getElementById('brandBookDescription').innerText = data.brandBookDescription;
+        document.getElementById('thirdServiceDescriptionText').innerHTML = data.thirdServiceDescriptionText;
       });
   }
 

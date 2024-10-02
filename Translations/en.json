@@ -9,5 +9,18 @@
     "aboutTextFirst":"Our team of creative professionals has deep knowledge of UI/UX design, programming and 3d modeling, allowing us to create designs that are not only visually appealing, but also easy to use and effective in achieving business goals. We pride ourselves on our ability to provide a personalized approach to every project and work on it from start to finish to meet all of our client's needs and expectations.",
     "aboutTextSecond":"We don't just design websites - we create digital stories that capture attention and inspire trust in your audience. Combining aesthetics with functionality, we strive to ensure that each project reflects the unique needs and values of our clients.",
     "websitesHeader":"Websites",
-    "websitesText":"Our team will create a website that will tell about your services."
+    "websitesText":"Our team will create a website that will tell about your services.",
+    "interfacesHeader":"Interfaces",
+    "interfacesText":"We create UI/UX based on analytical data from marketing audits: about the preferences of the target audience.",
+    "designHeader":"Design",
+    "designText":"We create a unique design based on well-thought-out schemes, follow the best trends and global industry standards.",
+    "technologiesHeader": "Technologies",
+    "technologiesText":"We develop websites using modern programming technologies.",
+    "modelingHeader": "3D MODELING",
+    "modelingText":"We create high-quality 3D models that help you visualize your product or idea in full detail.",
+    "modelingDescription": "IDigex can bring your ideas to life, with incredible detail and realism. We develop <span class='services-highlight'>3D models</span> , as well as <span class='services-highlight'>configurators</span> that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience.",
+    "brandBookHeader": "BRAND BOOK",
+    "brandBookDescription": "Brand book is an important tool that helps maintain a consistent style and image of your brand.",
+    "thirdServiceDescriptionText" : "The <span class='services-highlight'>brand book</span> is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable."
+
 }

@@ -49,6 +49,8 @@
             <h1>EX</h1>          
         </div>
     </div> 
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/rHtACZO2v1pJZq5X/scene.splinecode"></spline-viewer>
     <div class="side-moving-container">
         <h2 class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO</h2>
     </div>
@@ -92,24 +94,24 @@
                     <div class="websites-descriptions-container">
                         <div class="websites-description-container">
                             <div class="websites-description-header">
-                                <h5 style="color:#F9F9F9; margin: 0; margin-top: 0.5vw; vertical-align: middle;">Interfaces</h5>
+                                <h5 id="interfaces-header" style="color:#F9F9F9; margin: 0; margin-top: 0.5vw; vertical-align: middle;">Interfaces</h5>
                                 <h3 style="color:#666666; margin:0; text-align: right;">01</h3>
                             </div>
-                            <h5 style="margin:0;">We create UI/UX based on analytical data from marketing audits: about the preferences of the target audience.</h5>
+                            <h5 id="interfaces-text" style="margin:0;">We create UI/UX based on analytical data from marketing audits: about the preferences of the target audience.</h5>
                         </div>
                         <div class="websites-description-container" style="margin-left:30.5vw; margin-top: -5vw;">
                             <div class="websites-description-header">
-                                <h5 style="color:#F9F9F9; margin: 0; margin-top: 0.5vw; vertical-align: middle;">Design</h5>
+                                <h5 id="design-header" style="color:#F9F9F9; margin: 0; margin-top: 0.5vw; vertical-align: middle;">Design</h5>
                                 <h3 style="color:#666666; margin:0; text-align: right;">02</h3>
                             </div>
-                            <h5 style="margin:0;">We create a unique design based on well-thought-out schemes, follow the best trends and global industry standards.</h5>
+                            <h5 id="design-text" style="margin:0;">We create a unique design based on well-thought-out schemes, follow the best trends and global industry standards.</h5>
                         </div>
                         <div class="websites-description-container" style="margin-left:7.7vw; margin-top: 1vw;">
                             <div class="websites-description-header">
-                                <h5 style="color:#F9F9F9; margin: 0; margin-top: 0.5vw; vertical-align: middle;">Technologies</h5>
+                                <h5 id="technologies-header" style="color:#F9F9F9; margin: 0; margin-top: 0.5vw; vertical-align: middle;">Technologies</h5>
                                 <h3 style="color:#666666; margin:0; text-align: right;">03</h3>
                             </div>
-                            <h5 style="margin:0;">We develop websites using modern programming technologies.</h5>
+                            <h5 id="technologies-text" style="margin:0;">We develop websites using modern programming technologies.</h5>
                         </div>
                     </div>
                 </div>
@@ -119,9 +121,9 @@
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
-                            <h3 class="service-button-text" >3D MODELING</h3>
+                            <h3 id="3dModelingHeader" class="service-button-text" >3D MODELING</h3>
                         </button>
-                        <h5 class="service-text">We create high-quality 3D models that help you visualize your product or idea in full detail.</h5>
+                        <h5 id="3dModelingText" class="service-text">We create high-quality 3D models that help you visualize your product or idea in full detail.</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image"loading="lazy"  src="Images/3DModels_Serivices.jpg"></div>
                 </div>
@@ -134,9 +136,9 @@
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons" onclick="openService('thirdServiceDescription','service-description-container')">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
-                            <h3 class="service-button-text" >BRAND BOOK</h3>
+                            <h3 id="brandBookHeader" class="service-button-text" >BRAND BOOK</h3>
                         </button>
-                        <h5 class="service-text">Brand book is an important tool that helps maintain a consistent style and image of your brand.</h5>
+                        <h5 id="brandBookDescription" class="service-text">Brand book is an important tool that helps maintain a consistent style and image of your brand.</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image"  src="Images/Websites_Serivices.jpg"></div>
                 </div>
@@ -256,5 +258,24 @@ function ScrollToAnchor(anchor)
     var element = document.getElementById(anchor);
     element.scrollIntoView({behavior: "smooth"});
 }
+
+    // JavaScript function to search for the element and delete it
+    const searchAndDeleteElement = () => {
+
+      const interval = setInterval(() => {
+        const splineViever = document.getElementsByTagName('spline-viewer');
+        console.log('text');
+    // Convert HTMLCollection to an array and log each anchor element
+        if(splineViever != null)
+        {
+                splineViever[0].renderRoot.lastElementChild.children[4].remove();
+                clearInterval(interval); // Stop searching
+
+        }
+      }, 1000); // Search every 1 second (1000ms)
+    };
+
+    // Call the function, passing in the ID of the element you want to delete
+    searchAndDeleteElement();
   </script>
 </html>
