@@ -44,12 +44,13 @@
 }
 .languages-button{
     color:#666666;
-    font-family: "Outfit", sans-serif;
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 1vw;
     text-align: left;
     margin-left: 0.2vw;
+    letter-spacing: 2%;
 }
 .languages-button:hover{
     color:#A9A9A9;   

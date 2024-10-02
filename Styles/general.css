@@ -53,7 +53,7 @@ h5{
     font-style: light;
     font-weight: 300;
     color: #666666;
-    line-height: 1.5vw;
+    line-height: 1.6vw;
     letter-spacing: 2%;
 }
 .menu-grid{
@@ -120,10 +120,11 @@ h5{
     
 }
 .social-media-button{
-    font-family: "Outfit", sans-serif;
+    font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.25vw;
+    letter-spacing: 2%;
 }
 .social-media{
     margin-left: 52.5vw;
