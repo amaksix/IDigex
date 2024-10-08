@@ -49,6 +49,8 @@
             <h1>EX</h1>          
         </div>
     </div> 
+<!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/BcLazoDO2nyl0HdC/scene.splinecode"></spline-viewer>-->
     <div class="side-moving-container">
         <h2 class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO</h2>
     </div>
@@ -149,9 +151,9 @@
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons" onclick="openService('fourthServiceDescription','service-description-container')">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
-                            <h3 class="service-button-text" >LOGO</h3>
+                            <h3 id="logoHeader" class="service-button-text" >LOGO</h3>
                         </button>
-                        <h5 class="service-text">A logo is needed for individualization, to attract customer attention and improve recognition.</h5>
+                        <h5 id="logoDescription" class="service-text">A logo is needed for individualization, to attract customer attention and improve recognition.</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image"loading="lazy"  src="Images/Logo_Serivices.jpg"></div>
                 </div>
@@ -165,9 +167,9 @@
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons" onclick="openService('fifthServiceDescription','service-description-container')">
                             <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
-                            <h3 class="service-button-text" >BANNERS</h3>
+                            <h3 id="bannersHeader" class="service-button-text" >BANNERS</h3>
                         </button>
-                        <h5 class="service-text">We are experienced in creating various types of banners for various purposes and platforms.</h5>
+                        <h5 id="bannersDescription" class="service-text">We are experienced in creating various types of banners for various purposes and platforms.</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image" loading="lazy" src="Images/Banners_Serivices.jpg"></div>
                 </div>
@@ -203,6 +205,15 @@
 
         </div>
     </div>
+    <div class="projects">
+        <h2  class="projects-header">PROJECTS</h2>
+        <div class="projects-grid">
+        
+            <div class="project">
+            </div>
+        </div>
+      
+    </div>
     <div class="contact-anchor" id="contact-anchor-id"></div>
     <div class="contact">
         <div class="headers-container">
@@ -210,8 +221,8 @@
             <h2 id="contact" class="contact-header-second">CONTACT</h2>
         </div>
         <div class="email-container">
-            <img style="width:3.25vw; margin-top:1.25vw;" src="Images/Arrow_Right.svg">
-            <h3 style="font-size: 3.5vw;" class="email">Idigex@gmail.com</h3>
+            <img style="width:3.25vw; margin-top:1vw;" src="Images/Arrow_Right_Small.svg">
+            <h3 style="font-size: 2.8vw;" class="email">Idigex@gmail.com</h3>
         </div>
         <div  style="height:4.5vw; margin-top: -9vw;  width:50.75vw;float: right;">
             <input id="Email Name" style=" " oninput="TextChange('Email Name')" class="contact-input" type="text" placeholder="NAME"/>
@@ -235,6 +246,7 @@
 <link rel='stylesheet' type='text/css' href='Styles/services.css'>
 <link rel='stylesheet' type='text/css' href='Styles/contact.css'>
 <link rel='stylesheet' type='text/css' href='Styles/horizontalScroll.css'>
+<link rel='stylesheet' type='text/css' href='Styles/projects.css'>
 <script type="text/javascript" src="Scripts/languageButton.js"></script>
 <script type="text/javascript" src="Scripts/changeLanguage.js"></script>
 <script type="text/javascript" src="Scripts/sideMoving.js"></script>

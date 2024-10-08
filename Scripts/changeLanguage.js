@@ -28,6 +28,12 @@ function changeLanguage(lang) {
         document.getElementById('brandBookHeader').innerText = data.brandBookHeader;
         document.getElementById('brandBookDescription').innerText = data.brandBookDescription;
         document.getElementById('thirdServiceDescriptionText').innerHTML = data.thirdServiceDescriptionText;
+        document.getElementById('logoHeader').innerText = data.logoHeader;
+        document.getElementById('logoDescription').innerText = data.logoDescription;
+        document.getElementById('fourthServiceDescriptionText').innerHTML = data.fourthServiceDescriptionText;
+        document.getElementById('bannersHeader').innerText = data.bannersHeader;
+        document.getElementById('bannersDescription').innerText = data.bannersDescription;
+        document.getElementById('fifthServiceDescriptionText').innerHTML = data.fifthServiceDescriptionText;
       });
   }
 

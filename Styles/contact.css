@@ -4,9 +4,8 @@
 }
 .contact-header-first{
     width: 45vw;
-    background:  linear-gradient(135deg, #F9F9F9 -20%,#7090FF 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #A9A9A9;
+
     line-height: 5.5vw;
     margin-bottom: 0px;
 }
@@ -19,7 +18,7 @@
     grid-template-columns: auto auto;
 }
 .email-container{
-    width: 32.5vw;
+    width: 26.8vw;
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 1.25vw;
@@ -35,17 +34,17 @@
     border-radius: 1.5vw;
     border:solid;
     border-color: #666666;
-    border-width: 0.2vw;
+    border-width: 0.1vw;
     padding-left: 2.75vw;
     outline: none;
     font-size: 1.135vw;
-    font-family: "Outfit", sans-serif;
+    font-family: "Arial", sans-serif;
     font-style: light;
     font-weight: 500;
     color: #A9A9A9;
     line-height: 1.5vw;
     letter-spacing: 1%;
-    padding-top: 1.5vw;
+    padding-top: 1.7vw;
     padding-bottom: 1.5vw;
     float: right;
     clear: both;
@@ -76,7 +75,7 @@
   .send-message-text{
       color:  #d9d9d9;
       font-size: 1.135vw;
-      font-family: "Outfit", sans-serif;
+      font-family: "Arial", sans-serif;
       font-style: light;
       font-weight: 500;
       line-height: 1.5vw;
