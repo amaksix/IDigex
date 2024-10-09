@@ -39,7 +39,7 @@
         <div class="menu-elem menu-elem-third">
             <h1>G</h1>
             <div class="menu-button-container">
-                <button id="projects-button" class="menu-button">PROJECTS</button>
+                <button onclick="ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button">PROJECTS</button>
             </div> 
         </div>
         <div class="menu-elem menu-elem-fourth">
@@ -205,7 +205,9 @@
 
         </div>
     </div>
+    
     <div class="projects">
+        <div class="projects-anchor" id="projects-anchor-id"></div>
         <h2  class="projects-header">PROJECTS</h2>
         <div class="projects-grid">
         
@@ -238,8 +240,13 @@
                     <h5 class="project-text"> 3D Modeling </h5>
                 </div>
                 <div class="project-image-container">
-                    <img loading="lazy" class="project-image" src="Images/Configurator.png">
-                    <button class="project-button">
+                    <div id="second-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/Configurator.png">
+                        <img loading="lazy" class="project-image" src="Images/Configurator.png">
+                        <img loading="lazy" class="project-image" src="Images/Configurator.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#second-project')">
                         <img loading="lazy" class="project-button-image" >
                     </button>
                 </div>
@@ -253,8 +260,13 @@
                     <h5 class="project-text">Logo</h5>
                 </div>
                 <div class="project-image-container">
-                    <img loading="lazy" class="project-image" src="Images/Mullers.png">
-                    <button class="project-button">
+                    <div id="third-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/Mullers.png">
+                        <img loading="lazy" class="project-image" src="Images/Mullers.png">
+                        <img loading="lazy" class="project-image" src="Images/Mullers.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#third-project')">
                         <img loading="lazy" class="project-button-image" >
                     </button>
                 </div>
@@ -268,8 +280,133 @@
                     <h5 class="project-text">3D Modeling</h5>
                 </div>
                 <div class="project-image-container">
-                    <img loading="lazy" class="project-image" src="Images/BusStop.png">
-                    <button class="project-button">
+                    <div id="fourth-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/BusStop.png">
+                        <img loading="lazy" class="project-image" src="Images/BusStop.png">
+                        <img loading="lazy" class="project-image" src="Images/BusStop.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#fourth-project')">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >REALWIN</h3>
+                    </button>
+                    <h5 class="project-text">Logo</h5>
+                </div>
+                <div class="project-image-container">
+                    <div id="fifth-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/Realwin.png">
+                        <img loading="lazy" class="project-image" src="Images/Realwin.png">
+                        <img loading="lazy" class="project-image" src="Images/Realwin.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#fifth-project')">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >ECCA</h3>
+                    </button>
+                    <h5 class="project-text">Logo</h5>
+                </div>
+                <div class="project-image-container">
+                    <div id="sixt-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/Ecca.png">
+                        <img loading="lazy" class="project-image" src="Images/Ecca.png">
+                        <img loading="lazy" class="project-image" src="Images/Ecca.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#sixt-project')">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >DASHBOARD</h3>
+                    </button>
+                    <h5 class="project-text">Concept</h5>
+                </div>
+                <div class="project-image-container">
+                    <div id="seventh-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/DashBoard.png">
+                        <img loading="lazy" class="project-image" src="Images/DashBoard.png">
+                        <img loading="lazy" class="project-image" src="Images/DashBoard.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#seventh-project')">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >DELIVERYAPP</h3>
+                    </button>
+                    <h5 class="project-text">Concept</h5>
+                </div>
+                <div class="project-image-container">
+                    <div id="eight-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/DeliveryApp.png">
+                        <img loading="lazy" class="project-image" src="Images/DeliveryApp.png">
+                        <img loading="lazy" class="project-image" src="Images/DeliveryApp.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#eight-project')">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >BANNERS</h3>
+                    </button>
+                    <h5 class="project-text">Online and Print</h5>
+                </div>
+                <div class="project-image-container">
+                    <div id="nine-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/Banners.png">
+                        <img loading="lazy" class="project-image" src="Images/Banners.png">
+                        <img loading="lazy" class="project-image" src="Images/Banners.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#nine-project')">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >FINANCELABS</h3>
+                    </button>
+                    <h5 style="max-width: 13vw;" class="project-text">Logo, brand book, invoce, email signature</h5>
+                </div>
+                <div class="project-image-container">
+                    <div id="ten-project" class="projects-carousel">
+                        <img loading="lazy" class="project-image" src="Images/FinanceLabs.png">
+                        <img loading="lazy" class="project-image" src="Images/FinanceLabs.png">
+                        <img loading="lazy" class="project-image" src="Images/FinanceLabs.png">
+                        <!-- Add more images as needed -->
+                    </div>
+                    <button class="project-button" onclick="scrollRight('#ten-project')">
                         <img loading="lazy" class="project-button-image" >
                     </button>
                 </div>
