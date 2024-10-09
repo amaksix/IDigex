@@ -473,11 +473,12 @@ let currentIndex = 0;
 
 function scrollRight(containerId) {
     const carousel = document.querySelector(containerId);
-    //const images = document.querySelectorAll('.carousel-image');
     const images = document.querySelectorAll(containerId + ' .project-image');
     currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
-    const imageWidth = images[0].clientWidth;
-    carousel.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
+    
+    // Assuming each image is 100vw wide
+    const imageWidthVW = 42.75; // 100vw per image
+    carousel.style.transform = `translateX(-${currentIndex * imageWidthVW}vw)`;
 }
     // JavaScript function to search for the element and delete it
   /*  const searchAndDeleteElement = () => {
