@@ -67,7 +67,7 @@
 
     <div class="about-container">
         <div class="about-anchor" id="about-anchor-id"></div>
-        <img class="about-image" src="Images/About ID.png" >
+        <img loading="lazy" class="about-image" src="Images/About ID.png" >
         <h2 id="about" class="about-header">ABOUT</h2>
         <div class="about-text-container">
             <h5 id="about-text-first" class="about-text-first">Our team of creative professionals has deep knowledge of UI/UX design, programming and 3d modeling, allowing us to create designs that are not only visually appealing, but also easy to use and effective in achieving business goals. We pride ourselves on our ability to provide a personalized approach to every project and work on it from start to finish to meet all of our client's needs and expectations.</h5>
@@ -192,7 +192,7 @@
                     <h5 style="margin-top: 0px;"><span class="services-highlight"> 02. Design:</span> we create the site structure and its visual design. The layout of each page is designed keeping user experience (UX) and user interface (UI) in mind.</h5>
                 </div>
                 <div style="margin-top:0vw;" class="scroll-text">
-                    <img style=" transform: translate(-40%,-10%); width:114vw;" src="Images/Brief.png" >
+                    <img style=" transform: translate(-40%,-10%); width:114vw;" loading="lazy" src="Images/Brief.png" >
                     <h5 style="margin-top: 2vw;"><span class="services-highlight"> 03. Development:</span> at this stage, programmers begin to create the code that turns the site design into a working website.</h5>
                 </div>
                 <div style="margin-top: 12.5vw;" class="scroll-text">
@@ -210,7 +210,71 @@
         <div class="projects-grid">
         
             <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >PALAMI</h3>
+                    </button>
+                    <h5 class="project-text"> Logo, website rebranding </h5>
+                </div>
+                <div class="project-image-container">
+                        <div id="first-project" class="projects-carousel">
+                            <img loading="lazy" class="project-image" src="Images/Palami.png">
+                            <img loading="lazy" class="project-image" src="Images/Palami.png">
+                            <img loading="lazy" class="project-image" src="Images/Palami.png">
+                            <!-- Add more images as needed -->
+                        </div>
+                    <button class="project-button" onclick="scrollRight('#first-project')">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
             </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >CONFIGURATOR</h3>
+                    </button>
+                    <h5 class="project-text"> 3D Modeling </h5>
+                </div>
+                <div class="project-image-container">
+                    <img loading="lazy" class="project-image" src="Images/Configurator.png">
+                    <button class="project-button">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >MÜLLER'S</h3>
+                    </button>
+                    <h5 class="project-text">Logo</h5>
+                </div>
+                <div class="project-image-container">
+                    <img loading="lazy" class="project-image" src="Images/Mullers.png">
+                    <button class="project-button">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-text-grid">
+                    <button  class="services-buttons">
+                        <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
+                        <h3  class="service-button-text" >PYLON, BUS STOP</h3>
+                    </button>
+                    <h5 class="project-text">3D Modeling</h5>
+                </div>
+                <div class="project-image-container">
+                    <img loading="lazy" class="project-image" src="Images/BusStop.png">
+                    <button class="project-button">
+                        <img loading="lazy" class="project-button-image" >
+                    </button>
+                </div>
+            </div>
+        </div>
         </div>
       
     </div>
@@ -237,7 +301,7 @@
             <h3 class="send-message-text" >SEND MESSAGE</h3>
         </button>
     </div>
-    <div style="height: 1000px;"></div>
+    <div style="height: 100px;"></div>
 </body>
 <style>
 </style>
@@ -268,7 +332,16 @@ function ScrollToAnchor(anchor)
     var element = document.getElementById(anchor);
     element.scrollIntoView({behavior: "smooth"});
 }
+let currentIndex = 0;
 
+function scrollRight(containerId) {
+    const carousel = document.querySelector(containerId);
+    //const images = document.querySelectorAll('.carousel-image');
+    const images = document.querySelectorAll(containerId + ' .project-image');
+    currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+    const imageWidth = images[0].clientWidth;
+    carousel.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
+}
     // JavaScript function to search for the element and delete it
   /*  const searchAndDeleteElement = () => {
 
