@@ -5,6 +5,7 @@
     width:90%;
     margin: auto;
     margin-top: 21vw;
+    margin-bottom: 20vw;
 }
 .projects-grid{
     display: grid;
@@ -24,16 +25,6 @@
     linear-gradient(to top,rgba(224,223,222,0) 90%, #A9A9A9 125%) border-box;
     border-radius: 2.4vw;
     border:  0.15vw solid transparent;
-}
-.project-display{
-    position: absolute;
-    transform: translate(104.8%,104.3%);
-    transition: 1s;
-}
-.project-display-hidden{
-    transform: translate(104%,520%);
-    transition: 1s;
-    position: absolute;
 }
 .project-text-grid{
     
