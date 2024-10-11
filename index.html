@@ -514,19 +514,62 @@ function ScrollToAnchor(anchor)
     var element = document.getElementById(anchor);
     element.scrollIntoView({behavior: "smooth"});
 }
-let currentIndex = 0;
+let currentIndexMap = {};
+initializeCarousel('#first-project');
+initializeCarousel('#second-project');
+initializeCarousel('#third-project');
+initializeCarousel('#fourth-project');
+initializeCarousel('#fifth-project');
+initializeCarousel('#sixt-project');
+initializeCarousel('#seventh-project');
+initializeCarousel('#eight-project');
+initializeCarousel('#nine-project');
+initializeCarousel('#ten-project');
+initializeCarousel('#eleven-project');
+initializeCarousel('#twelve-project');
+function initializeCarousel(containerId) {
+    const carousel = document.querySelector(containerId);
+    const images = document.querySelectorAll(containerId + ' .project-image');
+
+    // Clone the first image and append it to the end to create seamless scrolling
+    const firstImageClone = images[0].cloneNode(true);
+    carousel.appendChild(firstImageClone);
+
+    currentIndexMap[containerId] = 0; // Initialize index for the container
+}
+
+
 
 function scrollRight(containerId) {
     const carousel = document.querySelector(containerId);
     const images = document.querySelectorAll(containerId + ' .project-image');
-    currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
-    
-    // Assuming each image is 100vw wide
-    const imageWidthVW = 42.75; // 100vw per image
-    carousel.style.transform = `translateX(-${currentIndex * imageWidthVW}vw)`;
+    const totalImages = images.length; // Includes the cloned image now
+    const imageWidthVW = 43.75; // Assuming each image is 43.75vw wide
+
+    // Update current index for this container
+    currentIndexMap[containerId]++;
+
+    // Normal scroll, as long as we haven't reached the cloned last image
+    if (currentIndexMap[containerId] < totalImages - 1) {
+        carousel.style.transition = "transform 0.5s ease"; // Enable smooth scroll
+        carousel.style.transform = `translateX(-${currentIndexMap[containerId] * imageWidthVW}vw)`;
+    } else {
+        // We have reached the cloned image, so snap back to the real first image
+        carousel.style.transition = "transform 0.5s ease";
+        carousel.style.transform = `translateX(-${currentIndexMap[containerId] * imageWidthVW}vw)`;
+
+        // After the transition to the cloned image completes, snap back to the real first image
+        setTimeout(() => {
+            carousel.style.transition = "none"; // Disable transition for instant snap
+            carousel.style.transform = `translateX(0vw)`; // Snap back to the first real image
+
+            currentIndexMap[containerId] = 0; // Reset index back to the first image
+        }, 500); // Wait for the transition to the cloned image to complete (0.5s)
+    }
 }
+
 const min = 81;
-const max = 244;
+const max = 285;
 document.querySelector('.projects-grid-container').style.height = min+"vw";
 var display = document.getElementsByClassName("project-display")[0];
 

@@ -69,10 +69,9 @@
     transform: rotate(180deg);
   }
 .project-image{
-    width:100%;
-   
+    width: 43.75vw;
+    margin: -1vw 0;
     transition: transform 0.9s;
-   
 }
 .project-image:hover{
     -ms-transform: scale(1.05); /* IE 9 */
