@@ -34,13 +34,13 @@
     linear-gradient(to top,rgba(224,223,222,0) 65%, #A9A9A9 145%) border-box;
     border:  0.15vw solid transparent;
     margin-left: -12.2vw;
-    padding-top: 0.85vw;
+    padding-top: 1.2vw;
     margin-top: 0.5vw;
 }
 .languages-button-container{
     width: 50%;
    margin: auto;
-   margin-bottom: 0.3vw;
+   margin-bottom: 0.6vw;
 }
 .languages-button{
     color:#666666;
@@ -49,8 +49,9 @@
     font-weight: 300;
     font-size: 1vw;
     text-align: left;
-    margin-left: 0.2vw;
+    margin-left: 0.6vw;
     letter-spacing: 2%;
+    
 }
 .languages-button:hover{
     color:#A9A9A9;   

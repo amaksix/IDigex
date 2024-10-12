@@ -240,13 +240,9 @@
                         <h5 class="project-text"> 3D Modeling </h5>
                     </div>
                     <div class="project-image-container">
-                        <div id="second-project" class="projects-carousel">
-                            <img loading="lazy" class="project-image" src="Images/Configurator.jpg">
-                            <!-- Add more images as needed -->
+                        <div class="screen">
+                            <img loading="lazy" src="Images/Configurator_Large.jpg">
                         </div>
-                        <button class="project-button" onclick="scrollRight('#second-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
                     </div>
                 </div>
                 <div class="project">
@@ -516,7 +512,6 @@ function ScrollToAnchor(anchor)
 }
 let currentIndexMap = {};
 initializeCarousel('#first-project');
-initializeCarousel('#second-project');
 initializeCarousel('#third-project');
 initializeCarousel('#fourth-project');
 initializeCarousel('#fifth-project');
