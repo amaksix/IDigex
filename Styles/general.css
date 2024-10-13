@@ -127,7 +127,7 @@ h5{
     overflow: hidden;
 }
 .description-container{
-    margin-top: 4vw;
+    margin-top: 20vw;
     margin-left: 5vw;
     display: grid;
     grid-template-columns: auto auto;
@@ -145,10 +145,10 @@ h5{
 }
 .social-media{
     margin-left: 52.5vw;
-    margin-top: 6vw;
+    margin-top: 12vw;
 }
 .about-container{
-    margin-top:18vw;
+    margin-top:25vw;
     margin-left: 5vw;
     padding-top: 0;
 }
