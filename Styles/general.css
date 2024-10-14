@@ -112,15 +112,17 @@ h5{
 }
 
 .side-moving{
-    width: 150%;
+    width: 300%;
     position: relative;
     text-wrap: nowrap;
     background:  linear-gradient(to right, #F9F9F9, #7090FF);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    margin-left: 250vw;
 }
 .side-moving-container{
-    margin-top: 6.5vw;
+    margin-top: 6vw;
+    margin-bottom: 10vw;
     width: 100%;
     transform: rotate(3.5deg);
     position: relative;
@@ -183,3 +185,15 @@ h5{
     -ms-transition: none !important;
     -o-transition: none !important;
    }
+
+   .letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+    /* Special handling for spaces */
+    .space {
+        width: 0.5em; /* Adjust the width of spaces */
+        display: inline-block;
+    }

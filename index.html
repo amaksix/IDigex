@@ -63,9 +63,7 @@
     </div> 
 <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/BcLazoDO2nyl0HdC/scene.splinecode"></spline-viewer>-->
-    <!--<div class="side-moving-container">
-        <h2 class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO</h2>
-    </div>-->
+   
     <div style=" position: absolute; width: 38vw; height: 29vw; overflow: hidden;  left:44vw; top:30vw;  border-radius: 2.4vw;">
         <video style="width: 38vw;  margin-top: -4.5vw; z-index: 0;" autoplay loop src="Video/main.mp4" muted></video>
     </div>
@@ -228,7 +226,7 @@
     
     <div class="projects">
         <div class="projects-anchor" id="projects-anchor-id"></div>
-        <h2  class="projects-header">PROJECTS</h2>
+        <h2  id="projects" class="projects-header">PROJECTS</h2>
         <div id="projects-grid-container" class="projects-grid-container">
             <div id="projects-grid" class="projects-grid">     
                 <div class="project">
@@ -480,6 +478,9 @@
             </div>
         </div>
     </div>
+     <div class="side-moving-container">
+        <h2 class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO</h2>
+    </div>
     <div class="contact-anchor" id="contact-anchor-id"></div>
     <div class="contact">
         <div class="headers-container">
@@ -516,6 +517,7 @@
 <script type="text/javascript" src="Scripts/languageButton.js"></script>
 <script type="text/javascript" src="Scripts/changeLanguage.js"></script>
 <script type="text/javascript" src="Scripts/servicesController.js"></script>
+<script type="text/javascript" src="Scripts/sideMoving.js"></script>
 <script type="text/javascript">
 window.addEventListener("load", (event) => {
     var elems = document.getElementsByClassName("preload")[0].classList.remove("preload");
@@ -625,7 +627,7 @@ function ChangeHeight(){
    
 
 }
-function moveThirdToLast() {
+        function moveThirdToLast() {
             
                 var list = document.getElementById("projects-grid");
                 var items = list.getElementsByClassName("project");
@@ -651,101 +653,63 @@ function moveThirdToLast() {
                    
                 } 
         }
-
-
-
-
-    // JavaScript function to search for the element and delete it
-  /*  const searchAndDeleteElement = () => {
-
-      const interval = setInterval(() => {
-        const splineViever = document.getElementsByTagName('spline-viewer');
-        console.log('text');
-    // Convert HTMLCollection to an array and log each anchor element
-        if(splineViever != null)
+        movingTextUpAnim('about');
+        movingTextUpAnim('services');
+        movingTextUpAnim('contact');
+        movingTextUpAnim('projects');
+        function movingTextUpAnim(elemID)
         {
-                splineViever[0].renderRoot.lastElementChild.children[4].remove();
-                clearInterval(interval); // Stop searching
-
+            const container = document.getElementById(elemID);
+            const text = container.textContent; // Get the text from the element
+            container.textContent = ''; // Clear the original text
+            // Create an Intersection Observer to watch when the text element comes into view
+            const observer = new IntersectionObserver(handleIntersection, {
+                root: null, // Use the viewport as the root
+                threshold: 1,// Trigger when at least 10% of the element is visible
+            });
+            observer.container = container;
+            observer.text = text;
+            // Start observing the text element
+            observer.observe(container);
+            // Loop through each character and wrap it in a div with the class 'letter'
+           
         }
-      }, 1000); // Search every 1 second (1000ms)
-    };
+        function animateText(text,container) {
 
-    // Call the function, passing in the ID of the element you want to delete
-    searchAndDeleteElement();*/
-/*
-    document.addEventListener("DOMContentLoaded", function() {
-      const splineContainer = document.getElementById('spline-container');
+        text.split('').forEach((char, index) => {
+            const letter = document.createElement('div');
+            
+            // Handle spaces separately
+            if (char === ' ') {
+                letter.className = 'letter space';  // Add 'space' class for spaces
+            } else {
+                letter.className = 'letter';
+            }
 
-      // Set up IntersectionObserver to lazy load the Spline viewer
-      const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            // Load the Spline script dynamically when the container is in view
-            loadSplineViewer();
-            observer.unobserve(splineContainer); // Stop observing after loading
-          }
+            letter.textContent = char === ' ' ? '\u00A0' : char;  // Use non-breaking space for actual spaces
+
+            container.appendChild(letter);
+
+            // Animate each letter with a staggered delay
+            setTimeout(() => {
+                letter.style.opacity = 1;
+                letter.style.transform = 'translateY(0)';
+            }, index * 40); // Adjust delay (100ms per letter)
         });
-      });*/
+    }
+         // Intersection Observer callback
+    function handleIntersection(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                observer.container.style.opacity = 1; // Make the text container visible
+                animateText(observer.text,observer.container); // Start the letter animation
+                observer.disconnect(); // Stop observing once animation starts
+            }
+        });
+    }
 
-      // Observe the spline container
-     /* observer.observe(splineContainer);
+
+
     
-      // Function to dynamically load the Spline viewer script
-      function loadSplineViewer() {
-        const script = document.createElement('script');
-        script.type = 'module';
-        script.src = 'https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js';
-
-        // Append the script to the document
-        document.body.appendChild(script);
-
-        // Once the script is loaded, insert the Spline viewer element
-        script.onload = function() {
-          const splineViewer = document.createElement('spline-viewer');
-          splineViewer.setAttribute('url', 'https://prod.spline.design/tDX3AVYxiR8REJSk/scene.splinecode');
-          splineContainer.innerHTML = ''; // Clear the placeholder text
-          splineContainer.appendChild(splineViewer); // Insert the Spline viewer
-        };
-      }
-    });*/
-   /* document.addEventListener("DOMContentLoaded", function() {
-      const splineContainer = document.getElementById('spline-container');
-
-      // Function to load the Spline viewer dynamically
-      function loadSpline() {
-        const splineViewer = document.createElement('spline-viewer');
-        splineViewer.setAttribute('url', 'https://prod.spline.design/rHtACZO2v1pJZq5X/scene.splinecode');
-        splineViewer.id = 'splineScene';
-        splineContainer.innerHTML = ''; // Clear the placeholder text
-        splineContainer.appendChild(splineViewer); // Insert the Spline viewer
-        console.log('Spline scene loaded.');
-      }
-
-      // Function to unload the Spline viewer
-      function unloadSpline() {
-        const splineViewer = document.getElementById('splineScene');
-        if (splineViewer) {
-          splineViewer.remove(); // Remove the Spline viewer from the DOM
-          console.log('Spline scene unloaded.');
-        }
-      }
-
-      // Set up IntersectionObserver to load and unload the Spline viewer
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            // Scene is in view, load it
-            loadSpline();
-          } else {
-            // Scene is out of view, unload it
-            unloadSpline();
-          }
-        });
-      });
-
-      // Start observing the spline container
-      observer.observe(splineContainer);
-    });*/
   </script>
 </html>
