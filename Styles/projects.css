@@ -26,6 +26,9 @@
     border-radius: 2.4vw;
     border:  0.15vw solid transparent;
 }
+.projects-carousel{
+    margin-left: -0.5vw;
+}
 .project-text-grid{
     
     display: grid;

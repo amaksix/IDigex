@@ -277,6 +277,7 @@
                         <div id="third-project" class="projects-carousel">
                             <img loading="lazy" class="project-image" src="Images/Mullers_1.jpg">
                             <img loading="lazy" class="project-image" src="Images/Mullers_2.jpg">
+                            <img loading="lazy" class="project-image" src="Images/Mullers_3.jpg">
                             <!-- Add more images as needed -->
                         </div>
                         <button class="project-button" onclick="scrollRight('#third-project')">
@@ -308,6 +309,8 @@
                         <div id="fourth-project" class="projects-carousel">
                             <img loading="lazy" class="project-image" src="Images/BusStop_1.jpg">
                             <img loading="lazy" class="project-image" src="Images/BusStop_2.jpg">
+                            <img loading="lazy" class="project-image" src="Images/BusStop_3.jpg">
+                            <img loading="lazy" class="project-image" src="Images/Pylon.jpg">
                             <!-- Add more images as needed -->
                         </div>
                         <button class="project-button" onclick="scrollRight('#fourth-project')">
@@ -466,6 +469,7 @@
                         <div id="twelve-project" class="projects-carousel">
                             <img loading="lazy" class="project-image" src="Images/FinanceLabs_2.jpg">
                             <img loading="lazy" class="project-image" src="Images/FinanceLabs_1.jpg">
+                            <img loading="lazy" class="project-image" src="Images/FinanceLabs_3.jpg">
                             <!-- Add more images as needed -->
                         </div>
                         <button class="project-button" onclick="scrollRight('#twelve-project')">
@@ -558,7 +562,7 @@ function scrollRight(containerId) {
     const carousel = document.querySelector(containerId);
     const images = document.querySelectorAll(containerId + ' .project-image');
     const totalImages = images.length; // Includes the cloned image now
-    const imageWidthVW = 43.75; // Assuming each image is 43.75vw wide
+    const imageWidthVW = 43.74; // Assuming each image is 43.75vw wide
 
     // Update current index for this container
     currentIndexMap[containerId]++;
@@ -583,7 +587,7 @@ function scrollRight(containerId) {
 }
 
 const min = 81;
-const max = 285;
+const max = 286;
 document.querySelector('.projects-grid-container').style.height = min+"vw";
 var display = document.getElementsByClassName("project-display")[0];
 
