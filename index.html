@@ -3,6 +3,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 <link rel='stylesheet' type='text/css' href='Styles/loader.css?=v2'>
+ <!-- Standard favicon for most browsers -->
+ <link rel="icon" href="Images/16x16.svg" sizes="16x16" type="image/svg+xml">
+  
+ <!-- Larger favicon for devices or browser tabs that require more resolution -->
+ <link rel="icon" href="Images/32x32.svg" sizes="32x32" type="image/svg+xml">
+ <link rel="icon" href="Images/48x48.svg" sizes="48x48" type="image/svg+xml">
+ 
+ <!-- Apple touch icon for iPhones and iPads -->
+ <link rel="apple-touch-icon" href="Images/180x180.svg" sizes="180x180" type="image/svg+xml">
 <head>
  
 </head>
@@ -146,7 +155,10 @@
                     <div class="service-image-container"><img class="service-image"loading="lazy"  src="Images/3DModels_Serivices.jpg"></div>
                 </div>
                 <div id="secondServiceDescription" class="service-description-container-hidden">
-                    <h5 id="secondServiceDescriptionText" class="service-description-text">IDigex can bring your ideas to life, with incredible detail and realism. We develop <span class="services-highlight">3D models</span>, as well as <span class="services-highlight">configurators</span> that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience.</h5>
+                    <div>
+                        <h5 id="secondServiceDescriptionText" class="service-description-text">IDigex can bring your ideas to life, with incredible detail and realism. We develop <span class="services-highlight">3D models</span>, as well as <span class="services-highlight">configurators</span> that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience. </h5>
+                        <h5 style="margin-top: 2vw;" class="service-description-text">The price and development period depend on the complexity of the work. The work time is discussed and the cost of the work is <span class="services-another-highlight">€12</span> / hour.</h5>
+                    </div>
                 </div>
             </div>
             <div class="service-container">
@@ -161,7 +173,21 @@
                     <div class="service-image-container"><img class="service-image"  src="Images/BrandBook_Services.jpg"></div>
                 </div>
                 <div id="thirdServiceDescription" class="service-description-container-hidden">
-                    <h5 id="thirdServiceDescriptionText" class="service-description-text">The <span class="services-highlight">brand book</span> is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.</h5>
+                    <div>
+                        <h5 id="thirdServiceDescriptionText" class="service-description-text">The <span class="services-highlight">brand book</span> is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.</h5>
+                        <div class="service-cost-container">
+                            <div>
+                                <h5 class="services-third-highlight">Price</h5>
+                                <div class="service-line"></div>
+                                <h4 class="services-another-highlight">€70</h4>
+                            </div>
+                            <div>
+                                <h5 class="services-third-highlight">Development period</h5>
+                                <div class="service-line"></div>
+                                <h4 class="services-another-highlight">1-2 days</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="service-container">
@@ -231,7 +257,7 @@
             <div id="projects-grid" class="projects-grid">   
                 <div class="project">
                     <div class="project-text-grid">
-                        <button  class="services-buttons">
+                        <button onclick="openInNewTab('https://u-p-2dcb19.webflow.io/')"  class="services-buttons">
                             <img loading="lazy" style="width:2.4vw; margin-top:0.7vw;" src="Images/Arrow_Right.svg">
                             <h3  class="service-button-text" >U&Paws</h3>
                         </button>

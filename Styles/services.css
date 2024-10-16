@@ -93,6 +93,14 @@ margin-top: -1vw;
   .services-highlight{
     color:#7090FF;
   }
+  .services-another-highlight{
+    color:#F9F9F9;
+    margin: 0;
+  }
+  .services-third-highlight{
+    color:#A9A9A9;
+    margin: 0;
+  }
   .websites-descriptions-container{
     position: relative;
     margin-top: -26vw;
@@ -106,4 +114,19 @@ margin-top: -1vw;
     display: grid;
     grid-template-columns: auto auto;
     margin-bottom: 1.5vw;
+  }
+  .service-line{
+    width: 100%;
+    height: 0.1vw;
+    background-color: #666666;
+    margin-top: 0.6vw;
+    margin-bottom: 1vw;
+  }
+  .service-cost-container{
+    display: grid;
+    grid-template-columns: 6vw auto;
+    gap: 4vw;
+    margin-top: 1.5vw;
+    margin-left: 4.7vw;
+    width: 21vw;
   }

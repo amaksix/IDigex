@@ -164,15 +164,16 @@ function openService(serviceId, container) {
         {
             var curr =  document.getElementById(openedService);
             var next = document.getElementById(serviceId);
-            console.log(container);
-            console.log(openedService);
             if(openedService != "firstServiceDescription" && container != "first-service-description-container"){
               curr.classList.remove(container);
               curr.classList.add("service-description-container-hidden");
-              curr.style.height = 0;     
-              for (const child of next.children) {
-                next.style.height = child.clientHeight;
-              }  
+              curr.style.height = 0;   
+              var height = 0;
+              for(let i = 0; i<next.children.length; i++)	
+              {
+                height += next.children[i].clientHeight;
+              }
+              next.style.height = height;
               }else if(container == "first-service-description-container" ){
                 curr.classList.remove("service-description-container");
                 curr.classList.add("service-description-container-hidden"); 
@@ -181,9 +182,12 @@ function openService(serviceId, container) {
               else{
                 curr.classList.remove("first-service-description-container");
                 curr.classList.add("service-description-container-hidden");
-                for (const child of next.children) {
-                  next.style.height = child.clientHeight;
-                }  
+                var height = 0;
+                for(let i = 0; i<next.children.length; i++)	
+                {
+                  height += next.children[i].clientHeight;
+                }
+                next.style.height = height;
             }
             
             next.classList.remove("service-description-container-hidden");
@@ -191,7 +195,6 @@ function openService(serviceId, container) {
             openedService = serviceId;
             stopProjectScroll = true;
             updateFocusedElement(document.getElementById(serviceId).parentElement.children[0],true);
-            console.log(1);
         }
         else{
             var curr =  document.getElementById(openedService);
@@ -208,14 +211,16 @@ function openService(serviceId, container) {
             updateFocusedElement(document.getElementById(openedService).parentElement.children[0],false);
             openedService = null;
             stopProjectScroll = false;
-            console.log(2);
         }
     }else{
         var next = document.getElementById(serviceId);
         if(container != "first-service-description-container"){
-          for (const child of next.children) {
-            next.style.height = child.clientHeight;
+          var height = 0;
+          for(let i = 0; i<next.children.length; i++)	
+          {
+            height += next.children[i].clientHeight;
           }
+          next.style.height = height;
         }
        
         next.classList.remove("service-description-container-hidden");
@@ -223,6 +228,5 @@ function openService(serviceId, container) {
         openedService = serviceId;    
         updateFocusedElement(document.getElementById(openedService).parentElement.children[0],true);
         stopProjectScroll = true;  
-        console.log(3);
     }
 }
