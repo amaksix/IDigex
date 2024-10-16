@@ -164,7 +164,6 @@ function openService(serviceId, container) {
         {
             var curr =  document.getElementById(openedService);
             var next = document.getElementById(serviceId);
-            if(openedService != "firstServiceDescription" && container != "first-service-description-container"){
               curr.classList.remove(container);
               curr.classList.add("service-description-container-hidden");
               curr.style.height = 0;   
@@ -174,22 +173,7 @@ function openService(serviceId, container) {
                 height += next.children[i].clientHeight;
               }
               next.style.height = height;
-              }else if(container == "first-service-description-container" ){
-                curr.classList.remove("service-description-container");
-                curr.classList.add("service-description-container-hidden"); 
-                curr.style.height = 0;    
-              }
-              else{
-                curr.classList.remove("first-service-description-container");
-                curr.classList.add("service-description-container-hidden");
-                var height = 0;
-                for(let i = 0; i<next.children.length; i++)	
-                {
-                  height += next.children[i].clientHeight;
-                }
-                next.style.height = height;
-            }
-            
+             
             next.classList.remove("service-description-container-hidden");
             next.classList.add(container);     
             openedService = serviceId;
@@ -198,13 +182,9 @@ function openService(serviceId, container) {
         }
         else{
             var curr =  document.getElementById(openedService);
-            if(openedService != "firstServiceDescription"){
                 curr.classList.remove(container);
                 curr.style.height = 0;
 
-            }else{
-                curr.classList.remove("first-service-description-container");
-            }
             
             
             curr.classList.add("service-description-container-hidden");
@@ -214,14 +194,14 @@ function openService(serviceId, container) {
         }
     }else{
         var next = document.getElementById(serviceId);
-        if(container != "first-service-description-container"){
+
           var height = 0;
           for(let i = 0; i<next.children.length; i++)	
           {
             height += next.children[i].clientHeight;
           }
           next.style.height = height;
-        }
+        
        
         next.classList.remove("service-description-container-hidden");
         next.classList.add(container);
