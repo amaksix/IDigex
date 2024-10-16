@@ -47,6 +47,15 @@ h3{
     font-weight: 300;
     color: #F9F9F9;
 }
+h4{
+    font-size: 1.2vw;
+    font-family: "Arial", sans-serif;
+    font-style: light;
+    font-weight: 300;
+    color: #666666;
+    line-height: 1.6vw;
+    letter-spacing: 2%;
+}
 h5{
     font-size: 1.135vw;
     font-family: "Arial", sans-serif;

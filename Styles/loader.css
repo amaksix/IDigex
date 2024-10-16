@@ -1,0 +1,72 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(16,16,16);
+    transition: opacity 0.75s, visibility 0.75s;
+    z-index: 10;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .first-loader-image {
+    content: "";
+    background-image: url("../Images/Loader2.png");
+    width: 7vw;
+    height: 7vw;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;    
+    position: absolute;
+}
+  .second-loader-image {
+    content: "";
+    background-image: url("../Images/Loader.png");
+    width: 7vw;
+    height: 7vw;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: loading 4s linear infinite;
+    position: absolute;
+}
+.loading-logo{
+   
+    width: 2vw;
+    display: block; 
+    position: absolute;
+}
+.loader-text-container{
+    margin-top: 20vw;
+    text-align: left;
+    width: 4.5vw;
+}
+@keyframes loading {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(-1turn);
+    }
+}
+
+@keyframes loadingDots {
+    0%   { content: "Loading"; }
+    25%  { content: "Loading."; }
+    50%  { content: "Loading.."; }
+    75%  { content: "Loading..."; }
+    100% { content: "Loading"; }
+  }
+
+  /* Applying the animation to the text */
+  .loader-text::after {
+    content: "Loading";
+    animation: loadingDots 1.5s infinite steps(4);
+  }

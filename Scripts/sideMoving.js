@@ -43,7 +43,7 @@ var minScroll = 225;
       //let moveRight = scrollY * 0.10; // Adjust the multiplier to control speed
     
       // Scale down the video as you scroll down (reduce size)
-      let scaleFactor = Math.max(1 + scrollY / 10000, 0.5); // Prevent too much shrinking
+      let scaleFactor = Math.max(1 + scrollY / 8000, 0.5); // Prevent too much shrinking
     
       // Apply the new position and scale
       videoContainer.style.transform = `scale(${scaleFactor})`;
