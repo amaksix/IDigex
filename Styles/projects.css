@@ -138,3 +138,11 @@
   -o-transition: all 10s;
   transition: all 10s;
 }
+.project-head{
+    display: grid;
+    grid-template-columns: 2.5vw auto;
+    gap:1.5vw;
+    margin-top:0.5vw;
+    text-align: left;
+    transition: 1s;
+}
