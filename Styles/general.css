@@ -127,7 +127,7 @@ h5{
     background:  linear-gradient(to right, #F9F9F9, #7090FF);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    margin-left: 250vw;
+    margin-left:300vw;
 }
 .side-moving-container{
     margin-top: 6vw;
