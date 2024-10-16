@@ -16,16 +16,6 @@
     opacity: 0;
     visibility: hidden;
   }
-  .first-loader-image {
-    content: "";
-    background-image: url("../Images/Loader2.png");
-    width: 7vw;
-    height: 7vw;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: contain;    
-    position: absolute;
-}
   .second-loader-image {
     content: "";
     background-image: url("../Images/Loader.png");
