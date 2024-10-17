@@ -148,14 +148,11 @@
 }
 .project-description{
     text-align: center;
-    width: 43.75vw;
-    background-image: url("../Images/BG_projects2.jpg");
+
 }
 .project-description-text{
     color: #a9a9a9;
     width: 30vw;
     margin-left: 7vw;
     margin-right: 7vw;
-    margin-top: 7vw;
-    margin-bottom: -5vw;
 }
