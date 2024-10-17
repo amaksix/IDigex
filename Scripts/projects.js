@@ -12,7 +12,7 @@ initializeCarousel('#eleven-project');
 initializeCarousel('#twelve-project');
 function initializeCarousel(containerId) {
     const carousel = document.querySelector(containerId);
-    const images = document.querySelectorAll(containerId + ' .project-image');
+    const images = document.querySelectorAll(containerId + ' .carousel-image-container');
 
     // Clone the first image and append it to the end to create seamless scrolling
     const firstImageClone = images[0].cloneNode(true);
