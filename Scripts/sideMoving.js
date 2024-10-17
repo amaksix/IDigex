@@ -33,7 +33,7 @@ var minScroll = 225;
     }
   });*/
   
-  window.addEventListener('scroll', function () {
+  /*window.addEventListener('scroll', function () {
       const videoContainer = document.getElementById('first-shot-video');
     
       // Get the scroll position (y-axis)
@@ -47,4 +47,16 @@ var minScroll = 225;
     
       // Apply the new position and scale
       videoContainer.style.transform = `scale(${scaleFactor})`;
+  });*/
+  window.addEventListener('scroll', function () {
+    const videoContainer = document.getElementById('first-shot-video-container');
+  
+    // Get the scroll position (y-axis)
+    let scrollY = window.scrollY;
+  
+    // Calculate the rotation angle based on scroll position
+    let rotationAngle = scrollY * 0.01; // Adjust the multiplier to control the rotation speed
+  
+    // Apply the rotation transformation
+    videoContainer.style.transform = `rotate(${rotationAngle}deg)`;
   });
