@@ -30,7 +30,7 @@
     </div>
     <div class="menu-grid">
         <div class="menu-elem">
-            <h1>I</h1>
+            <h1 class="first-menu-header">I</h1>
             <div class="menu-button-container">
                 <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
                     <span class="label-up">ABOUT</span>
@@ -56,20 +56,20 @@
                 </button>
             </div> 
         </div>
-        <div class="menu-elem menu-elem-fourth">
-            <div class="menu-button-container">
+        <div  id="menu-elem-fourth"  class="menu-elem menu-elem-fourth">
+            <div id="last-menu-button-container" class="menu-button-container">
                 <button onclick="ScrollToAnchor('contact-anchor-id')" id="contact-button" class="menu-button menu-button-exception">
                     <span class="label-up">CONTACT</span>
                     <span class="label-up">CONTACT</span>
                 </button>
             </div> 
-            <h1>EX</h1>          
+            <h1 id="last-menu-id">EX</h1>          
         </div>
     </div> 
 <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/BcLazoDO2nyl0HdC/scene.splinecode"></spline-viewer>-->
    
-    <div id="first-shot-video-container" class="first-shot-video-container" style=" position: absolute; width: 38vw; height: 29vw; overflow: hidden;  left:44vw; top:30vw;  border-radius: 2.4vw;">
+    <div id="first-shot-video-container" class="first-shot-video-container" style=" ">
         <video id="first-shot-video" class="first-shot-video" style="width: 38vw;  margin-top: -4.5vw; z-index: 0;" autoplay loop src="Video/main.mp4" muted></video>
     </div>
     
@@ -902,7 +902,25 @@ function scrollRight(containerId) {
         });
     }
 
+    // Function to swap two elements
+function swapElements() {
+    const container = document.getElementById('menu-elem-fourth');
+    const box1 = document.getElementById('last-menu-button-container');
+    const box2 = document.getElementById('last-menu-id');
 
+    // Check if the window width is 480px or less
+    if (window.innerWidth <= 480) {
+        container.insertBefore(box2, box1);  // Swap positions
+    } else {
+        container.insertBefore(box1, box2);  // Reset to original order
+    }
+}
+
+// Initial call when the page loads
+swapElements();
+
+// Event listener for window resizing
+window.addEventListener('resize', swapElements);
 
     
   </script>

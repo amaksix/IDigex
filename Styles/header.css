@@ -51,7 +51,6 @@
     text-align: left;
     margin-left: 0.6vw;
     letter-spacing: 2%;
-    
 }
 .languages-button:hover{
     color:#A9A9A9;   
@@ -71,4 +70,48 @@
     text-align: center;
     padding-left: 0;
     margin-top: 0.3vw;
+}
+@media only screen and (max-width: 480px) {
+    .logo{
+        width:30vw;
+    }
+    .header-div{
+        margin-top: 11vw;
+        margin-left: 3vw;
+    }
+    .languages—container{
+    
+        margin-left: 47vw;
+        width: 9.5vw;
+        margin-top: 2vw;
+    }
+    .languages-button{
+
+        font-size: 2vw;
+        margin-left: 1.2vw;
+        letter-spacing: 4%;
+    }
+    .selected-language{
+        width: 6vw;
+        font-size: 3.5vw;
+        margin-top: 0.6vw;
+    }
+    .arrow{
+        margin-top: 0.8vw;
+        margin-left: 1.4vw;
+        width: 2.5vw;
+    }
+    .languages{
+
+        width: 20.4vw;
+        height: 11vw;
+        border-radius: 2.4vw;
+        border:  0.30vw solid transparent;
+        margin-left: -24.4vw;
+        padding-top: 2.4vw;
+        margin-top: 1vw;
+    }
+    .languages-button-container{
+       margin-bottom: 1.2vw;
+    }
 }
