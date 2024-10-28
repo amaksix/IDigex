@@ -902,25 +902,30 @@ function scrollRight(containerId) {
         });
     }
 
-    // Function to swap two elements
+// Function to swap elements based on the specified media query
 function swapElements() {
     const container = document.getElementById('menu-elem-fourth');
     const box1 = document.getElementById('last-menu-button-container');
     const box2 = document.getElementById('last-menu-id');
 
-    // Check if the window width is 480px or less
-    if (window.innerWidth <= 480) {
-        container.insertBefore(box2, box1);  // Swap positions
+    // Create a media query to detect touch devices with coarse pointer
+    const mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse)');
+
+    if (mediaQuery.matches) {
+        // If the media query matches, swap the elements
+        container.insertBefore(box2, box1);
     } else {
-        container.insertBefore(box1, box2);  // Reset to original order
+        // If the media query doesn't match, reset to the original order
+        container.insertBefore(box1, box2);
     }
 }
 
-// Initial call when the page loads
+// Initial call to handle the swap on page load
 swapElements();
 
-// Event listener for window resizing
+// Event listener for resize to handle orientation changes on mobile
 window.addEventListener('resize', swapElements);
+
 
     
   </script>
