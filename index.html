@@ -845,12 +845,10 @@ function scrollRight(containerId) {
         }, 500); // Wait for the transition to the cloned image to complete (0.5s)
     }
 }
+       
+       
 
-
-        movingTextUpAnim('about');
-        movingTextUpAnim('services');
-        movingTextUpAnim('contact');
-        movingTextUpAnim('projects');
+    
         function movingTextUpAnim(elemID)
         {
             const container = document.getElementById(elemID);
@@ -907,16 +905,17 @@ function swapElements() {
     const container = document.getElementById('menu-elem-fourth');
     const box1 = document.getElementById('last-menu-button-container');
     const box2 = document.getElementById('last-menu-id');
-
-    // Create a media query to detect touch devices with coarse pointer
     const mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse)');
-
     if (mediaQuery.matches) {
         // If the media query matches, swap the elements
         container.insertBefore(box2, box1);
     } else {
         // If the media query doesn't match, reset to the original order
         container.insertBefore(box1, box2);
+        movingTextUpAnim('about');
+        movingTextUpAnim('services');
+        movingTextUpAnim('contact');
+        movingTextUpAnim('projects');
     }
 }
 
