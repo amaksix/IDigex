@@ -37,6 +37,9 @@ function ChangeHeight(){
     var img = document.getElementById("flipper");
     if( projects.style.height == min+"vw")
     {
+        const sideMoving = document.getElementById("side-moving");
+        sideMoving.style.marginLeft = "500vw";
+        console.log(sideMoving);
         projects.style.height = max+"vw";
         img.src = "Images/Minus.svg";
         display.classList.add("project-display-bottom");
@@ -47,6 +50,8 @@ function ChangeHeight(){
     }
     else
     {
+        const sideMoving = document.getElementById("side-moving");
+        sideMoving.style.marginLeft = "300vw";
         projects.style.height = min+"vw";
         img.src = "Images/Plus.svg";
         console.log(display);
@@ -63,7 +68,7 @@ function ChangeHeight(){
             
                 var list = document.getElementById("projects-grid");
                 var items = list.getElementsByClassName("project");
-                console.log(items);
+                //console.log(items);
                 if (items.length >= 3) {
                     // Get the third item
                     var thirdItem = items[3];
