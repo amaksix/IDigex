@@ -144,8 +144,7 @@ h5{
     grid-template-columns: auto auto;
 }
 .description-text-container{
-    width: 30.5vw;
-    
+    width: 30.5vw;  
 }
 .social-media-button{
     font-family: "Arial", sans-serif;
@@ -157,6 +156,7 @@ h5{
 .social-media{
     margin-left: 52.5vw;
     margin-top: 12vw;
+    width:6vw;
 }
 .about-container{
     margin-top:25vw;
@@ -216,7 +216,32 @@ h5{
         border-radius: 2.4vw;
 
     }
-    @media only screen and (hover: none) and (pointer: coarse) {
+    .first-shot-video{
+        width: 38vw;
+    }
+    .description-container-mob{
+        display: none;
+    }
+    .first-shot-header
+    {
+        position: absolute; 
+        margin-top: 8vw;
+        z-index: 1;
+        margin-left: 10vw;
+    }
+    @media only screen and (hover: none) and (pointer: coarse), 
+    (max-width: 480px) {
+        .description-text-container{
+            width: 60vw; 
+            margin-top: 50vw;
+        }
+        .first-shot-header
+        {
+            position: absolute; 
+            margin-top: 55vw;
+            z-index: 1;
+            margin-left: 3vw;
+        }
         .menu-elem-second{
             margin-left:-10vw;
         }
@@ -224,10 +249,37 @@ h5{
             margin-left:0vw;
         }
         .menu-elem-fourth{
-            margin-left: 4vw;
+            margin-left: 3vw;
         }
         .first-shot-video-container{
             top:80vw;  
+            width: 60vw; 
+            height: 50vw;
+            left:28vw; 
+        }
+        .first-shot-video{
+            width: 60vw;
+        }
+        .social-media{
+            margin-left: 0vw;
+            margin-top: 12vw;
+            width:17.5vw;
+        }
+        .social-media-button{
+            font-family: "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 3.5vw;
+            letter-spacing: 2%;
+        }
+        .description-container{
+            display: none;
+        }
+        .description-container-mob{
+            margin-top: 20vw;
+            margin-left: 3vw;
+            display: grid;
+            grid-template-columns: auto auto;
         }
         .menu-grid {
             margin-top: 20vw;
@@ -248,7 +300,7 @@ h5{
             line-height: 7.2vw;
         }
         h2{
-            font-size: 11vw;
+            font-size: 7vw;
             font-family: "Outfit", sans-serif;
             font-style: normal;
             font-weight: 400;
@@ -272,13 +324,13 @@ h5{
             letter-spacing: 2%;
         }
         h5{
-            font-size: 2.2vw;
+            font-size: 3vw;
             font-family: "Arial", sans-serif;
             font-style: light;
             font-weight: 300;
             color: #666666;
-            line-height: 1.6vw;
-            letter-spacing: 2%;
+            line-height: 4vw;
+            letter-spacing: 1%;
         }
         .menu-button{
 
