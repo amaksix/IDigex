@@ -231,14 +231,21 @@ h5{
     }
     @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
+        .about-header{
+            margin: 0;
+            position: absolute;
+            margin-left: 65vw;
+            margin-top: 4vw;
+        }
         .about-container{
             margin-top:25vw;
             margin-left: 3vw;
             padding-top: 0;
         }
         .description-text-container{
-            width: 60vw; 
+            width: 66vw; 
             margin-top: 50vw;
+           
         }
         .first-shot-header
         {
@@ -248,27 +255,28 @@ h5{
             margin-left: 3vw;
         }
         .menu-elem-second{
-            margin-left:-10vw;
+            margin-left:0vw;
         }
         .menu-elem-third{
             margin-left:0vw;
         }
         .menu-elem-fourth{
-            margin-left: 3vw;
+            margin-left: 17vw;
         }
         .first-shot-video-container{
             top:80vw;  
-            width: 60vw; 
+            width: 66vw; 
             height: 50vw;
             left:28vw; 
         }
         .first-shot-video{
-            width: 60vw;
+            width: 66vw;
         }
         .social-media{
             margin-left: 0vw;
             margin-top: 12vw;
             width:17.5vw;
+            margin-right: 5.5vw;
         }
         .social-media-button{
             font-family: "Arial", sans-serif;
@@ -307,8 +315,8 @@ h5{
         h2{
             font-size: 7vw;
             font-family: "Outfit", sans-serif;
-            font-style: normal;
-            font-weight: 400;
+            font-style: light;
+            font-weight: 300;
             color: #F9F9F9;
             
         }

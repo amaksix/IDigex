@@ -45,3 +45,33 @@
     grid-template-columns: auto auto auto auto auto;
     gap: 13vw;
 }
+/* General scrollbar styling for the entire page */
+html:not(.scroll-container),
+body:not(.scroll-container) {
+  scrollbar-width:0; /* For Firefox */
+  
+}
+
+/* For Webkit Browsers (Chrome, Edge, Safari) */
+html:not(.scroll-container)::-webkit-scrollbar,
+body:not(.scroll-container)::-webkit-scrollbar {
+  width: 6px; /* General scrollbar width */
+}
+
+html:not(.scroll-container)::-webkit-scrollbar-track,
+body:not(.scroll-container)::-webkit-scrollbar-track {
+  background:transparent; /* General track color */
+  border-radius: 10px; /* General rounded corners */
+}
+
+html:not(.scroll-container)::-webkit-scrollbar-thumb,
+body:not(.scroll-container)::-webkit-scrollbar-thumb {
+  background: #aaa; /* General thumb color */
+  border-radius: 10px; /* General rounded corners */
+}
+
+html:not(.scroll-container)::-webkit-scrollbar-thumb:hover,
+body:not(.scroll-container)::-webkit-scrollbar-thumb:hover {
+  background: #888; /* General hover thumb color */
+}
+
