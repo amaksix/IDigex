@@ -180,8 +180,7 @@ h5{
     margin-top: 2.25vw;
 }
 .about-text-first{
-    width: 20vw;
-    
+    width: 20vw;  
 }
 .about-text-second{
     width: 20vw;
@@ -231,6 +230,19 @@ h5{
     }
     @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
+        .about-text-container{
+            margin-top: 52vw;
+        }
+        .about-text-first{
+            width: 43vw;  
+            margin: 0;
+        }
+        .about-text-second{
+            width: 43vw;
+            margin: 0;
+            margin-left: 4vw;
+            margin-top: 24vw;
+        }
         .about-header{
             margin: 0;
             position: absolute;
@@ -242,10 +254,13 @@ h5{
             margin-left: 3vw;
             padding-top: 0;
         }
+        .description-text{ 
+            margin-bottom: 0vw;
+        }
         .description-text-container{
             width: 66vw; 
             margin-top: 55vw;
-           
+            margin-bottom: 0vw;
         }
         .first-shot-header
         {

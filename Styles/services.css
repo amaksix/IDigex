@@ -130,3 +130,10 @@ margin-top: -1vw;
     margin-left: 4.7vw;
     width: 21vw;
   }
+  @media only screen and (hover: none) and (pointer: coarse), 
+  (max-width: 480px) {
+    .services-container{
+      margin-top: 160vw;
+      margin-left: 3vw;
+  }
+  }
