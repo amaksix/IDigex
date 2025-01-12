@@ -244,13 +244,13 @@ h5{
         }
         .description-text-container{
             width: 66vw; 
-            margin-top: 50vw;
+            margin-top: 55vw;
            
         }
         .first-shot-header
         {
             position: absolute; 
-            margin-top: 55vw;
+            margin-top: 60vw;
             z-index: 1;
             margin-left: 3vw;
         }
@@ -266,7 +266,7 @@ h5{
         .first-shot-video-container{
             top:80vw;  
             width: 66vw; 
-            height: 50vw;
+            height: 55vw;
             left:28vw; 
         }
         .first-shot-video{
