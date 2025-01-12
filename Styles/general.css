@@ -231,6 +231,11 @@ h5{
     }
     @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
+        .about-container{
+            margin-top:25vw;
+            margin-left: 3vw;
+            padding-top: 0;
+        }
         .description-text-container{
             width: 60vw; 
             margin-top: 50vw;

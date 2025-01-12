@@ -99,7 +99,7 @@
 
     <div class="about-container">
         <div class="about-anchor" id="about-anchor-id"></div>
-        <img loading="lazy" class="about-image" src="Images/About ID.png" >
+        <img loading="lazy" id="about-image" class="about-image" src="Images/About ID.png" >
         <h2 id="about" class="about-header">ABOUT</h2>
         <div class="about-text-container">
             <h5 id="about-text-first" class="about-text-first">Our team of creative professionals has deep knowledge of UI/UX design, programming and 3d modeling, allowing us to create designs that are not only visually appealing, but also easy to use and effective in achieving business goals. We pride ourselves on our ability to provide a personalized approach to every project and work on it from start to finish to meet all of our client's needs and expectations.</h5>
@@ -934,10 +934,12 @@ function swapElements() {
     const container = document.getElementById('menu-elem-fourth');
     const box1 = document.getElementById('last-menu-button-container');
     const box2 = document.getElementById('last-menu-id');
-    const mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse)');
+    const aboutImage = document.getElementById('about-image');
+    const mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
     if (mediaQuery.matches) {
         // If the media query matches, swap the elements
         container.insertBefore(box2, box1);
+        aboutImage.src = "Images/About ID Mob.png";
     } else {
         // If the media query doesn't match, reset to the original order
         container.insertBefore(box1, box2);
@@ -945,6 +947,7 @@ function swapElements() {
         movingTextUpAnim('services');
         movingTextUpAnim('contact');
         movingTextUpAnim('projects');
+        aboutImage.src = "Images/About ID.png";
     }
 }
 
