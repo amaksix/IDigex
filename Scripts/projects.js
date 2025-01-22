@@ -10,6 +10,7 @@ initializeCarousel('#nine-project');
 initializeCarousel('#ten-project');
 initializeCarousel('#eleven-project');
 initializeCarousel('#twelve-project');
+initializeCarousel('#thirteen-project');
 function initializeCarousel(containerId) {
     const carousel = document.querySelector(containerId);
     const images = document.querySelectorAll(containerId + ' .carousel-image-container');
@@ -21,11 +22,21 @@ function initializeCarousel(containerId) {
     currentIndexMap[containerId] = 0; // Initialize index for the container
 }
 const min = 81;
+const mobMin = 343;
 const max = 286;
-document.querySelector('.projects-grid-container').style.height = min+"vw";
+const maxMob = 1000;
+var mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
+if (mediaQuery.matches) {
+    document.querySelector('.projects-grid-container').style.height = mobMin+"vw";
+}else
+{
+    document.querySelector('.projects-grid-container').style.height = min+"vw";
+}
+
 var display = document.getElementsByClassName("project-display")[0];
 
 function ChangeHeight(){
+    mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
     const projects = document.querySelector('.projects-grid-container');
    
     var displayText = document.getElementById("display");
@@ -35,12 +46,17 @@ function ChangeHeight(){
         display = document.getElementsByClassName("project-display-hidden")[0];
     }	
     var img = document.getElementById("flipper");
-    if( projects.style.height == min+"vw")
+    if( projects.style.height == min+"vw" || projects.style.height == mobMin+"vw")
     {
         const sideMoving = document.getElementById("side-moving");
         sideMoving.style.marginLeft = "500vw";
         console.log(sideMoving);
-        projects.style.height = max+"vw";
+        if (mediaQuery.matches) {
+            projects.style.height = maxMob+"vw";
+        }else
+        {
+            projects.style.height = max+"vw";
+        }
         img.src = "Images/Minus.svg";
         display.classList.add("project-display-bottom");
         display.classList.remove("project-display");
@@ -52,9 +68,14 @@ function ChangeHeight(){
     {
         const sideMoving = document.getElementById("side-moving");
         sideMoving.style.marginLeft = "300vw";
-        projects.style.height = min+"vw";
+        if (mediaQuery.matches) {
+            projects.style.height = mobMin+"vw";
+        }else
+        {
+            projects.style.height = min+"vw";
+        }
+       
         img.src = "Images/Plus.svg";
-        console.log(display);
         display.classList.add("project-display-top");  
         ScrollToAnchor("projects-anchor-id");
         displayText.innerHTML = "Display More";

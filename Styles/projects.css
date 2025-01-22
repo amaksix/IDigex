@@ -164,3 +164,45 @@
   justify-content: center; /* Align horizontally */
   align-items: center; /* Align vertically */
 }
+.project-button-text{
+    margin:0;
+    color:#A9A9A9;
+}
+@media only screen and (hover: none) and (pointer: coarse), 
+(max-width: 480px) {
+    .project-button-text{
+        color: #f9f9f9;;
+    }
+    .project-description-text{
+        width: 59vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+    .project-description-text-container{
+        width: 86vw;
+    }
+    .projects-grid{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 3.5vw;
+    }
+    .project{
+        width:84.5vw;
+        background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,
+        linear-gradient(to top,rgba(224,223,222,0) 90%, #A9A9A9 125%) border-box;
+        border-radius: 5vw;
+        border:  0.5vw solid transparent;
+    }
+    .project-image-container{
+        height: 63vw;
+    }
+    .project-image{
+        width: 86vw;
+        margin: 0 0;
+        transition: transform 0.9s;
+    }
+
+    .projects-grid-container{
+        height: 343vw;
+    }
+}
