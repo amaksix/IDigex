@@ -235,4 +235,10 @@
         text-align: left;
         transition: 1s;
     }
+    .project-button-image {
+        position: absolute;
+        bottom: 20;
+        right: 20;
+        width: 10vw;
+    }
 }
