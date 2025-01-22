@@ -136,4 +136,12 @@ margin-top: -1vw;
       margin-top: 160vw;
       margin-left: 3vw;
   }
+  .services-buttons{
+    display: grid;
+    grid-template-columns: 4.8vw auto;
+    gap:3vw;
+    margin-top:0.5vw;
+    text-align: left;
+    transition: 1s;
+}
   }

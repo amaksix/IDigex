@@ -22,9 +22,9 @@ function initializeCarousel(containerId) {
     currentIndexMap[containerId] = 0; // Initialize index for the container
 }
 const min = 81;
-const mobMin = 343;
+const mobMin = 330;
 const max = 286;
-const maxMob = 1000;
+const maxMob = 1160;
 var mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
 if (mediaQuery.matches) {
     document.querySelector('.projects-grid-container').style.height = mobMin+"vw";

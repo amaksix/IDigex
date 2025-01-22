@@ -36,6 +36,7 @@
     margin-left: 4.7vw;
     margin-top:1.7vw;
     margin-right: 4.7vw;
+    margin-bottom: 0;
 }
 .project-text{
     margin-top:1vw;
@@ -168,6 +169,10 @@
     margin:0;
     color:#A9A9A9;
 }
+.project-button-arrow{
+    width:2.4vw;
+     margin-top:0.7vw;
+}
 @media only screen and (hover: none) and (pointer: coarse), 
 (max-width: 480px) {
     .project-button-text{
@@ -189,12 +194,13 @@
     .project{
         width:84.5vw;
         background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,
-        linear-gradient(to top,rgba(224,223,222,0) 90%, #A9A9A9 125%) border-box;
-        border-radius: 5vw;
+        linear-gradient(to top,rgba(224,223,222,0) 85%, #A9A9A9 120%) border-box;
+        border-radius: 8vw;
         border:  0.5vw solid transparent;
     }
     .project-image-container{
         height: 63vw;
+        border-radius: 8vw;
     }
     .project-image{
         width: 86vw;
@@ -204,5 +210,21 @@
 
     .projects-grid-container{
         height: 343vw;
+    }
+    .project-text-grid{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .project-button-arrow{
+        width:4.8vw;
+         margin-top:1.4vw;
+    }
+    .project-head{
+        display: grid;
+        grid-template-columns: 4.8vw auto;
+        gap:3vw;
+        margin-top:0.5vw;
+        text-align: left;
+        transition: 1s;
     }
 }
