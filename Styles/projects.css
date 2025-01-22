@@ -140,6 +140,14 @@
   -o-transition: all 10s;
   transition: all 10s;
 }
+.screen:active img {
+    top: -200%;
+    -webkit-transition: all 10s;
+    -moz-transition: all 10s;
+    -ms-transition: all 10s;
+    -o-transition: all 10s;
+    transition: all 10s;
+  }
 .project-head{
     display: grid;
     grid-template-columns: 2.5vw auto;
