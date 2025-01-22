@@ -5,7 +5,7 @@
 .contact-header-first{
     width: 45vw;
     color: #A9A9A9;
-
+    display: block;
     line-height: 5.5vw;
     margin-bottom: 0px;
 }
@@ -94,4 +94,10 @@
   .send-message:active .send-message-text{
     color:  #A9A9A9;
     transition: 0.9s;
+  }
+  @media only screen and (hover: none) and (pointer: coarse), 
+  (max-width: 480px) {
+    .contact-header-first{
+        display: none;
+    }
   }

@@ -128,6 +128,10 @@ h5{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     margin-left:300vw;
+    display: block;
+}
+.contact-header-mob{
+    display: none;        
 }
 .side-moving-container{
     margin-top: 6vw;
@@ -387,5 +391,27 @@ h5{
           
           .menu-button:hover .label-up {
             top:0;
+          }
+            .side-moving{
+                display: none;
+          }
+          .contact-header-mob{
+            display: block;
+            width: 95%;
+            position: relative;
+            text-wrap: wrap;
+            background:  linear-gradient(to right, #F9F9F9, #7090FF);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            margin-left: 3vw;
+            text-align: center;
+          }
+          .side-moving-container{
+            margin-top: 6vw;
+            margin-bottom: 10vw;
+            margin-left: 3vw;
+            width: 95%;
+            transform: rotate(0);
+            position: relative;
           }
       }
