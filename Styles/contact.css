@@ -26,6 +26,7 @@
 .email{
     margin: 0;
     text-align: right;
+    font-size: 2.8vw;
 }
 .contact-input{
     width:50.75vw;
@@ -47,8 +48,7 @@
     padding-top: 1.7vw;
     padding-bottom: 1.5vw;
     float: right;
-    clear: both;
-   
+    clear: both; 
 }
 .contact-input:focus {
     border-color: #A9A9A9;
@@ -95,9 +95,108 @@
     color:  #A9A9A9;
     transition: 0.9s;
   }
+  .name-form{
+    height:4.5vw;
+    margin-top: -9vw;
+    width:50.75vw;
+    float: right;
+  }
+  .subject-form{
+    height:4.5vw;
+    margin-top: -2.75vw;
+    width:50.75vw;
+    float: right;
+  }
+  .message-form{
+    margin-top: 3.5vw;
+  }
+  .contact-arrow{
+    width:3.25vw;
+    margin-top:1vw;
+  }
+  .social-media{
+    display: none;
+}
+.social-media-button{
+  display: none;
+}
   @media only screen and (hover: none) and (pointer: coarse), 
   (max-width: 480px) {
+    .social-media-contact{
+      margin-top: 2.2vw;
+      margin-left: 0vw;
+  }
+  .social-media-button-contact{
+      font-family: "Arial", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.5vw;
+      letter-spacing: 2%;
+      color:#666666;
+  }
     .contact-header-first{
         display: none;
     }
+    .contact-header-second{
+      text-align: left;
+      margin-top:6vw;
+      margin-bottom: 0;
   }
+  .name-form{
+    height:9.4vw;
+    margin-top: -20vw;
+    width:48vw;
+  }
+  .contact-input{
+   
+    height:9.4vw;
+    background: transparent;
+    border-radius: 3vw;
+    border:solid;
+    border-color: #666666;
+    border-width: 0.2vw;
+    padding-left: 4vw;
+    outline: none;
+    font-size: 2.5vw;
+    width:48vw;
+  }
+  .subject-form{
+    height:9.4vw;
+    margin-top: -7vw;
+    width:48vw;
+  }
+  .message-form{
+    margin-top: 6vw;
+  }
+  .contact-input-message{
+    height:27vw; 
+    width:100%;
+    float:none;
+    clear:none;
+    resize: none;
+    padding-left: 4vw;
+    padding-top: 5vw;
+  }
+  .send-message{
+    height:10.5vw; 
+    border-width: 0.4vw;
+    border-radius: 3vw;
+    margin-top: 4.2vw;
+  }
+  .send-message-text{
+    font-size: 2.5vw;
+}
+.email{
+  color: #A9A9A9;
+}
+ .contact-arrow{
+  width:5vw;
+  margin-top:0.5vw;
+  color: #f9f9f9;
+}
+.email-container{
+  width: 30vw;
+  margin-top: 2.2vw;
+}
+
+}
