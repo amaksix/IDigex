@@ -1,0 +1,77 @@
+ /* Container with horizontal scroll */
+ .scroll-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width:88%;
+    margin: auto;
+    margin-top: 20vw;
+    padding-top: 2vw;
+  }
+
+  /* Content inside the container */
+  .scroll-content-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 24vw;
+  }
+
+  /* Customizing the scroll bar */
+  /* For Webkit browsers (Chrome, Safari, Edge) */
+  .scroll-container::-webkit-scrollbar {
+    height:4vw; /* Set height for horizontal scroll */
+ 
+  }
+  .scroll-container::-webkit-scrollbar-track {
+    background: url('../Images/ScrollTrack.svg') no-repeat center;
+    background-size: 75%;
+  }
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: url('../Images/Button\ SCROLL.svg') no-repeat center;
+    background-size:20%;
+    
+  }
+
+.scroll-header{
+    width: 30vw;
+    white-space: normal;
+}
+.scroll-text{
+    width: 25.5vw;
+    white-space: normal;
+}
+.scroll-text-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 13vw;
+}
+/* General scrollbar styling for the entire page */
+html:not(.scroll-container),
+body:not(.scroll-container) {
+  scrollbar-width:0; /* For Firefox */
+  
+}
+
+/* For Webkit Browsers (Chrome, Edge, Safari) */
+html:not(.scroll-container)::-webkit-scrollbar,
+body:not(.scroll-container)::-webkit-scrollbar {
+  width: 6px; /* General scrollbar width */
+}
+
+html:not(.scroll-container)::-webkit-scrollbar-track,
+body:not(.scroll-container)::-webkit-scrollbar-track {
+  background:transparent; /* General track color */
+  border-radius: 10px; /* General rounded corners */
+}
+
+html:not(.scroll-container)::-webkit-scrollbar-thumb,
+body:not(.scroll-container)::-webkit-scrollbar-thumb {
+  background: #aaa; /* General thumb color */
+  border-radius: 10px; /* General rounded corners */
+}
+
+html:not(.scroll-container)::-webkit-scrollbar-thumb:hover,
+body:not(.scroll-container)::-webkit-scrollbar-thumb:hover {
+  background: #888; /* General hover thumb color */
+}
+

@@ -1,0 +1,49 @@
+en:
+  nav:
+      about: ABOUT
+      services: SERVICES
+      projects: PROJECTS
+      contact: CONTACT
+  header:
+      title: DIGITAL STUDIO
+      text:  We are a digital studio specializing in the development of modern and functional landing pages, websites, logos, branding, 3D modeling for various businesses and organizations. We strive to ensure that every project we create reflects the uniqueness of our clients and their values.
+  about:
+      header:
+      text01:
+      text02:
+  services: 
+      service01:
+          header:
+          description:
+      service02:
+          header:
+          description:
+      service03:
+          header:
+          description:   
+      service04:
+          header:
+          description:
+      service05:
+          header:
+          description:
+lv:
+  nav:
+      about: PAR
+      services: PAKALPOJUMI
+      projects: PROJEKTI
+      contact: KONTAKTI
+  header:
+      title: DIGITAL STUDIO
+      text:  Mēs esam digitālā studija, kas specializējas mūsdienīgu un funkcionālu galveno lapu, vietņu, logotipu, zīmolu veidošanā, 3D modelēšanā dažādiem uzņēmumiem un organizācijām. Mēs cenšamies nodrošināt, lai katrs mūsu radītais projekts atspoguļotu mūsu klientu unikalitāti un viņu vērtības.
+
+
+ru:
+  nav:
+      about: O NAS
+      services: USLUGI
+      projects: PROJEKTI
+      contact: KONTAKTI
+  header:
+      title: DIGITAL STUDIO
+      text:  Мы - цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D моделирования для различных бизнесов и организаций. Мы стремимся обеспечить, чтобы каждый проект, который мы создаем, отражал уникальность наших клиентов и их ценности.

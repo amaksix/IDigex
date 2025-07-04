@@ -1,0 +1,146 @@
+.services-container{
+    margin-top: 95vw;
+    margin-left: 5vw;
+    padding-top: 0;
+    width: 90%;
+}
+.services-menu{
+margin-top: -1vw;
+}
+.services-menu-elem{
+    background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,
+    linear-gradient(to top,rgba(224,223,222,0) 65%, #A9A9A9 145%) border-box;
+    border-radius: 2.4vw;
+    border:  0.15vw solid transparent;
+    height: 6.5vw;
+    position: relative;
+}
+.services-text-grid{
+    display: grid;
+    grid-template-columns: 23vw 26vw;
+    margin-left: 4.7vw;
+    margin-top:1.7vw;
+  }
+.services-buttons{
+    display: grid;
+    grid-template-columns: 2.5vw auto;
+    gap:1.5vw;
+    margin-top:0.5vw;
+    text-align: left;
+    transition: 1s;
+}
+.services-buttons:hover{
+    gap:3vw;
+    transition: 1s;
+}
+.services-buttons:active .service-button-text{
+    color:#F9F9F9;
+}
+.service-button-text{
+    margin:0;
+    color:#A9A9A9;
+}
+.service-button-text-hover{
+    color:#0C0C0C;
+    margin:0;
+}
+
+.service-text{
+    margin:0;
+}
+.service-image-container{
+    
+    position: absolute;
+    top: 50%;
+    left: 70vw;
+    transform: translate(-50%, -50%);
+    width:23vw;
+    z-index: 4;
+    opacity:0;
+    /*transition: transform 0.9s;
+    /* Add any other styles as needed */
+  }
+  .service-image{
+    width:23vw;
+    border-radius: 3vw;
+  }
+  .service-description-container-hidden{
+        height: 0;
+        overflow: hidden;
+        transition: 1s;
+  }
+    .service-description-container
+    {
+        overflow: hidden;
+        margin-bottom: 5vw;
+        margin-top:3.5vw;
+        transition: 1s;      
+    }
+    .service-description-text{   
+        width: 48.5vw;
+        margin: 0;
+        margin-left: 4.7vw;
+    }
+.first-service-description-container{
+    height: 28.75vw;
+    transition: 1s;    
+    overflow: hidden;  
+    margin-bottom: 1.5vw;
+    margin-top:1.5vw;
+    
+}
+  .services-highlight{
+    color:#7090FF;
+  }
+  .services-another-highlight{
+    color:#F9F9F9;
+    margin: 0;
+  }
+  .services-third-highlight{
+    color:#A9A9A9;
+    margin: 0;
+  }
+  .websites-descriptions-container{
+    position: relative;
+    margin-top: -26vw;
+    margin-left: 4.75vw;
+  }
+  .websites-description-container{
+    width:18.25vw;
+
+  }
+  .websites-description-header{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 1.5vw;
+  }
+  .service-line{
+    width: 100%;
+    height: 0.1vw;
+    background-color: #666666;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+  }
+  .service-cost-container{
+    display: grid;
+    grid-template-columns: 6vw auto;
+    gap: 4vw;
+    margin-top: 1.5vw;
+    margin-left: 4.7vw;
+    width: 21vw;
+  }
+  @media only screen and (hover: none) and (pointer: coarse), 
+  (max-width: 480px) {
+    .services-container{
+      margin-top: 160vw;
+      margin-left: 3vw;
+  }
+  .services-buttons{
+    display: grid;
+    grid-template-columns: 4.8vw auto;
+    gap:3vw;
+    margin-top:0.5vw;
+    text-align: left;
+    transition: 1s;
+}
+  }

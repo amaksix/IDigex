@@ -1,0 +1,255 @@
+.projects-header{
+    text-align: center;
+}
+.projects{
+    width:90%;
+    margin: auto;
+    margin-top: 21vw;
+    margin-bottom: 15vw;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5vw;
+    
+   
+}
+.projects-grid-container{
+    overflow: hidden;
+    transition: 1s;
+    height: 81vw;
+}
+.project{
+    width:42.75vw;
+    background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,
+    linear-gradient(to top,rgba(224,223,222,0) 90%, #A9A9A9 125%) border-box;
+    border-radius: 2.4vw;
+    border:  0.15vw solid transparent;
+}
+.projects-carousel{
+    margin-left: -0.5vw;
+}
+.project-text-grid{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 4.7vw;
+    margin-top:1.7vw;
+    margin-right: 4.7vw;
+    margin-bottom: 0;
+}
+.project-text{
+    margin-top:1vw;
+    text-align: right;
+    color: #666666;
+    height: 3vw;
+    margin-bottom: 1.5vw;
+}
+.project-image-container{
+    overflow: hidden;
+    border-radius: 3vw;
+    position: relative;
+    height: 32vw;
+}
+.more-projects-image-container{
+    border:  0.15vw solid #A9A9A9;
+}
+.more-projects-button{
+  
+    margin-left: 45%;
+    margin-top: 30%;
+    background: transparent;
+    display: inline-block;
+}
+.flipper {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    transition: transform 0.6s;
+  }
+
+  .more-projects-button:hover .flipper {
+    transition: 0.9s;
+    transform: rotate(180deg);
+  }
+
+.project-image{
+    width: 43.75vw;
+    margin: 0 0;
+    transition: transform 0.9s;
+}
+.project-image:hover{
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+    transition: transform 0.9s;
+}
+.project-button-image {
+    position: absolute;
+    bottom: 20;
+    right: 20;
+    width: 4vw; /* Adjust the size of the button as needed */
+
+    content: url("../Images/Projects_Button.svg");
+}
+.project-button-image:hover{
+    content: url("../Images/Projects_Button_Hover.svg");
+}
+.project-button-image:active{
+    content: url("../Images/Projects_Button_Press.svg");
+}
+.projects-carousel {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+    /* The carousel will shift based on transform */
+}
+ 
+.display{
+    text-align: center;
+    margin-top: 23%;
+}
+.screen {
+    width: 100%;
+    height: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+
+.screen img {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+    margin:0;
+    padding:0;
+    top: 0;
+	-webkit-transition: top 10s;
+	-moz-transition: top 10s;
+	-ms-transition: top 10s;
+	-o-transition: top 10s;
+	transition: top 10s;
+}
+.screen:hover img {
+  top: -200%;
+  -webkit-transition: all 10s;
+  -moz-transition: all 10s;
+  -ms-transition: all 10s;
+  -o-transition: all 10s;
+  transition: all 10s;
+}
+.screen:active img {
+    top: -200%;
+    -webkit-transition: all 10s;
+    -moz-transition: all 10s;
+    -ms-transition: all 10s;
+    -o-transition: all 10s;
+    transition: all 10s;
+  }
+.project-head{
+    display: grid;
+    grid-template-columns: 2.5vw auto;
+    gap:1.5vw;
+    margin-top:0.5vw;
+    text-align: left;
+    transition: 1s;
+}
+.project-description{
+    text-align: left;
+
+}
+.project-description-text{
+    color: #666666;
+    width: 30vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.project-description-text-container{
+    width: 43.75vw;
+    height: 100%;
+    display: flex;
+  justify-content: center; /* Align horizontally */
+  align-items: center; /* Align vertically */
+}
+.project-button-text{
+    margin:0;
+    color:#A9A9A9;
+}
+.project-button-arrow{
+    width:2.4vw;
+     margin-top:0.7vw;
+}
+@media only screen and (hover: none) and (pointer: coarse), 
+(max-width: 480px) {
+    .project-button-text{
+        color: #f9f9f9;;
+    }
+    .project-description-text{
+        width: 68vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+        margin-bottom: 0.5vw;
+        margin-top: 0.5vw;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    .project-description-text-container{
+        width: 89.5vw;
+    }
+    .projects-grid{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 3.5vw;
+    }
+    .project{
+        width:89vw;
+        background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,
+        linear-gradient(to top,rgba(224,223,222,0) 85%, #A9A9A9 120%) border-box;
+        border-radius: 6vw;
+        border:  0.5vw solid transparent;
+    }
+    .project-image-container{
+        height: 63vw;
+        border-radius: 6vw;
+    }
+    .project-image{
+        width: 89.5vw;
+        margin: 0 0;
+        transition: transform 0.9s;
+    }
+
+    .projects-grid-container{
+        height: 343vw;
+    }
+    .project-text-grid{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .project-button-arrow{
+        width:4.8vw;
+         margin-top:1.4vw;
+    }
+    .project-head{
+        display: grid;
+        grid-template-columns: 4.8vw auto;
+        gap:3vw;
+        margin-top:0.5vw;
+        text-align: left;
+        transition: 1s;
+    }
+    .project-button-image {
+        position: absolute;
+        bottom: 20;
+        right: 20;
+        width: 10vw;
+    }
+    .flipper {
+        width: 10vw;
+        height: 10vw;
+      }
+      .projects{
+        width:95%;
+    }
+}
