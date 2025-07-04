@@ -1,0 +1,7 @@
+baseurl: ""  
+permalink: pretty  
+url: "https://amaksix.github.io/"  # Change to your domain
+plugins:
+  - jekyll-sitemap  # Auto-generates sitemap.xml
+github: [metadata]
+repository: false
