@@ -1,3 +1,7 @@
+const min = 81;
+const mobMin = 330;
+const max = 327;
+const maxMob = 1325;
 let currentIndexMap = {};
 initializeCarousel('#first-project');
 initializeCarousel('#third-project');
@@ -11,6 +15,8 @@ initializeCarousel('#ten-project');
 initializeCarousel('#eleven-project');
 initializeCarousel('#twelve-project');
 initializeCarousel('#thirteen-project');
+initializeCarousel('#fourteen-project');
+
 function initializeCarousel(containerId) {
     const carousel = document.querySelector(containerId);
     const images = document.querySelectorAll(containerId + ' .carousel-image-container');
@@ -21,10 +27,7 @@ function initializeCarousel(containerId) {
 
     currentIndexMap[containerId] = 0; // Initialize index for the container
 }
-const min = 81;
-const mobMin = 330;
-const max = 286;
-const maxMob = 1160;
+
 var mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
 if (mediaQuery.matches) {
     document.querySelector('.projects-grid-container').style.height = mobMin+"vw";
@@ -57,7 +60,7 @@ function ChangeHeight(){
         {
             projects.style.height = max+"vw";
         }
-        img.src = "Images/Minus.svg";
+        img.src = "../Assets/Images/Minus.svg";
         display.classList.add("project-display-bottom");
         display.classList.remove("project-display");
         displayText.innerHTML = "Display Less";
@@ -75,7 +78,7 @@ function ChangeHeight(){
             projects.style.height = min+"vw";
         }
        
-        img.src = "Images/Plus.svg";
+        img.src = "../Assets/Images/Plus.svg";
         display.classList.add("project-display-top");  
         ScrollToAnchor("projects-anchor-id");
         displayText.innerHTML = "Display More";

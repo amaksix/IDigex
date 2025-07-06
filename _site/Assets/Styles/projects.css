@@ -86,8 +86,8 @@
 }
 .project-button-image {
     position: absolute;
-    bottom: 20;
-    right: 20;
+    bottom: 1vw;
+    right: 1vw;
     width: 4vw; /* Adjust the size of the button as needed */
 
     content: url("../Images/Projects_Button.svg");

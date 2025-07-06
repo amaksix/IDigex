@@ -1,32 +1,144 @@
 en:
-  nav:
-      about: ABOUT
-      services: SERVICES
-      projects: PROJECTS
-      contact: CONTACT
-  header:
-      title: DIGITAL STUDIO
-      text:  We are a digital studio specializing in the development of modern and functional landing pages, websites, logos, branding, 3D modeling for various businesses and organizations. We strive to ensure that every project we create reflects the uniqueness of our clients and their values.
-  about:
-      header:
-      text01:
-      text02:
-  services: 
-      service01:
-          header:
-          description:
-      service02:
-          header:
-          description:
-      service03:
-          header:
-          description:   
-      service04:
-          header:
-          description:
-      service05:
-          header:
-          description:
+    nav:
+        about: ABOUT
+        services: SERVICES
+        projects: PROJECTS
+        contact: CONTACT
+    header:
+        title: DIGITAL STUDIO
+        text:  We are a digital studio specializing in the development of modern and functional landing pages, websites, logos, branding, 3D modeling for various businesses and organizations. We strive to ensure that every project we create reflects the uniqueness of our clients and their values.
+    about:
+        header: ABOUT
+        text01: Our team of creative professionals has deep knowledge of UI/UX design, programming and 3d modeling, allowing us to create designs that are not only visually appealing, but also easy to use and effective in achieving business goals. We pride ourselves on our ability to provide a personalized approach to every project and work on it from start to finish to meet all of our client's needs and expectations.
+        text02: We don't just design websites - we create digital stories that capture attention and inspire trust in your audience. Combining aesthetics with functionality, we strive to ensure that each project reflects the unique needs and values of our clients.
+    services: 
+            price: Price
+            from: from
+            period: Development period
+            header: OUR SERVICES
+            service01:
+                header: WEBSITES
+                description: Our team will create a website that will tell about your services.
+                period: 10 days
+                text:
+                    line01: "The price of creating a website depends on many factors, including:"
+                    line02: Project type - landing page, corporate website or online store;
+                    line03: Complexity of the functionality used;
+                    line04: The need for SEO optimization at the development stage;
+                    line05: The size of the site and amount of content;
+                    line06: Development time frame;
+                    line07: Complexity of design solutions and UI/UX;
+                    line08: Ammount of support needed after end of the project.
+                    line09: Thus, the price of creating a website is determined individually and is based on the specifications and development goals.
+            service02:
+                header: 3D MODELING
+                description: We create high-quality 3D models that help you visualize your product or idea in full detail.
+                text01: IDigex can bring your ideas to life, with incredible detail and realism. We develop <span class="services-highlight">3D models</span>, as well as <span class="services-highlight">configurators</span> that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience. 
+                text02: The price and development period depend on the complexity of the work. The work time is discussed and the cost of the work is <span class="services-another-highlight">€12</span> / hour.
+            service03:
+                header: BRAND BOOK
+                description: Brand book is an important tool that helps maintain a consistent style of your brand.
+                period: 1-2 days  
+                text: The <span class="services-highlight">brand book</span> is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.
+            service04:
+                header: LOGO
+                description: A logo is needed for individualization, to attract customer attention and improve recognition.
+                period: 1-2 days
+                text: Our <span class="services-highlight">logo design</span> process begins with a thorough understanding of your brand, its goals and target audience. We analyze competitors and trends in your industry, and take into account your preferences and wishes, striving to create a logo that not only reflects the essence of your brand, but also resonates emotionally with your audience.
+                            In addition, we take into account the adaptability of the logo for various purposes and formats of use, so that it looks equally effective both on the website and on product packaging or promotional material.
+            service05:
+                header: BANNERS
+                description: We are experienced in creating various types of banners for various purposes and platforms.
+                period: 1-2 days 
+                text: IDigex develops various types of <span class="services-highlight">banners</span>, including static, animated and mobile banners. We take into account your brand, target audience and your advertising campaign goals to create banners that will effectively attract attention and generate clicks.
+    stages:
+        header: STAGES OF WEBSITE DEVELOPMENT
+        text01: <span class="services-highlight">01. UX:</span> at this stage, we determine the goals and requirements for the website, conduct an analysis of competitors and the target audience, and determine the main sections and functionality of the site.
+        text02: <span class="services-highlight">02. Design:</span> we create the site structure and its visual design. The layout of each page is designed keeping user experience (UX) and user interface (UI) in mind.
+        text03: <span class="services-highlight">03. Development:</span> at this stage, programmers begin to create the code that turns the site design into a working website.
+        text04: <span class="services-highlight">04. Testing:</span> once development is complete, the website is tested on various devices and browsers to ensure it works correctly. Identified errors are corrected.
+        text05: <span class="services-highlight">05. Launch:</span> after successful completion of testing, the website is ready to launch and publish. It is hosted and made available to users.
+    projects:
+        more: MORE PROJECTS
+        displayMore: Display More
+        header: PROJECTS
+        paws:
+            description: Coming soon
+            text:  
+                text01: "<span style='color: #F9F9F9;'>Logo development, creation of an online store in Webflow for selling dog accessories. </span>"                            
+                text02: "The <span style='color: #F9F9F9;'>main goals</span> of the project:"
+                text03: "User-friendly interface: creating an intuitive design for comfortable searching and purchasing of goods."
+                text04: "Quality content: filling the site with useful information about products, their characteristics."
+                text05: "Visual: implementation of animation elements to improve user experience, create an attractive visual design and retain the attention of visitors."
+                text06: "Secure payments: providing a reliable system of payment and delivery of goods."
+                text07: At the moment, the site is still under development.
+        penalab:
+            description: Logo, brand book, website
+            text: "<span style='color: #F9F9F9;'>Development of a logo and brand book</span> (including color palette, typography, icons and graphic elements),<span style='color:#F9F9F9;'> creation of a corporate identity</span> (business cards, advertising posters, packaging, templates for presentations and social networks), as well as <span style='color: #F9F9F9;'>video and animation materials, landing page</span> for the creative studio Pena Lab. The task was to harmoniously combine the brand concept with minimalist \"trash\" aesthetics, without losing the main idea of ​​ephemeral art and conscious consumption. The essence of the concept: 'You wear a thing for the sake of a unique name, and then it disappears.'"
+        palami:
+            description: Logo, website design rebranding 
+            text:
+                text01:  Website rebranding for a company which develops LED screens, media facades and bus stops. <span style="color':' '#'F9F9F9;">We created a logo, website design in Shopify, 3D models of pylons and bus stops, configurator, banners and animations for the website.</span>
+                text02:  <span style="color':' '#'F9F9F9;">Design:</span> the color palette was used with the addition of dark shades to highlight the brightness and contrast of the LED screens. Added gradients, glow and backlight effects to create the appearance of glowing panels. A modern and clean font has been used to ensure that the text is easy to read against the bright background of the LED screens.   
+        configurator:
+            description: 3D Modeling
+        busstop:
+            description: 3D Modeling
+            text:  <span style="color':' '#'F9F9F9;">Development of 3D models for Palami to showcase a variety of products.</span> The project required creating two distinct bus stop designs, each available in four sizes and offering numerous configuration options. These options included the number of screens, availability of a map, schedule display, and custom city prints on the glass. Additionally, the pylon model was a faithful recreation of one of their existing physical products.
+        mullers:
+            description: Logo, business cards
+            text01: <span style="color':' '#'F9F9F9;">Development of a logo and business cards for a sweet workshop in Latvia.</span> At the request of the customer, the logo should be elegant and minimalistic, with a certain emphasis in the color palette
+            text02: <span style="color':' '#'F9F9F9;">Design:</span> the logo for the sweet workshop was designed to be attractive and creative. Readable and stylish font and contrasting red color, which reflects the degree of premium and quality of the product. A calligraphic element was used to add a touch of sophistication.
+        realwin:
+            description: Logo
+            text:   The RealWin logo for an online casino is a key element of the project's visual identity. 
+                    It is designed keeping in mind the goals and values ​​of the project, as well as taking into account the requirements of the target audience.
+                    <span style="color':' '#'F9F9F9;"> The logo reflects the uniqueness and character of the project, creating a recognizable and memorable image.</span>
+        ecca:
+            description: Logo
+            text:
+                text01: <span style="color':' '#'F9F9F9;">Electric vehicle logo design and UX.</span>
+                text02: The logo attracts the attention of potential customers and highlights the benefits of electric vehicles, such as environmental sustainability and advanced technology.
+                text03: <span style="color':' '#'F9F9F9;"> Main project goals:</span>
+                text04: "Unique design: reflection of technological progress and an innovative approach in the logo design."
+                text05: "Sustainability: visual elements that symbolize care for nature and sustainable development."
+                text06: "Multifunctionality: the logo should be adapted for use on various media, including cars, advertising materials and websites."
+                text07: "Simplicity and memorability: the design should be easy to perceive and remember so that customers can easily identify the brand."
+        maja:
+            description: Logo, brand book
+            text:
+                text01: The project aims to create a visual element that will become part of the brand and will be associated with the quality and comfort of Maja Coffee House.
+                text02: "<span style='color: #F9F9F9;'>The logo is stylish, modern and easily recognizable to attract customers attention and ensure the quality of the services offered.</span> The  <span style='color: #F9F9F9;'>main goals</span> of the project:"
+                text03: "Uniqueness: creating an original design that will distinguish Maja Coffee House from its competitors."
+                text04: "Multifunctionality: the design should look good on various media: from the sign to packaging and merchandise."
+                text05: "Color palette: choosing a harmonious color scheme that creates a cozy and attractive impression."
+                text06: "Ease of perception: the logo should be simple and easy to remember so that customers can easily identify it."
+        financelabs:
+            description: Logo, brand book
+            text: Brand development for the newly established company, Finance Labs, operating in the financial sector.<span style="color':' '#'F9F9F9;"> The project involved designing an attractive logo, selecting color and font options, and creating comprehensive style guidelines presented in a brand book.</span> Additionally, invoice and email signature templates were developed and delivered as part of the branding package.
+        dashboard:
+            description: Concept
+            text:  <span style="color':' '#'F9F9F9;">Automobile dashboard UI design with user-friendly and modern interface.</span> Car dashboard user experience concept. As electrification and software functions evolve,
+                    we believe there is a need for rethinking and simplicity, moving away from classic setups and moving towards a more passenger-oriented experience.
+        viabon:
+            description: Branding, website
+            text: "For the company ViaBON, working in the financial sector, a holistic visual style was developed: corporate colors and fonts were selected, a brand book with recommendations for using the identity was created. At the moment, work is underway on a corporate website with adaptation for various devices."
+        banners:
+            description: Online and print
+            text:
+                text01: <span style="color':' '#'F9F9F9;">Design attractive and effective advertising materials</span>
+                text02: that will help promote a company’s products or services. Banners can be used in both online and offline formats, ensuring a wide reach of the target audience.
+                text03: <span style="color':' '#'F9F9F9;">  Main objectives:</span>
+                text04: "Unique design: create original and striking visual concepts that will attract attention and distinguish the brand."
+                text05: "Clear message: formulate short and memorable texts that will convey the main benefits of the product or service."
+                text06: "Adaptability: design banners that will easily adapt to various formats and sizes, including social media, websites and printed materials."
+        5w:
+            description: Branding, website
+            text: "Development of a corporate identity for a new financial company 5W: a logo was created, a color palette and typography were defined, a brand book was designed. A website with an adaptive design optimized for all types of devices was also developed. The website is designed in accordance with the corporate identity and is focused on simple and clear navigation."
+    contact:
+        header: LET'S BUILD THE FUTURE TOGETHER.
+        contact: CONTACT
+        send: SEND MESSAGE
 lv:
   nav:
       about: PAR

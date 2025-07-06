@@ -172,7 +172,7 @@ function openService(serviceId, container) {
               {
                 height += next.children[i].clientHeight;
               }
-              next.style.height = height;
+              next.style.height = height+"px";
              
             next.classList.remove("service-description-container-hidden");
             next.classList.add(container);     
@@ -200,7 +200,7 @@ function openService(serviceId, container) {
           {
             height += next.children[i].clientHeight;
           }
-          next.style.height = height;
+          next.style.height = height+"px";
         
        
         next.classList.remove("service-description-container-hidden");
