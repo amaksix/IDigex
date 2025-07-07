@@ -78,28 +78,28 @@ en:
         palami:
             description: Logo, website design rebranding 
             text:
-                text01:  Website rebranding for a company which develops LED screens, media facades and bus stops. <span style="color':' '#'F9F9F9;">We created a logo, website design in Shopify, 3D models of pylons and bus stops, configurator, banners and animations for the website.</span>
-                text02:  <span style="color':' '#'F9F9F9;">Design:</span> the color palette was used with the addition of dark shades to highlight the brightness and contrast of the LED screens. Added gradients, glow and backlight effects to create the appearance of glowing panels. A modern and clean font has been used to ensure that the text is easy to read against the bright background of the LED screens.   
+                text01:  "Website rebranding for a company which develops LED screens, media facades and bus stops. <span style='color: #F9F9F9;'>We created a logo, website design in Shopify, 3D models of pylons and bus stops, configurator, banners and animations for the website.</span>"
+                text02:  "<span style='color: #F9F9F9;'>Design:</span> the color palette was used with the addition of dark shades to highlight the brightness and contrast of the LED screens. Added gradients, glow and backlight effects to create the appearance of glowing panels. A modern and clean font has been used to ensure that the text is easy to read against the bright background of the LED screens.  " 
         configurator:
             description: 3D Modeling
         busstop:
             description: 3D Modeling
-            text:  <span style="color':' '#'F9F9F9;">Development of 3D models for Palami to showcase a variety of products.</span> The project required creating two distinct bus stop designs, each available in four sizes and offering numerous configuration options. These options included the number of screens, availability of a map, schedule display, and custom city prints on the glass. Additionally, the pylon model was a faithful recreation of one of their existing physical products.
+            text:  "<span style='color: #F9F9F9;'>Development of 3D models for Palami to showcase a variety of products.</span> The project required creating two distinct bus stop designs, each available in four sizes and offering numerous configuration options. These options included the number of screens, availability of a map, schedule display, and custom city prints on the glass. Additionally, the pylon model was a faithful recreation of one of their existing physical products."
         mullers:
             description: Logo, business cards
-            text01: <span style="color':' '#'F9F9F9;">Development of a logo and business cards for a sweet workshop in Latvia.</span> At the request of the customer, the logo should be elegant and minimalistic, with a certain emphasis in the color palette
-            text02: <span style="color':' '#'F9F9F9;">Design:</span> the logo for the sweet workshop was designed to be attractive and creative. Readable and stylish font and contrasting red color, which reflects the degree of premium and quality of the product. A calligraphic element was used to add a touch of sophistication.
+            text01: "<span style='color: #F9F9F9;'>Development of a logo and business cards for a sweet workshop in Latvia.</span> At the request of the customer, the logo should be elegant and minimalistic, with a certain emphasis in the color palette"
+            text02: "<span style='color: #F9F9F9;'>Design:</span> the logo for the sweet workshop was designed to be attractive and creative. Readable and stylish font and contrasting red color, which reflects the degree of premium and quality of the product. A calligraphic element was used to add a touch of sophistication."
         realwin:
             description: Logo
-            text:   The RealWin logo for an online casino is a key element of the project's visual identity. 
+            text:   "The RealWin logo for an online casino is a key element of the project's visual identity. 
                     It is designed keeping in mind the goals and values ​​of the project, as well as taking into account the requirements of the target audience.
-                    <span style="color':' '#'F9F9F9;"> The logo reflects the uniqueness and character of the project, creating a recognizable and memorable image.</span>
+                    <span style='color: #F9F9F9;'> The logo reflects the uniqueness and character of the project, creating a recognizable and memorable image.</span>"
         ecca:
             description: Logo
             text:
-                text01: <span style="color':' '#'F9F9F9;">Electric vehicle logo design and UX.</span>
+                text01: "<span style='color: #F9F9F9;'>Electric vehicle logo design and UX.</span>"
                 text02: The logo attracts the attention of potential customers and highlights the benefits of electric vehicles, such as environmental sustainability and advanced technology.
-                text03: <span style="color':' '#'F9F9F9;"> Main project goals:</span>
+                text03: "<span style='color: #F9F9F9;'> Main project goals:</span>"
                 text04: "Unique design: reflection of technological progress and an innovative approach in the logo design."
                 text05: "Sustainability: visual elements that symbolize care for nature and sustainable development."
                 text06: "Multifunctionality: the logo should be adapted for use on various media, including cars, advertising materials and websites."
@@ -115,26 +115,26 @@ en:
                 text06: "Ease of perception: the logo should be simple and easy to remember so that customers can easily identify it."
         financelabs:
             description: Logo, brand book
-            text: Brand development for the newly established company, Finance Labs, operating in the financial sector.<span style="color':' '#'F9F9F9;"> The project involved designing an attractive logo, selecting color and font options, and creating comprehensive style guidelines presented in a brand book.</span> Additionally, invoice and email signature templates were developed and delivered as part of the branding package.
+            text: "Brand development for the newly established company, Finance Labs, operating in the financial sector.<span style='color: #F9F9F9;'> The project involved designing an attractive logo, selecting color and font options, and creating comprehensive style guidelines presented in a brand book.</span> Additionally, invoice and email signature templates were developed and delivered as part of the branding package."
         dashboard:
             description: Concept
-            text:  <span style="color':' '#'F9F9F9;">Automobile dashboard UI design with user-friendly and modern interface.</span> Car dashboard user experience concept. As electrification and software functions evolve,
-                    we believe there is a need for rethinking and simplicity, moving away from classic setups and moving towards a more passenger-oriented experience.
+            text:  "<span style='color: #F9F9F9;'>Automobile dashboard UI design with user-friendly and modern interface.</span> Car dashboard user experience concept. As electrification and software functions evolve,
+                    we believe there is a need for rethinking and simplicity, moving away from classic setups and moving towards a more passenger-oriented experience."
         viabon:
-            description: Branding, website
-            text: "For the company ViaBON, working in the financial sector, a holistic visual style was developed: corporate colors and fonts were selected, a brand book with recommendations for using the identity was created. At the moment, work is underway on a corporate website with adaptation for various devices."
+            description: Logo, Brand book, website
+            text: "For the company ViaBON, working in the financial sector, a holistic visual style was developed: <span style='color: #F9F9F9;'>corporate colors and fonts were selected, a brand book with recommendations for using the identity was created.</span> At the moment, work is underway on a corporate website with adaptation for various devices."
         banners:
             description: Online and print
             text:
-                text01: <span style="color':' '#'F9F9F9;">Design attractive and effective advertising materials</span>
+                text01: "<span style='color: #F9F9F9;'>Design attractive and effective advertising materials</span>"
                 text02: that will help promote a company’s products or services. Banners can be used in both online and offline formats, ensuring a wide reach of the target audience.
-                text03: <span style="color':' '#'F9F9F9;">  Main objectives:</span>
+                text03: "<span style='color: #F9F9F9;'>  Main objectives:</span>"
                 text04: "Unique design: create original and striking visual concepts that will attract attention and distinguish the brand."
                 text05: "Clear message: formulate short and memorable texts that will convey the main benefits of the product or service."
                 text06: "Adaptability: design banners that will easily adapt to various formats and sizes, including social media, websites and printed materials."
         5w:
-            description: Branding, website
-            text: "Development of a corporate identity for a new financial company 5W: a logo was created, a color palette and typography were defined, a brand book was designed. A website with an adaptive design optimized for all types of devices was also developed. The website is designed in accordance with the corporate identity and is focused on simple and clear navigation."
+            description: Logo, Brand book, website
+            text: "Development of a corporate identity for a new financial company 5W:<span style='color: #F9F9F9;'> a logo was created, a color palette and typography were defined, a brand book was designed. A website with an adaptive design optimized for all types of devices was also developed.</span> The website is designed in accordance with the corporate identity and is focused on simple and clear navigation."
     contact:
         header: LET'S BUILD THE FUTURE TOGETHER.
         contact: CONTACT
