@@ -1,7 +1,7 @@
 const min = 81;
 const mobMin = 330;
 const max = 327;
-const maxMob = 1325;
+const maxMob = 1245;
 let currentIndexMap = {};
 initializeCarousel('#first-project');
 initializeCarousel('#third-project');

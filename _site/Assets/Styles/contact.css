@@ -160,7 +160,7 @@
     padding-left: 4vw;
     outline: none;
     font-size: 2.5vw;
-    width:48vw;
+    width:44vw;
   }
   .contact{
     margin-left: 3vw;
@@ -175,7 +175,7 @@
   }
   .contact-input-message{
     height:27vw; 
-    width:100%;
+    width:94.5%;
     float:none;
     clear:none;
     resize: none;
