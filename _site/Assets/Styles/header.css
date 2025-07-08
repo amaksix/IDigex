@@ -89,8 +89,8 @@
     }
     .languages-button{
 
-        font-size: 2vw;
-        margin-left: 1.2vw;
+        font-size: 3vw;
+        margin-left: 0;
         letter-spacing: 4%;
     }
     .selected-language{
@@ -105,8 +105,8 @@
     }
     .languages{
 
-        width: 20.4vw;
-        height: 11vw;
+        width: 22.4vw;
+        height: 15vw;
         border-radius: 2.4vw;
         border:  0.30vw solid transparent;
         margin-left: -24.4vw;
@@ -114,6 +114,6 @@
         margin-top: 1vw;
     }
     .languages-button-container{
-       margin-bottom: 1.2vw;
+       margin-bottom: 2vw;
     }
 }
