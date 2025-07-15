@@ -27,7 +27,7 @@
                     <a id="russian" class="languages-button" href="/ru{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">Russian</a>
                 </div>
             </div>
-            <button id="languages-button" class="selected-language"><span id="selected-language-text">EN</span><img id="arrow"class="arrow" src="../Assets/Images/Arrow_Bottom.svg"></button>   
+            <button id="languages-button" class="selected-language"><span id="selected-language-text">{{ page.lang }}</span><img id="arrow"class="arrow" src="../Assets/Images/Arrow_Bottom.svg"></button>   
         </div>
     </div>
     <div class="menu-grid">
@@ -116,14 +116,15 @@
                 <div id="firstService" class="services-menu-elem" onclick="openService('firstServiceDescription','service-description-container')">
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons">
-                            <img style="width:2.4vw; margin-top:0.7vw;" src="../Assets/Images/Arrow_Right.svg">
+                            <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
                             <h3 id="websites-header" class="service-button-text" >{{t.services.service01.header}}</h3>
                         </button>
-                        <h5 id="websites-text" class="service-text">{{t.services.service01.description}}</h5>
+                        <h5 id="websites-text" class="service-text-desktop">{{t.services.service01.description}}</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image" loading="lazy" src="../Assets/Images/Websites_Serivices.jpg"></div>
                 </div>
                 <div id="firstServiceDescription" class="service-description-container-hidden">
+                    <h5 id="websites-text" class="service-text-mob">{{t.services.service01.description}}</h5>
                     <div style="height:27vw">
                         <h5 id="firstServiceDescriptionText" class="service-description-text"><p>{{t.services.service01.text.line01}}</p>
 
@@ -163,14 +164,15 @@
                 <div id="secondService" class="services-menu-elem" onclick="openService('secondServiceDescription','service-description-container')">
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons">
-                            <img style="width:2.4vw; margin-top:0.7vw;" src="../Assets/Images/Arrow_Right.svg">
+                            <img class="service-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
                             <h3 id="3dModelingHeader" class="service-button-text" >{{t.services.service02.header}}</h3>
                         </button>
-                        <h5 id="3dModelingText" class="service-text">{{t.services.service02.description}}</h5>
+                        <h5 id="3dModelingText" class="service-text-desktop">{{t.services.service02.description}}</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image"loading="lazy"  src="../Assets/Images/3DModels_Serivices.jpg"></div>
                 </div>
                 <div id="secondServiceDescription" class="service-description-container-hidden">
+                    <h5 id="3dModelingText" class="service-text-mob">{{t.services.service02.description}}</h5>
                     <div>
                         <h5 id="secondServiceDescriptionText" class="service-description-text">{{t.services.service02.text01}}</h5>
                         <h5 style="margin-top: 2vw;" class="service-description-text">{{t.services.service02.text02}}</h5>
@@ -181,14 +183,15 @@
                 <div id="thirdService" class="services-menu-elem">
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons" onclick="openService('thirdServiceDescription','service-description-container')">
-                            <img style="width:2.4vw; margin-top:0.7vw;" src="../Assets/Images/Arrow_Right.svg">
+                            <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
                             <h3 id="brandBookHeader" class="service-button-text" >{{t.services.service03.header}}</h3>
                         </button>
-                        <h5 id="brandBookDescription" class="service-text">{{t.services.service03.description}}</h5>
+                        <h5 id="brandBookDescription" class="service-text-desktop">{{t.services.service03.description}}</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image"  src="../Assets/Images/BrandBook_Services.jpg"></div>
                 </div>
                 <div id="thirdServiceDescription" class="service-description-container-hidden">
+                    <h5 id="brandBookDescription" class="service-text-mob">{{t.services.service03.description}}</h5>
                     <div>
                         <h5 id="thirdServiceDescriptionText" class="service-description-text">{{t.services.service03.text}}</h5>
                         <div class="service-cost-container">
@@ -210,14 +213,15 @@
                 <div id="fourthService" class="services-menu-elem">
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons" onclick="openService('fourthServiceDescription','service-description-container')">
-                            <img style="width:2.4vw; margin-top:0.7vw;" src="../Assets/Images/Arrow_Right.svg">
+                            <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
                             <h3 id="logoHeader" class="service-button-text" >{{t.services.service04.header}}</h3>
                         </button>
-                        <h5 id="logoDescription" class="service-text">{{t.services.service04.description}}</h5>
+                        <h5 id="logoDescription" class="service-text-desktop">{{t.services.service04.description}}</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image"loading="lazy"  src="../Assets/Images/Logo_Serivices.jpg"></div>
                 </div>
                 <div id="fourthServiceDescription" class="service-description-container-hidden">
+                    <h5 id="logoDescription" class="service-text-mob">{{t.services.service04.description}}</h5>
                     <div>
                         <h5 id="fourthServiceDescriptionText" class="service-description-text">{{t.services.service04.text}}</h5>
                         <div class="service-cost-container">
@@ -245,14 +249,15 @@
                 <div id="fifthService" class="services-menu-elem">
                     <div class="services-text-grid">
                         <button id="services-buttons" class="services-buttons" onclick="openService('fifthServiceDescription','service-description-container')">
-                            <img style="width:2.4vw; margin-top:0.7vw;" src="../Assets/Images/Arrow_Right.svg">
+                            <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
                             <h3 id="bannersHeader" class="service-button-text" >{{t.services.service05.header}}</h3>
                         </button>
-                        <h5 id="bannersDescription" class="service-text">{{t.services.service05.description}}</h5>
+                        <h5 id="bannersDescription" class="service-text-desktop">{{t.services.service05.description}}</h5>
                     </div>
                     <div class="service-image-container"><img class="service-image" loading="lazy" src="../Assets/Images/Banners_Serivices.jpg"></div>
                 </div>
                 <div id="fifthServiceDescription" class="service-description-container-hidden">
+                    <h5 id="bannersDescription" class="service-text-mob">{{t.services.service05.description}}</h5>
                     <div>
                         <h5  id="fifthServiceDescriptionText" class="service-description-text">{{t.services.service05.text}}</h5>
                         <div class="service-cost-container">

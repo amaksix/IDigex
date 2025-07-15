@@ -45,8 +45,13 @@ margin-top: -1vw;
     margin:0;
 }
 
-.service-text{
+.service-text-desktop{
     margin:0;
+    display: block;
+}
+.service-text-mob{
+    margin:0;
+    display:none;
 }
 .service-image-container{
     
@@ -129,6 +134,10 @@ margin-top: -1vw;
     margin-left: 4.7vw;
     width: 21vw;
   }
+  .service-button-arrow{
+    width:2.4vw; 
+    margin-top:0.7vw;
+  }
   @media only screen and (hover: none) and (pointer: coarse), 
   (max-width: 480px) {
     .services-container{
@@ -143,4 +152,47 @@ margin-top: -1vw;
     text-align: left;
     transition: 1s;
 }
+.services-menu-elem{
+      border-radius: 3vw;
+      border:  0.25vw solid transparent;
+      height: 11.2vw;
+}
+.services-text-grid{
+  display: block;
+}
+.service-text-desktop{
+    margin:0;
+    display: none;
+}
+.service-text-mob{
+    margin:0;
+    display: block;
+    color: #A9A9A9;
+    width: 47vw;
+}
+.services-buttons{
+    display: grid;
+    grid-template-columns: 3.5vw auto;
+    gap:3.3vw;
+    margin-top:0.5vw;
+    text-align: left;
+    transition: 1s;
+    margin-top:3vw;
+}
+  .service-button-arrow{
+    width:3.5vw; 
+    margin-top:1.5vw;
+  }
+  .service-image-container{
+    width:30vw;
+  }
+  .service-image{
+    width:30vw;
+  }
+      .service-description-text{   
+        width: 100%;
+        margin: 0;
+        margin-top: 4.3vw;
+        margin-left: 0vw;
+    }
   }

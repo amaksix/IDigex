@@ -2,6 +2,6 @@
 layout: home
 title: IDIGEX
 heading: IDIGEX
-lang: lv
+lang: LV
 permalink: /lv/
 ---

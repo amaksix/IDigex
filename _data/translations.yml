@@ -1,4 +1,4 @@
-en:
+EN:
     nav:
         about: ABOUT
         services: SERVICES
@@ -139,23 +139,278 @@ en:
         header: LET'S BUILD THE FUTURE TOGETHER.
         contact: CONTACT
         send: SEND MESSAGE
-lv:
-  nav:
-      about: PAR
-      services: PAKALPOJUMI
-      projects: PROJEKTI
-      contact: KONTAKTI
-  header:
-      title: DIGITAL STUDIO
-      text:  Mēs esam digitālā studija, kas specializējas mūsdienīgu un funkcionālu galveno lapu, vietņu, logotipu, zīmolu veidošanā, 3D modelēšanā dažādiem uzņēmumiem un organizācijām. Mēs cenšamies nodrošināt, lai katrs mūsu radītais projekts atspoguļotu mūsu klientu unikalitāti un viņu vērtības.
-
-
-ru:
-  nav:
-      about: O NAS
-      services: USLUGI
-      projects: PROJEKTI
-      contact: KONTAKTI
-  header:
-      title: DIGITAL STUDIO
-      text:  Мы - цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D моделирования для различных бизнесов и организаций. Мы стремимся обеспечить, чтобы каждый проект, который мы создаем, отражал уникальность наших клиентов и их ценности.
+LV:
+    nav:
+        about: PAR
+        services: PAKALPOJUMI
+        projects: PROJEKTI
+        contact: KONTAKTI
+    header:
+        title: DIGITAL STUDIO
+        text:  Mēs esam digitālā studija, kas specializējas mūsdienīgu un funkcionālu galveno lapu, vietņu, logotipu, zīmolu veidošanā, 3D modelēšanā dažādiem uzņēmumiem un organizācijām. Mēs cenšamies nodrošināt, lai katrs mūsu radītais projekts atspoguļotu mūsu klientu unikalitāti un viņu vērtības.
+    about:
+      header: PAR
+      text01: Mūsu radošo profesionāļu komanda pārvalda UI/UX dizainu, programmēšanu un 3D modelēšanu, kas ļauj mums veidot vizuāli pievilcīgus, lietošanai ērtus un efektīvus dizainus biznesa mērķu sasniegšanai. Mēs lepojamies ar spēju pieiet katram projektam individuāli un strādāt no sākuma līdz beigām, lai apmierinātu visas klienta vajadzības un cerības.
+      text02: Mēs neveidojam tikai vietnes — mēs radām digitālus stāstus, kas piesaista uzmanību un iedvesmo uzticēšanos jūsu auditorijā. Apvienojot estētiku ar funkcionalitāti, mēs cenšamies panākt, lai katrs projekts atspoguļotu klientu vajadzības un vērtības.
+    services:
+        price: Cena
+        from: no
+        period: Izstrādes periods
+        header: MŪSU PAKALPOJUMI
+        service01:
+            header: VIETNES
+            description: Mūsu komanda izveidos vietni, kas stāstīs par jūsu pakalpojumiem.
+            period: 10 dienas
+            text:
+                line01: "Vietnes izveides cena ir atkarīga no daudziem faktoriem, tostarp:"
+                line02: Projekta veida – galvenā lapa, korporatīvā vietne vai interneta veikals;
+                line03: Lietotās funkcionalitātes sarežģītības;
+                line04: Nepieciešamības pēc SEO optimizācijas izstrādes stadijā;
+                line05: Vietnes apjoma un satura daudzuma;
+                line06: Izstrādes termiņa;
+                line07: Dizaina risinājumu un UI/UX sarežģītības;
+                line08: Nepieciešamās atbalsta apjoma pēc projekta pabeigšanas.
+                line09: Līdz ar to vietnes izstrādes cena tiek noteikta individuāli, pamatojoties uz specifikāciju un izstrādes mērķiem.
+        service02:
+            header: 3D MODELĒŠANA
+            description: Mēs veidojam augstas kvalitātes 3D modeļus, kas palīdzēs pilnībā vizualizēt jūsu produktu vai ideju.
+            text01: IDigex spēj iedzīvināt jūsu idejas ar neticamu detalizētību un reālismu. Mēs izstrādājam <span class="services-highlight">3D modeļus</span>, kā arī <span class="services-highlight">konfiguratorus</span>, kas atspoguļo jūsu projekta būtību. Mēs piedāvāsim inovatīvus risinājumus, kas palīdzēs jums izcelties tirgū un atbilst auditorijas vajadzībām.
+            text02: Cena un izstrādes laiks ir atkarīgs no darba sarežģītības. Darba laiks tiek saskaņots, un maksa ir <span class="services-another-highlight">€12</span> / stundā.
+        service03:
+            header: ZĪMOLA GRĀMATA
+            description: Zīmola grāmata ir svarīgs rīks, kas palīdz saglabāt jūsu zīmola vienotu stilu.
+            period: 1–2 dienas
+            text: <span class="services-highlight">Zīmola grāmata</span> ir svarīgs uzņēmuma oficiālais dokuments, kurā detalizēti aprakstīti visi zīmola izstrādes aspekti. Tajā noteikumi par logotipa, krāsu paletes, tipogrāfijas un citu būtisku zīmola elementu lietošanu, lai nodrošinātu zīmola atpazīstamību.
+        service04:
+            header: LOGOTIPS
+            description: Logotips ir nepieciešams individualizācijai, klientu uzmanības piesaistei un atpazīstamības uzlabošanai.
+            period: 1–2 dienas
+            text: Mūsu <span class="services-highlight">logotipa izstrādes</span> process sākas ar rūpīgu jūsu zīmola, tā mērķu un mērķauditorijas izpratni. Mēs analizējam konkurentus un nozares tendences, ņemot vērā jūsu vēlmes un prasības, lai radītu logotipu, kas ne tikai atspoguļo jūsu zīmola būtību, bet arī emocionāli rezonē ar auditoriju. Turklāt mēs ņemam vērā logotipa pielāgojamību dažādiem lietošanas mērķiem un formātiem, lai tas izskatītos vienlīdz efektīvi gan tīmekļa vietnē, gan uz produkta iepakojuma vai reklāmas materiāliem.
+        service05:
+            header: BANERI
+            description: Mums ir pieredze dažādu baneru veidošanā dažādiem mērķiem un platformām.
+            period: 1–2 dienas
+            text: IDigex izstrādā dažāda veida <span class="services-highlight">banerus</span>, tostarp statiskus, animētus un mobilos. Mēs ņemam vērā jūsu zīmolu, mērķauditoriju un reklāmas kampaņas mērķus, lai veidotu banerus, kas efektīvi piesaista uzmanību un veicina klikšķus.
+    stages:
+        header: VIETNES IZSTRĀDES POSMI
+        text01: "<span class=\"services-highlight\">01. UX:</span> šajā posmā nosakām vietnes mērķus un prasības, veicam konkurentu un mērķauditorijas analīzi, kā arī definējam galvenās sadaļas un funkcionalitāti."
+        text02: "<span class=\"services-highlight\">02. Dizains:</span> veidojam vietnes struktūru un vizuālo dizainu. Katra lapas izkārtojums top, ņemot vērā lietotāja pieredzi (UX) un lietotāja saskarni (UI)."
+        text03: "<span class=\"services-highlight\">03. Izstrāde:</span> šajā posmā programmētāji sāk kodēt, pārvēršot dizainu funkcionējošā vietnē."
+        text04: "<span class=\"services-highlight\">04. Testēšana:</span> pēc izstrādes pabeigšanas vietne tiek testēta uz dažādām ierīcēm un pārlūkprogrammām, lai pārliecinātos par tās darbību. Konstatētas kļūdas tiek labotas."
+        text05: "<span class=\"services-highlight\">05. Palaišana:</span> pēc veiksmīgas testēšanas vietne ir gatava palaišanai un publicēšanai. Tiek nodrošināta mitināšana un piekļuve lietotājiem."
+    projects:
+        more: VAIRĀK PROJEKTU
+        displayMore: Rādīt vairāk
+        header: PROJEKTI
+        paws:
+            description: Drīzumā
+            text:
+                text01: "<span style='color: #F9F9F9;'>Logotipa izstrāde, interneta veikala izveide Webflow mājdzīvnieku aksesuāru pārdošanai.</span>"
+                text02: "Projekta <span style='color: #F9F9F9;'>galvenie mērķi</span>:"
+                text03: "Lietotājam draudzīga saskarne: ērtai preču meklēšanai un iegādei."
+                text04: "Kvalitatīvs saturs: pievienojam noderīgu informāciju par produktiem un to īpašībām."
+                text05: "Vizuālie efekti: animāciju elementi lietotāja pieredzes uzlabošanai, vizuālās pievilcības radīšanai un apmeklētāju noturēšanai."
+                text06: "Drošas maksājumu sistēmas nodrošināšana un piegādes risinājumi."
+                text07: "Pašreiz vietne tiek izstrādāta."
+        penalab:
+            description: Logotips, zīmola grāmata, vietne
+            text: "<span style='color: #F9F9F9;'>Logotipa un zīmola grāmatas izstrāde</span> (krāsu palete, tipogrāfija, ikonas un grafiskie elementi),<span style='color:#F9F9F9;'> korporatīvais identitātes dizains</span> (vizītkartes, reklāmas plakāti, iepakojums, prezentāciju un sociālo tīklu veidnes), kā arī <span style='color: #F9F9F9;'>video un animācijas materiāli, galvenā lapa</span> radošajai studijai Pena Lab. Uzdevums bija harmoniski apvienot zīmola koncepciju ar minimālista “trash” estētiku, nezaudējot efēmisko mākslas un apzinātas patēriņa ideju. Koncepcijas būtība: 'Tu valkā lietu tās unikālā vārda dēļ, un tad tā pazūd.'"
+        palami:
+            description: Logotips, vietnes dizaina rebrendings
+            text:
+                text01: "Interneta vietnes rebrendings uzņēmumam, kas izstrādā LED ekrānus, mediju fasādes un pieturas. <span style='color: #F9F9F9;'>Izveidojām logotipu, vietnes dizainu Shopify platformā, 3D modeļus stabiem un pieturām, konfiguratoru, banerus un animācijas vietnei.</span>"
+                text02: "<span style='color: #F9F9F9;'>Dizains:</span> krāsu palete papildināta ar tumšām nokrāsām, lai uzsvērti izgaismotu LED ekrānu spilgtumu un kontrastu. Pievienojām gradientus, mirdzumu un izgaismojuma efektus, lai radītu spīdošu panelu sajūtu. Izmantots moderns un skaidri salasāms fonts, lai teksts būtu labi lasāms pret spožo LED fonu."
+        configurator:
+            description: 3D modelēšana
+        busstop:
+            description: 3D modelēšana
+            text: "<span style='color: #F9F9F9;'>3D modeļu izstrāde Palami, lai demonstrētu dažādus produktu variantus.</span> Projektā izveidojām divus atšķirīgus pieturu dizainus četros izmēros ar daudzām konfigurācijas iespējām: ekrānu skaits, karte, sarakstu attēlošana un personalizēti pilsētas drukājumi uz stikla. Tāpat stabu modelis bija uzticīgs esošajam fiziskajam produktam."
+        mullers:
+            description: Logotips, vizītkartes
+            text01: "<span style='color: #F9F9F9;'>Logotipa un vizītkaršu izstrāde saldo darbnīcai Latvijā.</span> Pēc klienta vēlēšanās logotips bija elegants un minimālistisks ar īpašu krāsu uzsvaru."
+            text02: "<span style='color: #F9F9F9;'>Dizains:</span> saldumu darbnīcas logotips tika veidots patīkami un radoši. Izvēlēts salasāms un stilīgs fonts un kontrastējoša sarkana krāsa, kas atspoguļo produkta premium kvalitāti. Lai piešķirtu eleganci, tika izmantots kaligrāfisks elements."
+        realwin:
+            description: Logotips
+            text: "RealWin logotips tiešsaistes kazino ir būtisks vizuālās identitātes elements. Tas veidots, ņemot vērā projekta mērķus un vērtības, kā arī mērķauditorijas prasības. <span style='color: #F9F9F9;'>Logotips atspoguļo projekta unikālo raksturu un noskaņu, radot atpazīstamu un paliekošu tēlu.</span>"
+        ecca:
+            description: Logotips
+            text:
+                text01: "<span style='color: #F9F9F9;'>Elektrisko transportlīdzekļu logotipa dizains un UX.</span>"
+                text02: "Logotips pievērš uzmanību potenciālo klientu uzmanību un uzsver elektrisko transportlīdzekļu priekšrocības, piemēram, ilgtspēju un progresīvas tehnoloģijas."
+                text03: "<span style='color: #F9F9F9;'>Galvenie projekta mērķi:</span>"
+                text04: "Unikāls dizains: logotipā atspoguļots tehnoloģiskais progress un inovatīva pieeja."
+                text05: "Ilgtspēja: vizuāli elementi, kas simbolizē dabas aizsardzību un ilgtspējīgu attīstību."
+                text06: "Daudzfunkcionalitāte: logotipam jābūt piemērotam dažādiem medijiem, tostarp automašīnām, reklāmas materiāliem un vietnēm."
+                text07: "Vienkāršība un atmiņām paliekošs veidols: dizains ir viegli uztverams un atcerams, lai klienti to viegli identificētu."
+        maja:
+            description: Logotips, zīmola grāmata
+            text:
+                text01: "Projektā izveidojām vizuālu elementu, kas kļūs par daļu no zīmola un asociēsies ar Maja Coffee House kvalitāti un komfortu."
+                text02: "<span style='color: #F9F9F9;'>Logotips ir stilīgs, moderns un viegli atpazīstams, piesaistot klientu uzmanību un nodrošinot pakalpojumu kvalitātes uztveri.</span> Projekta <span style='color: #F9F9F9;'>galvenie mērķi</span>:"
+                text03: "Unikalitāte: veidot oriģinālu dizainu, kas izceļ Maja Coffee House konkurentu vidū."
+                text04: "Daudzfunkcionalitāte: dizains labi izskatās uz dažādiem medijiem – no zīmes līdz iepakojumam un suvenīriem."
+                text05: "Krāsu palete: izvēlēta saskaņota krāsu gamma, kas rada mājīgu un pievilcīgu iespaidu."
+                text06: "Uztveres vieglums: logotips ir vienkāršs un viegli atcerams, lai klienti to ātri identificētu."
+        financelabs:
+            description: Logotips, zīmola grāmata
+            text: "Zīmola izstrāde jaunizveidotajam uzņēmumam Finance Labs finanšu sektorā.<span style='color: #F9F9F9;'> Projekts ietvēra pievilcīga logotipa izstrādi, krāsu un fontu izvēli, un visaptverošu stila vadlīniju iekļaušanu zīmola grāmatā.</span> Papildus tika izstrādātas rēķinu un e-pasta parakstu veidnes, kuras iekļātas kopējā zīmola pakotnē."
+        dashboard:
+            description: Koncepts
+            text: "<span style='color: #F9F9F9;'>Automašīnas paneļa UI dizains ar lietotājam draudzīgu un mūsdienīgu saskarni.</span> Automašīnas paneļa lietotāja pieredzes koncepts. Elektrifikācijas un programmatūras funkciju attīstoties, mēs uzskatām, ka nepieciešams pārdomāt un vienkāršot, virzoties prom no klasiskajiem iestatījumiem un vairāk uz pasažieru orientētu pieredzi."
+        viabon:
+            description: Logotips, zīmola grāmata, vietne
+            text: "Uzņēmumam ViaBON finanšu sektorā izstrādājām holistisku vizuālo stilu: <span style='color: #F9F9F9;'>izvēlējāmies korporatīvās krāsas un fontus, izveidojām zīmola grāmatu ar identitātes lietošanas ieteikumiem.</span> Šobrīd notiek darbs pie korporatīvās vietnes ar adaptāciju dažādām ierīcēm."
+        banners:
+            description: Tiešsaistes un drukas
+            text:
+                text01: "<span style='color: #F9F9F9;'>Veidojam pievilcīgus un efektīvus reklāmas materiālus</span>"
+                text02: "kas palīdzēs popularizēt uzņēmuma produktus vai pakalpojumus. Baneri var tikt izmantoti gan tiešsaistē, gan drukātā formātā, nodrošinot plašu mērķauditorijas sasniedzamību."
+                text03: "<span style='color: #F9F9F9;'>Galvenie mērķi:</span>"
+                text04: "Oriģināls dizains: radīt unikālus un pamanāmus vizuālos konceptus, kas piesaista uzmanību un izceļ zīmolu."
+                text05: "Skaidrs vēstījums: formulēt īsus un atmiņā paliekošus tekstus, kas nodod galvenos ieguvumus."
+                text06: "Pielāgojamība: dizainēt banerus, kuri viegli adaptējas dažādiem formātiem un izmēriem, tostarp sociālajiem tīkliem, vietnēm un drukas materiāliem."
+        5w:
+            description: Logotips, zīmola grāmata, vietne
+            text: "Korporatīvās identitātes attīstība jaunam finanšu uzņēmumam 5W:<span style='color: #F9F9F9;'> izveidojām logotipu, noteicām krāsu paleti un tipogrāfiju, izstrādājām zīmola grāmatu. Arī izstrādāta adaptīva vietne, optimizēta visām ierīcēm.</span> Vietne ir veidota saskaņā ar korporatīvo identitāti un orientēta uz vienkāršu un skaidru navigāciju."
+    contact:
+        header: UZBŪVĒSIM NĀKOTNI KOPĀ.
+        contact: KONTAKTI
+        send: NOSŰTĪT ZINJU
+RU:
+    nav:
+        about: О НАС
+        services: УСЛУГИ
+        projects: ПРОЕКТЫ
+        contact: КОНТАКТЫ
+    header:
+        title: ЦИФРОВАЯ СТУДИЯ
+        text: Мы — цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D‑моделирования для различных бизнесов и организаций. Мы стремимся, чтобы каждый созданный нами проект отражал уникальность наших клиентов и их ценности.
+    about:
+        header: О НАС
+        text01: Наша команда креативных профессионалов обладает глубокими знаниями в UI/UX‑дизайне, программировании и 3D‑моделировании, что позволяет нам создавать дизайны, которые не только визуально привлекательны, но и удобны, а также эффективны в достижении бизнес‑целей. Мы гордимся тем, что подходим к каждому проекту персонально и ведем его от начала до конца, чтобы удовлетворить все потребности и ожидания клиента.
+        text02: Мы не просто разрабатываем сайты — мы создаём цифровые истории, которые привлекают внимание и внушают доверие вашей аудитории. Сочетая эстетику и функциональность, мы стремимся, чтобы каждый проект отражал уникальные потребности и ценности клиентов.
+    services:
+        price: Цена
+        from: от
+        period: Срок разработки
+        header: НАШИ УСЛУГИ
+        service01:
+            header: САЙТЫ
+            description: Наша команда создаст сайт, который расскажет о ваших услугах.
+            period: 10 дней
+            text:
+                line01: "Цена создания сайта зависит от множества факторов, включая:"
+                line02: Тип проекта – лендинг, корпоративный сайт или интернет‑магазин;
+                line03: Сложность используемого функционала;
+                line04: Необходимость SEO‑оптимизации на этапе разработки;
+                line05: Объём сайта и количество контента;
+                line06: Сроки разработки;
+                line07: Сложность дизайн‑решений и UI/UX;
+                line08: Объём поддержки после завершения проекта.
+                line09: Таким образом, цена разработки сайта определяется индивидуально и основывается на техническом задании и целях разработки.
+        service02:
+            header: 3D МОДЕЛИ
+            description: Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт или идею с максимальной детализацией.
+            text01: IDigex воплотит ваши идеи с невероятной детализацией и реализмом. Мы разрабатываем <span class="services-highlight">3D‑модели</span>, а также <span class="services-highlight">конфигураторы</span>, отражающие суть вашего проекта. Мы предложим вам инновационные решения, которые помогут выделиться на рынке и удовлетворить аудиторию.
+            text02: Цена и срок разработки зависят от сложности работы. Время работы обсуждается, а стоимость составляет <span class="services-another-highlight">€12</span> в час.
+        service03:
+            header: БРЕНДБУК
+            description: Брендбук — важный инструмент, который помогает сохранить единый стиль вашего бренда.
+            period: 1–2 дня
+            text: <span class="services-highlight">Брендбук</span> — официальный документ компании, подробно описывающий все аспекты создания бренда. В нём изложены правила использования логотипа, цветовой палитры, типографики и других элементов брендинга, чтобы обеспечить узнаваемость бренда.
+        service04:
+            header: ЛОГОТИП
+            description: Логотип необходим для индивидуализации, привлечения внимания клиентов и улучшения узнаваемости.
+            period: 1–2 дня
+            text: Наш процесс создания <span class="services-highlight">логотипа</span> начинается с глубокого понимания вашего бренда, его целей и целевой аудитории. Мы анализируем конкурентов, тренды отрасли и учитываем ваши предпочтения, чтобы создать логотип, который не только отражает суть бренда, но и эмоционально резонирует с аудиторией.
+                    Кроме того, мы учитываем адаптивность логотипа для различных целей и форматов, чтобы он выглядел эффективно и на сайте, и на упаковке или рекламных материалах.
+        service05:
+            header: БАННЕРЫ
+            description: Мы создаём баннеры разных форматов для разных целей и платформ.
+            period: 1–2 дня
+            text: IDigex разрабатывает различные типы <span class="services-highlight">баннеров</span>, включая статические, анимированные и мобильные. Мы учитываем ваш бренд, целевую аудиторию и цели рекламной кампании, чтобы создавать баннеры, которые эффективно привлекают внимание и генерируют клики.
+    stages:
+        header: ЭТАПЫ РАЗРАБОТКИ САЙТА
+        text01: "<span class=\"services-highlight\">01. UX:</span> на этом этапе мы определяем цели и требования к сайту, проводим анализ конкурентов и целевой аудитории, а также определяем основные разделы и функционал."
+        text02: "<span class=\"services-highlight\">02. Дизайн:</span> создаём структуру сайта и его визуальное оформление. Макет каждой страницы разрабатывается с учётом UX и UI."
+        text03: "<span class=\"services-highlight\">03. Разработка:</span> на этом этапе программисты приступают к написанию кода, превращая дизайн в рабочий сайт."
+        text04: "<span class=\"services-highlight\">04. Тестирование:</span> после завершения разработки сайт тестируется на разных устройствах и в браузерах, чтобы убедиться в корректной работе. Обнаруженные ошибки исправляются."
+        text05: "<span class=\"services-highlight\">05. Запуск:</span> после успешного тестирования сайт готов к запуску и публикации. Обеспечивается хостинг и доступ для пользователей."
+    projects:
+        more: ЕЩЁ ПРОЕКТОВ
+        displayMore: Показать больше
+        header: ПРОЕКТЫ
+        paws:
+            description: Скоро
+            text:
+                text01: "<span style='color: #F9F9F9;'>Разработка логотипа, создание интернет‑магазина на Webflow для продажи аксессуаров для собак.</span>"
+                text02: "Основные <span style='color: #F9F9F9;'>цели проекта</span>:"
+                text03: "Удобный интерфейс: облегчить поиск и покупку товаров."
+                text04: "Качественный контент: наполнить сайт полезной информацией о товарах и их характеристиках."
+                text05: "Визуальные эффекты: элементы анимации для повышения удобства, привлекательности и удержания внимания пользователей."
+                text06: "Безопасные платежи: обеспечение надёжной системы оплаты и доставки."
+                text07: "Сайт в процессе разработки."
+        penalab:
+            description: Логотип, брендбук, сайт
+            text: "<span style='color: #F9F9F9;'>Разработка логотипа и брендбука</span> (цветовая палитра, типография, иконки и графические элементы),<span style='color:#F9F9F9;'> корпоративный фирменный стиль</span> (визитки, рекламные плакаты, упаковка, шаблоны презентаций и соцсетей), а также <span style='color: #F9F9F9;'>видео и анимационные материалы, лендинг</span> для креативной студии Pena Lab. Задача — гармонично соединить концепцию бренда и минималистичную «trash» эстетику без потери идеи эфемерного искусства и осознанного потребления. Суть концепции: «Ты носишь вещь ради уникального имени, а потом она исчезает.»"
+        palami:
+            description: Логотип, редизайн сайта
+            text:
+                text01: "Редизайн сайта для компании, разрабатывающей LED‑экраны, медиа‑фасады и остановки. <span style='color: #F9F9F9;'>Мы создали логотип, дизайн сайта на Shopify, 3D‑модели пилонов и остановок, конфигуратор, баннеры и анимацию для сайта.</span>"
+                text02: "<span style='color: #F9F9F9;'>Дизайн:</span> цветовая палитра дополнена тёмными оттенками для подчёркивания яркости и контраста LED‑экранов. Добавлены градиенты, свечения и эффекты подсветки для создания ощущения сияющих панелей. Использован современный чистый шрифт для читаемости текста на ярком фоне LED‑экранов."
+        configurator:
+            description: 3D‑моделирование
+        busstop:
+            description: 3D‑моделирование
+            text: "<span style='color: #F9F9F9;'>Создание 3D‑моделей для Palami для демонстрации различных вариантов продуктов.</span> В проекте были разработаны два различных дизайна остановок в четырёх размерах с множеством конфигурационных опций: количество экранов, наличие карты, отображение расписания, а также индивидуальная печать города на стекле. Пилон — точное воспроизведение одного из существующих физических продуктов."
+        mullers:
+            description: Логотип, визитки
+            text01: "<span style='color: #F9F9F9;'>Разработка логотипа и визиток для кондитерской в Латвии.</span> По желанию клиента логотип получился элегантным и минималистичным с акцентом в цветовой гамме."
+            text02: "<span style='color: #F9F9F9;'>Дизайн:</span> логотип кондитерской был разработан удобно и креативно. Выбран читаемый и стильный шрифт, контрастный красный цвет, отражающий премиум‑качество продукта. Каллиграфический элемент добавляет элегантности."
+        realwin:
+            description: Логотип
+            text: "Логотип RealWin для онлайн‑казино — ключевой элемент визуальной идентичности проекта. Он разработан с учётом целей и ценностей проекта, а также потребностей целевой аудитории. <span style='color: #F9F9F9;'>Логотип отражает уникальность и характер проекта, создавая узнаваемый и запоминающийся образ.</span>"
+        ecca:
+            description: Логотип
+            text:
+                text01: "<span style='color: #F9F9F9;'>Дизайн логотипа электромобиля и UX.</span>"
+                text02: "Логотип привлекает внимание потенциальных клиентов и подчёркивает преимущества электромобилей, такие как экологичность и современные технологии."
+                text03: "<span style='color: #F9F9F9;'>Основные цели проекта:</span>"
+                text04: "Уникальный дизайн: отражение технологического прогресса и инновационного подхода."
+                text05: "Устойчивость: визуальные элементы, символизирующие заботу о природе и устойчивое развитие."
+                text06: "Многофункциональность: логотип должен быть адаптирован для использования на разных носителях — автомобилях, рекламных материалах, сайтах."
+                text07: "Простота и запоминаемость: дизайн должен быть легко воспринимаем и запоминаться, чтобы клиенты могли быстро идентифицировать бренд."
+        maja:
+            description: Логотип, брендбук
+            text:
+                text01: "Проект нацелен на создание визуального элемента, который станет частью бренда и будет ассоциироваться с качеством и уютом Maja Coffee House."
+                text02: "<span style='color: #F9F9F9;'>Логотип стильный, современный и легко узнаваемый, привлекающий внимание клиентов и создающий восприятие качества услуг.</span> Основные <span style='color: #F9F9F9;'>цели проекта</span>:"
+                text03: "Уникальность: создать оригинальный дизайн, который выделит Maja Coffee House среди конкурентов."
+                text04: "Многофункциональность: дизайн должен хорошо смотреться на разных носителях — от вывески до упаковки и мерча."
+                text05: "Цветовая палитра: подобрать гармоничную цветовую гамму, создающую уютный и привлекательный визуальный образ."
+                text06: "Лёгкость восприятия: логотип должен быть простым и запоминающимся, чтобы клиенты могли легко его идентифицировать."
+        financelabs:
+            description: Логотип, брендбук
+            text: "Разработка бренда для нового финансового стартапа Finance Labs. <span style='color: #F9F9F9;'>Проект включал создание привлекательного логотипа, подбор цветовой гаммы и шрифтов, а также создание полного брендбука с рекомендациями по стилю.</span> Также были разработаны шаблоны для счетов и электронных подписей, включённые в пакет бренд‑идентичности."
+        dashboard:
+            description: Концепт
+            text: "<span style='color: #F9F9F9;'>Дизайн интерфейса автомобильной приборной панели с удобной и современной пользовательской средой.</span> Концепция UX приборной панели авто. С развитием электрификации и программного обеспечения мы считаем необходимым переосмыслить и упростить, отходя от классических решений и ориентируясь на пассажирский опыт."
+        viabon:
+            description: Логотип, брендбук, сайт
+            text: "Для компании ViaBON из финансового сектора мы разработали целостный визуальный стиль: <span style='color: #F9F9F9;'>подобрали корпоративные цвета и шрифты, создали брендбук с рекомендациями по применению идентичности.</span> В настоящее время ведётся разработка корпоративного сайта с адаптацией под различные устройства."
+        banners:
+            description: Онлайн и печать
+            text:
+                text01: "<span style='color: #F9F9F9;'>Создаём привлекательные и эффективные рекламные материалы</span>"
+                text02: "которые помогут продвигать продукты или услуги компании. Баннеры могут использоваться как в онлайн‑каналах, так и в оффлайн‑форматах, обеспечивая широкий охват целевой аудитории."
+                text03: "<span style='color: #F9F9F9;'>Основные цели:</span>"
+                text04: "Уникальный дизайн: создавать оригинальные визуальные концепции, которые привлекают внимание и выделяют бренд."
+                text05: "Чистое сообщение: формулировать короткие запоминающиеся тексты, передающие ключевые преимущества."
+                text06: "Адаптивность: дизайн баннеров легко адаптируется под разные форматы и размеры, включая соцсети, сайты и печатные материалы."
+        5w:
+            description: Логотип, брендбук, сайт
+            text: "Разработка фирменного стиля для новой финансовой компании 5W: <span style='color: #F9F9F9;'>создан логотип, определены цветовая палитра и типографика, разработан брендбук. Также разработан адаптивный сайт, оптимизированный под все устройства.</span> Сайт выполнен в соответствии с фирменным стилем и ориентирован на простую и понятную навигацию."
+    contact:
+        header: ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.
+        contact: КОНТАКТЫ
+        send: ОТПРАВИТЬ СООБЩЕНИЕ
