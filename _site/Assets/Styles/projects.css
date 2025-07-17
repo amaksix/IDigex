@@ -196,7 +196,7 @@
         line-height: 3.5vw;
     }
     .project-description-text-container{
-        width: 89.5vw;
+        width: 94vw;
     }
     .projects-grid{
         display: grid;
@@ -204,7 +204,7 @@
         gap: 3.5vw;
     }
     .project{
-        width:89vw;
+        width:93.5vw;
         background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,
         linear-gradient(to top,rgba(224,223,222,0) 85%, #A9A9A9 120%) border-box;
         border-radius: 6vw;
@@ -215,7 +215,7 @@
         border-radius: 6vw;
     }
     .project-image{
-        width: 89.5vw;
+        width: 94vw;
         margin: 0 0;
         transition: transform 0.9s;
     }
@@ -241,8 +241,8 @@
     }
     .project-button-image {
         position: absolute;
-        bottom: 20;
-        right: 20;
+        bottom: 2vw;
+        right: 2vw;
         width: 10vw;
     }
     .flipper {
@@ -252,4 +252,8 @@
       .projects{
         width:95%;
     }
+    .display{
+    text-align: center;
+    margin-top: 15%;
+}
 }

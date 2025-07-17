@@ -1,0 +1,22 @@
+<div class="contact">
+    <div class="headers-container">
+        <h2 class="contact-header-first">{{t.contact.header }}</h2>
+        <h2 id="contact" class="contact-header-second">{{t.contact.contact }}</h2>
+    </div>
+    <div class="email-container">
+        <img class="contact-arrow" src="../Assets/Images/Arrow_Right_Small.svg">
+        <h3 class="email">Idigex@gmail.com</h3>
+    </div>
+    <div class="name-form">
+        <input id="Email Name"  oninput="TextChange('Email Name')" class="contact-input" type="text" placeholder="NAME"/>
+    </div>
+    <div class="subject-form">
+        <input id="Email Subject"  oninput="TextChange('Email Subject')" class="contact-input" type="text" placeholder="SUBJECT"/>
+    </div>
+    <div class="message-form">
+        <textarea id="Email Message" oninput="TextChange('Email Message')" class="contact-input contact-input-message" type="text" placeholder="MESSAGE"></textarea>
+    </div>
+    <button class="send-message" onclick="sendEmail()">
+        <h3 class="send-message-text" >{{t.contact.send }}</h3>
+    </button>
+</div>

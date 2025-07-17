@@ -13,7 +13,8 @@
 </head>
 <body class="preload"> 
     
-    <div class="header-div">
+    <div class="desktop">
+            <div class="header-div">
         <img class="logo" src="../Assets/Images/Logo_IDigex.svg" alt="Logo">
         <div class="languages—container">
             <div id="languages-dropdown" class="languages hidden">
@@ -68,38 +69,34 @@
             <h1 id="last-menu-id">EX</h1>          
         </div>
     </div> 
+    </div>
+    <div class="mobile">
+        <div class="header-div-mob">
+    <img class="logo-mob" src="../Assets/Images/Logo_dark.svg" alt="Logo">
+</div>
+<video  class="first-video-mob" src="/Assets/Video/Main_Mob.webm" autoplay loop muted></video>
+    </div>
 <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/BcLazoDO2nyl0HdC/scene.splinecode"></spline-viewer>-->
    
     <div id="first-shot-video-container" class="first-shot-video-container" >
-        <video id="first-shot-video" class="first-shot-video" style="  margin-top: -4.5vw; z-index: 0;" autoplay loop src="../Assets/Video/main.mp4" muted></video>
+        <video id="first-shot-video" class="first-shot-video" src="/Assets/Video/Main.webm" autoplay loop muted></video>
     </div>
     
-    <div class="first-shot-header" >
-        <h2>ЦИФРОВАЯ СТУДИЯ</h2>
-    </div>
-    <div class="description-container">
-        <div class="description-text-container">
-            <h5 id="descriptionText" class="description-text">Мы — цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D‑моделирования для различных бизнесов и организаций. Мы стремимся, чтобы каждый созданный нами проект отражал уникальность наших клиентов и их ценности.</h5>
-        </div>
-        <div class="social-media">
-            <button class="social-media-button">Telegram,</button>
-            <button class="social-media-button">Instagram.</button>
-        </div>
-    </div> 
- 
-    <div class="description-container-mob">
-        <div class="social-media">
-            <button class="social-media-button">Telegram,</button>
-            <button class="social-media-button">Instagram.</button>
-        </div>
-        <div class="description-text-container">
-            <h5 id="descriptionText" class="description-text">Мы — цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D‑моделирования для различных бизнесов и организаций. Мы стремимся, чтобы каждый созданный нами проект отражал уникальность наших клиентов и их ценности.</h5>
-        </div>
-    </div> 
-
-
-    <div class="about-container">
+    <div class="background-holder">
+        <div class="description-container">
+                <h2 id="first-shot" class="first-shot-header">ЦИФРОВАЯ СТУДИЯ</h2>
+                <h5 id="descriptionText" class="description-text">Мы — цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D‑моделирования для различных бизнесов и организаций. Мы стремимся, чтобы каждый созданный нами проект отражал уникальность наших клиентов и их ценности.</h5>
+        </div> 
+    
+        <div class="description-container-mob">
+             <h2 id="first-shot" class="first-shot-header">ЦИФРОВАЯ СТУДИЯ</h2>
+            <div class="description-text-container">
+                <h5 id="descriptionText" class="description-text">Мы — цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D‑моделирования для различных бизнесов и организаций. Мы стремимся, чтобы каждый созданный нами проект отражал уникальность наших клиентов и их ценности.</h5>
+            </div>
+        </div> 
+        <div class="desktop">
+            <div class="about-container">
         <div class="about-anchor" id="about-anchor-id"></div>
         <img loading="lazy" id="about-image" class="about-image" src="../Assets/Images/About ID.png" >
         <h2 id="about" class="about-header">О НАС</h2>
@@ -107,793 +104,825 @@
             <h5 id="about-text-first" class="about-text-first">Наша команда креативных профессионалов обладает глубокими знаниями в UI/UX‑дизайне, программировании и 3D‑моделировании, что позволяет нам создавать дизайны, которые не только визуально привлекательны, но и удобны, а также эффективны в достижении бизнес‑целей. Мы гордимся тем, что подходим к каждому проекту персонально и ведем его от начала до конца, чтобы удовлетворить все потребности и ожидания клиента.</h5>
             <h5 id="about-text-second" class="about-text-second">Мы не просто разрабатываем сайты — мы создаём цифровые истории, которые привлекают внимание и внушают доверие вашей аудитории. Сочетая эстетику и функциональность, мы стремимся, чтобы каждый проект отражал уникальные потребности и ценности клиентов.</h5>
         </div>
-    </div>
-    <div class="services-container">
-        <div class="services-anchor" id="services-anchor-id"></div>
-        <h2 id="services" class="services-header">НАШИ УСЛУГИ</h2>
-        <div class="services-menu">
-            <div class="service-container">
-                <div id="firstService" class="services-menu-elem" onclick="openService('firstServiceDescription','service-description-container')">
-                    <div class="services-text-grid">
-                        <button id="services-buttons" class="services-buttons">
-                            <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                            <h3 id="websites-header" class="service-button-text" >САЙТЫ</h3>
-                        </button>
-                        <h5 id="websites-text" class="service-text-desktop">Наша команда создаст сайт, который расскажет о ваших услугах.</h5>
-                    </div>
-                    <div class="service-image-container"><img class="service-image" loading="lazy" src="../Assets/Images/Websites_Serivices.jpg"></div>
-                </div>
-                <div id="firstServiceDescription" class="service-description-container-hidden">
-                    <h5 id="websites-text" class="service-text-mob">Наша команда создаст сайт, который расскажет о ваших услугах.</h5>
-                    <div style="height:27vw">
-                        <h5 id="firstServiceDescriptionText" class="service-description-text"><p>Цена создания сайта зависит от множества факторов, включая:</p>
+</div>
+        </div>
+        <div class="mobile">
+            <div class="about-container">
+        <div class="about-anchor" id="about-anchor-id"></div>
+        <img loading="lazy" id="about-image" class="about-image-mob" src="../Assets/Images/About ID Mob.jpg" >
+        <h2 id="about" class="about-header-mob">О НАС</h2>
+        <div class="about-text-container">
+            <h5 id="about-text-first" class="about-text-first">Наша команда креативных профессионалов обладает глубокими знаниями в UI/UX‑дизайне, программировании и 3D‑моделировании, что позволяет нам создавать дизайны, которые не только визуально привлекательны, но и удобны, а также эффективны в достижении бизнес‑целей. Мы гордимся тем, что подходим к каждому проекту персонально и ведем его от начала до конца, чтобы удовлетворить все потребности и ожидания клиента.</h5>
+            <h5 id="about-text-second" class="about-text-second">Мы не просто разрабатываем сайты — мы создаём цифровые истории, которые привлекают внимание и внушают доверие вашей аудитории. Сочетая эстетику и функциональность, мы стремимся, чтобы каждый проект отражал уникальные потребности и ценности клиентов.</h5>
+        </div>
+</div>
+        </div>
 
-                            <ul>
-                              <li>Тип проекта – лендинг, корпоративный сайт или интернет‑магазин;</li>
-                              <li>Сложность используемого функционала;</li>
-                              <li>Необходимость SEO‑оптимизации на этапе разработки;</li>
-                              <li>Объём сайта и количество контента;</li>
-                              <li>Сроки разработки;</li>
-                              <li>Сложность дизайн‑решений и UI/UX;</li>
-                              <li>Объём поддержки после завершения проекта.</li>
-                            </ul>
-                            
-                            <p>Таким образом, цена разработки сайта определяется индивидуально и основывается на техническом задании и целях разработки.</p></h5>
-                        <div class="service-cost-container">
-                            <div>
-                                <h5 class="services-third-highlight">Цена</h5>
-                                <div class="service-line"></div>
-                                <div style="display: grid; grid-template-columns: 3vw auto;">
-                                    <h5 style="margin: 0;">от</h5>
-                                    <h4 class="services-another-highlight">€800</h4>
+        
+        <div class="services-container">
+            <div class="services-anchor" id="services-anchor-id"></div>
+            <h2 id="services" class="services-header">НАШИ УСЛУГИ</h2>
+            <div class="services-menu">
+                <div class="service-container">
+                    <div id="firstService" class="services-menu-elem" onclick="openService('firstServiceDescription','service-description-container')">
+                        <div class="services-text-grid">
+                            <button id="services-buttons" class="services-buttons">
+                                <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3 id="websites-header" class="service-button-text" >САЙТЫ</h3>
+                            </button>
+                            <h5 id="websites-text" class="service-text-desktop">Наша команда создаст сайт, который расскажет о ваших услугах.</h5>
+                        </div>
+                        <div class="service-image-container"><img class="service-image" loading="lazy" src="../Assets/Images/Websites_Serivices.jpg"></div>
+                    </div>
+                    <div id="firstServiceDescription" class="service-description-container-hidden">
+                        <h5 id="websites-text" class="service-text-mob">Наша команда создаст сайт, который расскажет о ваших услугах.</h5>
+                        <div style="height:27vw">
+                            <h5 id="firstServiceDescriptionText" class="service-description-text"><p>Цена создания сайта зависит от множества факторов, включая:</p>
+
+                                <ul>
+                                <li>Тип проекта – лендинг, корпоративный сайт или интернет‑магазин;</li>
+                                <li>Сложность используемого функционала;</li>
+                                <li>Необходимость SEO‑оптимизации на этапе разработки;</li>
+                                <li>Объём сайта и количество контента;</li>
+                                <li>Сроки разработки;</li>
+                                <li>Сложность дизайн‑решений и UI/UX;</li>
+                                <li>Объём поддержки после завершения проекта.</li>
+                                </ul>
+                                
+                                <p>Таким образом, цена разработки сайта определяется индивидуально и основывается на техническом задании и целях разработки.</p></h5>
+                            <div class="service-cost-container">
+                                <div>
+                                    <h5 class="services-third-highlight">Цена</h5>
+                                    <div class="service-line"></div>
+                                    <div style="display: grid; grid-template-columns: 3vw auto;">
+                                        <h5 style="margin: 0;">от</h5>
+                                        <h4 class="services-another-highlight">€800</h4>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <h5 class="services-third-highlight">Срок разработки</h5>
-                                <div class="service-line"></div>
-                                <div style="display: grid; grid-template-columns: 3vw auto;">
-                                    <h5 style="margin: 0;">от</h5>
-                                    <h4 class="services-another-highlight">10 дней</h4>
+                                <div>
+                                    <h5 class="services-third-highlight">Срок разработки</h5>
+                                    <div class="service-line"></div>
+                                    <div style="display: grid; grid-template-columns: 3vw auto;">
+                                        <h5 style="margin: 0;">от</h5>
+                                        <h4 class="services-another-highlight">10 дней</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="service-container">
-                <div id="secondService" class="services-menu-elem" onclick="openService('secondServiceDescription','service-description-container')">
-                    <div class="services-text-grid">
-                        <button id="services-buttons" class="services-buttons">
-                            <img class="service-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3 id="3dModelingHeader" class="service-button-text" >3D МОДЕЛИ</h3>
-                        </button>
-                        <h5 id="3dModelingText" class="service-text-desktop">Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт или идею с максимальной детализацией.</h5>
+                <div class="service-container">
+                    <div id="secondService" class="services-menu-elem" onclick="openService('secondServiceDescription','service-description-container')">
+                        <div class="services-text-grid">
+                            <button id="services-buttons" class="services-buttons">
+                                <img class="service-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3 id="3dModelingHeader" class="service-button-text" >3D МОДЕЛИ</h3>
+                            </button>
+                            <h5 id="3dModelingText" class="service-text-desktop">Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт или идею с максимальной детализацией.</h5>
+                        </div>
+                        <div class="service-image-container"><img class="service-image"loading="lazy"  src="../Assets/Images/3DModels_Serivices.jpg"></div>
                     </div>
-                    <div class="service-image-container"><img class="service-image"loading="lazy"  src="../Assets/Images/3DModels_Serivices.jpg"></div>
-                </div>
-                <div id="secondServiceDescription" class="service-description-container-hidden">
-                    <h5 id="3dModelingText" class="service-text-mob">Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт или идею с максимальной детализацией.</h5>
-                    <div>
-                        <h5 id="secondServiceDescriptionText" class="service-description-text">IDigex воплотит ваши идеи с невероятной детализацией и реализмом. Мы разрабатываем <span class="services-highlight">3D‑модели</span>, а также <span class="services-highlight">конфигураторы</span>, отражающие суть вашего проекта. Мы предложим вам инновационные решения, которые помогут выделиться на рынке и удовлетворить аудиторию.</h5>
-                        <h5 style="margin-top: 2vw;" class="service-description-text">Цена и срок разработки зависят от сложности работы. Время работы обсуждается, а стоимость составляет <span class="services-another-highlight">€12</span> в час.</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="service-container">
-                <div id="thirdService" class="services-menu-elem">
-                    <div class="services-text-grid">
-                        <button id="services-buttons" class="services-buttons" onclick="openService('thirdServiceDescription','service-description-container')">
-                            <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                            <h3 id="brandBookHeader" class="service-button-text" >БРЕНДБУК</h3>
-                        </button>
-                        <h5 id="brandBookDescription" class="service-text-desktop">Брендбук — важный инструмент, который помогает сохранить единый стиль вашего бренда.</h5>
-                    </div>
-                    <div class="service-image-container"><img class="service-image"  src="../Assets/Images/BrandBook_Services.jpg"></div>
-                </div>
-                <div id="thirdServiceDescription" class="service-description-container-hidden">
-                    <h5 id="brandBookDescription" class="service-text-mob">Брендбук — важный инструмент, который помогает сохранить единый стиль вашего бренда.</h5>
-                    <div>
-                        <h5 id="thirdServiceDescriptionText" class="service-description-text"><span class="services-highlight">Брендбук</span> — официальный документ компании, подробно описывающий все аспекты создания бренда. В нём изложены правила использования логотипа, цветовой палитры, типографики и других элементов брендинга, чтобы обеспечить узнаваемость бренда.</h5>
-                        <div class="service-cost-container">
-                            <div>
-                                <h5 class="services-third-highlight">Цена</h5>
-                                <div class="service-line"></div>
-                                <h4 class="services-another-highlight">€70</h4>
-                            </div>
-                            <div>
-                                <h5 class="services-third-highlight">Срок разработки</h5>
-                                <div class="service-line"></div>
-                                <h4 class="services-another-highlight">1–2 дня</h4>
-                            </div>
+                    <div id="secondServiceDescription" class="service-description-container-hidden">
+                        <h5 id="3dModelingText" class="service-text-mob">Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт или идею с максимальной детализацией.</h5>
+                        <div>
+                            <h5 id="secondServiceDescriptionText" class="service-description-text">IDigex воплотит ваши идеи с невероятной детализацией и реализмом. Мы разрабатываем <span class="services-highlight">3D‑модели</span>, а также <span class="services-highlight">конфигураторы</span>, отражающие суть вашего проекта. Мы предложим вам инновационные решения, которые помогут выделиться на рынке и удовлетворить аудиторию.</h5>
+                            <h5 style="margin-top: 2vw;" class="service-description-text">Цена и срок разработки зависят от сложности работы. Время работы обсуждается, а стоимость составляет <span class="services-another-highlight">€12</span> в час.</h5>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="service-container">
-                <div id="fourthService" class="services-menu-elem">
-                    <div class="services-text-grid">
-                        <button id="services-buttons" class="services-buttons" onclick="openService('fourthServiceDescription','service-description-container')">
-                            <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                            <h3 id="logoHeader" class="service-button-text" >ЛОГОТИП</h3>
-                        </button>
-                        <h5 id="logoDescription" class="service-text-desktop">Логотип необходим для индивидуализации, привлечения внимания клиентов и улучшения узнаваемости.</h5>
+                <div class="service-container">
+                    <div id="thirdService" class="services-menu-elem">
+                        <div class="services-text-grid">
+                            <button id="services-buttons" class="services-buttons" onclick="openService('thirdServiceDescription','service-description-container')">
+                                <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3 id="brandBookHeader" class="service-button-text" >БРЕНДБУК</h3>
+                            </button>
+                            <h5 id="brandBookDescription" class="service-text-desktop">Брендбук — важный инструмент, который помогает сохранить единый стиль вашего бренда.</h5>
+                        </div>
+                        <div class="service-image-container"><img class="service-image"  src="../Assets/Images/BrandBook_Services.jpg"></div>
                     </div>
-                    <div class="service-image-container"><img class="service-image"loading="lazy"  src="../Assets/Images/Logo_Serivices.jpg"></div>
-                </div>
-                <div id="fourthServiceDescription" class="service-description-container-hidden">
-                    <h5 id="logoDescription" class="service-text-mob">Логотип необходим для индивидуализации, привлечения внимания клиентов и улучшения узнаваемости.</h5>
-                    <div>
-                        <h5 id="fourthServiceDescriptionText" class="service-description-text">Наш процесс создания <span class="services-highlight">логотипа</span> начинается с глубокого понимания вашего бренда, его целей и целевой аудитории. Мы анализируем конкурентов, тренды отрасли и учитываем ваши предпочтения, чтобы создать логотип, который не только отражает суть бренда, но и эмоционально резонирует с аудиторией. Кроме того, мы учитываем адаптивность логотипа для различных целей и форматов, чтобы он выглядел эффективно и на сайте, и на упаковке или рекламных материалах.</h5>
-                        <div class="service-cost-container">
-                            <div>
-                                <h5 class="services-third-highlight">Цена</h5>
-                                <div class="service-line"></div>
-                                <div style="display: grid; grid-template-columns: 3vw auto;">
-                                    <h5 style="margin: 0;">от</h5>
-                                    <h4 class="services-another-highlight">€80</h4>
+                    <div id="thirdServiceDescription" class="service-description-container-hidden">
+                        <h5 id="brandBookDescription" class="service-text-mob">Брендбук — важный инструмент, который помогает сохранить единый стиль вашего бренда.</h5>
+                        <div>
+                            <h5 id="thirdServiceDescriptionText" class="service-description-text"><span class="services-highlight">Брендбук</span> — официальный документ компании, подробно описывающий все аспекты создания бренда. В нём изложены правила использования логотипа, цветовой палитры, типографики и других элементов брендинга, чтобы обеспечить узнаваемость бренда.</h5>
+                            <div class="service-cost-container">
+                                <div>
+                                    <h5 class="services-third-highlight">Цена</h5>
+                                    <div class="service-line"></div>
+                                    <h4 class="services-another-highlight">€70</h4>
                                 </div>
-                            </div>
-                            <div>
-                                <h5 class="services-third-highlight">Срок разработки</h5>
-                                <div class="service-line"></div>
-                                <div style="display: grid; grid-template-columns: 3vw auto;">
-                                    <h5 style="margin: 0;">от</h5>
+                                <div>
+                                    <h5 class="services-third-highlight">Срок разработки</h5>
+                                    <div class="service-line"></div>
                                     <h4 class="services-another-highlight">1–2 дня</h4>
                                 </div>
                             </div>
                         </div>
-                    </div>    
-                </div>
-            </div>
-            <div class="service-container">
-                <div id="fifthService" class="services-menu-elem">
-                    <div class="services-text-grid">
-                        <button id="services-buttons" class="services-buttons" onclick="openService('fifthServiceDescription','service-description-container')">
-                            <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                            <h3 id="bannersHeader" class="service-button-text" >БАННЕРЫ</h3>
-                        </button>
-                        <h5 id="bannersDescription" class="service-text-desktop">Мы создаём баннеры разных форматов для разных целей и платформ.</h5>
                     </div>
-                    <div class="service-image-container"><img class="service-image" loading="lazy" src="../Assets/Images/Banners_Serivices.jpg"></div>
                 </div>
-                <div id="fifthServiceDescription" class="service-description-container-hidden">
-                    <h5 id="bannersDescription" class="service-text-mob">Мы создаём баннеры разных форматов для разных целей и платформ.</h5>
-                    <div>
-                        <h5  id="fifthServiceDescriptionText" class="service-description-text">IDigex разрабатывает различные типы <span class="services-highlight">баннеров</span>, включая статические, анимированные и мобильные. Мы учитываем ваш бренд, целевую аудиторию и цели рекламной кампании, чтобы создавать баннеры, которые эффективно привлекают внимание и генерируют клики.</h5>
-                        <div class="service-cost-container">
-                            <div>
-                                <h5 class="services-third-highlight">Цена</h5>
-                                <div class="service-line"></div>
-                                <div style="display: grid; grid-template-columns: 3vw auto;">
-                                    <h5 style="margin: 0;">от</h5>
-                                    <h4 class="services-another-highlight">€7</h4>
+                <div class="service-container">
+                    <div id="fourthService" class="services-menu-elem">
+                        <div class="services-text-grid">
+                            <button id="services-buttons" class="services-buttons" onclick="openService('fourthServiceDescription','service-description-container')">
+                                <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3 id="logoHeader" class="service-button-text" >ЛОГОТИП</h3>
+                            </button>
+                            <h5 id="logoDescription" class="service-text-desktop">Логотип необходим для индивидуализации, привлечения внимания клиентов и улучшения узнаваемости.</h5>
+                        </div>
+                        <div class="service-image-container"><img class="service-image"loading="lazy"  src="../Assets/Images/Logo_Serivices.jpg"></div>
+                    </div>
+                    <div id="fourthServiceDescription" class="service-description-container-hidden">
+                        <h5 id="logoDescription" class="service-text-mob">Логотип необходим для индивидуализации, привлечения внимания клиентов и улучшения узнаваемости.</h5>
+                        <div>
+                            <h5 id="fourthServiceDescriptionText" class="service-description-text">Наш процесс создания <span class="services-highlight">логотипа</span> начинается с глубокого понимания вашего бренда, его целей и целевой аудитории. Мы анализируем конкурентов, тренды отрасли и учитываем ваши предпочтения, чтобы создать логотип, который не только отражает суть бренда, но и эмоционально резонирует с аудиторией. Кроме того, мы учитываем адаптивность логотипа для различных целей и форматов, чтобы он выглядел эффективно и на сайте, и на упаковке или рекламных материалах.</h5>
+                            <div class="service-cost-container">
+                                <div>
+                                    <h5 class="services-third-highlight">Цена</h5>
+                                    <div class="service-line"></div>
+                                    <div style="display: grid; grid-template-columns: 3vw auto;">
+                                        <h5 style="margin: 0;">от</h5>
+                                        <h4 class="services-another-highlight">€80</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="services-third-highlight">Срок разработки</h5>
+                                    <div class="service-line"></div>
+                                    <div style="display: grid; grid-template-columns: 3vw auto;">
+                                        <h5 style="margin: 0;">от</h5>
+                                        <h4 class="services-another-highlight">1–2 дня</h4>
+                                    </div>
                                 </div>
                             </div>
-                            <div>
-                                <h5 class="services-third-highlight">Срок разработки</h5>
-                                <div class="service-line"></div>
-                                <h4 class="services-another-highlight">1–2 дня</h4>
-                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="service-container">
+                    <div id="fifthService" class="services-menu-elem">
+                        <div class="services-text-grid">
+                            <button id="services-buttons" class="services-buttons" onclick="openService('fifthServiceDescription','service-description-container')">
+                                <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3 id="bannersHeader" class="service-button-text" >БАННЕРЫ</h3>
+                            </button>
+                            <h5 id="bannersDescription" class="service-text-desktop">Мы создаём баннеры разных форматов для разных целей и платформ.</h5>
                         </div>
-                    </div>    
+                        <div class="service-image-container"><img class="service-image" loading="lazy" src="../Assets/Images/Banners_Serivices.jpg"></div>
+                    </div>
+                    <div id="fifthServiceDescription" class="service-description-container-hidden">
+                        <h5 id="bannersDescription" class="service-text-mob">Мы создаём баннеры разных форматов для разных целей и платформ.</h5>
+                        <div>
+                            <h5  id="fifthServiceDescriptionText" class="service-description-text">IDigex разрабатывает различные типы <span class="services-highlight">баннеров</span>, включая статические, анимированные и мобильные. Мы учитываем ваш бренд, целевую аудиторию и цели рекламной кампании, чтобы создавать баннеры, которые эффективно привлекают внимание и генерируют клики.</h5>
+                            <div class="service-cost-container">
+                                <div>
+                                    <h5 class="services-third-highlight">Цена</h5>
+                                    <div class="service-line"></div>
+                                    <div style="display: grid; grid-template-columns: 3vw auto;">
+                                        <h5 style="margin: 0;">от</h5>
+                                        <h4 class="services-another-highlight">€7</h4>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="services-third-highlight">Срок разработки</h5>
+                                    <div class="service-line"></div>
+                                    <h4 class="services-another-highlight">1–2 дня</h4>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
                 </div>
-            </div>
-        </div>    
-    </div>
-    <div class="scroll-container">
-        <div class="scroll-content-box">
-            <div class="scroll-header">
-                <h2 style="color: #A9A9A9; margin-top: 0px;">ЭТАПЫ РАЗРАБОТКИ САЙТА</h2>
-            </div>
-            <div class="scroll-text-container">
-                <div class="scroll-text scroll-text01">
-                    <h5 style="margin-top: 0px;"> <span class="services-highlight">01. UX:</span> на этом этапе мы определяем цели и требования к сайту, проводим анализ конкурентов и целевой аудитории, а также определяем основные разделы и функционал.</h5>
+            </div>    
+        </div>
+        <div class="scroll-container">
+            <div class="scroll-content-box">
+                <div class="scroll-header">
+                    <h2 style="color: #A9A9A9; margin-top: 0px;">ЭТАПЫ РАЗРАБОТКИ САЙТА</h2>
                 </div>
-                <div  class="scroll-text scroll-text02">
-                    <h5 style="margin-top: 0px;"><span class="services-highlight">02. Дизайн:</span> создаём структуру сайта и его визуальное оформление. Макет каждой страницы разрабатывается с учётом UX и UI.</h5>
-                </div>
-                <div  class="scroll-text scroll-text03">
-                    <div class="scroll-image"  loading="lazy" ></div>
-                    <h5 style="margin-top: 2vw;"><span class="services-highlight">03. Разработка:</span> на этом этапе программисты приступают к написанию кода, превращая дизайн в рабочий сайт.</h5>
-                </div>
-                <div  class="scroll-text scroll-text04">
-                    <h5 style="margin-top: 0px;"><span class="services-highlight">04. Тестирование:</span> после завершения разработки сайт тестируется на разных устройствах и в браузерах, чтобы убедиться в корректной работе. Обнаруженные ошибки исправляются.</h5>
-                </div>
-                <div class="scroll-text scroll-text05">
-                    <h5 style="margin-top: 0px;"><span class="services-highlight">05. Запуск:</span> после успешного тестирования сайт готов к запуску и публикации. Обеспечивается хостинг и доступ для пользователей.</h5>
+                <div class="scroll-text-container">
+                    <div class="scroll-text scroll-text01">
+                        <h5 style="margin-top: 0px;"> <span class="services-highlight">01. UX:</span> на этом этапе мы определяем цели и требования к сайту, проводим анализ конкурентов и целевой аудитории, а также определяем основные разделы и функционал.</h5>
+                    </div>
+                    <div  class="scroll-text scroll-text02">
+                        <h5 style="margin-top: 0px;"><span class="services-highlight">02. Дизайн:</span> создаём структуру сайта и его визуальное оформление. Макет каждой страницы разрабатывается с учётом UX и UI.</h5>
+                    </div>
+                    <div  class="scroll-text scroll-text03">
+                        <div class="scroll-image"  loading="lazy" ></div>
+                        <h5 style="margin-top: 2vw;"><span class="services-highlight">03. Разработка:</span> на этом этапе программисты приступают к написанию кода, превращая дизайн в рабочий сайт.</h5>
+                    </div>
+                    <div  class="scroll-text scroll-text04">
+                        <h5 style="margin-top: 0px;"><span class="services-highlight">04. Тестирование:</span> после завершения разработки сайт тестируется на разных устройствах и в браузерах, чтобы убедиться в корректной работе. Обнаруженные ошибки исправляются.</h5>
+                    </div>
+                    <div class="scroll-text scroll-text05">
+                        <h5 style="margin-top: 0px;"><span class="services-highlight">05. Запуск:</span> после успешного тестирования сайт готов к запуску и публикации. Обеспечивается хостинг и доступ для пользователей.</h5>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div class="projects">
-        <div class="projects-anchor" id="projects-anchor-id"></div>
-        <h2  id="projects" class="projects-header">ПРОЕКТЫ</h2>
-        <div id="projects-grid-container" class="projects-grid-container">
-            <div id="projects-grid" class="projects-grid">
-                 <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >FINANCE LABS</h3>
+        
+        <div class="projects">
+            <div class="projects-anchor" id="projects-anchor-id"></div>
+            <h2  id="projects" class="projects-header">ПРОЕКТЫ</h2>
+            <div id="projects-grid-container" class="projects-grid-container">
+                <div id="projects-grid" class="projects-grid">
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >FINANCE LABS</h3>
+                            </div>
+                            <h5 class="project-text">Логотип, брендбук</h5>
                         </div>
-                        <h5 class="project-text">Логотип, брендбук</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="twelve-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_3.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_4.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            Разработка бренда для нового финансового стартапа Finance Labs. <span style='color: #F9F9F9;'>Проект включал создание привлекательного логотипа, подбор цветовой гаммы и шрифтов, а также создание полного брендбука с рекомендациями по стилю.</span> Также были разработаны шаблоны для счетов и электронных подписей, включённые в пакет бренд‑идентичности.
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>  
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#twelve-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div>
-                 <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >VIABON</h3>
-                        </div>
-                        <h5 class="project-text">Логотип, брендбук, сайт</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="eight-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_3.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            Для компании ViaBON из финансового сектора мы разработали целостный визуальный стиль: <span style='color: #F9F9F9;'>подобрали корпоративные цвета и шрифты, создали брендбук с рекомендациями по применению идентичности.</span> В настоящее время ведётся разработка корпоративного сайта с адаптацией под различные устройства.
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>     
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#eight-project')">
-                            <img loading="lazy" class="project-button-image">
-                        </button>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >5W</h3>
-                        </div>
-                        <h5 class="project-text">Логотип, брендбук, сайт</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="fourteen-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/5w_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/5W_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/5W_3.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/5W_4.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/5W_5.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            Разработка фирменного стиля для новой финансовой компании 5W: <span style='color: #F9F9F9;'>создан логотип, определены цветовая палитра и типографика, разработан брендбук. Также разработан адаптивный сайт, оптимизированный под все устройства.</span> Сайт выполнен в соответствии с фирменным стилем и ориентирован на простую и понятную навигацию.
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>       
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#fourteen-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div>
-                <div id="project-display" class="project project-display">
-                    <div class="project-text-grid">
-                        <button  class="services-buttons" onclick="ChangeHeight()">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3 id="display-header" style = "height: 3vw;margin-bottom: 1.7vw;" class="project-button-text" >ЕЩЁ ПРОЕКТОВ</h3>
-                        </button>
-                    </div>
-                    <div class="project-image-container more-projects-image-container">
-                        <button class="more-projects-button" onclick="ChangeHeight()"><img id="flipper" class="flipper" src="../Assets/Images/Plus.svg"></button>
-                        <h3 id="display" class="display">Показать больше</h3>
-                    </div>     
-                </div>         
-                <div class="project">
-                    <div class="project-text-grid">
-                        <button onclick="openInNewTab('https://u-p-2dcb19.webflow.io/')"  class="services-buttons">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >U&Paws</h3>
-                        </button>
-                        <h5 class="project-text">Скоро</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="eleven-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Paws_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Paws_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Paws_3.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Paws_4.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            <span style='color: #F9F9F9;'>Разработка логотипа, создание интернет‑магазина на Webflow для продажи аксессуаров для собак.</span>
-                                            Основные <span style='color: #F9F9F9;'>цели проекта</span>:
-                                        </h5>
-                                        <h5 class="project-description-text">
-                                            <ul>
-                                                <li> Удобный интерфейс: облегчить поиск и покупку товаров.</li>
-                                                <li> Качественный контент: наполнить сайт полезной информацией о товарах и их характеристиках.</li>
-                                                <li> Визуальные эффекты: элементы анимации для повышения удобства, привлекательности и удержания внимания пользователей.</li>
-                                                <li> Безопасные платежи: обеспечение надёжной системы оплаты и доставки.</li>
-                                            </ul>
-                                        </h5>
-                                        <h5 class="project-description-text">
-                                             Сайт в процессе разработки.
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>       
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#eleven-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div> 
-                <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >PENA LAB</h3>
-                        </div>
-                        <h5 class="project-text">Логотип, брендбук, сайт</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="thirteen-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_3.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_4.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_5.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            <span style='color: #F9F9F9;'>Разработка логотипа и брендбука</span> (цветовая палитра, типография, иконки и графические элементы),<span style='color:#F9F9F9;'> корпоративный фирменный стиль</span> (визитки, рекламные плакаты, упаковка, шаблоны презентаций и соцсетей), а также <span style='color: #F9F9F9;'>видео и анимационные материалы, лендинг</span> для креативной студии Pena Lab. Задача — гармонично соединить концепцию бренда и минималистичную «trash» эстетику без потери идеи эфемерного искусства и осознанного потребления. Суть концепции: «Ты носишь вещь ради уникального имени, а потом она исчезает.»
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>  
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#thirteen-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div> 
-                <div class="project">
-                    <div class="project-text-grid">
-                        <button onclick="openInNewTab('https://palami.com/')"  class="services-buttons">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >PALAMI</h3>
-                        </button>
-                        <h5 class="project-text">Логотип, редизайн сайта </h5>
-                    </div>
-                    <div class="project-image-container">
-                            <div id="first-project" class="projects-carousel">
+                        <div class="project-image-container">
+                            <div id="twelve-project" class="projects-carousel">
                                 <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Palami_2.jpg">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_1.jpg">
                                 </div>
                                 <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Palami_1.jpg">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_2.jpg">
                                 </div>
                                 <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Palami_3.jpg">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_4.jpg">
                                 </div>
                                 <div class="carousel-image-container project-image project-description">
                                     <div class="project-description-text-container">
                                         <div class="project-description-text-container-inner">
                                             <h5 class="project-description-text">
-                                               Редизайн сайта для компании, разрабатывающей LED‑экраны, медиа‑фасады и остановки. <span style='color: #F9F9F9;'>Мы создали логотип, дизайн сайта на Shopify, 3D‑модели пилонов и остановок, конфигуратор, баннеры и анимацию для сайта.</span>
+                                                Разработка бренда для нового финансового стартапа Finance Labs. <span style='color: #F9F9F9;'>Проект включал создание привлекательного логотипа, подбор цветовой гаммы и шрифтов, а также создание полного брендбука с рекомендациями по стилю.</span> Также были разработаны шаблоны для счетов и электронных подписей, включённые в пакет бренд‑идентичности.
                                             </h5>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#twelve-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >VIABON</h3>
+                            </div>
+                            <h5 class="project-text">Логотип, брендбук, сайт</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="eight-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_3.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
                                             <h5 class="project-description-text">
-                                                  <span style='color: #F9F9F9;'>Дизайн:</span> цветовая палитра дополнена тёмными оттенками для подчёркивания яркости и контраста LED‑экранов. Добавлены градиенты, свечения и эффекты подсветки для создания ощущения сияющих панелей. Использован современный чистый шрифт для читаемости текста на ярком фоне LED‑экранов.
+                                                Для компании ViaBON из финансового сектора мы разработали целостный визуальный стиль: <span style='color: #F9F9F9;'>подобрали корпоративные цвета и шрифты, создали брендбук с рекомендациями по применению идентичности.</span> В настоящее время ведётся разработка корпоративного сайта с адаптацией под различные устройства.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>     
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#eight-project')">
+                                <img loading="lazy" class="project-button-image">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >5W</h3>
+                            </div>
+                            <h5 class="project-text">Логотип, брендбук, сайт</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="fourteen-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5w_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_4.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_5.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                Разработка фирменного стиля для новой финансовой компании 5W: <span style='color: #F9F9F9;'>создан логотип, определены цветовая палитра и типографика, разработан брендбук. Также разработан адаптивный сайт, оптимизированный под все устройства.</span> Сайт выполнен в соответствии с фирменным стилем и ориентирован на простую и понятную навигацию.
                                             </h5>
                                         </div>
                                     </div>
                                 </div>       
                                 <!-- Add more images as needed -->
                             </div>
-                        <button class="project-button" onclick="scrollRight('#first-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div>    
-                <div class="project">
-                    <div class="project-text-grid">
-                        <button onclick="openInNewTab('https://palami.com/products/bus-shelter-riga-s-size')"  class="services-buttons">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >CONFIGURATOR</h3>
-                        </button>
-                        <h5 class="project-text"> 3D‑моделирование </h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div class="screen">
-                            <img loading="lazy" src="../Assets/Images/Configurator_Large.jpg">
+                            <button class="project-button" onclick="scrollRight('#fourteen-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="project">
-                    <div class="project-text-grid">                     
-                        <button onclick="openInNewTab('https://palami.com/products/led-media-pylon-s')" class="services-buttons">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >BUS STOP, PYLON </h3>
-                        </button>
-                        <h5 class="project-text">3D‑моделирование</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="fourth-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_3.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Pylon.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                          <span style='color: #F9F9F9;'>Создание 3D‑моделей для Palami для демонстрации различных вариантов продуктов.</span> В проекте были разработаны два различных дизайна остановок в четырёх размерах с множеством конфигурационных опций: количество экранов, наличие карты, отображение расписания, а также индивидуальная печать города на стекле. Пилон — точное воспроизведение одного из существующих физических продуктов.
-                                        </h5>
-                                    </div>
+                    <div id="project-display" class="project project-display">
+                        <div class="project-text-grid">
+                            <button  class="project-head" onclick="ChangeHeight()">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3 id="display-header" style = "height: 3vw;margin-bottom: 1.7vw;" class="project-button-text" >ЕЩЁ ПРОЕКТОВ</h3>
+                            </button>
+                        </div>
+                        <div class="project-image-container more-projects-image-container">
+                            <button class="more-projects-button" onclick="ChangeHeight()"><img id="flipper" class="flipper" src="../Assets/Images/Plus.svg"></button>
+                            <h3 id="display" class="display">Показать больше</h3>
+                        </div>     
+                    </div>         
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <button onclick="openInNewTab('https://u-p-2dcb19.webflow.io/')"  class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >U&Paws</h3>
+                            </button>
+                            <h5 class="project-text">Скоро</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="eleven-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_1.jpg">
                                 </div>
-                            </div>  
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_4.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                <span style='color: #F9F9F9;'>Разработка логотипа, создание интернет‑магазина на Webflow для продажи аксессуаров для собак.</span>
+                                                Основные <span style='color: #F9F9F9;'>цели проекта</span>:
+                                            </h5>
+                                            <h5 class="project-description-text">
+                                                <ul>
+                                                    <li> Удобный интерфейс: облегчить поиск и покупку товаров.</li>
+                                                    <li> Качественный контент: наполнить сайт полезной информацией о товарах и их характеристиках.</li>
+                                                    <li> Визуальные эффекты: элементы анимации для повышения удобства, привлекательности и удержания внимания пользователей.</li>
+                                                    <li> Безопасные платежи: обеспечение надёжной системы оплаты и доставки.</li>
+                                                </ul>
+                                            </h5>
+                                            <h5 class="project-description-text">
+                                                Сайт в процессе разработки.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>       
                                 <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#eleven-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
                         </div>
-                        <button class="project-button" onclick="scrollRight('#fourth-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >MÜLLER'S</h3>
+                    </div> 
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >PENA LAB</h3>
+                            </div>
+                            <h5 class="project-text">Логотип, брендбук, сайт</h5>
                         </div>
-                        <h5 class="project-text">Логотип, визитки</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="third-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_3.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            <span style='color: #F9F9F9;'>Разработка логотипа и визиток для кондитерской в Латвии.</span> По желанию клиента логотип получился элегантным и минималистичным с акцентом в цветовой гамме.
-                                        </h5>
-                                        <h5 class="project-description-text">
-                                            <span style='color: #F9F9F9;'>Дизайн:</span> логотип кондитерской был разработан удобно и креативно. Выбран читаемый и стильный шрифт, контрастный красный цвет, отражающий премиум‑качество продукта. Каллиграфический элемент добавляет элегантности.
-                                        </h5>
-                                    </div>
+                        <div class="project-image-container">
+                            <div id="thirteen-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_1.jpg">
                                 </div>
-                            </div>      
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#third-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div> 
-                <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >REALWIN</h3>
-                        </div>
-                        <h5 class="project-text">Логотип</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="fifth-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/RealWin_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/RealWin_2.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            Логотип RealWin для онлайн‑казино — ключевой элемент визуальной идентичности проекта. Он разработан с учётом целей и ценностей проекта, а также потребностей целевой аудитории. <span style='color: #F9F9F9;'>Логотип отражает уникальность и характер проекта, создавая узнаваемый и запоминающийся образ.</span>
-                                        </h5>
-                                    </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_2.jpg">
                                 </div>
-                            </div>       
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#fifth-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >ECCA</h3>
-                        </div>
-                        <h5 class="project-text">Логотип</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="sixt-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_3.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            <span style='color: #F9F9F9;'>Дизайн логотипа электромобиля и UX.</span>
-                                            Логотип привлекает внимание потенциальных клиентов и подчёркивает преимущества электромобилей, такие как экологичность и современные технологии.                                            
-                                            <span style='color: #F9F9F9;'>Основные цели проекта:</span>
-                                        </h5>
-                                        <h5 class="project-description-text">
-                                            <ul>
-                                                <li>Уникальный дизайн: отражение технологического прогресса и инновационного подхода.</li>
-                                                <li>Устойчивость: визуальные элементы, символизирующие заботу о природе и устойчивое развитие.</li>
-                                                <li>Многофункциональность: логотип должен быть адаптирован для использования на разных носителях — автомобилях, рекламных материалах, сайтах.</li>
-                                                <li>Простота и запоминаемость: дизайн должен быть легко воспринимаем и запоминаться, чтобы клиенты могли быстро идентифицировать бренд.</li>
-                                            </ul>                     
-                                        </h5>
-                                    </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_3.jpg">
                                 </div>
-                            </div>       
-                            <!-- Add more images as needed -->
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_4.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_5.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                <span style='color: #F9F9F9;'>Разработка логотипа и брендбука</span> (цветовая палитра, типография, иконки и графические элементы),<span style='color:#F9F9F9;'> корпоративный фирменный стиль</span> (визитки, рекламные плакаты, упаковка, шаблоны презентаций и соцсетей), а также <span style='color: #F9F9F9;'>видео и анимационные материалы, лендинг</span> для креативной студии Pena Lab. Задача — гармонично соединить концепцию бренда и минималистичную «trash» эстетику без потери идеи эфемерного искусства и осознанного потребления. Суть концепции: «Ты носишь вещь ради уникального имени, а потом она исчезает.»
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#thirteen-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
                         </div>
-                        <button class="project-button" onclick="scrollRight('#sixt-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >MAJA</h3>
+                    </div> 
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <button onclick="openInNewTab('https://palami.com/')"  class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >PALAMI</h3>
+                            </button>
+                            <h5 class="project-text">Логотип, редизайн сайта </h5>
                         </div>
-                        <h5 class="project-text">Логотип, брендбук</h5>
+                        <div class="project-image-container">
+                                <div id="first-project" class="projects-carousel">
+                                    <div class="carousel-image-container">
+                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_2.jpg">
+                                    </div>
+                                    <div class="carousel-image-container">
+                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_1.jpg">
+                                    </div>
+                                    <div class="carousel-image-container">
+                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_3.jpg">
+                                    </div>
+                                    <div class="carousel-image-container project-image project-description">
+                                        <div class="project-description-text-container">
+                                            <div class="project-description-text-container-inner">
+                                                <h5 class="project-description-text">
+                                                Редизайн сайта для компании, разрабатывающей LED‑экраны, медиа‑фасады и остановки. <span style='color: #F9F9F9;'>Мы создали логотип, дизайн сайта на Shopify, 3D‑модели пилонов и остановок, конфигуратор, баннеры и анимацию для сайта.</span>
+                                                </h5>
+                                                <h5 class="project-description-text">
+                                                    <span style='color: #F9F9F9;'>Дизайн:</span> цветовая палитра дополнена тёмными оттенками для подчёркивания яркости и контраста LED‑экранов. Добавлены градиенты, свечения и эффекты подсветки для создания ощущения сияющих панелей. Использован современный чистый шрифт для читаемости текста на ярком фоне LED‑экранов.
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>       
+                                    <!-- Add more images as needed -->
+                                </div>
+                            <button class="project-button" onclick="scrollRight('#first-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>    
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <button onclick="openInNewTab('https://palami.com/products/bus-shelter-riga-s-size')"  class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >CONFIGURATOR</h3>
+                            </button>
+                            <h5 class="project-text"> 3D‑моделирование </h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div class="screen">
+                                <img loading="lazy" src="../Assets/Images/Configurator_Large.jpg">
+                            </div>
+                        </div>
                     </div>
-                    <div class="project-image-container">
-                        <div id="ten-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Maja_1.jpg">
+                    <div class="project">
+                        <div class="project-text-grid">                     
+                            <button onclick="openInNewTab('https://palami.com/products/led-media-pylon-s')" class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >BUS STOP, PYLON </h3>
+                            </button>
+                            <h5 class="project-text">3D‑моделирование</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="fourth-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Pylon.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                            <span style='color: #F9F9F9;'>Создание 3D‑моделей для Palami для демонстрации различных вариантов продуктов.</span> В проекте были разработаны два различных дизайна остановок в четырёх размерах с множеством конфигурационных опций: количество экранов, наличие карты, отображение расписания, а также индивидуальная печать города на стекле. Пилон — точное воспроизведение одного из существующих физических продуктов.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>  
+                                    <!-- Add more images as needed -->
                             </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Maja_2.jpg">
+                            <button class="project-button" onclick="scrollRight('#fourth-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >MÜLLER'S</h3>
                             </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Maja_3.jpg">
+                            <h5 class="project-text">Логотип, визитки</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="third-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_3.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                <span style='color: #F9F9F9;'>Разработка логотипа и визиток для кондитерской в Латвии.</span> По желанию клиента логотип получился элегантным и минималистичным с акцентом в цветовой гамме.
+                                            </h5>
+                                            <h5 class="project-description-text">
+                                                <span style='color: #F9F9F9;'>Дизайн:</span> логотип кондитерской был разработан удобно и креативно. Выбран читаемый и стильный шрифт, контрастный красный цвет, отражающий премиум‑качество продукта. Каллиграфический элемент добавляет элегантности.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>      
+                                <!-- Add more images as needed -->
                             </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
+                            <button class="project-button" onclick="scrollRight('#third-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >REALWIN</h3>
+                            </div>
+                            <h5 class="project-text">Логотип</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="fifth-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/RealWin_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/RealWin_2.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                Логотип RealWin для онлайн‑казино — ключевой элемент визуальной идентичности проекта. Он разработан с учётом целей и ценностей проекта, а также потребностей целевой аудитории. <span style='color: #F9F9F9;'>Логотип отражает уникальность и характер проекта, создавая узнаваемый и запоминающийся образ.</span>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#fifth-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >ECCA</h3>
+                            </div>
+                            <h5 class="project-text">Логотип</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="sixt-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_3.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                <span style='color: #F9F9F9;'>Дизайн логотипа электромобиля и UX.</span>
+                                                Логотип привлекает внимание потенциальных клиентов и подчёркивает преимущества электромобилей, такие как экологичность и современные технологии.                                            
+                                                <span style='color: #F9F9F9;'>Основные цели проекта:</span>
+                                            </h5>
+                                            <h5 class="project-description-text">
+                                                <ul>
+                                                    <li>Уникальный дизайн: отражение технологического прогресса и инновационного подхода.</li>
+                                                    <li>Устойчивость: визуальные элементы, символизирующие заботу о природе и устойчивое развитие.</li>
+                                                    <li>Многофункциональность: логотип должен быть адаптирован для использования на разных носителях — автомобилях, рекламных материалах, сайтах.</li>
+                                                    <li>Простота и запоминаемость: дизайн должен быть легко воспринимаем и запоминаться, чтобы клиенты могли быстро идентифицировать бренд.</li>
+                                                </ul>                     
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#sixt-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >MAJA</h3>
+                            </div>
+                            <h5 class="project-text">Логотип, брендбук</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="ten-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_3.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
 
-                                        <h5 class="project-description-text">
-                                            Проект нацелен на создание визуального элемента, который станет частью бренда и будет ассоциироваться с качеством и уютом Maja Coffee House.
-                                            <span style='color: #F9F9F9;'>Логотип стильный, современный и легко узнаваемый, привлекающий внимание клиентов и создающий восприятие качества услуг.</span> Основные <span style='color: #F9F9F9;'>цели проекта</span>:
-                                        </h5>
-                                        <h5 class="project-description-text">
-                                            <ul>
-                                                <li>Уникальность: создать оригинальный дизайн, который выделит Maja Coffee House среди конкурентов.</li>
-                                                <li>Многофункциональность: дизайн должен хорошо смотреться на разных носителях — от вывески до упаковки и мерча.</li>
-                                                <li>Цветовая палитра: подобрать гармоничную цветовую гамму, создающую уютный и привлекательный визуальный образ.</li>
-                                                <li>Лёгкость восприятия: логотип должен быть простым и запоминающимся, чтобы клиенты могли легко его идентифицировать.</li>
-                                            </ul>  
-                                        </h5>
+                                            <h5 class="project-description-text">
+                                                Проект нацелен на создание визуального элемента, который станет частью бренда и будет ассоциироваться с качеством и уютом Maja Coffee House.
+                                                <span style='color: #F9F9F9;'>Логотип стильный, современный и легко узнаваемый, привлекающий внимание клиентов и создающий восприятие качества услуг.</span> Основные <span style='color: #F9F9F9;'>цели проекта</span>:
+                                            </h5>
+                                            <h5 class="project-description-text">
+                                                <ul>
+                                                    <li>Уникальность: создать оригинальный дизайн, который выделит Maja Coffee House среди конкурентов.</li>
+                                                    <li>Многофункциональность: дизайн должен хорошо смотреться на разных носителях — от вывески до упаковки и мерча.</li>
+                                                    <li>Цветовая палитра: подобрать гармоничную цветовую гамму, создающую уютный и привлекательный визуальный образ.</li>
+                                                    <li>Лёгкость восприятия: логотип должен быть простым и запоминающимся, чтобы клиенты могли легко его идентифицировать.</li>
+                                                </ul>  
+                                            </h5>
+                                        </div>
                                     </div>
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#ten-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >DASHBOARD</h3>
+                            </div>
+                            <h5 class="project-text">Концепт</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="seventh-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_1.jpg">
                                 </div>
-                            </div>       
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#ten-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div>
-               
-                <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >DASHBOARD</h3>
-                        </div>
-                        <h5 class="project-text">Концепт</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="seventh-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_3.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                           <span style='color: #F9F9F9;'>Дизайн интерфейса автомобильной приборной панели с удобной и современной пользовательской средой.</span> Концепция UX приборной панели авто. С развитием электрификации и программного обеспечения мы считаем необходимым переосмыслить и упростить, отходя от классических решений и ориентируясь на пассажирский опыт.
-                                        </h5>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_3.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                            <span style='color: #F9F9F9;'>Дизайн интерфейса автомобильной приборной панели с удобной и современной пользовательской средой.</span> Концепция UX приборной панели авто. С развитием электрификации и программного обеспечения мы считаем необходимым переосмыслить и упростить, отходя от классических решений и ориентируясь на пассажирский опыт.
+                                            </h5>
+                                        </div>
                                     </div>
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#seventh-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >BANNERS</h3>
+                            </div>
+                            <h5 class="project-text">Онлайн и печать</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="nine-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Banners_1.jpg">
                                 </div>
-                            </div>       
-                            <!-- Add more images as needed -->
-                        </div>
-                        <button class="project-button" onclick="scrollRight('#seventh-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
-                    </div>
-                </div>
-               
-                <div class="project">
-                    <div class="project-text-grid">
-                        <div class="project-head">
-                            <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                            <h3  class="project-button-text" >BANNERS</h3>
-                        </div>
-                        <h5 class="project-text">Онлайн и печать</h5>
-                    </div>
-                    <div class="project-image-container">
-                        <div id="nine-project" class="projects-carousel">
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Banners_1.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Banners_2.jpg">
-                            </div>
-                            <div class="carousel-image-container">
-                                <img loading="lazy" class="project-image" src="../Assets/Images/Banners_3.jpg">
-                            </div>
-                            <div class="carousel-image-container project-image project-description">
-                                <div class="project-description-text-container">
-                                    <div class="project-description-text-container-inner">
-                                        <h5 class="project-description-text">
-                                            <span style='color: #F9F9F9;'>Создаём привлекательные и эффективные рекламные материалы</span>
-                                            которые помогут продвигать продукты или услуги компании. Баннеры могут использоваться как в онлайн‑каналах, так и в оффлайн‑форматах, обеспечивая широкий охват целевой аудитории.
-                                            <span style='color: #F9F9F9;'>Основные цели:</span>
-                                        </h5>
-                                        <h5 class="project-description-text">
-                                            <ul>
-                                                <li>Уникальный дизайн: создавать оригинальные визуальные концепции, которые привлекают внимание и выделяют бренд.</li>
-                                                <li>Чистое сообщение: формулировать короткие запоминающиеся тексты, передающие ключевые преимущества.</li>
-                                                <li>Адаптивность: дизайн баннеров легко адаптируется под разные форматы и размеры, включая соцсети, сайты и печатные материалы.</li>
-                                            </ul>                     
-                                        </h5>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Banners_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Banners_3.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                <span style='color: #F9F9F9;'>Создаём привлекательные и эффективные рекламные материалы</span>
+                                                которые помогут продвигать продукты или услуги компании. Баннеры могут использоваться как в онлайн‑каналах, так и в оффлайн‑форматах, обеспечивая широкий охват целевой аудитории.
+                                                <span style='color: #F9F9F9;'>Основные цели:</span>
+                                            </h5>
+                                            <h5 class="project-description-text">
+                                                <ul>
+                                                    <li>Уникальный дизайн: создавать оригинальные визуальные концепции, которые привлекают внимание и выделяют бренд.</li>
+                                                    <li>Чистое сообщение: формулировать короткие запоминающиеся тексты, передающие ключевые преимущества.</li>
+                                                    <li>Адаптивность: дизайн баннеров легко адаптируется под разные форматы и размеры, включая соцсети, сайты и печатные материалы.</li>
+                                                </ul>                     
+                                            </h5>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>       
-                            <!-- Add more images as needed -->
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#nine-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
                         </div>
-                        <button class="project-button" onclick="scrollRight('#nine-project')">
-                            <img loading="lazy" class="project-button-image" >
-                        </button>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="side-moving-container">
+            <h2 id="side-moving" class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp;</h2>
+            <h2 id="contact-header-mob" class="contact-header-mob">ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.</h2>
+        </div>
+        <div class="contact-anchor" id="contact-anchor-id"></div>
+        <div class="desktop">
+            <div class="contact">
+    <div class="headers-container">
+        <h2 class="contact-header-first">ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.</h2>
+        <h2 id="contact" class="contact-header-second">КОНТАКТЫ</h2>
     </div>
-     <div class="side-moving-container">
-        <h2 id="side-moving" class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp;</h2>
-        <h2 id="contact-header-mob" class="contact-header-mob">ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.</h2>
+    <div class="email-container">
+        <img class="contact-arrow" src="../Assets/Images/Arrow_Right_Small.svg">
+        <h3 class="email">Idigex@gmail.com</h3>
     </div>
-    <div class="contact-anchor" id="contact-anchor-id"></div>
-    <div class="contact">
-        <div class="headers-container">
-            <h2 class="contact-header-first">ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.</h2>
-            <h2 id="contact" class="contact-header-second">КОНТАКТЫ</h2>
-        </div>
-        <div class="email-container">
-            <img class="contact-arrow" src="../Assets/Images/Arrow_Right_Small.svg">
-            <h3 class="email">Idigex@gmail.com</h3>
-        </div>
-        <div class="social-media-contact">
-            <button class="social-media-button-contact">Telegram,</button>
-            <button class="social-media-button-contact">Instagram.</button>
-        </div>
-        <div class="name-form">
-            <input id="Email Name"  oninput="TextChange('Email Name')" class="contact-input" type="text" placeholder="NAME"/>
-        </div>
-        <div class="subject-form">
-            <input id="Email Subject"  oninput="TextChange('Email Subject')" class="contact-input" type="text" placeholder="SUBJECT"/>
-        </div>
-        <div class="message-form">
-            <textarea id="Email Message" oninput="TextChange('Email Message')" class="contact-input contact-input-message" type="text" placeholder="MESSAGE"></textarea>
-        </div>
-        <button class="send-message" onclick="sendEmail()">
-            <h3 class="send-message-text" >ОТПРАВИТЬ СООБЩЕНИЕ</h3>
-        </button>
+    <div class="name-form">
+        <input id="Email Name"  oninput="TextChange('Email Name')" class="contact-input" type="text" placeholder="NAME"/>
     </div>
-    <div style="height: 100px;"></div>
+    <div class="subject-form">
+        <input id="Email Subject"  oninput="TextChange('Email Subject')" class="contact-input" type="text" placeholder="SUBJECT"/>
+    </div>
+    <div class="message-form">
+        <textarea id="Email Message" oninput="TextChange('Email Message')" class="contact-input contact-input-message" type="text" placeholder="MESSAGE"></textarea>
+    </div>
+    <button class="send-message" onclick="sendEmail()">
+        <h3 class="send-message-text" >ОТПРАВИТЬ СООБЩЕНИЕ</h3>
+    </button>
+</div>
+        </div>
+        <div class="mobile">
+            <div class="contact">
+    <div class="headers-container">
+        <h2 id="contact" class="contact-header-second">КОНТАКТЫ</h2>  
+    </div>
+     <h5 class="contact-subheader-mob">ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.</h5>
+    <div class="name-form">
+        <input id="Email Name"  oninput="TextChange('Email Name')" class="contact-input" type="text" placeholder="NAME"/>
+    </div>
+    <div class="subject-form">
+        <input id="Email Subject"  oninput="TextChange('Email Subject')" class="contact-input" type="text" placeholder="SUBJECT"/>
+    </div>
+    <div class="message-form">
+        <textarea id="Email Message" oninput="TextChange('Email Message')" class="contact-input contact-input-message" type="text" placeholder="MESSAGE"></textarea>
+    </div>
+    <button class="send-message" onclick="sendEmail()">
+        <h3 class="send-message-text" >ОТПРАВИТЬ СООБЩЕНИЕ</h3>
+    </button>
+</div>
+        </div>
+    </div>
     <div class="loader">
         <div class="second-loader-image"></div>
         <img class="loading-logo" src="../Assets/Images/Loading_Logo.png"/>
@@ -908,6 +937,8 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/contact.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/horizontalScroll.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/projects.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/headermob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/about-mob.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/servicesController.js"></script>
@@ -942,7 +973,7 @@ function scrollRight(containerId) {
     var imageWidthVW = 43.74; // Assuming each image is 43.75vw wide
     var mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
     if (mediaQuery.matches) {
-        imageWidthVW = 89.5;
+        imageWidthVW = 94;
     }else
     {
         imageWidthVW = 43.74;
@@ -1029,12 +1060,10 @@ function swapElements() {
     const container = document.getElementById('menu-elem-fourth');
     const box1 = document.getElementById('last-menu-button-container');
     const box2 = document.getElementById('last-menu-id');
-    const aboutImage = document.getElementById('about-image');
     const mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
     if (mediaQuery.matches) {
         // If the media query matches, swap the elements
         container.insertBefore(box2, box1);
-        aboutImage.src = "../Assets/Images/About ID Mob.png";
     } else {
         // If the media query doesn't match, reset to the original order
         container.insertBefore(box1, box2);
@@ -1042,7 +1071,7 @@ function swapElements() {
         movingTextUpAnim('services');
         movingTextUpAnim('contact');
         movingTextUpAnim('projects');
-        aboutImage.src = "../Assets/Images/About ID.png";
+         movingTextUpAnim('first-shot');
     }
 }
 
@@ -1052,7 +1081,19 @@ swapElements();
 // Event listener for resize to handle orientation changes on mobile
 window.addEventListener('resize', swapElements);
 
-
+console.log("Script loaded");
+document.addEventListener("DOMContentLoaded", function () {
+  const video = document.querySelector(".first-shot-video");
+  const container = document.querySelector(".first-shot-video-container");
+  window.addEventListener("scroll", function () {
+    const containerTop = container.getBoundingClientRect().top;
+    if (containerTop <= 0) {
+      video.classList.add("fixed");
+    } else {
+      video.classList.remove("fixed");
+    }
+  });
+});
     
   </script>
 </html>

@@ -55,7 +55,7 @@ body:not(.scroll-container) {
 /* For Webkit Browsers (Chrome, Edge, Safari) */
 html:not(.scroll-container)::-webkit-scrollbar,
 body:not(.scroll-container)::-webkit-scrollbar {
-  width: 6px; /* General scrollbar width */
+  width: 3px; /* General scrollbar width */
 }
 
 html:not(.scroll-container)::-webkit-scrollbar-track,

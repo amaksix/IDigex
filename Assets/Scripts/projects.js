@@ -53,7 +53,7 @@ function ChangeHeight(){
     {
         const sideMoving = document.getElementById("side-moving");
         sideMoving.style.marginLeft = "500vw";
-        console.log(sideMoving);
+
         if (mediaQuery.matches) {
             projects.style.height = maxMob+"vw";
         }else

@@ -1,0 +1,17 @@
+    .logo-mob{
+        width:30vw;
+    }
+    .first-video-mob{
+        position:sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    .header-div-mob{
+        position: absolute;
+        margin-top: 3vw;
+        margin-left: 5vw;
+        display: inline-grid;
+        grid-template-columns: auto auto;
+    }

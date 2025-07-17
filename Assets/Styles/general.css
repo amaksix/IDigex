@@ -21,7 +21,12 @@ button:active{
 body{
     background-color: #0C0C0C;
     overflow-x: hidden;
-    height: 1000px;
+    margin: 0;
+}
+.background-holder{
+     background-color: #0C0C0C;
+     position: relative;
+    padding-top: 6vw;
 }
 h1{
     font-size: 10.5vw;
@@ -142,10 +147,11 @@ h5{
     overflow: hidden;
 }
 .description-container{
-    margin-top: 20vw;
-    margin-left: 5vw;
+ 
+    margin-left: 5.6vw;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 30.5vw;
+    gap:16.5vw;
 }
 .description-text-container{
     width: 30.5vw;  
@@ -210,42 +216,68 @@ h5{
         display: inline-block;
     }
     .first-shot-video-container{
-        position: absolute; 
-        width: 38vw; 
-        height: 29vw; 
-        overflow: hidden;  
-        left:44vw; 
-        top:30vw;  
-        border-radius: 2.4vw;
-
+        width:100%; 
+        margin-top: 7vw;
+        height: 55vw;
+        margin-left:0;
+        overflow: hidden;
     }
-    .first-shot-video{
-        width: 38vw;
-    }
+.first-shot-video {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+    .first-shot-video.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
     .description-container-mob{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
         display: none;
     }
     .first-shot-header
     {
-        position: absolute; 
-        margin-top: 8vw;
+        position: relative; 
+        margin-top: 0;
         z-index: 1;
-        margin-left: 10vw;
+        margin-left: 0;
     }
     @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
+        .desktop{
+            display:none;
+        }
+        .mobile{
+            display: block;
+        }
+        body{
+            margin: 0;
+        }
         .about-text-container{
-            margin-top: 52vw;
+            margin-top: 11vw;
+            margin-left: 5vw;
+            display: block;
         }
         .about-text-first{
-            width: 43vw;  
+            width: 100%;  
             margin: 0;
         }
         .about-text-second{
-            width: 43vw;
+            width: 100%;
             margin: 0;
-            margin-left: 4vw;
-            margin-top: 24vw;
+            margin-top: 5vw;
         }
         .about-header{
             margin: 0;
@@ -255,23 +287,22 @@ h5{
         }
         .about-container{
             margin-top:25vw;
-            margin-left: 3vw;
+            margin-left: 0vw;
             padding-top: 0;
         }
         .description-text{ 
             margin-bottom: 0vw;
         }
-        .description-text-container{
-            width: 66vw; 
-            margin-top: 55vw;
-            margin-bottom: 0vw;
-        }
         .first-shot-header
         {
-            position: absolute; 
-            margin-top: 60vw;
+            position: relative; 
+            margin-top: 0;
             z-index: 1;
-            margin-left: 3vw;
+            margin-left: 0;
+        }
+        .description-text-container{
+            display: block;
+            width: 100%;
         }
         .menu-elem-second{
             margin-left:-2vw;
@@ -283,10 +314,7 @@ h5{
             margin-left: 15vw;
         }
         .first-shot-video-container{
-            top:80vw;  
-            width: 66vw; 
-            height: 55vw;
-            left:28vw; 
+           display: none;
         }
         .first-shot-video{
             width: 66vw;
@@ -308,10 +336,10 @@ h5{
             display: none;
         }
         .description-container-mob{
-            margin-top: 20vw;
+            margin-top: 3.5vw;
             margin-left: 3vw;
-            display: grid;
-            grid-template-columns: auto auto;
+            margin-right: 3vw;
+            display: block;
         }
         .menu-grid {
             margin-top: 20vw;
