@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/loader.css?=v2'>
- 
+
 <head> 
  <link rel="icon" href="../Assets/Images/48х48.png" sizes="48x48" type="image/png" >
  <link rel="icon" href="../Assets/Images/48х48.svg" sizes="48x48" type="image/svg+xml">
@@ -22,16 +22,16 @@
 <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/BcLazoDO2nyl0HdC/scene.splinecode"></spline-viewer>-->
    
-    <div id="first-shot-video-container" class="first-shot-video-container" >
+   <!-- <div id="first-shot-video-container" class="first-shot-video-container" >
         <video id="first-shot-video" class="first-shot-video" src="../Assets/Video/Main.webm" autoplay loop muted></video>
-    </div>
-    
+    </div>-->
+    <canvas id="lava-canvas"></canvas>
     <div class="background-holder">
         <div class="description-container">
                 <h2 id="first-shot" class="first-shot-header">{{ t.header.title }}</h2>
-                <h5 id="descriptionText" class="description-text">{{ t.header.text }}</h5>
+                <h5 id="descriptionText" class="description-text" style="mix-blend-mode: exclusion;">{{ t.header.text }}</h5>
         </div> 
-    
+        
         <div class="description-container-mob">
              <h2 id="first-shot" class="first-shot-header">{{ t.header.title }}</h2>
             <div class="description-text-container">
@@ -812,6 +812,12 @@
             {% include contactmob.html %}
         </div>
     </div>
+        <div class="desktop">
+            {% include footer.html %}
+        </div>
+        <div class="mobile">
+            {% include footermob.html %}
+        </div>
     <div class="loader">
         <div class="second-loader-image"></div>
         <img class="loading-logo" src="../Assets/Images/Loading_Logo.png"/>
@@ -828,12 +834,16 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/projects.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/headermob.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/about-mob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/servicesController.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/sideMoving.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/projects.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
+<script src="../Assets/Scripts/lava-lamp.js"></script>
 <script type="text/javascript">
+
 window.addEventListener("load", (event) => {
     var elems = document.getElementsByClassName("preload")[0].classList.remove("preload");
   });

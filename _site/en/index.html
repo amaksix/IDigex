@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/loader.css?=v2'>
- 
+
 <head> 
  <link rel="icon" href="../Assets/Images/48х48.png" sizes="48x48" type="image/png" >
  <link rel="icon" href="../Assets/Images/48х48.svg" sizes="48x48" type="image/svg+xml">
@@ -15,7 +15,7 @@
     
     <div class="desktop">
             <div class="header-div">
-        <img class="logo" src="../Assets/Images/Logo_IDigex.svg" alt="Logo">
+        <img style="mix-blend-mode: exclusion;" class="logo" src="../Assets/Images/Logo_IDigex.svg" alt="Logo">
         <div class="languages—container">
             <div id="languages-dropdown" class="languages hidden">
                 <div class="languages-button-container">
@@ -33,7 +33,7 @@
     </div>
     <div class="menu-grid">
         <div class="menu-elem">
-            <h1 class="first-menu-header">I</h1>
+            <h1 class="first-menu-header" style="mix-blend-mode: exclusion;">I</h1>
             <div class="menu-button-container">
                 <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
                     <span class="label-up">ABOUT</span>
@@ -42,7 +42,7 @@
             </div>      
         </div>
         <div class="menu-elem menu-elem-second">
-            <h1>DI</h1>
+            <h1 style="mix-blend-mode: exclusion;">DI</h1>
             <div class="menu-button-container">
                 <button onclick="ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button">
                     <span class="label-up">SERVICES</span>
@@ -51,7 +51,7 @@
             </div>      
         </div>
         <div class="menu-elem menu-elem-third">
-            <h1>G</h1>
+            <h1 style="mix-blend-mode: exclusion;">G</h1>
             <div class="menu-button-container">
                 <button onclick="ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button">
                     <span class="label-up">PROJECTS</span>
@@ -66,7 +66,7 @@
                     <span class="label-up">CONTACT</span>
                 </button>
             </div> 
-            <h1 id="last-menu-id">EX</h1>          
+            <h1 style="mix-blend-mode: exclusion;" id="last-menu-id">EX</h1>          
         </div>
     </div> 
     </div>
@@ -79,16 +79,16 @@
 <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/BcLazoDO2nyl0HdC/scene.splinecode"></spline-viewer>-->
    
-    <div id="first-shot-video-container" class="first-shot-video-container" >
+   <!-- <div id="first-shot-video-container" class="first-shot-video-container" >
         <video id="first-shot-video" class="first-shot-video" src="../Assets/Video/Main.webm" autoplay loop muted></video>
-    </div>
-    
+    </div>-->
+    <canvas id="lava-canvas"></canvas>
     <div class="background-holder">
         <div class="description-container">
                 <h2 id="first-shot" class="first-shot-header">DIGITAL STUDIO</h2>
-                <h5 id="descriptionText" class="description-text">We are a digital studio specializing in the development of modern and functional landing pages, websites, logos, branding, 3D modeling for various businesses and organizations. We strive to ensure that every project we create reflects the uniqueness of our clients and their values.</h5>
+                <h5 id="descriptionText" class="description-text" style="mix-blend-mode: exclusion;">We are a digital studio specializing in the development of modern and functional landing pages, websites, logos, branding, 3D modeling for various businesses and organizations. We strive to ensure that every project we create reflects the uniqueness of our clients and their values.</h5>
         </div> 
-    
+        
         <div class="description-container-mob">
              <h2 id="first-shot" class="first-shot-header">DIGITAL STUDIO</h2>
             <div class="description-text-container">
@@ -923,6 +923,79 @@
 </div>
         </div>
     </div>
+        <div class="desktop">
+            <footer>
+    <div class="footer-top-grid">
+        <div class="footer-contact-container">
+            <h3 class="footer-header">CONTACT US</h3>
+            <h4 class="footer-text">idigex@gmail.com</h4>
+        </div>
+        <div class="footer-nav-container">
+            <h3 class="footer-header">NAVIGATION</h3>
+            <div class="menu-button-container">
+                <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button footer-button">
+                    <span class="label-up label-up-footer">ABOUT</span>
+                    <span class="label-up label-up-footer">ABOUT</span>
+                </button>
+            </div> 
+            <div class="menu-button-container">
+                <button onclick="ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button footer-button">
+                    <span class="label-up label-up-footer">SERVICES</span>
+                    <span class="label-up label-up-footer">SERVICES</span>
+                </button>
+            </div>      
+            <div class="menu-button-container">
+                <button onclick="ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button footer-button">
+                    <span class="label-up label-up-footer">PROJECTS</span>
+                    <span class="label-up label-up-footer">PROJECTS</span>
+                </button>
+            </div> 
+        </div>
+        <div class="footer-social-media-container">
+            <button class="social-media-button-footer">
+                <span class="social-media-image-container">
+                     <img class="footer-social-media-image"  src="../Assets/Images/Inst.svg"/>
+                </span>
+                <span class="social-media-button-bg"></span>
+            </button>
+            <button class="social-media-button-footer">
+                <span class="social-media-image-container">
+                        <svg  viewBox="0 0 320 512"  height="1.8vw" xmlns="http://www.w3.org/2000/svg"  class="svgIcon"  fill="black">
+                        <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path>
+                        </svg>   
+                </span>
+                <span class="social-media-button-bg"></span>
+            </button>
+            <button class="social-media-button-footer">
+                <span class="social-media-image-container">
+                    <img class="footer-social-media-image"  src="../Assets/Images/Link.svg"/>
+                </span>
+                <span class="social-media-button-bg"></span>
+            </button>
+            <button class="social-media-button-footer">
+                <span class="social-media-image-container">
+                    <img class="footer-social-media-image"  src="../Assets/Images/Teleg.svg"/>
+                </span>
+                <span class="social-media-button-bg"></span>
+            </button>
+            <button class="social-media-button-footer">
+                <span class="social-media-image-container">
+                    <img class="footer-social-media-image"  src="../Assets/Images/Wats.svg"/>
+                </span>
+                <span class="social-media-button-bg"></span>
+            </button>
+           
+          
+            
+           
+        </div>
+    </div>
+</footer>
+
+        </div>
+        <div class="mobile">
+            
+        </div>
     <div class="loader">
         <div class="second-loader-image"></div>
         <img class="loading-logo" src="../Assets/Images/Loading_Logo.png"/>
@@ -939,12 +1012,16 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/projects.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/headermob.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/about-mob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/servicesController.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/sideMoving.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/projects.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
+<script src="../Assets/Scripts/lava-lamp.js"></script>
 <script type="text/javascript">
+
 window.addEventListener("load", (event) => {
     var elems = document.getElementsByClassName("preload")[0].classList.remove("preload");
   });
