@@ -27,7 +27,6 @@
 .languages{
     position: absolute;
     width: 10.2vw;
-    height: 5vw;
     background-color: #0C0C0C;
     border-radius: 1.2vw;
     background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,
@@ -35,6 +34,7 @@
     border:  0.15vw solid transparent;
     margin-left: -12.2vw;
     padding-top: 1.2vw;
+    padding-bottom: 0.6vw;
     margin-top: 0.5vw;
 }
 .languages-button-container{

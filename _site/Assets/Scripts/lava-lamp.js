@@ -1,6 +1,7 @@
 const canvas = document.getElementById('lava-canvas');
+let isRendering = true;
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
-renderer.setSize(window.innerWidth, (window.innerHeight));
+renderer.setSize(window.innerWidth, (window.innerwidth*0.47));
 
 const scene = new THREE.Scene();
 const camera = new THREE.OrthographicCamera(-0.5, 0.5, 0.5, -0.5, -1000, 1000);
@@ -53,7 +54,7 @@ float sphereSDF(vec3 p, float r) {
 }
 
 float sdf(vec3 p) {
-    vec3 p1 = rotate(p, vec3(0.0, 0.0, 1.0), time/5.0);
+    vec3 p1 = rotate(p, vec3(0.0, 0.0,0.0), time/5.0);
     vec3 p2 = rotate(p, vec3(1.), -time/5.0);
     vec3 p3 = rotate(p, vec3(1., 1., 0.), -time/4.5);
     vec3 p4 = rotate(p, vec3(0., 1., 0.), -time/4.0);
@@ -63,9 +64,9 @@ float sdf(vec3 p) {
     final = smin(final, nextSphere, 0.1);
     nextSphere = sphereSDF(p2 - vec3(-0.8, 0.0, 0.0), 0.2);
     final = smin(final, nextSphere, 0.1);
-    nextSphere = sphereSDF(p3 - vec3(1.0, 0.0, 0.0), 0.15);
+    nextSphere = sphereSDF(p3 - vec3(1.0, 0.0, 0.0), 0.34);
     final = smin(final, nextSphere, 0.1);
-    nextSphere = sphereSDF(p4 - vec3(0.45, -0.45, 0.0), 0.15);
+    nextSphere = sphereSDF(p4 - vec3(0.45, -0.45, 0.0), 0.24);
     final = smin(final, nextSphere, 0.1);
 
         nextSphere = sphereSDF(p3 - vec3(-0.3, 0.5, 0.0), 0.18);
@@ -74,14 +75,10 @@ float sdf(vec3 p) {
     nextSphere = sphereSDF(p1 - vec3(0.8, 0.3, 0.0), 0.22);
     final = smin(final, nextSphere, 0.1);
 
-    nextSphere = sphereSDF(p2 - vec3(-0.6, -0.4, 0.0), 0.16);
+    nextSphere = sphereSDF(p2 - vec3(-0.6, -0.4, 0.0), 0.26);
     final = smin(final, nextSphere, 0.1);
 
-    nextSphere = sphereSDF(p3 - vec3(0.2, 0.65, 0.0), 0.12);
-    final = smin(final, nextSphere, 0.1);
 
-    nextSphere = sphereSDF(p4 - vec3(0.75, -0.6, 0.0), 0.19);
-    final = smin(final, nextSphere, 0.1);
     return final;
 }
 
@@ -115,7 +112,7 @@ void main() {
     if (t > 0.0) {
         vec3 p = cameraPos + ray * t;
         vec3 normal = getNormal(p);
-        float fresnel = pow(1.0 + dot(ray, normal), 2.0);
+        float fresnel = pow(1.0 + dot(ray, normal),3.0);
 
         vec3 baseColor = vec3(0.439, 0.564, 1.0);
         vec3 minColor = vec3(0.047); // #0c0c0c
@@ -147,7 +144,7 @@ scene.add(mesh);
 // Set resolution
 function updateResolution() {
   const width = window.innerWidth;
-  const height = window.innerHeight;
+  const height = window.innerWidth*0.47;
   const imageAspect = 1;
   let a1, a2;
   
@@ -162,18 +159,56 @@ function updateResolution() {
   uniforms.resolution.value.set(width, height, a1, a2);
   renderer.setSize(width, height);
 }
-
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      if (!isRendering) {
+        isRendering = true;
+        animate();  // resume animation loop
+      }
+    } else {
+      isRendering = false;  // stop animation loop
+    }
+  });
+}, { threshold: 0.1 });
 window.addEventListener('resize', updateResolution);
 updateResolution();
 
 // Animate
 const clock = new THREE.Clock();
+observer.observe(canvas);
+// Media query to disable animation on touch/coarse pointers or small screens
+
 
 function animate() {
+  if (mediaQuery.matches) {
+    isRendering = false;
+    return;  // don't animate if media query matches
+  }
+  if (!isRendering) return;
+
   requestAnimationFrame(animate);
   uniforms.time.value = clock.getElapsedTime();
   renderer.render(scene, camera);
 }
 
-animate();
+// Start animation only if media query does not match
+if (!mediaQuery.matches) {
+  animate();
+}
+
+// Listen to media query changes to start/stop animation dynamically
+mediaQuery.addEventListener('change', (e) => {
+  if (e.matches) {
+    // Stop animation
+    isRendering = false;
+  } else {
+    // Start animation if not already running
+    if (!isRendering) {
+      isRendering = true;
+      animate();
+    }
+  }
+});
+
 

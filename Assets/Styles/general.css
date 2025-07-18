@@ -153,14 +153,15 @@ h5{
     display: grid;
     grid-template-columns: auto 30.5vw;
     gap:16.5vw;
-      position: absolute;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      z-index: 1;
-      mix-blend-mode: exclusion;
-      text-align: center;
-      color: #e0e0e0;
+    flex-direction: column;
+
+    z-index: 1;
+    mix-blend-mode: exclusion;
+    text-align: center;
+    color: #e0e0e0;
+}
+.description-text{
+    margin:0;
 }
 canvas {
     position: absolute;
@@ -186,35 +187,7 @@ canvas {
     margin-top: 12vw;
     width:6vw;
 }
-.about-container{
-    margin-top:25vw;
-    margin-left: 5vw;
-    padding-top: 0;
-}
-.about-image{
-    width: 89vw;
-    position: absolute;
-}
-.about-text-container{
-    margin-top: 23.5vw;
-    display: grid;
-    grid-template-columns: auto auto;
-    position: absolute;
-}
-.about-header{
-    margin: 0;
-    position: absolute;
-    margin-left: 68.5vw;
-    margin-top: 2.25vw;
-}
-.about-text-first{
-    width: 20vw;  
-}
-.about-text-second{
-    width: 20vw;
-    margin-left:48.75vw;
-    margin-top: 10.5vw;
-}
+
 .preload * {
     -webkit-transition: none !important;
     -moz-transition: none !important;
@@ -233,29 +206,6 @@ canvas {
         width: 0.5em; /* Adjust the width of spaces */
         display: inline-block;
     }
-    .first-shot-video-container{
-        width:100%; 
-        margin-top: 7vw;
-        height: 55vw;
-        margin-left:0;
-        overflow: hidden;
-    }
-.first-shot-video {
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  z-index: -1;
-  transition: all 0.3s ease;
-}
-    .first-shot-video.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-}
     .description-container-mob{
         display: none;
     }
@@ -271,6 +221,7 @@ canvas {
         margin-top: 0;
         z-index: 1;
         margin-left: 0;
+        margin-bottom: 0;
     }
     @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
@@ -283,40 +234,8 @@ canvas {
         body{
             margin: 0;
         }
-        .about-text-container{
-            margin-top: 11vw;
-            margin-left: 5vw;
-            display: block;
-        }
-        .about-text-first{
-            width: 100%;  
-            margin: 0;
-        }
-        .about-text-second{
-            width: 100%;
-            margin: 0;
-            margin-top: 5vw;
-        }
-        .about-header{
-            margin: 0;
-            position: absolute;
-            margin-left: 65vw;
-            margin-top: 4vw;
-        }
-        .about-container{
-            margin-top:25vw;
-            margin-left: 0vw;
-            padding-top: 0;
-        }
         .description-text{ 
             margin-bottom: 0vw;
-        }
-        .first-shot-header
-        {
-            position: relative; 
-            margin-top: 0;
-            z-index: 1;
-            margin-left: 0;
         }
         .description-text-container{
             display: block;
@@ -330,12 +249,6 @@ canvas {
         }
         .menu-elem-fourth{
             margin-left: 15vw;
-        }
-        .first-shot-video-container{
-           display: none;
-        }
-        .first-shot-video{
-            width: 66vw;
         }
         .social-media{
             margin-left: 0vw;

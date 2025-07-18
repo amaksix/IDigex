@@ -1,0 +1,32 @@
+.about-image-mob{
+    width: 100%;
+}
+.about-header-mob{
+    margin: 0;
+    margin-top: 15vw;
+    margin-left: 5vw;
+}
+.about-container{
+    margin-top:22.2vw;
+    margin-left: 5vw;
+    padding-top: 0;
+}
+.about-text-container{
+    position: relative;
+}
+.about-header{
+    margin: 0;
+    text-align: center;
+}
+.about-text-first{
+    width: 58.3vw;  
+    text-align: center;
+    margin: auto;
+    margin-top:4.5vw;
+}
+.about-text-second{
+    width: 58.3vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 2vw;
+}

@@ -19,17 +19,11 @@
     <div class="mobile">
         {% include headermob.html %}
     </div>
-<!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
-<spline-viewer url="https://prod.spline.design/BcLazoDO2nyl0HdC/scene.splinecode"></spline-viewer>-->
-   
-   <!-- <div id="first-shot-video-container" class="first-shot-video-container" >
-        <video id="first-shot-video" class="first-shot-video" src="../Assets/Video/Main.webm" autoplay loop muted></video>
-    </div>-->
     <canvas id="lava-canvas"></canvas>
     <div class="background-holder">
         <div class="description-container">
                 <h2 id="first-shot" class="first-shot-header">{{ t.header.title }}</h2>
-                <h5 id="descriptionText" class="description-text" style="mix-blend-mode: exclusion;">{{ t.header.text }}</h5>
+                <h5 id="descriptionText" class="description-text">{{ t.header.text }}</h5>
         </div> 
         
         <div class="description-container-mob">
@@ -833,7 +827,7 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/horizontalScroll.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/projects.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/headermob.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/about-mob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/about.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
@@ -978,21 +972,6 @@ function swapElements() {
 swapElements();
 
 // Event listener for resize to handle orientation changes on mobile
-window.addEventListener('resize', swapElements);
-
-console.log("Script loaded");
-document.addEventListener("DOMContentLoaded", function () {
-  const video = document.querySelector(".first-shot-video");
-  const container = document.querySelector(".first-shot-video-container");
-  window.addEventListener("scroll", function () {
-    const containerTop = container.getBoundingClientRect().top;
-    if (containerTop <= 0) {
-      video.classList.add("fixed");
-    } else {
-      video.classList.remove("fixed");
-    }
-  });
-});
-    
+window.addEventListener('resize', swapElements);    
   </script>
 </html>

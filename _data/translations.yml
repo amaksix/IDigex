@@ -73,7 +73,7 @@ EN:
                 text06: "Secure payments: providing a reliable system of payment and delivery of goods."
                 text07: At the moment, the site is still under development.
         penalab:
-            description: Logo, brand book, website
+            description: Branding
             text: "<span style='color: #F9F9F9;'>Development of a logo and brand book</span> (including color palette, typography, icons and graphic elements),<span style='color:#F9F9F9;'> creation of a corporate identity</span> (business cards, advertising posters, packaging, templates for presentations and social networks), as well as <span style='color: #F9F9F9;'>video and animation materials, landing page</span> for the creative studio Pena Lab. The task was to harmoniously combine the brand concept with minimalist \"trash\" aesthetics, without losing the main idea of ​​ephemeral art and conscious consumption. The essence of the concept: 'You wear a thing for the sake of a unique name, and then it disappears.'"
         palami:
             description: Logo, website design rebranding 
@@ -105,7 +105,7 @@ EN:
                 text06: "Multifunctionality: the logo should be adapted for use on various media, including cars, advertising materials and websites."
                 text07: "Simplicity and memorability: the design should be easy to perceive and remember so that customers can easily identify the brand."
         maja:
-            description: Logo, brand book
+            description: Branding
             text:
                 text01: The project aims to create a visual element that will become part of the brand and will be associated with the quality and comfort of Maja Coffee House.
                 text02: "<span style='color: #F9F9F9;'>The logo is stylish, modern and easily recognizable to attract customers attention and ensure the quality of the services offered.</span> The  <span style='color: #F9F9F9;'>main goals</span> of the project:"
@@ -114,14 +114,14 @@ EN:
                 text05: "Color palette: choosing a harmonious color scheme that creates a cozy and attractive impression."
                 text06: "Ease of perception: the logo should be simple and easy to remember so that customers can easily identify it."
         financelabs:
-            description: Logo, brand book
+            description:  Branding
             text: "Brand development for the newly established company, Finance Labs, operating in the financial sector.<span style='color: #F9F9F9;'> The project involved designing an attractive logo, selecting color and font options, and creating comprehensive style guidelines presented in a brand book.</span> Additionally, invoice and email signature templates were developed and delivered as part of the branding package."
         dashboard:
             description: Concept
             text:  "<span style='color: #F9F9F9;'>Automobile dashboard UI design with user-friendly and modern interface.</span> Car dashboard user experience concept. As electrification and software functions evolve,
                     we believe there is a need for rethinking and simplicity, moving away from classic setups and moving towards a more passenger-oriented experience."
         viabon:
-            description: Logo, Brand book, website
+            description:  Branding, website
             text: "For the company ViaBON, working in the financial sector, a holistic visual style was developed: <span style='color: #F9F9F9;'>corporate colors and fonts were selected, a brand book with recommendations for using the identity was created.</span> At the moment, work is underway on a corporate website with adaptation for various devices."
         banners:
             description: Online and print
@@ -133,7 +133,7 @@ EN:
                 text05: "Clear message: formulate short and memorable texts that will convey the main benefits of the product or service."
                 text06: "Adaptability: design banners that will easily adapt to various formats and sizes, including social media, websites and printed materials."
         5w:
-            description: Logo, Brand book, website
+            description:  Branding, website
             text: "Development of a corporate identity for a new financial company 5W:<span style='color: #F9F9F9;'> a logo was created, a color palette and typography were defined, a brand book was designed. A website with an adaptive design optimized for all types of devices was also developed.</span> The website is designed in accordance with the corporate identity and is focused on simple and clear navigation."
     contact:
         header: LET'S BUILD THE FUTURE TOGETHER.
@@ -213,7 +213,7 @@ LV:
                 text06: "Drošas maksājumu sistēmas nodrošināšana un piegādes risinājumi."
                 text07: "Pašreiz vietne tiek izstrādāta."
         penalab:
-            description: Logotips, zīmola grāmata, vietne
+            description: Brendings, vietne
             text: "<span style='color: #F9F9F9;'>Logotipa un zīmola grāmatas izstrāde</span> (krāsu palete, tipogrāfija, ikonas un grafiskie elementi),<span style='color:#F9F9F9;'> korporatīvais identitātes dizains</span> (vizītkartes, reklāmas plakāti, iepakojums, prezentāciju un sociālo tīklu veidnes), kā arī <span style='color: #F9F9F9;'>video un animācijas materiāli, galvenā lapa</span> radošajai studijai Pena Lab. Uzdevums bija harmoniski apvienot zīmola koncepciju ar minimālista “trash” estētiku, nezaudējot efēmisko mākslas un apzinātas patēriņa ideju. Koncepcijas būtība: 'Tu valkā lietu tās unikālā vārda dēļ, un tad tā pazūd.'"
         palami:
             description: Logotips, vietnes dizaina rebrendings
@@ -243,7 +243,7 @@ LV:
                 text06: "Daudzfunkcionalitāte: logotipam jābūt piemērotam dažādiem medijiem, tostarp automašīnām, reklāmas materiāliem un vietnēm."
                 text07: "Vienkāršība un atmiņām paliekošs veidols: dizains ir viegli uztverams un atcerams, lai klienti to viegli identificētu."
         maja:
-            description: Logotips, zīmola grāmata
+            description: Brendings
             text:
                 text01: "Projektā izveidojām vizuālu elementu, kas kļūs par daļu no zīmola un asociēsies ar Maja Coffee House kvalitāti un komfortu."
                 text02: "<span style='color: #F9F9F9;'>Logotips ir stilīgs, moderns un viegli atpazīstams, piesaistot klientu uzmanību un nodrošinot pakalpojumu kvalitātes uztveri.</span> Projekta <span style='color: #F9F9F9;'>galvenie mērķi</span>:"
@@ -252,13 +252,13 @@ LV:
                 text05: "Krāsu palete: izvēlēta saskaņota krāsu gamma, kas rada mājīgu un pievilcīgu iespaidu."
                 text06: "Uztveres vieglums: logotips ir vienkāršs un viegli atcerams, lai klienti to ātri identificētu."
         financelabs:
-            description: Logotips, zīmola grāmata
+            description: Brendings
             text: "Zīmola izstrāde jaunizveidotajam uzņēmumam Finance Labs finanšu sektorā.<span style='color: #F9F9F9;'> Projekts ietvēra pievilcīga logotipa izstrādi, krāsu un fontu izvēli, un visaptverošu stila vadlīniju iekļaušanu zīmola grāmatā.</span> Papildus tika izstrādātas rēķinu un e-pasta parakstu veidnes, kuras iekļātas kopējā zīmola pakotnē."
         dashboard:
             description: Koncepts
             text: "<span style='color: #F9F9F9;'>Automašīnas paneļa UI dizains ar lietotājam draudzīgu un mūsdienīgu saskarni.</span> Automašīnas paneļa lietotāja pieredzes koncepts. Elektrifikācijas un programmatūras funkciju attīstoties, mēs uzskatām, ka nepieciešams pārdomāt un vienkāršot, virzoties prom no klasiskajiem iestatījumiem un vairāk uz pasažieru orientētu pieredzi."
         viabon:
-            description: Logotips, zīmola grāmata, vietne
+            description: Brendings, vietne
             text: "Uzņēmumam ViaBON finanšu sektorā izstrādājām holistisku vizuālo stilu: <span style='color: #F9F9F9;'>izvēlējāmies korporatīvās krāsas un fontus, izveidojām zīmola grāmatu ar identitātes lietošanas ieteikumiem.</span> Šobrīd notiek darbs pie korporatīvās vietnes ar adaptāciju dažādām ierīcēm."
         banners:
             description: Tiešsaistes un drukas
@@ -270,7 +270,7 @@ LV:
                 text05: "Skaidrs vēstījums: formulēt īsus un atmiņā paliekošus tekstus, kas nodod galvenos ieguvumus."
                 text06: "Pielāgojamība: dizainēt banerus, kuri viegli adaptējas dažādiem formātiem un izmēriem, tostarp sociālajiem tīkliem, vietnēm un drukas materiāliem."
         5w:
-            description: Logotips, zīmola grāmata, vietne
+            description: Brendings, vietne
             text: "Korporatīvās identitātes attīstība jaunam finanšu uzņēmumam 5W:<span style='color: #F9F9F9;'> izveidojām logotipu, noteicām krāsu paleti un tipogrāfiju, izstrādājām zīmola grāmatu. Arī izstrādāta adaptīva vietne, optimizēta visām ierīcēm.</span> Vietne ir veidota saskaņā ar korporatīvo identitāti un orientēta uz vienkāršu un skaidru navigāciju."
     contact:
         header: UZBŪVĒSIM NĀKOTNI KOPĀ.
@@ -351,7 +351,7 @@ RU:
                 text06: "Безопасные платежи: обеспечение надёжной системы оплаты и доставки."
                 text07: "Сайт в процессе разработки."
         penalab:
-            description: Логотип, брендбук, сайт
+            description: Брендинг, сайт
             text: "<span style='color: #F9F9F9;'>Разработка логотипа и брендбука</span> (цветовая палитра, типография, иконки и графические элементы),<span style='color:#F9F9F9;'> корпоративный фирменный стиль</span> (визитки, рекламные плакаты, упаковка, шаблоны презентаций и соцсетей), а также <span style='color: #F9F9F9;'>видео и анимационные материалы, лендинг</span> для креативной студии Pena Lab. Задача — гармонично соединить концепцию бренда и минималистичную «trash» эстетику без потери идеи эфемерного искусства и осознанного потребления. Суть концепции: «Ты носишь вещь ради уникального имени, а потом она исчезает.»"
         palami:
             description: Логотип, редизайн сайта
@@ -381,7 +381,7 @@ RU:
                 text06: "Многофункциональность: логотип должен быть адаптирован для использования на разных носителях — автомобилях, рекламных материалах, сайтах."
                 text07: "Простота и запоминаемость: дизайн должен быть легко воспринимаем и запоминаться, чтобы клиенты могли быстро идентифицировать бренд."
         maja:
-            description: Логотип, брендбук
+            description: Брендинг
             text:
                 text01: "Проект нацелен на создание визуального элемента, который станет частью бренда и будет ассоциироваться с качеством и уютом Maja Coffee House."
                 text02: "<span style='color: #F9F9F9;'>Логотип стильный, современный и легко узнаваемый, привлекающий внимание клиентов и создающий восприятие качества услуг.</span> Основные <span style='color: #F9F9F9;'>цели проекта</span>:"
@@ -390,13 +390,13 @@ RU:
                 text05: "Цветовая палитра: подобрать гармоничную цветовую гамму, создающую уютный и привлекательный визуальный образ."
                 text06: "Лёгкость восприятия: логотип должен быть простым и запоминающимся, чтобы клиенты могли легко его идентифицировать."
         financelabs:
-            description: Логотип, брендбук
+            description: Брендинг
             text: "Разработка бренда для нового финансового стартапа Finance Labs. <span style='color: #F9F9F9;'>Проект включал создание привлекательного логотипа, подбор цветовой гаммы и шрифтов, а также создание полного брендбука с рекомендациями по стилю.</span> Также были разработаны шаблоны для счетов и электронных подписей, включённые в пакет бренд‑идентичности."
         dashboard:
             description: Концепт
             text: "<span style='color: #F9F9F9;'>Дизайн интерфейса автомобильной приборной панели с удобной и современной пользовательской средой.</span> Концепция UX приборной панели авто. С развитием электрификации и программного обеспечения мы считаем необходимым переосмыслить и упростить, отходя от классических решений и ориентируясь на пассажирский опыт."
         viabon:
-            description: Логотип, брендбук, сайт
+            description: Брендинг, сайт
             text: "Для компании ViaBON из финансового сектора мы разработали целостный визуальный стиль: <span style='color: #F9F9F9;'>подобрали корпоративные цвета и шрифты, создали брендбук с рекомендациями по применению идентичности.</span> В настоящее время ведётся разработка корпоративного сайта с адаптацией под различные устройства."
         banners:
             description: Онлайн и печать
@@ -408,7 +408,7 @@ RU:
                 text05: "Чистое сообщение: формулировать короткие запоминающиеся тексты, передающие ключевые преимущества."
                 text06: "Адаптивность: дизайн баннеров легко адаптируется под разные форматы и размеры, включая соцсети, сайты и печатные материалы."
         5w:
-            description: Логотип, брендбук, сайт
+            description: Брендинг, сайт
             text: "Разработка фирменного стиля для новой финансовой компании 5W: <span style='color: #F9F9F9;'>создан логотип, определены цветовая палитра и типографика, разработан брендбук. Также разработан адаптивный сайт, оптимизированный под все устройства.</span> Сайт выполнен в соответствии с фирменным стилем и ориентирован на простую и понятную навигацию."
     contact:
         header: ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.

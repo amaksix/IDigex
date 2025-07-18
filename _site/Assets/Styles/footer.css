@@ -37,51 +37,9 @@ footer{
 }
 .social-media-button-footer {
   width: 1.8vw;
+  display: flex;
   height: 1.8vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  background-color: transparent;
-  position: relative;
-  /* overflow: hidden; */
-  border-radius: 7px;
-  cursor: pointer;
-  transition: all .3s;
 }
-
-.social-media-image-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  backdrop-filter: blur(0px);
-  letter-spacing: 0.8px;
-  border-radius: 10px;
-  transition: all .3s;
-  border: 1px solid rgba(156, 156, 156, 0.466);
-}
-
-.social-media-button-bg {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: #181818;
-  z-index: -1;
-  border-radius: 10px;
-  pointer-events: none;
-  transition: all .3s;
-}
-
-.social-media-button-footer:hover .social-media-button-bg {
-  transform: rotate(35deg);
-  transform-origin: bottom;
-}
-
-.social-media-button:hover .social-media-image-container {
-  background-color: rgba(156, 156, 156, 0.466);
-  backdrop-filter: blur(4px);
+.social-media-button-footer:hover .footer-social-media-image path{
+  fill: #A9A9A9;
 }
