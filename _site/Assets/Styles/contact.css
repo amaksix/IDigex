@@ -6,33 +6,18 @@
     width: 45vw;
     color: #A9A9A9;
     display: block;
-    line-height: 5.5vw;
     margin-bottom: 0px;
 }
 .contact-header-second{
-    text-align: right;
-    margin-top:6vw;
-}
-.headers-container{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.email-container{
-    width: 26.8vw;
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-top: 1.25vw;
-}
-.email{
-    margin: 0;
-    text-align: right;
-    font-size: 2.8vw;
+    text-align: left;
+    margin-top:2vw;
+    margin-bottom: 0;
 }
 .contact-input{
     width:50.75vw;
     height:4.5vw;
     background: transparent;
-    border-radius: 1.5vw;
+    border-radius: 1.1vw;
     border:solid;
     border-color: #666666;
     border-width: 0.1vw;
@@ -70,7 +55,7 @@
     border-color: #d9d9d9;
     background-color:transparent;
     border-width: 0.2vw;
-    border-radius: 1.5vw;
+    border-radius: 1.6vw;
     transition: 0.9s;
     margin-top: 1.5vw;
   }
@@ -99,18 +84,18 @@
   }
   .name-form{
     height:4.5vw;
-    margin-top: -9vw;
+    margin-top: -11vw;
     width:50.75vw;
     float: right;
   }
   .subject-form{
     height:4.5vw;
-    margin-top: -2.75vw;
+    margin-top: -4.75vw;
     width:50.75vw;
     float: right;
   }
   .message-form{
-    margin-top: 3.5vw;
+    margin-top: 1.5vw;
   }
   .contact-arrow{
     width:3.25vw;
