@@ -64,9 +64,9 @@ float sdf(vec3 p) {
     final = smin(final, nextSphere, 0.1);
     nextSphere = sphereSDF(p2 - vec3(-0.8, 0.0, 0.0), 0.2);
     final = smin(final, nextSphere, 0.1);
-    nextSphere = sphereSDF(p3 - vec3(1.0, 0.0, 0.0), 0.34);
+    nextSphere = sphereSDF(p3 - vec3(1.0, 0.0, 0.0), 0.15);
     final = smin(final, nextSphere, 0.1);
-    nextSphere = sphereSDF(p4 - vec3(0.45, -0.45, 0.0), 0.24);
+    nextSphere = sphereSDF(p4 - vec3(0.45, -0.45, 0.0), 0.15);
     final = smin(final, nextSphere, 0.1);
 
         nextSphere = sphereSDF(p3 - vec3(-0.3, 0.5, 0.0), 0.18);
@@ -75,7 +75,10 @@ float sdf(vec3 p) {
     nextSphere = sphereSDF(p1 - vec3(0.8, 0.3, 0.0), 0.22);
     final = smin(final, nextSphere, 0.1);
 
-    nextSphere = sphereSDF(p2 - vec3(-0.6, -0.4, 0.0), 0.26);
+    nextSphere = sphereSDF(p2 - vec3(-0.6, -0.4, 0.0), 0.16);
+    final = smin(final, nextSphere, 0.1);
+
+    nextSphere = sphereSDF(p3 - vec3(0.2, 0.65, 0.0), 0.12);
     final = smin(final, nextSphere, 0.1);
 
 
@@ -112,7 +115,7 @@ void main() {
     if (t > 0.0) {
         vec3 p = cameraPos + ray * t;
         vec3 normal = getNormal(p);
-        float fresnel = pow(1.0 + dot(ray, normal),3.0);
+        float fresnel = pow(1.0 + dot(ray, normal),2.0);
 
         vec3 baseColor = vec3(0.439, 0.564, 1.0);
         vec3 minColor = vec3(0.047); // #0c0c0c
