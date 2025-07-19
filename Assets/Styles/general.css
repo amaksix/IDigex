@@ -31,6 +31,7 @@ body{
     position: relative;
     padding-bottom: 14vw;
     margin-top: 52vw;
+    padding-top: 5vw;
 }
 h1{
     font-size: 10.5vw;
@@ -192,6 +193,7 @@ canvas {
     (max-width: 480px) {
         .background-holder{
             margin-top: 12.7vw;
+            padding-top: 0;
         }
         .desktop{
             display:none;
