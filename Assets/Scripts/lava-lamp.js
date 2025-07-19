@@ -1,7 +1,7 @@
 const canvas = document.getElementById('lava-canvas');
 let isRendering = true;
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
-renderer.setSize(window.innerWidth, (window.innerwidth*0.47));
+renderer.setSize(window.innerWidth, (window.innerwidth*0.51));
 
 const scene = new THREE.Scene();
 const camera = new THREE.OrthographicCamera(-0.5, 0.5, 0.5, -0.5, -1000, 1000);
@@ -139,7 +139,7 @@ scene.add(mesh);
 // Set resolution
 function updateResolution() {
   const width = window.innerWidth;
-  const height = window.innerWidth*0.47;
+  const height = window.innerWidth*0.51;
   const imageAspect = 1;
   let a1, a2;
   
@@ -154,14 +154,25 @@ function updateResolution() {
   uniforms.resolution.value.set(width, height, a1, a2);
   renderer.setSize(width, height);
 }
+var observed = true;
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    isRendering = false;
+  } else if(observed) {
+    isRendering = true;
+    animate();
+  }
+});
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       if (!isRendering) {
         isRendering = true;
+        observed = true;
         animate();  // resume animation loop
       }
     } else {
+      observed = false;
       isRendering = false;  // stop animation loop
     }
   });
@@ -171,7 +182,9 @@ updateResolution();
 
 // Animate
 const clock = new THREE.Clock();
-observer.observe(canvas);
+const renderAnchor = document.getElementById('stop-render-anchor');
+console.log(renderAnchor);
+observer.observe(renderAnchor); // NOT canvas
 // Media query to disable animation on touch/coarse pointers or small screens
 
 
@@ -181,7 +194,6 @@ function animate() {
     return;  // don't animate if media query matches
   }
   if (!isRendering) return;
-
   requestAnimationFrame(animate);
   uniforms.time.value = clock.getElapsedTime();
   renderer.render(scene, camera);
@@ -201,6 +213,7 @@ mediaQuery.addEventListener('change', (e) => {
     // Start animation if not already running
     if (!isRendering) {
       isRendering = true;
+      
       animate();
     }
   }

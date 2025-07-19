@@ -12,63 +12,73 @@
   <title>IDIGEX</title>
 </head>
 <body class="preload"> 
+
     
     <div class="desktop">
-            <div class="header-div">
-        <img style="mix-blend-mode: exclusion;" class="logo" src="../Assets/Images/Logo_IDigex.svg" alt="Logo">
-        <div class="languages—container">
-            <div id="languages-dropdown" class="languages hidden">
-                <div class="languages-button-container">
-                    <a id="english" class="languages-button" href="/en/">English</a>
+        <div class="first-shot-hidding-container">
+    <div class="first-shot-container-desktop">
+        <div class="header-div">
+            <img style="mix-blend-mode: exclusion;" class="logo" src="../Assets/Images/Logo_IDigex.svg" alt="Logo">
+            <div class="languages—container">
+                <div id="languages-dropdown" class="languages hidden">
+                    <div class="languages-button-container">
+                        <a id="english" class="languages-button" href="/en/">English</a>
+                    </div>
+                    <div class="languages-button-container">
+                        <a id="latvian" class="languages-button" href="/lv/">Latviešu</a>
+                    </div>
+                    <div class="languages-button-container">
+                        <a id="russian" class="languages-button" href="/ru/">Russian</a>
+                    </div>
                 </div>
-                <div class="languages-button-container">
-                    <a id="latvian" class="languages-button" href="/lv/">Latviešu</a>
-                </div>
-                <div class="languages-button-container">
-                    <a id="russian" class="languages-button" href="/ru/">Russian</a>
-                </div>
+                <button id="languages-button" class="selected-language"><span id="selected-language-text">RU</span><img id="arrow"class="arrow" src="../Assets/Images/Arrow_Bottom.svg"></button>   
             </div>
-            <button id="languages-button" class="selected-language"><span id="selected-language-text">RU</span><img id="arrow"class="arrow" src="../Assets/Images/Arrow_Bottom.svg"></button>   
         </div>
+        <div class="menu-grid">
+            <div class="menu-elem">
+                <h1 class="first-menu-header" style=" mix-blend-mode:exclusion;">I</h1>
+                <div class="menu-button-container">
+                    <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
+                        <span class="label-up">О НАС</span>
+                        <span class="label-up">О НАС</span>
+                    </button>
+                </div>      
+            </div>
+            <div class="menu-elem menu-elem-second">
+                <h1 style="mix-blend-mode:exclusion;">DI</h1>
+                <div class="menu-button-container">
+                    <button onclick="ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button">
+                        <span class="label-up">УСЛУГИ</span>
+                        <span class="label-up">УСЛУГИ</span>
+                    </button>
+                </div>      
+            </div>
+            <div class="menu-elem menu-elem-third">
+                <h1 style="mix-blend-mode:exclusion;">G</h1>
+                <div class="menu-button-container">
+                    <button onclick="ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button">
+                        <span class="label-up">ПРОЕКТЫ</span>
+                        <span class="label-up">ПРОЕКТЫ</span>
+                    </button>
+                </div> 
+            </div>
+            <div  id="menu-elem-fourth"  class="menu-elem menu-elem-fourth">
+                <div id="last-menu-button-container" class="menu-button-container">
+                    <button onclick="ScrollToAnchor('contact-anchor-id')" id="contact-button" class="menu-button menu-button-exception">
+                        <span class="label-up">КОНТАКТЫ</span>
+                        <span class="label-up">КОНТАКТЫ</span>
+                    </button>
+                </div> 
+                <h1 style="mix-blend-mode:exclusion;" id="last-menu-id">EX</h1>          
+            </div>
+        </div> 
+        <canvas id="lava-canvas"></canvas>
+        <div class="description-container">
+                <h2 id="first-shot" class="first-shot-header">ЦИФРОВАЯ СТУДИЯ</h2>
+                <h5 id="descriptionText" class="description-text">Мы превращаем идеи в цифровые решения — от веб-сайтов и логотипов до фирменного стиля и 3D-дизайна.</h5>
+        </div> 
     </div>
-    <div class="menu-grid">
-        <div class="menu-elem">
-            <h1 class="first-menu-header" style=" mix-blend-mode:exclusion;">I</h1>
-            <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
-                    <span class="label-up">О НАС</span>
-                    <span class="label-up">О НАС</span>
-                </button>
-            </div>      
-        </div>
-        <div class="menu-elem menu-elem-second">
-            <h1 style="mix-blend-mode:exclusion;">DI</h1>
-            <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button">
-                    <span class="label-up">УСЛУГИ</span>
-                    <span class="label-up">УСЛУГИ</span>
-                </button>
-            </div>      
-        </div>
-        <div class="menu-elem menu-elem-third">
-            <h1 style="mix-blend-mode:exclusion;">G</h1>
-            <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button">
-                    <span class="label-up">ПРОЕКТЫ</span>
-                    <span class="label-up">ПРОЕКТЫ</span>
-                </button>
-            </div> 
-        </div>
-        <div  id="menu-elem-fourth"  class="menu-elem menu-elem-fourth">
-            <div id="last-menu-button-container" class="menu-button-container">
-                <button onclick="ScrollToAnchor('contact-anchor-id')" id="contact-button" class="menu-button menu-button-exception">
-                    <span class="label-up">КОНТАКТЫ</span>
-                    <span class="label-up">КОНТАКТЫ</span>
-                </button>
-            </div> 
-            <h1 style="mix-blend-mode:exclusion;" id="last-menu-id">EX</h1>          
-        </div>
-    </div> 
+</div>
     </div>
     <div class="mobile">
         <div class="header-div-mob">
@@ -76,17 +86,12 @@
 </div>
 <video  class="first-video-mob" src="../Assets/Video/Main_Mob.webm" autoplay loop muted playsinline></video>
     </div>
-    <canvas id="lava-canvas"></canvas>
-    <div class="background-holder">
-        <div class="description-container">
-                <h2 id="first-shot" class="first-shot-header">ЦИФРОВАЯ СТУДИЯ</h2>
-                <h5 id="descriptionText" class="description-text">Мы — цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D‑моделирования для различных бизнесов и организаций. Мы стремимся, чтобы каждый созданный нами проект отражал уникальность наших клиентов и их ценности.</h5>
-        </div> 
-        
+    <div id="stop-render-anchor" class="render-anchor"></div>
+    <div class="background-holder">   
         <div class="description-container-mob">
-             <h2 id="first-shot" class="first-shot-header">ЦИФРОВАЯ СТУДИЯ</h2>
+             <h2 id="first-shot-mob" class="first-shot-header">ЦИФРОВАЯ СТУДИЯ</h2>
             <div class="description-text-container">
-                <h5 id="descriptionText" class="description-text">Мы — цифровая студия, специализирующаяся на разработке современных и функциональных лендингов, сайтов, логотипов, брендинга, 3D‑моделирования для различных бизнесов и организаций. Мы стремимся, чтобы каждый созданный нами проект отражал уникальность наших клиентов и их ценности.</h5>
+                <h5 id="descriptionText" class="description-text">Мы превращаем идеи в цифровые решения — от веб-сайтов и логотипов до фирменного стиля и 3D-дизайна.</h5>
             </div>
         </div> 
         <div class="desktop">
@@ -94,8 +99,8 @@
         <div class="about-anchor" id="about-anchor-id"></div>
         <h2 id="about" class="about-header">О НАС</h2>
         <div class="about-text-container">
-            <h5 id="about-text-first" class="about-text-first">Наша команда креативных профессионалов обладает глубокими знаниями в UI/UX‑дизайне, программировании и 3D‑моделировании, что позволяет нам создавать дизайны, которые не только визуально привлекательны, но и удобны, а также эффективны в достижении бизнес‑целей. Мы гордимся тем, что подходим к каждому проекту персонально и ведем его от начала до конца, чтобы удовлетворить все потребности и ожидания клиента.</h5>
-            <h5 id="about-text-second" class="about-text-second">Мы не просто разрабатываем сайты — мы создаём цифровые истории, которые привлекают внимание и внушают доверие вашей аудитории. Сочетая эстетику и функциональность, мы стремимся, чтобы каждый проект отражал уникальные потребности и ценности клиентов.</h5>
+            <h5 id="about-text-first" class="about-text-first fade-in">Наша команда креативных профессионалов обладает глубокими знаниями в UI/UX‑дизайне, программировании и 3D‑моделировании, что позволяет нам создавать дизайны, которые не только визуально привлекательны, но и удобны, а также эффективны в достижении бизнес‑целей. Мы гордимся тем, что подходим к каждому проекту персонально и ведем его от начала до конца, чтобы удовлетворить все потребности и ожидания клиента.</h5>
+            <h5 id="about-text-second" class="about-text-second fade-in">Мы не просто разрабатываем сайты — мы создаём цифровые истории, которые привлекают внимание и внушают доверие вашей аудитории. Сочетая эстетику и функциональность, мы стремимся, чтобы каждый проект отражал уникальные потребности и ценности клиентов.</h5>
         </div>
 </div>
         </div>
@@ -103,10 +108,10 @@
             <div class="about-container">
         <div class="about-anchor" id="about-anchor-id"></div>
         <img loading="lazy" id="about-image" class="about-image-mob" src="../Assets/Images/About ID Mob.jpg" >
-        <h2 id="about" class="about-header-mob">О НАС</h2>
+        <h2 id="about-mob" class="about-header-mob">О НАС</h2>
         <div class="about-text-container">
-            <h5 id="about-text-first" class="about-text-first">Наша команда креативных профессионалов обладает глубокими знаниями в UI/UX‑дизайне, программировании и 3D‑моделировании, что позволяет нам создавать дизайны, которые не только визуально привлекательны, но и удобны, а также эффективны в достижении бизнес‑целей. Мы гордимся тем, что подходим к каждому проекту персонально и ведем его от начала до конца, чтобы удовлетворить все потребности и ожидания клиента.</h5>
-            <h5 id="about-text-second" class="about-text-second">Мы не просто разрабатываем сайты — мы создаём цифровые истории, которые привлекают внимание и внушают доверие вашей аудитории. Сочетая эстетику и функциональность, мы стремимся, чтобы каждый проект отражал уникальные потребности и ценности клиентов.</h5>
+            <h5 id="about-text-first" class="about-text-first fade-in">Наша команда креативных профессионалов обладает глубокими знаниями в UI/UX‑дизайне, программировании и 3D‑моделировании, что позволяет нам создавать дизайны, которые не только визуально привлекательны, но и удобны, а также эффективны в достижении бизнес‑целей. Мы гордимся тем, что подходим к каждому проекту персонально и ведем его от начала до конца, чтобы удовлетворить все потребности и ожидания клиента.</h5>
+            <h5 id="about-text-second" class="about-text-second fade-in">Мы не просто разрабатываем сайты — мы создаём цифровые истории, которые привлекают внимание и внушают доверие вашей аудитории. Сочетая эстетику и функциональность, мы стремимся, чтобы каждый проект отражал уникальные потребности и ценности клиентов.</h5>
         </div>
 </div>
         </div>
@@ -896,7 +901,7 @@
             <div class="contact">
     <div class="contact-anchor" id="contact-anchor-id"></div>
     <div class="headers-container">
-        <h2 id="contact" class="contact-header-second">КОНТАКТЫ</h2>  
+        <h2 id="contact-mob" class="contact-header-second">КОНТАКТЫ</h2>  
     </div>
      <h5 class="contact-subheader-mob">ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.</h5>
     <div class="name-form">
@@ -914,7 +919,6 @@
 </div>
         </div>
     </div>
-        <div class="desktop">
             <footer>
     <div class="footer-top-grid">
         <div class="footer-contact-container">
@@ -923,22 +927,22 @@
         </div>
         <div class="footer-nav-container">
             <h3 class="footer-header">NAVIGATION</h3>
-            <div class="menu-button-container">
+            <div class="menu-button-container footer-menu-button">
                 <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button footer-button">
-                    <span class="label-up label-up-footer">О НАС</span>
-                    <span class="label-up label-up-footer">О НАС</span>
+                    <span class="label-up ">О НАС</span>
+                    <span class="label-up ">О НАС</span>
                 </button>
             </div> 
-            <div class="menu-button-container">
+            <div class="menu-button-container footer-menu-button">
                 <button onclick="ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button footer-button">
-                    <span class="label-up label-up-footer">УСЛУГИ</span>
-                    <span class="label-up label-up-footer">УСЛУГИ</span>
+                    <span class="label-up">УСЛУГИ</span>
+                    <span class="label-up">УСЛУГИ</span>
                 </button>
             </div>      
-            <div class="menu-button-container">
+            <div class="menu-button-container footer-menu-button">
                 <button onclick="ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button footer-button">
-                    <span class="label-up label-up-footer">ПРОЕКТЫ</span>
-                    <span class="label-up label-up-footer">ПРОЕКТЫ</span>
+                    <span class="label-up">ПРОЕКТЫ</span>
+                    <span class="label-up">ПРОЕКТЫ</span>
                 </button>
             </div> 
         </div>
@@ -976,10 +980,6 @@
     </div>
 </footer>
 
-        </div>
-        <div class="mobile">
-            
-        </div>
     <div class="loader">
         <div class="loader-container">
             <div class="spinner">
@@ -1012,144 +1012,7 @@
 <script type="text/javascript" src="../Assets/Scripts/servicesController.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/sideMoving.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/projects.js"></script>
+<script type="text/javascript" src="../Assets/Scripts/generalscripts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
 <script src="../Assets/Scripts/lava-lamp.js"></script>
-<script type="text/javascript">
-
-window.addEventListener("load", (event) => {
-    var elems = document.getElementsByClassName("preload")[0].classList.remove("preload");
-  });
-  function sendEmail()
-{
-    var emailName = document.getElementById("Email Name").value;
-    var emailSubject = document.getElementById("Email Subject").value;
-    var emailMessage = document.getElementById("Email Message").value;
-    emailMessage.replaceAll("\n","%0D%0A");
-    window.open('mailto:lizagvozdeckaya@gmail.com?subject='+emailSubject+'&body='+emailMessage+'%0D%0A'+'Kind Regards,'+'%0D%0A'+emailName+".");
-}
-function ScrollToAnchor(anchor)
-{
-    var element = document.getElementById(anchor);
-    element.scrollIntoView({behavior: "smooth"});
-}
-
-function openInNewTab(url) {
-  window.open(url, '_blank').focus();
-}
-
-function scrollRight(containerId) {
-    const carousel = document.querySelector(containerId);
-    const images = document.querySelectorAll(containerId + ' .project-image');
-    const totalImages = images.length; // Includes the cloned image now
-    var imageWidthVW = 43.74; // Assuming each image is 43.75vw wide
-    var mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
-    if (mediaQuery.matches) {
-        imageWidthVW = 94;
-    }else
-    {
-        imageWidthVW = 43.74;
-    }
-
-    // Update current index for this container
-    currentIndexMap[containerId]++;
-
-    // Normal scroll, as long as we haven't reached the cloned last image
-    if (currentIndexMap[containerId] < totalImages - 1) {
-        carousel.style.transition = "transform 0.5s ease"; // Enable smooth scroll
-        carousel.style.transform = `translateX(-${currentIndexMap[containerId] * imageWidthVW}vw)`;
-    } else {
-        // We have reached the cloned image, so snap back to the real first image
-        carousel.style.transition = "transform 0.5s ease";
-        carousel.style.transform = `translateX(-${currentIndexMap[containerId] * imageWidthVW}vw)`;
-
-        // After the transition to the cloned image completes, snap back to the real first image
-        setTimeout(() => {
-            carousel.style.transition = "none"; // Disable transition for instant snap
-            carousel.style.transform = `translateX(0vw)`; // Snap back to the first real image
-
-            currentIndexMap[containerId] = 0; // Reset index back to the first image
-        }, 500); // Wait for the transition to the cloned image to complete (0.5s)
-    }
-}
-       
-       
-
-    
-        function movingTextUpAnim(elemID)
-        {
-            const container = document.getElementById(elemID);
-            const text = container.textContent; // Get the text from the element
-            container.textContent = ''; // Clear the original text
-            // Create an Intersection Observer to watch when the text element comes into view
-            const observer = new IntersectionObserver(handleIntersection, {
-                root: null, // Use the viewport as the root
-                threshold: 1,// Trigger when at least 10% of the element is visible
-            });
-            observer.container = container;
-            observer.text = text;
-            // Start observing the text element
-            observer.observe(container);
-            // Loop through each character and wrap it in a div with the class 'letter'
-           
-        }
-        function animateText(text,container) {
-
-        text.split('').forEach((char, index) => {
-            const letter = document.createElement('div');
-            
-            // Handle spaces separately
-            if (char === ' ') {
-                letter.className = 'letter space';  // Add 'space' class for spaces
-            } else {
-                letter.className = 'letter';
-            }
-
-            letter.textContent = char === ' ' ? '\u00A0' : char;  // Use non-breaking space for actual spaces
-
-            container.appendChild(letter);
-
-            // Animate each letter with a staggered delay
-            setTimeout(() => {
-                letter.style.opacity = 1;
-                letter.style.transform = 'translateY(0)';
-            }, index * 40); // Adjust delay (100ms per letter)
-        });
-    }
-         // Intersection Observer callback
-    function handleIntersection(entries, observer) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                observer.container.style.opacity = 1; // Make the text container visible
-                animateText(observer.text,observer.container); // Start the letter animation
-                observer.disconnect(); // Stop observing once animation starts
-            }
-        });
-    }
-
-// Function to swap elements based on the specified media query
-function swapElements() {
-    const container = document.getElementById('menu-elem-fourth');
-    const box1 = document.getElementById('last-menu-button-container');
-    const box2 = document.getElementById('last-menu-id');
-    const mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
-    if (mediaQuery.matches) {
-        // If the media query matches, swap the elements
-        container.insertBefore(box2, box1);
-    } else {
-        // If the media query doesn't match, reset to the original order
-        container.insertBefore(box1, box2);
-        movingTextUpAnim('about');
-        movingTextUpAnim('services');
-        movingTextUpAnim('contact');
-        movingTextUpAnim('projects');
-         movingTextUpAnim('first-shot');
-    }
-}
-
-// Initial call to handle the swap on page load
-swapElements();
-
-// Event listener for resize to handle orientation changes on mobile
-window.addEventListener('resize', swapElements);    
-  </script>
 </html>

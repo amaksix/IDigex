@@ -1,55 +1,64 @@
-    <div class="header-div">
-        <img style="mix-blend-mode: exclusion;" class="logo" src="../Assets/Images/Logo_IDigex.svg" alt="Logo">
-        <div class="languages—container">
-            <div id="languages-dropdown" class="languages hidden">
-                <div class="languages-button-container">
-                    <a id="english" class="languages-button" href="/en{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">English</a>
+<div class="first-shot-hidding-container">
+    <div class="first-shot-container-desktop">
+        <div class="header-div">
+            <img style="mix-blend-mode: exclusion;" class="logo" src="../Assets/Images/Logo_IDigex.svg" alt="Logo">
+            <div class="languages—container">
+                <div id="languages-dropdown" class="languages hidden">
+                    <div class="languages-button-container">
+                        <a id="english" class="languages-button" href="/en{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">English</a>
+                    </div>
+                    <div class="languages-button-container">
+                        <a id="latvian" class="languages-button" href="/lv{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">Latviešu</a>
+                    </div>
+                    <div class="languages-button-container">
+                        <a id="russian" class="languages-button" href="/ru{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">Russian</a>
+                    </div>
                 </div>
-                <div class="languages-button-container">
-                    <a id="latvian" class="languages-button" href="/lv{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">Latviešu</a>
-                </div>
-                <div class="languages-button-container">
-                    <a id="russian" class="languages-button" href="/ru{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">Russian</a>
-                </div>
+                <button id="languages-button" class="selected-language"><span id="selected-language-text">{{ page.lang }}</span><img id="arrow"class="arrow" src="../Assets/Images/Arrow_Bottom.svg"></button>   
             </div>
-            <button id="languages-button" class="selected-language"><span id="selected-language-text">{{ page.lang }}</span><img id="arrow"class="arrow" src="../Assets/Images/Arrow_Bottom.svg"></button>   
         </div>
+        <div class="menu-grid">
+            <div class="menu-elem">
+                <h1 class="first-menu-header" style=" mix-blend-mode:exclusion;">I</h1>
+                <div class="menu-button-container">
+                    <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
+                        <span class="label-up">{{ t.nav.about }}</span>
+                        <span class="label-up">{{ t.nav.about }}</span>
+                    </button>
+                </div>      
+            </div>
+            <div class="menu-elem menu-elem-second">
+                <h1 style="mix-blend-mode:exclusion;">DI</h1>
+                <div class="menu-button-container">
+                    <button onclick="ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button">
+                        <span class="label-up">{{ t.nav.services }}</span>
+                        <span class="label-up">{{ t.nav.services }}</span>
+                    </button>
+                </div>      
+            </div>
+            <div class="menu-elem menu-elem-third">
+                <h1 style="mix-blend-mode:exclusion;">G</h1>
+                <div class="menu-button-container">
+                    <button onclick="ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button">
+                        <span class="label-up">{{ t.nav.projects }}</span>
+                        <span class="label-up">{{ t.nav.projects }}</span>
+                    </button>
+                </div> 
+            </div>
+            <div  id="menu-elem-fourth"  class="menu-elem menu-elem-fourth">
+                <div id="last-menu-button-container" class="menu-button-container">
+                    <button onclick="ScrollToAnchor('contact-anchor-id')" id="contact-button" class="menu-button menu-button-exception">
+                        <span class="label-up">{{ t.nav.contact }}</span>
+                        <span class="label-up">{{ t.nav.contact }}</span>
+                    </button>
+                </div> 
+                <h1 style="mix-blend-mode:exclusion;" id="last-menu-id">EX</h1>          
+            </div>
+        </div> 
+        <canvas id="lava-canvas"></canvas>
+        <div class="description-container">
+                <h2 id="first-shot" class="first-shot-header">{{ t.header.title }}</h2>
+                <h5 id="descriptionText" class="description-text">{{ t.header.text }}</h5>
+        </div> 
     </div>
-    <div class="menu-grid">
-        <div class="menu-elem">
-            <h1 class="first-menu-header" style=" mix-blend-mode:exclusion;">I</h1>
-            <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
-                    <span class="label-up">{{ t.nav.about }}</span>
-                    <span class="label-up">{{ t.nav.about }}</span>
-                </button>
-            </div>      
-        </div>
-        <div class="menu-elem menu-elem-second">
-            <h1 style="mix-blend-mode:exclusion;">DI</h1>
-            <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button">
-                    <span class="label-up">{{ t.nav.services }}</span>
-                    <span class="label-up">{{ t.nav.services }}</span>
-                </button>
-            </div>      
-        </div>
-        <div class="menu-elem menu-elem-third">
-            <h1 style="mix-blend-mode:exclusion;">G</h1>
-            <div class="menu-button-container">
-                <button onclick="ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button">
-                    <span class="label-up">{{ t.nav.projects }}</span>
-                    <span class="label-up">{{ t.nav.projects }}</span>
-                </button>
-            </div> 
-        </div>
-        <div  id="menu-elem-fourth"  class="menu-elem menu-elem-fourth">
-            <div id="last-menu-button-container" class="menu-button-container">
-                <button onclick="ScrollToAnchor('contact-anchor-id')" id="contact-button" class="menu-button menu-button-exception">
-                    <span class="label-up">{{ t.nav.contact }}</span>
-                    <span class="label-up">{{ t.nav.contact }}</span>
-                </button>
-            </div> 
-            <h1 style="mix-blend-mode:exclusion;" id="last-menu-id">EX</h1>          
-        </div>
-    </div> 
+</div>

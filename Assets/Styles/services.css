@@ -141,7 +141,7 @@ margin-top: -1vw;
   @media only screen and (hover: none) and (pointer: coarse), 
   (max-width: 480px) {
     .services-container{
-      margin-top: 160vw;
+      margin-top:35.6vw;
       margin-left: 3vw;
   }
   .services-buttons{

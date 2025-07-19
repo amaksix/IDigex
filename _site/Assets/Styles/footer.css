@@ -1,10 +1,11 @@
 footer{
     background-color:#F9F9F9 ;
     padding-top: 7vw;
-
+    z-index: 1;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 4.8vw;
+    position: relative;
 }
 .footer-top-grid{
     display: grid;
@@ -42,4 +43,36 @@ footer{
 }
 .social-media-button-footer:hover .footer-social-media-image path{
   fill: #A9A9A9;
+}
+
+@media only screen and (hover: none) and (pointer: coarse), 
+(max-width: 480px) {
+    .footer-top-grid{
+    display: block;
+}
+    footer{
+        padding-top: 15.2vw;
+        padding-bottom: 10.7vw;
+        padding-left: 7.8vw;
+    }
+    .footer-header{
+    margin-bottom: 7.6vw;
+    }
+    .footer-contact-container{
+        margin-bottom: 12.7vw;
+    }
+    .footer-social-media-image{
+    width: 8vw;
+    }
+    .social-media-button-footer {
+    width: 8vw;
+    display: flex;
+    height: 8vw;
+    }
+    .footer-social-media-container{
+        margin-top: 7.7vw;
+    }
+    .footer-menu-button{
+        margin-bottom: 5vw;
+    }
 }

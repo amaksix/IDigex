@@ -1,4 +1,7 @@
-
+.render-anchor{
+    position: absolute;
+    top: 100%;
+}
 button{
     background-color: transparent;
     border: none;
@@ -24,10 +27,10 @@ body{
     margin: 0;
 }
 .background-holder{
-    background-color: transparent;
+    background-color: #0C0C0C;
     position: relative;
-    padding-top: 6vw;
     padding-bottom: 14vw;
+    margin-top: 52vw;
 }
 h1{
     font-size: 10.5vw;
@@ -72,41 +75,7 @@ h5{
     line-height: 1.6vw;
     letter-spacing: 2%;
 }
-.menu-grid{
-    margin-top: 7.5vw;
-    margin-left: 4.25vw;
-    height: 7.5vw;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-.menu-elem{
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    width:50%;
-}
-.menu-elem-second{
-    margin-left:10.25vw;
-}
-.menu-elem-third{
-    margin-left: 1.75vw;
-}
-.menu-elem-fourth{
-    margin-left: 5vw;
-}
-.menu-button{
-    font-family: "Outfit", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.25vw;
-    margin-top: 6vw;
-    margin-left: 0.3vw;
-    text-wrap: nowrap;
-    display:inline-block;
-    overflow:hidden;
-    position:relative;
-    width: 100%;
-    height: 1.5vw;
-}
+
 .label-up {
     display:block;
     height:100%;
@@ -116,15 +85,7 @@ h5{
     margin-bottom: 2.25vw;
   }
   
-  .menu-button:hover .label-up {
-    top:-250%;
-  }
-.menu-button-exception{
-    margin: 0;
-    margin-top: 6vw;
-    margin-left: 0vw;
-    margin-right: 0.5vw;
-}
+
 
 .side-moving{
     width: 300%;
@@ -149,19 +110,21 @@ h5{
 }
 .description-container{
  
-    margin-left: 5.6vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 6vw;
     display: grid;
     grid-template-columns: auto 30.5vw;
-    gap:16.5vw;
+    gap:10vw;
     flex-direction: column;
-
     z-index: 1;
     mix-blend-mode: exclusion;
-    text-align: center;
+    text-align: left;
     color: #e0e0e0;
 }
 .description-text{
     margin:0;
+    margin-top: 1vw;
 }
 canvas {
     position: absolute;
@@ -173,7 +136,8 @@ canvas {
     
 }
 .description-text-container{
-    width: 30.5vw;  
+    width: 30.5vw; 
+
 }
 .social-media-button{
     font-family: "Arial", sans-serif;
@@ -222,9 +186,13 @@ canvas {
         z-index: 1;
         margin-left: 0;
         margin-bottom: 0;
+
     }
     @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
+        .background-holder{
+            margin-top: 12.7vw;
+        }
         .desktop{
             display:none;
         }
@@ -240,6 +208,7 @@ canvas {
         .description-text-container{
             display: block;
             width: 100%;
+            margin-top:7.6vw;
         }
         .menu-elem-second{
             margin-left:-2vw;
@@ -249,19 +218,6 @@ canvas {
         }
         .menu-elem-fourth{
             margin-left: 15vw;
-        }
-        .social-media{
-            margin-left: 0vw;
-            margin-top: 12vw;
-            width:17.5vw;
-            margin-right: 5.5vw;
-        }
-        .social-media-button{
-            font-family: "Arial", sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 3.5vw;
-            letter-spacing: 2%;
         }
         .description-container{
             display: none;
@@ -323,35 +279,7 @@ canvas {
             line-height: 4vw;
             letter-spacing: 1%;
         }
-        .menu-button{
 
-            font-size: 3vw;
-            margin-top: 8vw;
-            margin-left: 0.6vw;
-            width: 100%;
-            height: 4vw;
-            letter-spacing: 4%;
-            text-align: left;
-        }
-        .menu-button-exception{
-            margin: 0;
-            margin-top: 8vw;
-            margin-left: 0.6vw;
-            margin-right: 0vw;
-        }
-        .first-menu-header{
-            width: 2vw;
-        }
-        .label-up {
-            top:0%;
-            transition:0;
-            margin-bottom: 2vw;
-            mix-blend-mode: exclusion;
-          }
-          
-          .menu-button:hover .label-up {
-            top:0%;
-          }
             .side-moving{
                 display: none;
           }
