@@ -59,7 +59,7 @@ float sdf(vec3 p) {
     vec3 p3 = rotate(p, vec3(1., 1., 0.), -time/4.5);
     vec3 p4 = rotate(p, vec3(0., 1., 0.), -time/4.0);
 
-    float final = sphereSDF(p1 - vec3(-0.5, 0.0, 0.0), 0.35);
+    float final = sphereSDF(p1 - vec3(-0.5, 0.0, 0.0), 0.25);
     float nextSphere = sphereSDF(p2 - vec3(0.55, 0.0, 0.0), 0.3);
     final = smin(final, nextSphere, 0.1);
     nextSphere = sphereSDF(p2 - vec3(-0.8, 0.0, 0.0), 0.2);
@@ -72,14 +72,6 @@ float sdf(vec3 p) {
         nextSphere = sphereSDF(p3 - vec3(-0.3, 0.5, 0.0), 0.18);
     final = smin(final, nextSphere, 0.1);
 
-    nextSphere = sphereSDF(p1 - vec3(0.8, 0.3, 0.0), 0.22);
-    final = smin(final, nextSphere, 0.1);
-
-    nextSphere = sphereSDF(p2 - vec3(-0.6, -0.4, 0.0), 0.16);
-    final = smin(final, nextSphere, 0.1);
-
-    nextSphere = sphereSDF(p3 - vec3(0.2, 0.65, 0.0), 0.12);
-    final = smin(final, nextSphere, 0.1);
 
 
     return final;
