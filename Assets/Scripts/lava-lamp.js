@@ -183,7 +183,6 @@ updateResolution();
 // Animate
 const clock = new THREE.Clock();
 const renderAnchor = document.getElementById('stop-render-anchor');
-console.log(renderAnchor);
 observer.observe(renderAnchor); // NOT canvas
 // Media query to disable animation on touch/coarse pointers or small screens
 

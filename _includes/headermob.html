@@ -1,4 +1,70 @@
 <div class="header-div-mob">
     <img class="logo-mob" src="../Assets/Images/Logo_dark.svg" alt="Logo">
+    <button class="mob-menu-button-img" onclick="OpenNav()"><img class="mob-menu-button-img" src="../Assets/Images/Mob_Burger.svg"></button>
 </div>
-<video  class="first-video-mob" src="../Assets/Video/Main_Mob.webm" autoplay loop muted playsinline></video>
+<div id="mob-nav-container" class="mob-nav-container-hidden">
+    <button class="mob-menu-close-button-img" onclick="OpenNav()"><img class="mob-menu-button-img" src="../Assets/Images/Mob_Header_Close.svg"></button>
+    <div class="mob-mav-buttons-container">
+        <div class="menu-button-container">
+            <button onclick="OpenNav();ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
+                <span class="label-up ">{{ t.nav.about }}</span>
+                <span class="label-up ">{{ t.nav.about }}</span>
+            </button>
+        </div> 
+        <div class="menu-button-container">
+            <button onclick="OpenNav();ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button">
+                <span class="label-up">{{ t.nav.services }}</span>
+                <span class="label-up">{{ t.nav.services }}</span>
+            </button>
+        </div>      
+        <div class="menu-button-container">
+            <button onclick="OpenNav();ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button">
+                <span class="label-up">{{ t.nav.projects }}</span>
+                <span class="label-up">{{ t.nav.projects }}</span>
+            </button>
+        </div>
+        <div class="menu-button-container">
+            <button onclick="OpenNav();ScrollToAnchor('contact-anchor-id')" id="projects-button" class="menu-button">
+                <span class="label-up">{{ t.nav.contact }}</span>
+                <span class="label-up">{{ t.nav.contact }}</span>
+            </button>
+        </div> 
+    </div> 
+    <div class="mob-languages-container">
+        <div class="languages-button-container-mob">
+           
+            {% if page.lang == "EN" %}
+                <a id="english" class="languages-button-mob current-language-mob" href="/en{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">EN</a>
+            {% else %}
+                <a id="english" class="languages-button-mob" href="/en{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">EN</a>
+            {% endif %}
+        </div>
+        <div class="languages-button-container-mob">
+            {% if page.lang == "LV" %}
+                <a id="latvian" class="languages-button-mob current-language-mob" href="/lv{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">LV</a>
+            {% else %}
+                <a id="latvian" class="languages-button-mob" href="/lv{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">LV</a>
+            {% endif %}
+        </div>
+        <div class="languages-button-container-mob">
+            
+            {% if page.lang == "RU" %}
+                <a id="russian" class="languages-button-mob current-language-mob" href="/ru{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">RU</a>
+            {% else %}
+                <a id="russian" class="languages-button-mob" href="/ru{{ page.url | remove_first:'/en' | remove_first:'/lv' | remove_first:'/ru'}}">RU</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+    <img class="first-image-mob" src="../Assets/Images/Mob_main.jpg">
+    <script>
+    function OpenNav(){
+        var container =  document.getElementById("mob-nav-container");
+        if(container.classList.contains('mob-nav-container-hidden'))
+        {
+            container.classList.replace("mob-nav-container-hidden", "mob-nav-container");
+        }else{
+            container.classList.replace("mob-nav-container", "mob-nav-container-hidden");
+        }
+    }
+</script>

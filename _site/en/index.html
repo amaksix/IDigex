@@ -83,8 +83,68 @@
     <div class="mobile">
         <div class="header-div-mob">
     <img class="logo-mob" src="../Assets/Images/Logo_dark.svg" alt="Logo">
+    <button class="mob-menu-button-img" onclick="OpenNav()"><img class="mob-menu-button-img" src="../Assets/Images/Mob_Burger.svg"></button>
 </div>
-<video  class="first-video-mob" src="../Assets/Video/Main_Mob.webm" autoplay loop muted playsinline></video>
+<div id="mob-nav-container" class="mob-nav-container-hidden">
+    <button class="mob-menu-close-button-img" onclick="OpenNav()"><img class="mob-menu-button-img" src="../Assets/Images/Mob_Header_Close.svg"></button>
+    <div class="mob-mav-buttons-container">
+        <div class="menu-button-container">
+            <button onclick="OpenNav();ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
+                <span class="label-up ">ABOUT</span>
+                <span class="label-up ">ABOUT</span>
+            </button>
+        </div> 
+        <div class="menu-button-container">
+            <button onclick="OpenNav();ScrollToAnchor('services-anchor-id')" id="services-button" class="menu-button">
+                <span class="label-up">SERVICES</span>
+                <span class="label-up">SERVICES</span>
+            </button>
+        </div>      
+        <div class="menu-button-container">
+            <button onclick="OpenNav();ScrollToAnchor('projects-anchor-id')" id="projects-button" class="menu-button">
+                <span class="label-up">PROJECTS</span>
+                <span class="label-up">PROJECTS</span>
+            </button>
+        </div>
+        <div class="menu-button-container">
+            <button onclick="OpenNav();ScrollToAnchor('contact-anchor-id')" id="projects-button" class="menu-button">
+                <span class="label-up">CONTACT</span>
+                <span class="label-up">CONTACT</span>
+            </button>
+        </div> 
+    </div> 
+    <div class="mob-languages-container">
+        <div class="languages-button-container-mob">
+           
+            
+                <a id="english" class="languages-button-mob current-language-mob" href="/en/">EN</a>
+            
+        </div>
+        <div class="languages-button-container-mob">
+            
+                <a id="latvian" class="languages-button-mob" href="/lv/">LV</a>
+            
+        </div>
+        <div class="languages-button-container-mob">
+            
+            
+                <a id="russian" class="languages-button-mob" href="/ru/">RU</a>
+            
+        </div>
+    </div>
+</div>
+    <img class="first-image-mob" src="../Assets/Images/Mob_main.jpg">
+    <script>
+    function OpenNav(){
+        var container =  document.getElementById("mob-nav-container");
+        if(container.classList.contains('mob-nav-container-hidden'))
+        {
+            container.classList.replace("mob-nav-container-hidden", "mob-nav-container");
+        }else{
+            container.classList.replace("mob-nav-container", "mob-nav-container-hidden");
+        }
+    }
+</script>
     </div>
     <div id="stop-render-anchor" class="render-anchor"></div>
     <div class="background-holder">   
@@ -94,9 +154,9 @@
                 <h5 id="descriptionText" class="description-text">We transform ideas into digital solutions - from websites and logos to corporate identity and 3D design.</h5>
             </div>
         </div> 
+        <div class="about-anchor" id="about-anchor-id"></div>
         <div class="desktop">
             <div class="about-container">
-        <div class="about-anchor" id="about-anchor-id"></div>
         <h2 id="about" class="about-header">ABOUT</h2>
         <div class="about-text-container">
             <h5 id="about-text-first" class="about-text-first fade-in">Our team of creative professionals has deep knowledge of UI/UX design, programming and 3d modeling, allowing us to create designs that are not only visually appealing, but also easy to use and effective in achieving business goals. We pride ourselves on our ability to provide a personalized approach to every project and work on it from start to finish to meet all of our client's needs and expectations.</h5>
@@ -106,7 +166,6 @@
         </div>
         <div class="mobile">
             <div class="about-container">
-        <div class="about-anchor" id="about-anchor-id"></div>
         <img loading="lazy" id="about-image" class="about-image-mob" src="../Assets/Images/About ID Mob.jpg" >
         <h2 id="about-mob" class="about-header-mob">ABOUT</h2>
         <div class="about-text-container">
@@ -875,10 +934,9 @@
             <h2 id="side-moving" class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp;</h2>
             <h2 id="contact-header-mob" class="contact-header-mob">LET'S BUILD THE FUTURE TOGETHER.</h2>
         </div>
-
+        <div class="contact-anchor" id="contact-anchor-id"></div>
         <div class="desktop">
             <div class="contact">
-    <div class="contact-anchor" id="contact-anchor-id"></div>
     <div class="headers-container">
         <h5 class="contact-header-first">LET'S BUILD THE FUTURE TOGETHER.</h5>
         <h2 id="contact" class="contact-header-second">CONTACT</h2>
@@ -899,7 +957,6 @@
         </div>
         <div class="mobile">
             <div class="contact">
-    <div class="contact-anchor" id="contact-anchor-id"></div>
     <div class="headers-container">
         <h2 id="contact-mob" class="contact-header-second">CONTACT</h2>  
     </div>

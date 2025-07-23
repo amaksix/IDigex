@@ -192,8 +192,8 @@ canvas {
     @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
         .background-holder{
-            margin-top: 12.7vw;
-            padding-top: 0;
+            margin-top: 180vw;
+            padding-top: 11vw;
         }
         .desktop{
             display:none;

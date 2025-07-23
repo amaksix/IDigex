@@ -1,17 +1,75 @@
     .logo-mob{
         width:30vw;
     }
-    .first-video-mob{
-        position:sticky;
+    .first-image-mob{
+        position:fixed;
         top: 0;
         left: 0;
-        width: 100%;
-        z-index: -1;
+        width: 100vw;
+        z-index: -2;
+
     }
     .header-div-mob{
-        position: absolute;
-        margin-top: 3vw;
+        top: 0;
+        left: 0;
+        position:fixed;
+        margin-top: 13.5vw;
         margin-left: 5vw;
         display: inline-grid;
         grid-template-columns: auto auto;
+        gap:49vw;
+        z-index: -1;
     }
+.mob-menu-button-img{
+    width: 7vw;
+}
+.mob-menu-close-button-img{
+    width: 7vw;
+    margin-left:86vw;
+   margin-top:14.5vw;
+}
+.mob-nav-container{
+    background-color:#0C0C0C ;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 1;
+     transition: 0.5s;
+}
+.mob-mav-buttons-container{
+    margin-top: 16.5vw;
+     
+}
+.mob-nav-container-hidden{
+     opacity: 0;
+      transition: 0.5s;
+      position: fixed;
+          top:0;
+    left: 0;
+        width: 100%;
+    height: 100%;
+        z-index: 5;
+       background-color:#0C0C0C ;
+}
+.mob-languages-container{
+    width: 33vw;
+    margin: auto;
+    margin-top: 20vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 7.6vw;
+}
+.languages-button-mob{
+    text-decoration: none;
+    color:#A9A9A9;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5vw; 
+}
+.current-language-mob{
+    color: #F9F9F9;
+}
