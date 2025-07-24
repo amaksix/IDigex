@@ -205,6 +205,9 @@ canvas {
             margin: 0;
             overflow-x: hidden;
         }
+        .page-wrapper{
+            overflow-x: hidden;
+        }
         .description-text{ 
             margin-bottom: 0vw;
         }
