@@ -19,10 +19,6 @@ function setActiveTab(index) {
   const tab = tabs[index];
   const wrapperRect = tabsWrapper.getBoundingClientRect();
   const tabRect = tab.getBoundingClientRect();
-
-  if (tabRect.left < wrapperRect.left || tabRect.right > wrapperRect.right) {
-    tab.scrollIntoView({ behavior: 'smooth', inline: 'center' });
-  }
 }
 
 function setSliderPosition(index) {
