@@ -2,7 +2,7 @@
         width:30vw;
     }
     .first-image-mob{
-        position:fixed;
+        position:absolute;
         top: 0;
         left: 0;
         width: 100vw;
@@ -10,9 +10,6 @@
 
     }
     .header-div-mob{
-        top: 0;
-        left: 0;
-        position:fixed;
         margin-top: 13.5vw;
         margin-left: 5vw;
         display: inline-grid;
@@ -25,7 +22,7 @@
 }
 .mob-menu-close-button-img{
     width: 7vw;
-    margin-left:86vw;
+    margin-left:84vw;
    margin-top:14.5vw;
 }
 .mob-nav-container{
@@ -46,7 +43,7 @@
 .mob-nav-container-hidden{
      opacity: 0;
       transition: 0.5s;
-      position: fixed;
+      position: absolute;
           top:0;
     left: 0;
         width: 100%;

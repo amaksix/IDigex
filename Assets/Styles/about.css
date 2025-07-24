@@ -45,17 +45,18 @@
     .about-header-mob{
     margin: 0;
     margin-top: 15vw;
-    margin-left: 3vw;
+    margin-left: 5vw;
 }
 .about-text-first{
-    width: 93vw;  
+    width: 89vw;  
     text-align: left;
-    margin-left: 3vw;
+    margin-left: 5vw;
     margin-top:7.6vw;
+    margin-right: 5vw;
 }
 .about-text-second{
-    width: 93vw;
-    margin-left: 3vw;
+    width:89vw;
+    margin-left: 5vw;
     text-align:left;
     margin-top: 5vw;
 }

@@ -100,6 +100,9 @@ body:not(.scroll-container)::-webkit-scrollbar-thumb:hover {
 
   @media only screen and (hover: none) and (pointer: coarse), 
   (max-width: 480px) {
+    .scroll-container{
+      width: 89%;
+    }
       /* Customizing the scroll bar */
   /* For Webkit browsers (Chrome, Safari, Edge) */
   .scroll-container::-webkit-scrollbar {

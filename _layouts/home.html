@@ -35,180 +35,15 @@
         <div class="mobile">
             {% include aboutmob.html %}
         </div>
-
-        
-        <div class="services-container">
-            <div class="services-anchor" id="services-anchor-id"></div>
-            <h2 id="services" class="services-header">{{t.services.header }}</h2>
-            <div class="services-menu">
-                <div class="service-container">
-                    <div id="firstService" class="services-menu-elem" onclick="openService('firstServiceDescription','service-description-container')">
-                        <div class="services-text-grid">
-                            <button id="services-buttons" class="services-buttons">
-                                <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                                <h3 id="websites-header" class="service-button-text" >{{t.services.service01.header}}</h3>
-                            </button>
-                            <h5 id="websites-text" class="service-text-desktop">{{t.services.service01.description}}</h5>
-                        </div>
-                        <div class="service-image-container"><img class="service-image" loading="lazy" src="../Assets/Images/Websites_Serivices.jpg"></div>
-                    </div>
-                    <div id="firstServiceDescription" class="service-description-container-hidden">
-                        <h5 id="websites-text" class="service-text-mob">{{t.services.service01.description}}</h5>
-                        <div style="height:27vw">
-                            <h5 id="firstServiceDescriptionText" class="service-description-text"><p>{{t.services.service01.text.line01}}</p>
-
-                                <ul>
-                                <li>{{t.services.service01.text.line02}}</li>
-                                <li>{{t.services.service01.text.line03}}</li>
-                                <li>{{t.services.service01.text.line04}}</li>
-                                <li>{{t.services.service01.text.line05}}</li>
-                                <li>{{t.services.service01.text.line06}}</li>
-                                <li>{{t.services.service01.text.line07}}</li>
-                                <li>{{t.services.service01.text.line08}}</li>
-                                </ul>
-                                
-                                <p>{{t.services.service01.text.line09}}</p></h5>
-                            <div class="service-cost-container">
-                                <div>
-                                    <h5 class="services-third-highlight">{{t.services.price }}</h5>
-                                    <div class="service-line"></div>
-                                    <div style="display: grid; grid-template-columns: 3vw auto;">
-                                        <h5 style="margin: 0;">{{t.services.from }}</h5>
-                                        <h4 class="services-another-highlight">€800</h4>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5 class="services-third-highlight">{{t.services.period }}</h5>
-                                    <div class="service-line"></div>
-                                    <div style="display: grid; grid-template-columns: 3vw auto;">
-                                        <h5 style="margin: 0;">{{t.services.from }}</h5>
-                                        <h4 class="services-another-highlight">{{t.services.service01.period }}</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-container">
-                    <div id="secondService" class="services-menu-elem" onclick="openService('secondServiceDescription','service-description-container')">
-                        <div class="services-text-grid">
-                            <button id="services-buttons" class="services-buttons">
-                                <img class="service-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3 id="3dModelingHeader" class="service-button-text" >{{t.services.service02.header}}</h3>
-                            </button>
-                            <h5 id="3dModelingText" class="service-text-desktop">{{t.services.service02.description}}</h5>
-                        </div>
-                        <div class="service-image-container"><img class="service-image"loading="lazy"  src="../Assets/Images/3DModels_Serivices.jpg"></div>
-                    </div>
-                    <div id="secondServiceDescription" class="service-description-container-hidden">
-                        <h5 id="3dModelingText" class="service-text-mob">{{t.services.service02.description}}</h5>
-                        <div>
-                            <h5 id="secondServiceDescriptionText" class="service-description-text">{{t.services.service02.text01}}</h5>
-                            <h5 style="margin-top: 2vw;" class="service-description-text">{{t.services.service02.text02}}</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-container">
-                    <div id="thirdService" class="services-menu-elem">
-                        <div class="services-text-grid">
-                            <button id="services-buttons" class="services-buttons" onclick="openService('thirdServiceDescription','service-description-container')">
-                                <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                                <h3 id="brandBookHeader" class="service-button-text" >{{t.services.service03.header}}</h3>
-                            </button>
-                            <h5 id="brandBookDescription" class="service-text-desktop">{{t.services.service03.description}}</h5>
-                        </div>
-                        <div class="service-image-container"><img class="service-image"  src="../Assets/Images/BrandBook_Services.jpg"></div>
-                    </div>
-                    <div id="thirdServiceDescription" class="service-description-container-hidden">
-                        <h5 id="brandBookDescription" class="service-text-mob">{{t.services.service03.description}}</h5>
-                        <div>
-                            <h5 id="thirdServiceDescriptionText" class="service-description-text">{{t.services.service03.text}}</h5>
-                            <div class="service-cost-container">
-                                <div>
-                                    <h5 class="services-third-highlight">{{t.services.price }}</h5>
-                                    <div class="service-line"></div>
-                                    <h4 class="services-another-highlight">€70</h4>
-                                </div>
-                                <div>
-                                    <h5 class="services-third-highlight">{{t.services.period }}</h5>
-                                    <div class="service-line"></div>
-                                    <h4 class="services-another-highlight">{{t.services.service03.period }}</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-container">
-                    <div id="fourthService" class="services-menu-elem">
-                        <div class="services-text-grid">
-                            <button id="services-buttons" class="services-buttons" onclick="openService('fourthServiceDescription','service-description-container')">
-                                <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                                <h3 id="logoHeader" class="service-button-text" >{{t.services.service04.header}}</h3>
-                            </button>
-                            <h5 id="logoDescription" class="service-text-desktop">{{t.services.service04.description}}</h5>
-                        </div>
-                        <div class="service-image-container"><img class="service-image"loading="lazy"  src="../Assets/Images/Logo_Serivices.jpg"></div>
-                    </div>
-                    <div id="fourthServiceDescription" class="service-description-container-hidden">
-                        <h5 id="logoDescription" class="service-text-mob">{{t.services.service04.description}}</h5>
-                        <div>
-                            <h5 id="fourthServiceDescriptionText" class="service-description-text">{{t.services.service04.text}}</h5>
-                            <div class="service-cost-container">
-                                <div>
-                                    <h5 class="services-third-highlight">{{t.services.price }}</h5>
-                                    <div class="service-line"></div>
-                                    <div style="display: grid; grid-template-columns: 3vw auto;">
-                                        <h5 style="margin: 0;">{{t.services.from }}</h5>
-                                        <h4 class="services-another-highlight">€80</h4>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5 class="services-third-highlight">{{t.services.period }}</h5>
-                                    <div class="service-line"></div>
-                                    <div style="display: grid; grid-template-columns: 3vw auto;">
-                                        <h5 style="margin: 0;">{{t.services.from }}</h5>
-                                        <h4 class="services-another-highlight">{{t.services.service04.period }}</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>    
-                    </div>
-                </div>
-                <div class="service-container">
-                    <div id="fifthService" class="services-menu-elem">
-                        <div class="services-text-grid">
-                            <button id="services-buttons" class="services-buttons" onclick="openService('fifthServiceDescription','service-description-container')">
-                                <img class="service-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                                <h3 id="bannersHeader" class="service-button-text" >{{t.services.service05.header}}</h3>
-                            </button>
-                            <h5 id="bannersDescription" class="service-text-desktop">{{t.services.service05.description}}</h5>
-                        </div>
-                        <div class="service-image-container"><img class="service-image" loading="lazy" src="../Assets/Images/Banners_Serivices.jpg"></div>
-                    </div>
-                    <div id="fifthServiceDescription" class="service-description-container-hidden">
-                        <h5 id="bannersDescription" class="service-text-mob">{{t.services.service05.description}}</h5>
-                        <div>
-                            <h5  id="fifthServiceDescriptionText" class="service-description-text">{{t.services.service05.text}}</h5>
-                            <div class="service-cost-container">
-                                <div>
-                                    <h5 class="services-third-highlight">{{t.services.price }}</h5>
-                                    <div class="service-line"></div>
-                                    <div style="display: grid; grid-template-columns: 3vw auto;">
-                                        <h5 style="margin: 0;">{{t.services.from }}</h5>
-                                        <h4 class="services-another-highlight">€7</h4>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5 class="services-third-highlight">{{t.services.period }}</h5>
-                                    <div class="service-line"></div>
-                                    <h4 class="services-another-highlight">{{t.services.service05.period }}</h4>
-                                </div>
-                            </div>
-                        </div>    
-                    </div>
-                </div>
-            </div>    
+        <div class="services-anchor" id="services-anchor-id"></div>
+        <div class="desktop">
+            {% include services.html %}
         </div>
+        <div class="mobile">
+            {% include servicesmob.html %}
+        </div>
+        
+      
         <div class="scroll-container">
             <div class="scroll-content-box">
                 <div class="scroll-header">
@@ -831,6 +666,7 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/headermob.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/about.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/servicesmob.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/servicesController.js"></script>
@@ -839,4 +675,5 @@
 <script type="text/javascript" src="../Assets/Scripts/generalscripts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
 <script src="../Assets/Scripts/lava-lamp.js"></script>
+<script src="../Assets/Scripts/servicesControllerMob.js"></script>
 </html>

@@ -1,0 +1,100 @@
+
+
+.carousel-mob {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 12.7vw;
+}
+
+.tabs-scroll-wrapper-mob {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+/* General scrollbar style */
+.tabs-scroll-wrapper-mob::-webkit-scrollbar,
+.slider-container-mob::-webkit-scrollbar {
+  height: 0.5vw; 
+}
+
+/* Scrollbar track */
+.tabs-scroll-wrapper-mob::-webkit-scrollbar-track,
+.slider-container-mob::-webkit-scrollbar-track {
+  background-color: #A9A9A9; 
+  border-radius: 1vw;
+}
+
+.tabs-scroll-wrapper-mob::-webkit-scrollbar-thumb,
+.slider-container-mob::-webkit-scrollbar-thumb {
+  background-color: #F9F9F9; 
+  border-radius: 1vw;
+}
+
+
+.tabs-scroll-wrapper-mob::-webkit-scrollbar-button,
+.slider-container-mob::-webkit-scrollbar-button {
+  display: none;
+}
+.tabs-mob {
+  display: flex;
+  width: max-content; 
+}
+
+.tab-mob {
+  padding-bottom: 5vw;
+  padding-top: 1vw;
+  padding-right: 5.5vw;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+   font-family: "Arial", sans-serif;
+    font-style: light;
+    font-weight: 300;
+    color: #A9A9A9;
+    letter-spacing: 2%;
+    font-size: 3.5vw;
+}
+
+.tab-mob.tab-mob-active{
+  color: #F9F9F9;
+}
+
+.slider-container-mob {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-track-mob {
+  display: flex;
+  transition: transform 0.3s ease;
+  will-change: transform;
+}
+
+.slide-mob {
+  min-width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  touch-action: pan-y;
+  user-select: none;
+  padding-top: 10vw;
+}
+.service-image-container-mob{
+    width: 90vw;
+    height: 101vw;
+    border-radius: 5vw;
+    overflow: hidden;
+}
+.service-image-mob{
+    width: 90vw;
+    height: 101vw;
+}
+.service-header-mob{
+     color:#A9A9A9;
+     margin: 0;
+     margin-top: 10vw;
+}
+.slide-text-container-mob{
+    width: 90vw;
+    line-height: 140%;
+}
