@@ -118,17 +118,18 @@ function swapElements() {
         container.insertBefore(box2, box1);
     } else {
         // If the media query doesn't match, reset to the original order
+         movingTextUpAnim('about');
+        movingTextUpAnim('services');
+        movingTextUpAnim('contact');
+        movingTextUpAnim('projects');
+        movingTextUpAnim('first-shot');
+        /*movingTextUpAnim('first-shot-mob');
+        movingTextUpAnim('about-mob');
+        movingTextUpAnim('contact-mob');*/
         container.insertBefore(box1, box2);
        
     }
-    movingTextUpAnim('about');
-    movingTextUpAnim('services');
-    movingTextUpAnim('contact');
-    movingTextUpAnim('projects');
-    movingTextUpAnim('first-shot');
-    movingTextUpAnim('first-shot-mob');
-    movingTextUpAnim('about-mob');
-    movingTextUpAnim('contact-mob');
+   
 }
 
 // Initial call to handle the swap on page load

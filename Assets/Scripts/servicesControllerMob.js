@@ -53,34 +53,59 @@ sliderTrack.addEventListener('touchend', endDrag);
 function getPositionX(e) {
   return e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
 }
-
+const minDragStartDelta = 20; // Minimum delta before slider starts moving
+let hasPassedThreshold = false;
+const minDragThreshold =100; // Minimum px before movement is considered intentional
 function startDrag(e) {
   isDragging = true;
+  hasPassedThreshold = false;
   startX = getPositionX(e);
   animationID = requestAnimationFrame(animation);
   sliderTrack.style.transition = 'none';
 }
 
+
 function drag(e) {
   if (!isDragging) return;
+
   const currentX = getPositionX(e);
   const dx = currentX - startX;
-  currentTranslate = previousTranslate + dx;
-}
 
+  // Don't allow slight movements to shift the slider
+  if (!hasPassedThreshold && Math.abs(dx) < minDragStartDelta) return;
+
+  hasPassedThreshold = true;
+
+  // Clamp to slider bounds
+  const maxTranslate = 0;
+  const minTranslate = -((slides.length - 1) * sliderContainer.offsetWidth);
+  let tentativeTranslate = previousTranslate + dx;
+
+  if (tentativeTranslate > maxTranslate) tentativeTranslate = maxTranslate;
+  if (tentativeTranslate < minTranslate) tentativeTranslate = minTranslate;
+
+  currentTranslate = tentativeTranslate;
+}
 function endDrag() {
   cancelAnimationFrame(animationID);
   isDragging = false;
 
   const movedBy = currentTranslate - previousTranslate;
   const threshold = sliderContainer.offsetWidth / 4;
+  if (Math.abs(movedBy) < minDragThreshold) {
+    // Not enough movement; snap back to previous
+    setSliderPosition(currentIndex);
+    return;
+  }
 
-  if (movedBy < -threshold && currentIndex < slides.length - 1) currentIndex++;
-  if (movedBy > threshold && currentIndex > 0) currentIndex--;
+  if (movedBy < -threshold && currentIndex < slides.length - 1) {
+    currentIndex++;
+  } else if (movedBy > threshold && currentIndex > 0) {
+    currentIndex--;
+  }
 
   setSliderPosition(currentIndex);
 }
-
 function animation() {
   sliderTrack.style.transform = `translateX(${currentTranslate}px)`;
   if (isDragging) requestAnimationFrame(animation);
