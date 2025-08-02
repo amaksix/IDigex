@@ -6,11 +6,11 @@ EN:
         contact: CONTACT
     header:
         title: DIGITAL STUDIO
-        text:  We transform ideas into digital solutions - from websites and logos to corporate identity and 3D design.
+        text:  We bring ideas to life through tailored digital solutions, including web development, brand identity, and 3D visualization.
     about:
         header: ABOUT
-        text01: Our team of creative professionals has deep knowledge of UI/UX design, programming and 3d modeling, allowing us to create designs that are not only visually appealing, but also easy to use and effective in achieving business goals. We pride ourselves on our ability to provide a personalized approach to every project and work on it from start to finish to meet all of our client's needs and expectations.
-        text02: We don't just design websites - we create digital stories that capture attention and inspire trust in your audience. Combining aesthetics with functionality, we strive to ensure that each project reflects the unique needs and values of our clients.
+        text01: We possess extensive expertise in UI/UX design, development, and 3D modeling, enabling us to craft solutions that are not only visually engaging but also intuitive and aligned with business objectives. Every project is approached individually, with full-cycle involvement to ensure all client requirements and expectations are met.
+        text02: Our work goes beyond website design — we build digital experiences that capture attention and foster trust. By seamlessly integrating aesthetics with functionality, we ensure each solution authentically represents the client’s vision and values.
     services: 
             price: Price
             from: from
@@ -18,7 +18,7 @@ EN:
             header: OUR SERVICES
             service01:
                 header: WEBSITES
-                description: Our team will create a website that will tell about your services.
+                description: We build websites that showcase your services.
                 period: 10 days
                 text:
                     line01: "The price of creating a website depends on many factors, including:"
@@ -63,7 +63,7 @@ EN:
         displayMore: Display More
         header: PROJECTS
         paws:
-            description: Coming soon
+            description: Branding, website
             text:  
                 text01: "<span style='color: #F9F9F9;'>Logo development, creation of an online store in Webflow for selling dog accessories. </span>"                            
                 text02: "The <span style='color: #F9F9F9;'>main goals</span> of the project:"
@@ -123,8 +123,8 @@ EN:
         viabon:
             description:  Branding, website
             text: "For the company ViaBON, working in the financial sector, a holistic visual style was developed: <span style='color: #F9F9F9;'>corporate colors and fonts were selected, a brand book with recommendations for using the identity was created.</span> At the moment, work is underway on a corporate website with adaptation for various devices."
-        banners:
-            description: Online and print
+        soa:
+            description: Branding, website
             text:
                 text01: "<span style='color: #F9F9F9;'>Design attractive and effective advertising materials</span>"
                 text02: that will help promote a company’s products or services. Banners can be used in both online and offline formats, ensuring a wide reach of the target audience.
@@ -147,11 +147,11 @@ LV:
         contact: KONTAKTI
     header:
         title: DIGITAL STUDIO
-        text: Mēs pārvēršam idejas digitālos risinājumos – no vietnēm un logotipiem līdz uzņēmuma identitātei un 3D dizainam.
+        text: Mēs īstenojam idejas, izmantojot pielāgotus digitālos risinājumus, tostarp majaslapas izstrādi, zīmola identitāti un 3D vizualizāciju.
     about:
       header: PAR
-      text01: Mūsu radošo profesionāļu komanda pārvalda UI/UX dizainu, programmēšanu un 3D modelēšanu, kas ļauj mums veidot vizuāli pievilcīgus, lietošanai ērtus un efektīvus dizainus biznesa mērķu sasniegšanai. Mēs lepojamies ar spēju pieiet katram projektam individuāli un strādāt no sākuma līdz beigām, lai apmierinātu visas klienta vajadzības un cerības.
-      text02: Mēs neveidojam tikai vietnes — mēs radām digitālus stāstus, kas piesaista uzmanību un iedvesmo uzticēšanos jūsu auditorijā. Apvienojot estētiku ar funkcionalitāti, mēs cenšamies panākt, lai katrs projekts atspoguļotu klientu vajadzības un vērtības.
+      text01: Mums ir plaša pieredze UI/UX dizainā, izstrādē un 3D modelēšanā, kas ļauj mums veidot risinājumus, kas ir ne tikai vizuāli pievilcīgi, bet arī intuitīvi un saskaņoti ar biznesa mērķiem. Katram projektam pieejam individuāli, nodrošinot pilna cikla iesaisti, lai izpildītu visas klienta prasības un cerības.
+      text02: Mūsu darbs sniedzas tālāk par tīmekļa vietņu dizainu — mēs veidojam digitālas pieredzes, kas piesaista uzmanību un veicina uzticību. Apvienojot estētiku ar funkcionalitāti, mēs nodrošinām, ka katrs risinājums patiesi atspoguļo klienta vīziju un vērtības.
     services:
         price: Cena
         from: no
@@ -159,7 +159,7 @@ LV:
         header: MŪSU PAKALPOJUMI
         service01:
             header: VIETNES
-            description: Mūsu komanda izveidos vietni, kas stāstīs par jūsu pakalpojumiem.
+            description: Mēs veidojam vietnes, kas izceļ jūsu pakalpojumus.
             period: 10 dienas
             text:
                 line01: "Vietnes izveides cena ir atkarīga no daudziem faktoriem, tostarp:"
@@ -203,7 +203,7 @@ LV:
         displayMore: Rādīt vairāk
         header: PROJEKTI
         paws:
-            description: Drīzumā
+            description: Brendings, vietne
             text:
                 text01: "<span style='color: #F9F9F9;'>Logotipa izstrāde, interneta veikala izveide Webflow mājdzīvnieku aksesuāru pārdošanai.</span>"
                 text02: "Projekta <span style='color: #F9F9F9;'>galvenie mērķi</span>:"
@@ -260,8 +260,8 @@ LV:
         viabon:
             description: Brendings, vietne
             text: "Uzņēmumam ViaBON finanšu sektorā izstrādājām holistisku vizuālo stilu: <span style='color: #F9F9F9;'>izvēlējāmies korporatīvās krāsas un fontus, izveidojām zīmola grāmatu ar identitātes lietošanas ieteikumiem.</span> Šobrīd notiek darbs pie korporatīvās vietnes ar adaptāciju dažādām ierīcēm."
-        banners:
-            description: Tiešsaistes un drukas
+        soa:
+            description: Brendings, vietne
             text:
                 text01: "<span style='color: #F9F9F9;'>Veidojam pievilcīgus un efektīvus reklāmas materiālus</span>"
                 text02: "kas palīdzēs popularizēt uzņēmuma produktus vai pakalpojumus. Baneri var tikt izmantoti gan tiešsaistē, gan drukātā formātā, nodrošinot plašu mērķauditorijas sasniedzamību."
@@ -284,11 +284,11 @@ RU:
         contact: КОНТАКТЫ
     header:
         title: ЦИФРОВАЯ СТУДИЯ
-        text: Мы превращаем идеи в цифровые решения — от веб-сайтов и логотипов до фирменного стиля и 3D-дизайна.
+        text: Мы воплощаем идеи в жизнь с помощью индивидуальных цифровых решений, включая веб-разработку, фирменный стиль и 3D-визуализацию.
     about:
         header: О НАС
-        text01: Наша команда креативных профессионалов обладает глубокими знаниями в UI/UX‑дизайне, программировании и 3D‑моделировании, что позволяет нам создавать дизайны, которые не только визуально привлекательны, но и удобны, а также эффективны в достижении бизнес‑целей. Мы гордимся тем, что подходим к каждому проекту персонально и ведем его от начала до конца, чтобы удовлетворить все потребности и ожидания клиента.
-        text02: Мы не просто разрабатываем сайты — мы создаём цифровые истории, которые привлекают внимание и внушают доверие вашей аудитории. Сочетая эстетику и функциональность, мы стремимся, чтобы каждый проект отражал уникальные потребности и ценности клиентов.
+        text01: У нас обширный опыт в UI/UX-дизайне, разработке и 3D-моделировании, что позволяет создавать решения, которые не только визуально привлекательны, но и интуитивно понятны и соответствуют бизнес-целям. К каждому проекту мы подходим индивидуально, обеспечивая полное сопровождение на всех этапах для полного соответствия требованиям и ожиданиям клиента.
+        text02: Наша работа выходит за рамки веб-дизайна — мы создаём цифровой опыт, который привлекает внимание и вызывает доверие. Органично сочетая эстетику и функциональность, мы обеспечиваем подлинное отражение видения и ценностей клиента в каждом решении.
     services:
         price: Цена
         from: от
@@ -296,7 +296,7 @@ RU:
         header: НАШИ УСЛУГИ
         service01:
             header: САЙТЫ
-            description: Наша команда создаст сайт, который расскажет о ваших услугах.
+            description: Мы создаём сайты, которые демонстрируют ваши услуги.
             period: 10 дней
             text:
                 line01: "Цена создания сайта зависит от множества факторов, включая:"
@@ -341,7 +341,7 @@ RU:
         displayMore: Показать больше
         header: ПРОЕКТЫ
         paws:
-            description: Скоро
+            description: Брендинг, сайт
             text:
                 text01: "<span style='color: #F9F9F9;'>Разработка логотипа, создание интернет‑магазина на Webflow для продажи аксессуаров для собак.</span>"
                 text02: "Основные <span style='color: #F9F9F9;'>цели проекта</span>:"
@@ -398,8 +398,8 @@ RU:
         viabon:
             description: Брендинг, сайт
             text: "Для компании ViaBON из финансового сектора мы разработали целостный визуальный стиль: <span style='color: #F9F9F9;'>подобрали корпоративные цвета и шрифты, создали брендбук с рекомендациями по применению идентичности.</span> В настоящее время ведётся разработка корпоративного сайта с адаптацией под различные устройства."
-        banners:
-            description: Онлайн и печать
+        soa:
+            description: Брендинг, сайт
             text:
                 text01: "<span style='color: #F9F9F9;'>Создаём привлекательные и эффективные рекламные материалы</span>"
                 text02: "которые помогут продвигать продукты или услуги компании. Баннеры могут использоваться как в онлайн‑каналах, так и в оффлайн‑форматах, обеспечивая широкий охват целевой аудитории."
