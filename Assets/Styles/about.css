@@ -4,26 +4,32 @@
 
 .about-container{
     margin-left: 5vw;
+    width: 90vw;
+    margin-right: 5vw;
     padding-top: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10vw;
 }
 .about-text-container{
     position: relative;
+     display: grid;
+    grid-template-columns: auto auto;
+    gap: 2vw;
 }
 .about-header{
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 .about-text-first{
-    width: 58.3vw;  
+    width: 25vw;  
      text-align: justify;
     margin: auto;
-    margin-top:4.5vw;
 }
 .about-text-second{
-    width: 58.3vw;
+    width: 25vw;
     margin: auto;
      text-align: justify;
-    margin-top: 2vw;
 }
 .fade-in {
   opacity: 0;

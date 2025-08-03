@@ -33,24 +33,24 @@ EN:
             service02:
                 header: 3D MODELING
                 description: We create high-quality 3D models that help you visualize your product or idea in full detail.
-                text01: IDigex can bring your ideas to life, with incredible detail and realism. We develop <span class="services-highlight">3D models</span>, as well as <span class="services-highlight">configurators</span> that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience. 
+                text01: IDigex can bring your ideas to life, with incredible detail and realism. We develop 3D models, as well as <span class="services-highlight">configurators</span> that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience. 
                 text02: The price and development period depend on the complexity of the work. The work time is discussed and the cost of the work is <span class="services-another-highlight">€12</span> / hour.
             service03:
                 header: BRAND BOOK
                 description: Brand book is an important tool that helps maintain a consistent style of your brand.
                 period: 1-2 days  
-                text: The <span class="services-highlight">brand book</span> is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.
+                text: The brand book is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.
             service04:
                 header: LOGO
                 description: A logo is needed for individualization, to attract customer attention and improve recognition.
                 period: 1-2 days
-                text: Our <span class="services-highlight">logo design</span> process begins with a thorough understanding of your brand, its goals and target audience. We analyze competitors and trends in your industry, and take into account your preferences and wishes, striving to create a logo that not only reflects the essence of your brand, but also resonates emotionally with your audience.
+                text: Our logo design process begins with a thorough understanding of your brand, its goals and target audience. We analyze competitors and trends in your industry, and take into account your preferences and wishes, striving to create a logo that not only reflects the essence of your brand, but also resonates emotionally with your audience.
                             In addition, we take into account the adaptability of the logo for various purposes and formats of use, so that it looks equally effective both on the website and on product packaging or promotional material.
             service05:
                 header: BANNERS
                 description: We are experienced in creating various types of banners for various purposes and platforms.
                 period: 1-2 days 
-                text: IDigex develops various types of <span class="services-highlight">banners</span>, including static, animated and mobile banners. We take into account your brand, target audience and your advertising campaign goals to create banners that will effectively attract attention and generate clicks.
+                text: IDigex develops various types of banners, including static, animated and mobile banners. We take into account your brand, target audience and your advertising campaign goals to create banners that will effectively attract attention and generate clicks.
     stages:
         header: STAGES OF WEBSITE DEVELOPMENT
         text01: <span class="services-highlight">01. UX:</span> at this stage, we determine the goals and requirements for the website, conduct an analysis of competitors and the target audience, and determine the main sections and functionality of the site.
@@ -125,13 +125,7 @@ EN:
             text: "For the company ViaBON, working in the financial sector, a holistic visual style was developed: <span style='color: #F9F9F9;'>corporate colors and fonts were selected, a brand book with recommendations for using the identity was created.</span> At the moment, work is underway on a corporate website with adaptation for various devices."
         soa:
             description: Branding, website
-            text:
-                text01: "<span style='color: #F9F9F9;'>Design attractive and effective advertising materials</span>"
-                text02: that will help promote a company’s products or services. Banners can be used in both online and offline formats, ensuring a wide reach of the target audience.
-                text03: "<span style='color: #F9F9F9;'>  Main objectives:</span>"
-                text04: "Unique design: create original and striking visual concepts that will attract attention and distinguish the brand."
-                text05: "Clear message: formulate short and memorable texts that will convey the main benefits of the product or service."
-                text06: "Adaptability: design banners that will easily adapt to various formats and sizes, including social media, websites and printed materials."
+            text: "A holistic visual style was developed for Soa Skincare, a company specializing in the sale of skincare cosmetics:<span style='color: #F9F9F9;'> corporate colors, typography, and graphic elements reflecting the brand values were selected.</span> A brand book was created with detailed recommendations on the use of identity in digital and printed materials. A line for the production of cosmetics was also developed, combining aesthetics and functionality.<span style='color: #F9F9F9;'> Currently, work is underway to create a single website with adaptation for all standard devices.</span>"
         5w:
             description:  Branding, website
             text: "Development of a corporate identity for a new financial company 5W:<span style='color: #F9F9F9;'> a logo was created, a color palette and typography were defined, a brand book was designed. A website with an adaptive design optimized for all types of devices was also developed.</span> The website is designed in accordance with the corporate identity and is focused on simple and clear navigation."
@@ -174,23 +168,23 @@ LV:
         service02:
             header: 3D MODELĒŠANA
             description: Mēs veidojam augstas kvalitātes 3D modeļus, kas palīdzēs pilnībā vizualizēt jūsu produktu vai ideju.
-            text01: IDigex spēj iedzīvināt jūsu idejas ar neticamu detalizētību un reālismu. Mēs izstrādājam <span class="services-highlight">3D modeļus</span>, kā arī <span class="services-highlight">konfiguratorus</span>, kas atspoguļo jūsu projekta būtību. Mēs piedāvāsim inovatīvus risinājumus, kas palīdzēs jums izcelties tirgū un atbilst auditorijas vajadzībām.
+            text01: IDigex spēj iedzīvināt jūsu idejas ar neticamu detalizētību un reālismu. Mēs izstrādājam 3D modeļus, kā arī <span class="services-highlight">konfiguratorus</span>, kas atspoguļo jūsu projekta būtību. Mēs piedāvāsim inovatīvus risinājumus, kas palīdzēs jums izcelties tirgū un atbilst auditorijas vajadzībām.
             text02: Cena un izstrādes laiks ir atkarīgs no darba sarežģītības. Darba laiks tiek saskaņots, un maksa ir <span class="services-another-highlight">€12</span> / stundā.
         service03:
             header: ZĪMOLA GRĀMATA
             description: Zīmola grāmata ir svarīgs rīks, kas palīdz saglabāt jūsu zīmola vienotu stilu.
             period: 1–2 dienas
-            text: <span class="services-highlight">Zīmola grāmata</span> ir svarīgs uzņēmuma oficiālais dokuments, kurā detalizēti aprakstīti visi zīmola izstrādes aspekti. Tajā noteikumi par logotipa, krāsu paletes, tipogrāfijas un citu būtisku zīmola elementu lietošanu, lai nodrošinātu zīmola atpazīstamību.
+            text: Zīmola grāmata ir svarīgs uzņēmuma oficiālais dokuments, kurā detalizēti aprakstīti visi zīmola izstrādes aspekti. Tajā noteikumi par logotipa, krāsu paletes, tipogrāfijas un citu būtisku zīmola elementu lietošanu, lai nodrošinātu zīmola atpazīstamību.
         service04:
             header: LOGOTIPS
             description: Logotips ir nepieciešams individualizācijai, klientu uzmanības piesaistei un atpazīstamības uzlabošanai.
             period: 1–2 dienas
-            text: Mūsu <span class="services-highlight">logotipa izstrādes</span> process sākas ar rūpīgu jūsu zīmola, tā mērķu un mērķauditorijas izpratni. Mēs analizējam konkurentus un nozares tendences, ņemot vērā jūsu vēlmes un prasības, lai radītu logotipu, kas ne tikai atspoguļo jūsu zīmola būtību, bet arī emocionāli rezonē ar auditoriju. Turklāt mēs ņemam vērā logotipa pielāgojamību dažādiem lietošanas mērķiem un formātiem, lai tas izskatītos vienlīdz efektīvi gan tīmekļa vietnē, gan uz produkta iepakojuma vai reklāmas materiāliem.
+            text: Mūsu logotipa izstrādes process sākas ar rūpīgu jūsu zīmola, tā mērķu un mērķauditorijas izpratni. Mēs analizējam konkurentus un nozares tendences, ņemot vērā jūsu vēlmes un prasības, lai radītu logotipu, kas ne tikai atspoguļo jūsu zīmola būtību, bet arī emocionāli rezonē ar auditoriju. Turklāt mēs ņemam vērā logotipa pielāgojamību dažādiem lietošanas mērķiem un formātiem, lai tas izskatītos vienlīdz efektīvi gan tīmekļa vietnē, gan uz produkta iepakojuma vai reklāmas materiāliem.
         service05:
             header: BANERI
             description: Mums ir pieredze dažādu baneru veidošanā dažādiem mērķiem un platformām.
             period: 1–2 dienas
-            text: IDigex izstrādā dažāda veida <span class="services-highlight">banerus</span>, tostarp statiskus, animētus un mobilos. Mēs ņemam vērā jūsu zīmolu, mērķauditoriju un reklāmas kampaņas mērķus, lai veidotu banerus, kas efektīvi piesaista uzmanību un veicina klikšķus.
+            text: IDigex izstrādā dažāda veida banerus, tostarp statiskus, animētus un mobilos. Mēs ņemam vērā jūsu zīmolu, mērķauditoriju un reklāmas kampaņas mērķus, lai veidotu banerus, kas efektīvi piesaista uzmanību un veicina klikšķus.
     stages:
         header: VIETNES IZSTRĀDES POSMI
         text01: "<span class=\"services-highlight\">01. UX:</span> šajā posmā nosakām vietnes mērķus un prasības, veicam konkurentu un mērķauditorijas analīzi, kā arī definējam galvenās sadaļas un funkcionalitāti."
@@ -311,24 +305,24 @@ RU:
         service02:
             header: 3D МОДЕЛИ
             description: Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт или идею с максимальной детализацией.
-            text01: IDigex воплотит ваши идеи с невероятной детализацией и реализмом. Мы разрабатываем <span class="services-highlight">3D‑модели</span>, а также <span class="services-highlight">конфигураторы</span>, отражающие суть вашего проекта. Мы предложим вам инновационные решения, которые помогут выделиться на рынке и удовлетворить аудиторию.
+            text01: IDigex воплотит ваши идеи с невероятной детализацией и реализмом. Мы разрабатываем 3D‑модели, а также <span class="services-highlight">конфигураторы</span>, отражающие суть вашего проекта. Мы предложим вам инновационные решения, которые помогут выделиться на рынке и удовлетворить аудиторию.
             text02: Цена и срок разработки зависят от сложности работы. Время работы обсуждается, а стоимость составляет <span class="services-another-highlight">€12</span> в час.
         service03:
             header: БРЕНДБУК
             description: Брендбук — важный инструмент, который помогает сохранить единый стиль вашего бренда.
             period: 1–2 дня
-            text: <span class="services-highlight">Брендбук</span> — официальный документ компании, подробно описывающий все аспекты создания бренда. В нём изложены правила использования логотипа, цветовой палитры, типографики и других элементов брендинга, чтобы обеспечить узнаваемость бренда.
+            text: Брендбук — официальный документ компании, подробно описывающий все аспекты создания бренда. В нём изложены правила использования логотипа, цветовой палитры, типографики и других элементов брендинга, чтобы обеспечить узнаваемость бренда.
         service04:
             header: ЛОГОТИП
             description: Логотип необходим для индивидуализации, привлечения внимания клиентов и улучшения узнаваемости.
             period: 1–2 дня
-            text: Наш процесс создания <span class="services-highlight">логотипа</span> начинается с глубокого понимания вашего бренда, его целей и целевой аудитории. Мы анализируем конкурентов, тренды отрасли и учитываем ваши предпочтения, чтобы создать логотип, который не только отражает суть бренда, но и эмоционально резонирует с аудиторией.
+            text: Наш процесс создания логотипа начинается с глубокого понимания вашего бренда, его целей и целевой аудитории. Мы анализируем конкурентов, тренды отрасли и учитываем ваши предпочтения, чтобы создать логотип, который не только отражает суть бренда, но и эмоционально резонирует с аудиторией.
                     Кроме того, мы учитываем адаптивность логотипа для различных целей и форматов, чтобы он выглядел эффективно и на сайте, и на упаковке или рекламных материалах.
         service05:
             header: БАННЕРЫ
             description: Мы создаём баннеры разных форматов для разных целей и платформ.
             period: 1–2 дня
-            text: IDigex разрабатывает различные типы <span class="services-highlight">баннеров</span>, включая статические, анимированные и мобильные. Мы учитываем ваш бренд, целевую аудиторию и цели рекламной кампании, чтобы создавать баннеры, которые эффективно привлекают внимание и генерируют клики.
+            text: IDigex разрабатывает различные типы баннеров, включая статические, анимированные и мобильные. Мы учитываем ваш бренд, целевую аудиторию и цели рекламной кампании, чтобы создавать баннеры, которые эффективно привлекают внимание и генерируют клики.
     stages:
         header: ЭТАПЫ РАЗРАБОТКИ САЙТА
         text01: "<span class=\"services-highlight\">01. UX:</span> на этом этапе мы определяем цели и требования к сайту, проводим анализ конкурентов и целевой аудитории, а также определяем основные разделы и функционал."

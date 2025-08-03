@@ -128,6 +128,9 @@ top:-250%;
     height: max-content;
     position: fixed;
 }
+.brighter-description{
+    color: #A9A9A9;
+}
 @media only screen and (hover: none) and (pointer: coarse), 
 (max-width: 480px){
     .logo{
