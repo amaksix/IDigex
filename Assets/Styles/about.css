@@ -1,5 +1,5 @@
 .about-image-mob{
-    width: 100%;
+    width: 100vw;
 }
 
 .about-container{
@@ -13,23 +13,24 @@
 }
 .about-text-container{
     position: relative;
-     display: grid;
+    display: grid;
     grid-template-columns: auto auto;
     gap: 2vw;
 }
 .about-header{
     margin: 0;
     text-align: left;
+    margin-top: -1.5vw;
 }
 .about-text-first{
     width: 25vw;  
-     text-align: justify;
-    margin: auto;
+     text-align: left;
+    margin: 0;
 }
 .about-text-second{
     width: 25vw;
-    margin: auto;
-     text-align: justify;
+    margin: 0;
+     text-align: left;
 }
 .fade-in {
   opacity: 0;

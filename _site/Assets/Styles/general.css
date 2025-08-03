@@ -25,13 +25,14 @@ body{
     background-color: #0C0C0C;
     overflow-x: hidden;
     margin: 0;
+    width: 100vw;
 }
 .background-holder{
     background-color: #0C0C0C;
     position: relative;
     padding-bottom: 14vw;
     margin-top: 52vw;
-    padding-top: 5vw;
+    padding-top: 8vw;
 }
 h1{
     font-size: 10.5vw;

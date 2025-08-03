@@ -207,12 +207,12 @@
         width:87vw;
         background: linear-gradient(#0C0C0C, #0C0C0C) padding-box,
         linear-gradient(to top,rgba(224,223,222,0) 85%, #A9A9A9 120%) border-box;
-        border-radius: 6vw;
+        border-radius: 5vw;
         border:  0.5vw solid transparent;
     }
     .project-image-container{
         height: 63vw;
-        border-radius: 6vw;
+        border-radius: 5vw;
     }
     .project-image{
         width: 94vw;
