@@ -155,3 +155,37 @@ const appearOnScroll = new IntersectionObserver((entries, observer) => {
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
+
+const elements = document.querySelectorAll('.scrollable-image');
+const anchorscroll = document.getElementById('scroll-image-anchor');
+
+const isMobile = window.matchMedia('(hover: none) and (pointer: coarse), (max-width: 480px)').matches;
+
+window.addEventListener('scroll', () => {
+  const anchorTop = anchorscroll.getBoundingClientRect().top;
+  const scrollY = window.scrollY || window.pageYOffset;
+  const baseOffset = scrollY - anchorscroll.offsetTop;
+
+  elements.forEach((element) => {
+    if (anchorTop <= 0) {
+      element.style.opacity = '1';
+
+      const offset = baseOffset * 0.1;
+
+      if (isMobile) {
+        element.style.top = `calc(${offset*0.5}px - 40vw)`;
+      } else {
+        element.style.top = `calc(${offset}px - 40vw)`;
+      }
+    } else {
+      element.style.opacity = '0';
+
+      if (isMobile) {
+        element.style.top = '-40px';
+      } else {
+        element.style.top = '-40vw';
+      }
+    }
+  });
+});
+

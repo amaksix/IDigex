@@ -70,9 +70,10 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="projects">
             <div class="projects-anchor" id="projects-anchor-id"></div>
+             <div class="scroll-image-anchor" id="scroll-image-anchor"></div>
             <h2  id="projects" class="projects-header">{{t.projects.header }}</h2>
             <div id="projects-grid-container" class="projects-grid-container">
                 <div id="projects-grid" class="projects-grid">
@@ -579,7 +580,7 @@
                             </button>
                         </div>
                     </div>
-                
+                   
                     <div class="project">
                         <div class="project-text-grid">
                             <div class="project-head">
@@ -618,10 +619,17 @@
                 </div>
             </div>
         </div>
-        <div class="side-moving-container">
-            <h2 id="side-moving" class="side-moving">DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp; DIGITAL STUDIO&emsp;</h2>
-            <h2 id="contact-header-mob" class="contact-header-mob">{{t.contact.header }}</h2>
+    </div>
+    
+        <div class="scrollable-image-container">
+            <div class="desktop">
+                <img id="scrollable-image" class="scrollable-image" src="../Assets/Images/Scrollable.jpg">
+            </div>
+            <div class="mobile">
+                <img id="scrollable-image" class="scrollable-image" src="../Assets/Images/Scrollable_Mob.jpg">
+            </div>
         </div>
+    <div class="background-holder background-holder-second"> 
         <div class="contact-anchor" id="contact-anchor-id"></div>
         <div class="desktop">
             {% include contact.html %}

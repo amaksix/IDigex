@@ -7,12 +7,14 @@
     color: #A9A9A9;
     display: block;
     margin-bottom: 0px;
+    margin-top:1vw;
 }
 .contact-header-second{
     text-align: left;
-    margin-top:1vw;
+    margin-top:0.5vw;
     margin-bottom: 0;
 }
+
 .contact-input{
     width:50.75vw;
     height:4.5vw;
@@ -84,18 +86,18 @@
   }
   .name-form{
     height:4.5vw;
-    margin-top: -11vw;
+    margin-top: -10vw;
     width:50.75vw;
     float: right;
   }
   .subject-form{
     height:4.5vw;
-    margin-top: -4.75vw;
+    margin-top: -3.75vw;
     width:50.75vw;
     float: right;
   }
   .message-form{
-    margin-top: 1.5vw;
+    margin-top: 2.5vw;
   }
   .contact-arrow{
     width:3.25vw;
