@@ -55,7 +55,7 @@ function getPositionX(e) {
 }
 const minDragStartDelta = 20; // Minimum delta before slider starts moving
 let hasPassedThreshold = false;
-const minDragThreshold =100; // Minimum px before movement is considered intentional
+const minDragThreshold =50; // Minimum px before movement is considered intentional
 function startDrag(e) {
   isDragging = true;
   hasPassedThreshold = false;
