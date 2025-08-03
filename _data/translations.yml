@@ -33,7 +33,7 @@ EN:
             service02:
                 header: 3D MODELING
                 description: We create high-quality 3D models that help you visualize your product or idea in full detail.
-                text01: IDigex can bring your ideas to life, with incredible detail and realism. We develop 3D models, as well as <span class="services-highlight">configurators</span> that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience. 
+                text01: IDigex can bring your ideas to life, with incredible detail and realism. We develop 3D models, as well as configurators that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience. 
                 text02: The price and development period depend on the complexity of the work. The work time is discussed and the cost of the work is <span class="services-another-highlight">€12</span> / hour.
             service03:
                 header: BRAND BOOK
@@ -168,7 +168,7 @@ LV:
         service02:
             header: 3D MODELĒŠANA
             description: Mēs veidojam augstas kvalitātes 3D modeļus, kas palīdzēs pilnībā vizualizēt jūsu produktu vai ideju.
-            text01: IDigex spēj iedzīvināt jūsu idejas ar neticamu detalizētību un reālismu. Mēs izstrādājam 3D modeļus, kā arī <span class="services-highlight">konfiguratorus</span>, kas atspoguļo jūsu projekta būtību. Mēs piedāvāsim inovatīvus risinājumus, kas palīdzēs jums izcelties tirgū un atbilst auditorijas vajadzībām.
+            text01: IDigex spēj iedzīvināt jūsu idejas ar neticamu detalizētību un reālismu. Mēs izstrādājam 3D modeļus, kā arī konfiguratorus, kas atspoguļo jūsu projekta būtību. Mēs piedāvāsim inovatīvus risinājumus, kas palīdzēs jums izcelties tirgū un atbilst auditorijas vajadzībām.
             text02: Cena un izstrādes laiks ir atkarīgs no darba sarežģītības. Darba laiks tiek saskaņots, un maksa ir <span class="services-another-highlight">€12</span> / stundā.
         service03:
             header: ZĪMOLA GRĀMATA
@@ -299,7 +299,7 @@ RU:
         service02:
             header: 3D МОДЕЛИ
             description: Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт или идею с максимальной детализацией.
-            text01: IDigex воплотит ваши идеи с невероятной детализацией и реализмом. Мы разрабатываем 3D‑модели, а также <span class="services-highlight">конфигураторы</span>, отражающие суть вашего проекта. Мы предложим вам инновационные решения, которые помогут выделиться на рынке и удовлетворить аудиторию.
+            text01: IDigex воплотит ваши идеи с невероятной детализацией и реализмом. Мы разрабатываем 3D‑модели, а также конфигураторы, отражающие суть вашего проекта. Мы предложим вам инновационные решения, которые помогут выделиться на рынке и удовлетворить аудиторию.
             text02: Цена и срок разработки зависят от сложности работы. Время работы обсуждается, а стоимость составляет <span class="services-another-highlight">€12</span> в час.
         service03:
             header: БРЕНДБУК

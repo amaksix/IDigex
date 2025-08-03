@@ -1,3 +1,4 @@
+var offsetDef = 40;
 const min = 81;
 const mobMin = 330;
 const max = 327;
@@ -51,9 +52,9 @@ function ChangeHeight(){
     var img = document.getElementById("flipper");
     if( projects.style.height == min+"vw" || projects.style.height == mobMin+"vw")
     {
-        const sideMoving = document.getElementById("side-moving");
-        sideMoving.style.marginLeft = "500vw";
-
+       // const sideMoving = document.getElementById("side-moving");
+        //sideMoving.style.marginLeft = "500vw";
+       
         if (mediaQuery.matches) {
             projects.style.height = maxMob+"vw";
         }else
@@ -69,8 +70,9 @@ function ChangeHeight(){
     }
     else
     {
-        const sideMoving = document.getElementById("side-moving");
-        sideMoving.style.marginLeft = "300vw";
+        //const sideMoving = document.getElementById("side-moving");
+       // sideMoving.style.marginLeft = "300vw";
+      
         if (mediaQuery.matches) {
             projects.style.height = mobMin+"vw";
         }else
@@ -114,3 +116,36 @@ function ChangeHeight(){
                    
                 } 
         }
+
+const elements = document.querySelectorAll('.scrollable-image');
+const anchorscroll = document.getElementById('scroll-image-anchor');
+
+const isMobile = window.matchMedia('(hover: none) and (pointer: coarse), (max-width: 480px)').matches;
+
+window.addEventListener('scroll', () => {
+  const anchorTop = anchorscroll.getBoundingClientRect().top;
+  const scrollY = window.scrollY || window.pageYOffset;
+  const baseOffset = scrollY - anchorscroll.offsetTop;
+
+  elements.forEach((element) => {
+    if (anchorTop <= 0) {
+      element.style.opacity = '1';
+
+      const offset = baseOffset * 0.1/2;
+
+      if (isMobile) {
+        element.style.top = `calc(${offset*0.5}px - ${offsetDef}vw)`;
+      } else {
+        element.style.top = `calc(${offset}px - ${offsetDef}vw)`;
+      }
+    } else {
+      element.style.opacity = '0';
+
+      if (isMobile) {
+        element.style.top = offsetDef+'vw';
+      } else {
+        element.style.top =offsetDef+'vw';
+      }
+    }
+  });
+});
