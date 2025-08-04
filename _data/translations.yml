@@ -18,7 +18,7 @@ EN:
             header: OUR SERVICES
             service01:
                 header: WEBSITES
-                description: We build websites that showcase your services.
+                description: We build websites that will showcase your brand and services.
                 period: 10 days
                 text:
                     line01: "The price of creating a website depends on many factors, including:"
@@ -153,7 +153,7 @@ LV:
         header: MŪSU PAKALPOJUMI
         service01:
             header: VIETNES
-            description: Mēs veidojam vietnes, kas izceļ jūsu pakalpojumus.
+            description: Mēs veidojam vietnes, kas parādīs jūsu zīmolu un pakalpojumus.
             period: 10 dienas
             text:
                 line01: "Vietnes izveides cena ir atkarīga no daudziem faktoriem, tostarp:"
@@ -284,7 +284,7 @@ RU:
         header: НАШИ УСЛУГИ
         service01:
             header: САЙТЫ
-            description: Мы создаём сайты, которые демонстрируют ваши услуги.
+            description: Мы создаём сайты, которые представят ваш бренд и услуги.
             period: 10 дней
             text:
                 line01: "Цена создания сайта зависит от множества факторов, включая:"

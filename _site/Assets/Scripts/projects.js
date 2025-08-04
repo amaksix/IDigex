@@ -38,7 +38,11 @@ if (mediaQuery.matches) {
 }
 
 var display = document.getElementsByClassName("project-display")[0];
-
+function ScrollToAnchorProject(anchor)
+{
+    var element = document.getElementById(anchor);
+    element.scrollIntoView({behavior: "auto"});
+}
 function ChangeHeight(){
     mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
     const projects = document.querySelector('.projects-grid-container');
