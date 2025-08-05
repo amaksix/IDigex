@@ -26,6 +26,10 @@ body{
     overflow-x: hidden;
     margin: 0;
     width: 99.9vw;
+    overscroll-behavior: none;
+}
+html{
+overscroll-behavior: none;
 }
 .page-wrapper{
     opacity: 0;
