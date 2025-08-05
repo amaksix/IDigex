@@ -16,21 +16,43 @@
     gap: 24vw;
   }
 
-  /* Customizing the scroll bar */
-  /* For Webkit browsers (Chrome, Safari, Edge) */
-  .scroll-container::-webkit-scrollbar {
-    height:4vw; /* Set height for horizontal scroll */
- 
-  }
-  .scroll-container::-webkit-scrollbar-track {
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Webkit browsers */
+}
+
+/* Custom scrollbar track */
+.custom-scroll-track {
+    position: relative;
+    width: 85%; /* Adjust as needed */
+    height: 1vw; /* Same as scrollbar height */
     background: url('../Images/ScrollTrack.svg') no-repeat center;
-    background-size: 75%;
-  }
-  .scroll-container::-webkit-scrollbar-thumb {
-    background: url('../Images/Button\ SCROLL.svg') no-repeat center;
-    background-size:20%;
-    
-  }
+    background-size:90%;
+    margin: auto;
+    margin-top: 2vw;
+   
+}
+/* Prevent selection globally while dragging */
+.no-select {
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Prevent selection on the scrollbar thumb itself */
+.custom-scroll-thumb {
+    user-select: none;
+}
+
+/* Custom scrollbar thumb */
+.custom-scroll-thumb {
+    position: absolute;
+    width: 20vw; /* Set thumb size */
+    height:2.5vw;
+     background: url('../Images/Button\ SCROLL.svg') no-repeat center;
+     background-size: 40%;
+     margin-top: -0.75vw;
+    cursor: grab;
+}
 
 .scroll-header{
     width: 30vw;
@@ -123,15 +145,20 @@ body:not(.scroll-container)::-webkit-scrollbar-thumb:hover {
     gap: 0vw;
     height: 93vw;
   }
-    .scroll-container::-webkit-scrollbar-track {
-    background: url('../Images/ScrollTrack.svg') no-repeat center;
-    background-size: 200%;
-  }
-  .scroll-container::-webkit-scrollbar-thumb {
-    background: url('../Images/Button\ SCROLL.svg') no-repeat center;
-    background-size:80%;
-    
-  }
+ /* Custom scrollbar track */
+.custom-scroll-track {
+    width: 90%; /* Adjust as needed */
+    height: 10vw; /* Same as scrollbar height */
+    margin-top:10vw;
+   background-size: 150%;
+}
+/* Custom scrollbar thumb */
+.custom-scroll-thumb {
+    width: 27vw; /* Set thumb size */
+    height:15vw;
+    margin-top: -2.5vw;
+    background-size: 70%;
+}
   .scroll-image{
   transform: translate(20%,15%);
   width:132vw;
