@@ -63,21 +63,33 @@
     <script>
     function OpenNav(){
         var button = document.getElementById("mob-menu-button");
-        if(button.classList.contains('open'))
-        {
-            button.style.zIndex = '1';
-        }else
-        {
-            button.style.zIndex = '6';
-        }
         button.classList.toggle('open'); // ✅ This is the correct method
 
         var container = document.getElementById("mob-nav-container");
 
         if (container.classList.contains('mob-nav-container-hidden')) {
             container.classList.replace("mob-nav-container-hidden", "mob-nav-container");
+            disableScroll();
         } else {
             container.classList.replace("mob-nav-container", "mob-nav-container-hidden");
+            enableScroll();
         }
     }
+    let scrollPosition = 0;
+
+        function disableScroll() {
+        scrollPosition = window.scrollY;
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${scrollPosition}px`;
+        document.body.style.left = '0';
+        document.body.style.right = '0';
+        }
+
+        function enableScroll() {
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.left = '';
+        document.body.style.right = '';
+        window.scrollTo(0, scrollPosition);
+        }
 </script>
