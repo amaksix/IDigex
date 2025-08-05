@@ -84,10 +84,13 @@
     <div class="mobile">
         <div class="header-div-mob">
     <img class="logo-mob" src="../Assets/Images/Logo_dark.svg" alt="Logo">
-    <button class="mob-menu-button-img" onclick="OpenNav()"><img class="mob-menu-button-img" src="../Assets/Images/Mob_Burger.svg"></button>
+    <button id="mob-menu-button" class="mob-menu-button" onclick="OpenNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 </div>
 <div id="mob-nav-container" class="mob-nav-container-hidden">
-    <button class="mob-menu-close-button-img" onclick="OpenNav()"><img class="mob-menu-button-img" src="../Assets/Images/Mob_Header_Close.svg"></button>
     <div class="mob-mav-buttons-container">
         <div class="menu-button-container">
             <button onclick="OpenNav();ScrollToAnchor('about-anchor-id')" id="about-button" class="menu-button">
@@ -137,11 +140,21 @@
     <img class="first-image-mob" src="../Assets/Images/Mob_main.jpg">
     <script>
     function OpenNav(){
-        var container =  document.getElementById("mob-nav-container");
-        if(container.classList.contains('mob-nav-container-hidden'))
+        var button = document.getElementById("mob-menu-button");
+        if(button.classList.contains('open'))
         {
+            button.style.zIndex = '1';
+        }else
+        {
+            button.style.zIndex = '6';
+        }
+        button.classList.toggle('open'); // ✅ This is the correct method
+
+        var container = document.getElementById("mob-nav-container");
+
+        if (container.classList.contains('mob-nav-container-hidden')) {
             container.classList.replace("mob-nav-container-hidden", "mob-nav-container");
-        }else{
+        } else {
             container.classList.replace("mob-nav-container", "mob-nav-container-hidden");
         }
     }

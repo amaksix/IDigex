@@ -134,7 +134,7 @@ window.addEventListener('scroll', () => {
   elements.forEach((element) => {
     if (anchorTop <= 0) {
       element.style.opacity = '1';
-
+     element.style.display = 'block';
       const offset = baseOffset * 0.1/2;
 
       if (isMobile) {
