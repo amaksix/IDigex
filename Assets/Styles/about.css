@@ -48,6 +48,11 @@
     .about-container{
         margin-left: 0;
         margin-top: 12.5vw;
+        display: block;
+    }
+    .about-text-container
+    {
+        display: block;
     }
     .about-header-mob{
     margin: 0;
@@ -58,7 +63,7 @@
     width: 89vw;  
     text-align: left;
     margin-left: 5vw;
-    margin-top:7.6vw;
+    margin-top:12.7vw;
     margin-right: 5vw;
 }
 .about-text-second{

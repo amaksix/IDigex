@@ -53,7 +53,7 @@
     font-weight: 300;
     color: #A9A9A9;
     letter-spacing: 2%;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .tab-mob.tab-mob-active{
@@ -93,6 +93,7 @@
      color:#A9A9A9;
      margin: 0;
      margin-top: 10vw;
+     font-size: 7vw;
 }
 .slide-text-container-mob{
     width: 90vw;

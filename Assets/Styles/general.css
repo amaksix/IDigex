@@ -249,6 +249,9 @@ canvas {
         }
         .description-text{ 
             margin-bottom: 0vw;
+            font-size: 5vw;
+            line-height: 6vw;
+
         }
         .description-text-container{
             display: block;
@@ -297,6 +300,7 @@ canvas {
             font-style: light;
             font-weight: 300;
             color: #F9F9F9;
+            line-height: 9.5vw;
             
         }
         h3{
