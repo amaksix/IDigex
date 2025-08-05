@@ -120,13 +120,13 @@
       margin-bottom: 0;
   }
   .name-form{
-    height:9.4vw;
+    height:12.4vw;
     margin-top: 0;
     width:100%;
     margin-bottom: 3vw;
   }
   .contact-input{
-    height:9.4vw;
+    height:12.4vw;
     background: transparent;
     border-radius: 3vw;
     border:solid;
@@ -134,14 +134,14 @@
     border-width: 0.2vw;
     padding-left: 4vw;
     outline: none;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     width:94%;
   }
   .subject-form{
     height:9.4vw;
     margin-top: 0;
     width:100%;
-    margin-bottom: 3vw;
+    margin-bottom: 6vw;
   }
   .message-form{
     margin-top: 6vw;
@@ -156,13 +156,13 @@
     padding-top: 5vw;
   }
   .send-message{
-    height:10.5vw; 
+    height:13vw; 
     border-width: 0.4vw;
     border-radius: 3vw;
     margin-top: 4.2vw;
   }
   .send-message-text{
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 .email{
   color: #A9A9A9;
@@ -179,7 +179,7 @@
 }
 .contact-subheader-mob{
   margin: 0;
-  margin-top: 10vw;
+  margin-top: 7vw;
   margin-bottom: 7.6vw;
 }
 .contact{
