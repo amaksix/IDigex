@@ -55,7 +55,6 @@ function getPositionX(e) {
 }
 const minDragStartDelta = 20; // Minimum delta before slider starts moving
 let hasPassedThreshold = false;
-const minDragThreshold =50; // Minimum px before movement is considered intentional
 function startDrag(e) {
   isDragging = true;
   hasPassedThreshold = false;
@@ -92,11 +91,6 @@ function endDrag() {
 
   const movedBy = currentTranslate - previousTranslate;
   const threshold = sliderContainer.offsetWidth / 4;
-  if (Math.abs(movedBy) < minDragThreshold) {
-    // Not enough movement; snap back to previous
-    setSliderPosition(currentIndex);
-    return;
-  }
 
   if (movedBy < -threshold && currentIndex < slides.length - 1) {
     currentIndex++;
