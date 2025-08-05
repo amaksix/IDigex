@@ -150,13 +150,13 @@ body:not(.scroll-container)::-webkit-scrollbar-thumb:hover {
     width: 90%; /* Adjust as needed */
     height: 10vw; /* Same as scrollbar height */
     margin-top:10vw;
-   background-size: 150%;
+   background-size:150%;
 }
 /* Custom scrollbar thumb */
 .custom-scroll-thumb {
-    width: 27vw; /* Set thumb size */
-    height:15vw;
-    margin-top: -2.5vw;
+    width: 35vw; /* Set thumb size */
+    height:20vw;
+    margin-top: -5vw;
     background-size: 70%;
 }
   .scroll-image{

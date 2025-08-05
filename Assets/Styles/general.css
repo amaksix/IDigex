@@ -28,7 +28,10 @@ body{
     width: 99.9vw;
 }
 .page-wrapper{
+    opacity: 0;
+    visibility: hidden;
     overflow-x: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
     -webkit-overflow-scrolling: touch;
 }
 .background-holder{
