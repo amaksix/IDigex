@@ -19,7 +19,7 @@ EN:
             service01:
                 header: WEBSITES
                 description: We build websites that will showcase your brand and services.
-                period: 10 days
+                period: 5 days
                 text:
                     line01: "The price of creating a website depends on many factors, including:"
                     line02: Project type - landing page, corporate website or online store;
@@ -154,7 +154,7 @@ LV:
         service01:
             header: VIETNES
             description: Mēs veidojam vietnes, kas parādīs jūsu zīmolu un pakalpojumus.
-            period: 10 dienas
+            period: 5 dienas
             text:
                 line01: "Vietnes izveides cena ir atkarīga no daudziem faktoriem, tostarp:"
                 line02: Projekta veida – galvenā lapa, korporatīvā vietne vai interneta veikals;
@@ -177,7 +177,7 @@ LV:
             text: Zīmola grāmata ir svarīgs uzņēmuma oficiālais dokuments, kurā detalizēti aprakstīti visi zīmola izstrādes aspekti. Tajā noteikumi par logotipa, krāsu paletes, tipogrāfijas un citu būtisku zīmola elementu lietošanu, lai nodrošinātu zīmola atpazīstamību.
         service04:
             header: LOGOTIPS
-            description: Logotips ir nepieciešams individualizācijai, klientu uzmanības piesaistei un atpazīstamības uzlabošanai.
+            description: Logotips ir nepieciešams klientu uzmanības piesaistei un atpazīstamības uzlabošanai.
             period: 1–2 dienas
             text: Mūsu logotipa izstrādes process sākas ar rūpīgu jūsu zīmola, tā mērķu un mērķauditorijas izpratni. Mēs analizējam konkurentus un nozares tendences, ņemot vērā jūsu vēlmes un prasības, lai radītu logotipu, kas ne tikai atspoguļo jūsu zīmola būtību, bet arī emocionāli rezonē ar auditoriju. Turklāt mēs ņemam vērā logotipa pielāgojamību dažādiem lietošanas mērķiem un formātiem, lai tas izskatītos vienlīdz efektīvi gan tīmekļa vietnē, gan uz produkta iepakojuma vai reklāmas materiāliem.
         service05:
@@ -285,7 +285,7 @@ RU:
         service01:
             header: САЙТЫ
             description: Мы создаём сайты, которые представят ваш бренд и услуги.
-            period: 10 дней
+            period: 5 дней
             text:
                 line01: "Цена создания сайта зависит от множества факторов, включая:"
                 line02: Тип проекта – лендинг, корпоративный сайт или интернет‑магазин;
@@ -295,21 +295,22 @@ RU:
                 line06: Сроки разработки;
                 line07: Сложность дизайн‑решений и UI/UX;
                 line08: Объём поддержки после завершения проекта.
-                line09: Таким образом, цена разработки сайта определяется индивидуально и основывается на техническом задании и целях разработки.
+                line09: "Таким образом, цена разработки сайта определяется индивидуально и основывается на техническом задании и целях разработки. <span style='color: #A9A9A9;'> После публикации сайта вы получаете бесплатную техподдержку в течение 30 дней.</span>"
         service02:
             header: 3D МОДЕЛИ
-            description: Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт или идею с максимальной детализацией.
+            description: Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт.
             text01: IDigex воплотит ваши идеи с невероятной детализацией и реализмом. Мы разрабатываем 3D‑модели, а также конфигураторы, отражающие суть вашего проекта. Мы предложим вам инновационные решения, которые помогут выделиться на рынке и удовлетворить аудиторию.
-            text02: Цена и срок разработки зависят от сложности работы. Время работы обсуждается, а стоимость составляет <span class="services-another-highlight">€12</span> в час.
+            text02: Цена и срок разработки зависят от сложности работы. Время работы и стоимость обсуждается.
         service03:
             header: БРЕНДБУК
-            description: Брендбук — важный инструмент, который помогает сохранить единый стиль вашего бренда.
-            period: 1–2 дня
+            description: Брендбук — важный инструмент, который помогает сохранить единый стиль бренда.
+            period: 2 дней
             text: Брендбук — официальный документ компании, подробно описывающий все аспекты создания бренда. В нём изложены правила использования логотипа, цветовой палитры, типографики и других элементов брендинга, чтобы обеспечить узнаваемость бренда.
+            text02: Полный брендинг или отдельные элементы — работаем по запросу. Стоимость обсуждается индивидуально.
         service04:
             header: ЛОГОТИП
-            description: Логотип необходим для индивидуализации, привлечения внимания клиентов и улучшения узнаваемости.
-            period: 1–2 дня
+            description: Логотип необходим для привлечения внимания клиентов и улучшения узнаваемости.
+            period: 2 дней
             text: Наш процесс создания логотипа начинается с глубокого понимания вашего бренда, его целей и целевой аудитории. Мы анализируем конкурентов, тренды отрасли и учитываем ваши предпочтения, чтобы создать логотип, который не только отражает суть бренда, но и эмоционально резонирует с аудиторией.
                     Кроме того, мы учитываем адаптивность логотипа для различных целей и форматов, чтобы он выглядел эффективно и на сайте, и на упаковке или рекламных материалах.
         service05:
