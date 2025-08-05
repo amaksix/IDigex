@@ -196,7 +196,7 @@ margin-top: -1vw;
         margin-top: 4.3vw;
         margin-left: 0vw;
         font-size: 3.8vw;
-        line-height: 5.5vw;
+        line-height: 5vw;
     }
       .service-cost-container{
     display: grid;
@@ -216,12 +216,12 @@ margin-top: -1vw;
     .services-third-highlight{
     color:#666666;
     margin: 0;
-    font-size: 3.5vw;
+    font-size: 3.8vw;
   }
     .services-another-highlight{
     color:#a9a9a9;
     margin: 0;
-    font-size: 3.5vw;
+    font-size: 3.8vw;
     margin-top: 1vw;
   }
   }
