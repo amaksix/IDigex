@@ -6,7 +6,7 @@ EN:
         contact: CONTACT
     header:
         title: DIGITAL STUDIO
-        text:  We bring ideas to life through tailored digital solutions, including web development, brand identity, and 3D visualization.
+        text: " We bring ideas to life through tailored digital solutions, including<span style='color:#a9a9a9'> web development, brand identity, and 3D visualization.</span>"
     about:
         header: ABOUT
         text01: We possess extensive expertise in UI/UX design, development, and 3D modeling, enabling us to craft solutions that are not only visually engaging but also intuitive and aligned with business objectives. Every project is approached individually, with full-cycle involvement to ensure all client requirements and expectations are met.
