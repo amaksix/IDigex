@@ -123,16 +123,17 @@ function ChangeHeight(){
 
 const elements = document.querySelectorAll('.scrollable-image');
 const anchorscroll = document.getElementById('scroll-image-anchor');
-
+const secondAnchorscroll = document.getElementById('scroll-image-anchor-second');
 const isMobile = window.matchMedia('(hover: none) and (pointer: coarse), (max-width: 480px)').matches;
 
 window.addEventListener('scroll', () => {
   const anchorTop = anchorscroll.getBoundingClientRect().top;
+  const anchorBottom = secondAnchorscroll.getBoundingClientRect().bottom;
   const scrollY = window.scrollY || window.pageYOffset;
   const baseOffset = scrollY - anchorscroll.offsetTop;
 
   elements.forEach((element) => {
-    if (anchorTop <= 0) {
+    if (anchorTop <= 0 && anchorBottom >= 0) {
       element.style.opacity = '1';
      element.style.display = 'block';
       const offset = baseOffset * 0.1/2;

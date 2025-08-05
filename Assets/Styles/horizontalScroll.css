@@ -124,6 +124,7 @@ body:not(.scroll-container)::-webkit-scrollbar-thumb:hover {
   (max-width: 480px) {
     .scroll-container{
       width: 89%;
+      margin-top: 35.6vw;
     }
       /* Customizing the scroll bar */
   /* For Webkit browsers (Chrome, Safari, Edge) */
