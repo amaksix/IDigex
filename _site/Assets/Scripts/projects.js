@@ -133,7 +133,7 @@ window.addEventListener('scroll', () => {
   const baseOffset = scrollY - anchorscroll.offsetTop;
 
   elements.forEach((element) => {
-    if (anchorTop <= 0 && anchorBottom >= 0) {
+    if (anchorTop <= 0 && (anchorBottom >= 0 || !isMobile)) {
       element.style.opacity = '1';
      element.style.display = 'block';
       const offset = baseOffset * 0.1/2;
