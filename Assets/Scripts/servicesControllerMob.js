@@ -75,6 +75,10 @@ function drag(e) {
 
   hasPassedThreshold = true;
 
+  if (e.cancelable) {
+    e.preventDefault();
+  }
+
   // Clamp to slider bounds
   const maxTranslate = 0;
   const minTranslate = -((slides.length - 1) * sliderContainer.offsetWidth);
@@ -85,6 +89,7 @@ function drag(e) {
 
   currentTranslate = tentativeTranslate;
 }
+
 function endDrag() {
   cancelAnimationFrame(animationID);
   isDragging = false;

@@ -141,7 +141,7 @@ LV:
         contact: KONTAKTI
     header:
         title: DIGITAL STUDIO
-        text: Mēs īstenojam idejas, izmantojot pielāgotus digitālos risinājumus, tostarp majaslapas izstrādi, zīmola identitāti un 3D vizualizāciju.
+        text: Mēs īstenojam idejas, izmantojot pielāgotus digitālos risinājumus,<span style='color:#a9a9a9'> tostarp majaslapas izstrādi, zīmola identitāti un 3D vizualizāciju</span>.
     about:
       header: PAR
       text01: Mums ir plaša pieredze UI/UX dizainā, izstrādē un 3D modelēšanā, kas ļauj mums veidot risinājumus, kas ir ne tikai vizuāli pievilcīgi, bet arī intuitīvi un saskaņoti ar biznesa mērķiem. Katram projektam pieejam individuāli, nodrošinot pilna cikla iesaisti, lai izpildītu visas klienta prasības un cerības.
@@ -272,7 +272,7 @@ RU:
         contact: КОНТАКТЫ
     header:
         title: ЦИФРОВАЯ СТУДИЯ
-        text: Мы воплощаем идеи в жизнь с помощью индивидуальных цифровых решений, включая веб-разработку, фирменный стиль и 3D-визуализацию.
+        text: Мы воплощаем идеи в жизнь с помощью индивидуальных цифровых решений,<span style='color:#a9a9a9'> включая веб-разработку, фирменный стиль и 3D-визуализацию</span>.
     about:
         header: О НАС
         text01: У нас обширный опыт в UI/UX-дизайне, разработке и 3D-моделировании, что позволяет создавать решения, которые не только визуально привлекательны, но и интуитивно понятны и соответствуют бизнес-целям. К каждому проекту мы подходим индивидуально, обеспечивая полное сопровождение на всех этапах для полного соответствия требованиям и ожиданиям клиента.

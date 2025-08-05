@@ -27,6 +27,10 @@ body{
     margin: 0;
     width: 99.9vw;
 }
+.page-wrapper{
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
 .background-holder{
     background-color: #0C0C0C;
     position: relative;
@@ -245,9 +249,6 @@ canvas {
         }
         body{
             margin: 0;
-            overflow-x: hidden;
-        }
-        .page-wrapper{
             overflow-x: hidden;
         }
         .description-text{ 
