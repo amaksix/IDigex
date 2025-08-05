@@ -225,6 +225,7 @@ canvas {
         top:-80vw;
         left: -15vw;
         transition:  top 0.3s linear;
+        opacity: 0;
     }
         .background-holder{
             margin-top: 155vw;
