@@ -14,14 +14,14 @@ function runPreloader() {
   const increment = 100 / (duration / interval);
 
   // Immediately show "0"
-  preloaderCounter.textContent = "0";
+  preloaderCounter.textContent = "0%";
 
   // Start counter interval
   const counterInterval = setInterval(() => {
     counter += increment;
     const rounded = Math.floor(counter);
 
-    preloaderCounter.textContent = rounded;
+    preloaderCounter.textContent = rounded+'%';
 
     if (counter >= 100) {
       clearInterval(counterInterval);
