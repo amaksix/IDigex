@@ -211,6 +211,8 @@ canvas {
         top:-40vw;
         left: -10vw;
         transition:  top 0.3s linear;
+        opacity: 0;
+        display: none;
     }
     @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
@@ -225,8 +227,7 @@ canvas {
         top:-80vw;
         left: -15vw;
         transition:  top 0.3s linear;
-        opacity: 0;
-        display: none;
+     
     }
         .background-holder{
             margin-top: 155vw;
