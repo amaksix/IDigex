@@ -33,22 +33,22 @@ EN:
             service02:
                 header: 3D MODELING
                 description: We create high-quality 3D models that help you visualize your product or idea in full detail.
-                text01: IDigex can bring your ideas to life, with incredible detail and realism. We develop 3D models, as well as configurators that reflect the essence of your project. We will provide you with innovative solutions that will help you stand out in the market and meet the needs of your audience. 
-                text02: The price and development period depend on the complexity of the work. The work time is discussed and the cost of the work is <span class="services-another-highlight">€12</span> / hour.
+                text01: IDigex transforms your ideas into realistic and detailed 3D models. We create not only visualizations, but also interactive configurators that highlight the essence of your project and help you stand out in the market. 
+                text02: The price and development time depend on the complexity of the work.
             service03:
                 header: BRAND BOOK
-                description: Brand book is an important tool that helps maintain a consistent style of your brand.
-                period: 1-2 days  
+                description: We collect all the elements of your brand into a clear and convenient guide - from the logo to the visual style.
+                period: 2 days 
                 text: The brand book is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.
             service04:
                 header: LOGO
-                description: A logo is needed for individualization, to attract customer attention and improve recognition.
-                period: 1-2 days
+                description: We design a logo that reflects your brand and is easy to remember.
+                period: 2 days
                 text: Our logo design process begins with a thorough understanding of your brand, its goals and target audience. We analyze competitors and trends in your industry, and take into account your preferences and wishes, striving to create a logo that not only reflects the essence of your brand, but also resonates emotionally with your audience.
                             In addition, we take into account the adaptability of the logo for various purposes and formats of use, so that it looks equally effective both on the website and on product packaging or promotional material.
             service05:
                 header: BANNERS
-                description: We are experienced in creating various types of banners for various purposes and platforms.
+                description: We create banners for any tasks and platforms - adaptively and with an emphasis on results.
                 period: 1-2 days 
                 text: IDigex develops various types of banners, including static, animated and mobile banners. We take into account your brand, target audience and your advertising campaign goals to create banners that will effectively attract attention and generate clicks.
     stages:
