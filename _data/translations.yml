@@ -29,7 +29,7 @@ EN:
                     line06: Development time frame;
                     line07: Complexity of design solutions and UI/UX;
                     line08: Ammount of support needed after end of the project.
-                    line09: Thus, the price of creating a website is determined individually and is based on the specifications and development goals.
+                    line09: Thus, the price of creating a website is determined individually and is based on the specifications and development goals.  <span style='color: #A9A9A9;'> After publishing your site, you receive free technical support for 30 days.</span>"
             service02:
                 header: 3D MODELING
                 description: We create high-quality 3D models that help you visualize your product or idea in full detail.
@@ -303,10 +303,10 @@ RU:
             text02: Цена и срок разработки зависят от сложности работы.
         service03:
             header: БРЕНДБУК
-            description: Собираем все элементы вашего бренда в понятный и удобный гайд — от логотипа до визуального стиля.
+            description: Собираем все элементы вашего бренда в понятный и удобный гайд.
             period: 2 дней
             text: Брендбук — официальный документ компании, подробно описывающий все аспекты создания бренда. В нём изложены правила использования логотипа, цветовой палитры, типографики и других элементов брендинга, чтобы обеспечить узнаваемость бренда.
-            text02: Полный брендинг или отдельные элементы — работаем по запросу. Стоимость обсуждается индивидуально.
+            text02: Разрабатываем как полный брендинг, так и отдельные элементы — под ваш запрос. Стоимость рассчитывается индивидуально.
         service04:
             header: ЛОГОТИП
             description: Разрабатываем логотип, который отражает ваш бренд и легко запоминается.
@@ -315,7 +315,7 @@ RU:
                     Кроме того, мы учитываем адаптивность логотипа для различных целей и форматов, чтобы он выглядел эффективно на сайте, упаковке или рекламных материалах.
         service05:
             header: БАННЕРЫ
-            description: Создаём баннеры под любые задачи и платформы — адаптивно и с акцентом на результат.
+            description: Создаём баннеры под любые задачи и платформы.
             period: 1–2 дня
             text: IDigex разрабатывает различные типы баннеров, включая статические, анимированные и мобильные. Мы учитываем ваш бренд, целевую аудиторию и цели рекламной кампании, чтобы создавать баннеры, которые эффективно привлекают внимание и генерируют клики.
     stages:
