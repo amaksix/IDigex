@@ -198,12 +198,14 @@
                         <div class="project-text-grid">
                             <button  class="project-head" onclick="ChangeHeight()">
                                 <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3 id="display-header" style = "height: 3vw;margin-bottom: 1.7vw;" class="project-button-text" >{{t.projects.more }}</h3>
+                                <h3 id="display-header" data-more-projects="{{t.projects.more }}"data-less-projects="{{t.projects.less }}"
+                                 style = "height: 3vw;margin-bottom: 1.7vw;" class="project-button-text" >{{t.projects.more }}</h3>
                             </button>
                         </div>
                         <div class="project-image-container more-projects-image-container">
                             <button class="more-projects-button" onclick="ChangeHeight()"><img id="flipper" class="flipper" src="../Assets/Images/Plus.svg"></button>
-                            <h3 id="display" class="display">{{t.projects.displayMore }}</h3>
+                            <h3 id="display"   data-display-more="{{t.projects.displayMore }}" 
+                            data-display-less="{{t.projects.displayLess }}" class="display">{{t.projects.displayMore }}</h3>
                         </div>     
                     </div>         
                     <div class="project">

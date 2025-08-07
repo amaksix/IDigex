@@ -62,6 +62,8 @@ EN:
     projects:
         more: MORE PROJECTS
         displayMore: Display More
+        less: LESS PROJECTS
+        displayLess: Display Less
         header: PROJECTS
         paws:
             description: Branding, website
@@ -123,7 +125,7 @@ EN:
                     we believe there is a need for rethinking and simplicity, moving away from classic setups and moving towards a more passenger-oriented experience."
         viabon:
             description:  Branding, website
-            text: "For the company ViaBON, working in the financial sector, a holistic visual style was developed: <span style='color: #F9F9F9;'>corporate colors and fonts were selected, a brand book with recommendations for using the identity was created.</span> At the moment, work is underway on a corporate website with adaptation for various devices."
+            text: "For the company viabon, working in the financial sector, a holistic visual style was developed: <span style='color: #F9F9F9;'>corporate colors and fonts were selected, a brand book with recommendations for using the identity was created.</span> At the moment, work is underway on a corporate website with adaptation for various devices."
         soa:
             description: Branding, website
             text: "A holistic visual style was developed for Soa Skincare, a company specializing in the sale of skincare cosmetics:<span style='color: #F9F9F9;'> corporate colors, typography, and graphic elements reflecting the brand values were selected.</span> A brand book was created with detailed recommendations on the use of identity in digital and printed materials. A line for the production of cosmetics was also developed, combining aesthetics and functionality.<span style='color: #F9F9F9;'> Currently, work is underway to create a single website with adaptation for all standard devices.</span>"
@@ -134,6 +136,12 @@ EN:
         header: LET'S BUILD THE FUTURE TOGETHER.
         contact: CONTACT
         send: SEND MESSAGE
+        name: NAME
+        subject: SUBJECT
+        message: MESSAGE
+    footer:
+        contact: Contact us
+        navigation: Navigation
 LV:
     nav:
         about: PAR
@@ -146,7 +154,7 @@ LV:
     about:
       header: PAR
       text01: Mums ir plaša pieredze UI/UX dizainā, izstrādē un 3D modelēšanā, kas ļauj mums veidot risinājumus, kas ir ne tikai vizuāli pievilcīgi, bet arī intuitīvi un saskaņoti ar biznesa mērķiem. Katram projektam pieejam individuāli, nodrošinot pilna cikla iesaisti, lai izpildītu visas klienta prasības un cerības.
-      text02: Mūsu darbs sniedzas tālāk par tīmekļa vietņu dizainu — mēs veidojam digitālas pieredzes, kas piesaista uzmanību un veicina uzticību. Apvienojot estētiku ar funkcionalitāti, mēs nodrošinām, ka katrs risinājums patiesi atspoguļo klienta vīziju un vērtības.
+      text02: "Mūsu darbs sniedzas tālāk par tīmekļa vietņu dizainu — mēs veidojam digitālas pieredzes, kas piesaista uzmanību un veicina uzticību. Apvienojot estētiku ar funkcionalitāti, mēs nodrošinām, ka katrs risinājums patiesi atspoguļo klienta vīziju un vērtības."
     services:
         price: Cena
         from: no
@@ -165,17 +173,18 @@ LV:
                 line06: Izstrādes termiņa;
                 line07: Dizaina risinājumu un UI/UX sarežģītības;
                 line08: Nepieciešamās atbalsta apjoma pēc projekta pabeigšanas.
-                line09: Līdz ar to vietnes izstrādes cena tiek noteikta individuāli, pamatojoties uz specifikāciju un izstrādes mērķiem.
+                line09: "Līdz ar to vietnes izstrādes cena tiek noteikta individuāli, pamatojoties uz specifikāciju un izstrādes mērķiem. <span style='color: #A9A9A9;'> Pēc vietnes publicēšanas jūs saņemsiet bezmaksas tehnisko atbalstu 30 dienas.</span>"
         service02:
             header: 3D MODELĒŠANA
             description: Mēs veidojam augstas kvalitātes 3D modeļus, kas palīdzēs pilnībā vizualizēt jūsu produktu vai ideju.
             text01: IDigex spēj iedzīvināt jūsu idejas ar neticamu detalizētību un reālismu. Mēs izstrādājam 3D modeļus, kā arī konfiguratorus, kas atspoguļo jūsu projekta būtību. Mēs piedāvāsim inovatīvus risinājumus, kas palīdzēs jums izcelties tirgū un atbilst auditorijas vajadzībām.
-            text02: Cena un izstrādes laiks ir atkarīgs no darba sarežģītības. Darba laiks tiek saskaņots, un maksa ir <span class="services-another-highlight">€12</span> / stundā.
+            text02: Cena un izstrādes laiks ir atkarīgs no darba sarežģītības.
         service03:
             header: ZĪMOLA GRĀMATA
             description: Zīmola grāmata ir svarīgs rīks, kas palīdz saglabāt jūsu zīmola vienotu stilu.
             period: 1–2 dienas
             text: Zīmola grāmata ir svarīgs uzņēmuma oficiālais dokuments, kurā detalizēti aprakstīti visi zīmola izstrādes aspekti. Tajā noteikumi par logotipa, krāsu paletes, tipogrāfijas un citu būtisku zīmola elementu lietošanu, lai nodrošinātu zīmola atpazīstamību.
+            text02: "<span style='color: #A9A9A9;'>Mēs izstrādājam gan pilnu brendu, gan atsevišķus elementus – pēc jūsu pieprasījuma. Izmaksas tiek aprēķinātas individuāli.</span>"
         service04:
             header: LOGOTIPS
             description: Logotips ir nepieciešams klientu uzmanības piesaistei un atpazīstamības uzlabošanai.
@@ -196,6 +205,8 @@ LV:
     projects:
         more: VAIRĀK PROJEKTU
         displayMore: Rādīt vairāk
+        less: MAZĀK PROJEKTU
+        displayLess: Rādīt mazāk
         header: PROJEKTI
         paws:
             description: Brendings, vietne
@@ -254,7 +265,7 @@ LV:
             text: "<span style='color: #F9F9F9;'>Automašīnas paneļa UI dizains ar lietotājam draudzīgu un mūsdienīgu saskarni.</span> Automašīnas paneļa lietotāja pieredzes koncepts. Elektrifikācijas un programmatūras funkciju attīstoties, mēs uzskatām, ka nepieciešams pārdomāt un vienkāršot, virzoties prom no klasiskajiem iestatījumiem un vairāk uz pasažieru orientētu pieredzi."
         viabon:
             description: Brendings, vietne
-            text: "Uzņēmumam ViaBON finanšu sektorā izstrādājām holistisku vizuālo stilu: <span style='color: #F9F9F9;'>izvēlējāmies korporatīvās krāsas un fontus, izveidojām zīmola grāmatu ar identitātes lietošanas ieteikumiem.</span> Šobrīd notiek darbs pie korporatīvās vietnes ar adaptāciju dažādām ierīcēm."
+            text: "Uzņēmumam viabon finanšu sektorā izstrādājām holistisku vizuālo stilu: <span style='color: #F9F9F9;'>izvēlējāmies korporatīvās krāsas un fontus, izveidojām zīmola grāmatu ar identitātes lietošanas ieteikumiem.</span> Šobrīd notiek darbs pie korporatīvās vietnes ar adaptāciju dažādām ierīcēm."
         soa:
             description: Brendings, vietne
             text: "Tika izstrādāts vienots vizuālais stils uzņēmumam Soa Skincare, kas specializējas ādas kopšanas kosmētikas tirdzniecībā:<span style='color: #F9F9F9;'>izvēlētas korporatīvās krāsas, tipogrāfija un grafiskie elementi, kas atspoguļo zīmola vērtības.</span> Tika izveidota zīmola rokasgrāmata ar detalizētām vadlīnijām identitātes lietošanai digitālajos un drukātajos materiālos. Tāpat tika izstrādāta kosmētikas ražošanas līnija, kas apvieno estētiku un funkcionalitāti. <span style='color: #F9F9F9;'>Pašlaik tiek izstrādāta vienota tīmekļa vietne ar pielāgojumu visām standarta ierīcēm.</span>"
@@ -262,9 +273,15 @@ LV:
             description: Brendings, vietne
             text: "Korporatīvās identitātes attīstība jaunam finanšu uzņēmumam 5W:<span style='color: #F9F9F9;'> izveidojām logotipu, noteicām krāsu paleti un tipogrāfiju, izstrādājām zīmola grāmatu. Arī izstrādāta adaptīva vietne, optimizēta visām ierīcēm.</span> Vietne ir veidota saskaņā ar korporatīvo identitāti un orientēta uz vienkāršu un skaidru navigāciju."
     contact:
-        header: UZBŪVĒSIM NĀKOTNI KOPĀ.
+        header: Mēs bez maksas novērtēsim problēmu un piedāvāsim risinājumu.
         contact: KONTAKTI
-        send: NOSŰTĪT ZINJU
+        send: NOSŪTĪT ZIŅU
+        name: VĀRDS
+        subject: TĒMA
+        message: ZIŅOJUMS
+    footer:
+        contact: sazinaties ar mums
+        navigation: navigācija
 RU:
     nav:
         about: О НАС
@@ -327,8 +344,10 @@ RU:
         text04: "<span class=\"services-highlight\">04. Тестирование:</span> после завершения разработки сайт тестируется на разных устройствах и в браузерах, чтобы убедиться в корректной работе. Обнаруженные ошибки исправляются."
         text05: "<span class=\"services-highlight\">05. Запуск:</span> после успешного тестирования сайт готов к запуску и публикации. Обеспечивается хостинг и доступ для пользователей."
     projects:
-        more: ЕЩЁ ПРОЕКТЫ
+        more: БОЛЬШЕ ПРОЕКТОВ
         displayMore: Показать больше
+        less: МЕНЬШЕ ПРОЕКТОВ
+        displayLess: Показать меньше
         header: ПРОЕКТЫ
         paws:
             description: Брендинг, сайт
@@ -387,7 +406,7 @@ RU:
             text: "<span style='color: #F9F9F9;'>Дизайн интерфейса автомобильной приборной панели с удобной и современной пользовательской средой.</span> Концепция UX приборной панели авто. С развитием электрификации и программного обеспечения мы считаем необходимым переосмыслить и упростить, отходя от классических решений и ориентируясь на пассажирский опыт."
         viabon:
             description: Брендинг, сайт
-            text: "Для компании ViaBON, работающей в финансовой сфере, был разработан целостный визуальный стиль:<span style='color: #F9F9F9;'> подобраны фирменные цвета и шрифты, создан брендбук с рекомендациями по использованию айдентики.</span> В настоящее время ведётся работа над корпоративным сайтом с адаптацией под различные устройства."
+            text: "Для компании Viabon, работающей в финансовой сфере, был разработан целостный визуальный стиль:<span style='color: #F9F9F9;'> подобраны фирменные цвета и шрифты, создан брендбук с рекомендациями по использованию айдентики.</span> В настоящее время ведётся работа над корпоративным сайтом с адаптацией под различные устройства."
         soa:
             description: Брендинг, сайт
             text: "Для компании Soa Skincare, специализирующейся на продаже косметических средств по уходу за кожей, был разработан целостный визуальный стиль:<span style='color: #F9F9F9;'> подобраны фирменные цвета, типографика и графические элементы, отражающие ценности бренда. </span> Создан брендбук с подробными рекомендациями по использованию фирменного стиля в цифровых и печатных материалах. Также разработана линия по производству косметики, сочетающая эстетику и функциональность. <span style='color: #F9F9F9;'>В настоящее время ведётся работа по созданию единого сайта с адаптацией под все стандартные устройства.</span>"
@@ -395,6 +414,12 @@ RU:
             description: Брендинг, сайт
             text: "Для новой финансовой компании 5W мы разработали полный визуальный образ:<span style='color: #F9F9F9;'> логотип, цветовую палитру, типографику и брендбук. Также был создан адаптивный сайт, полностью соответствующий фирменному стилю.</span> Особое внимание уделено лаконичному дизайну и удобной навигации на всех устройствах."
     contact:
-        header: ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.
+        header: Бесплатно оценим задачу и предложим решение.
         contact: КОНТАКТЫ
         send: ОТПРАВИТЬ СООБЩЕНИЕ
+        name: ИМЯ
+        subject: ТЕМА
+        message: СООБЩЕНИЕ
+    footer:
+        contact: свяжитесь с нами
+        navigation: навигация

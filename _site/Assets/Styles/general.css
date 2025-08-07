@@ -137,12 +137,13 @@ h5{
     margin-top: 6vw;
     display: grid;
     grid-template-columns: auto 30.5vw;
-    gap:10vw;
+    gap:auto;
     flex-direction: column;
     z-index: 1;
     mix-blend-mode: exclusion;
     text-align: left;
     color: #e0e0e0;
+    width: 90vw;
 }
 .description-text{
     margin:0;

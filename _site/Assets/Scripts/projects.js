@@ -43,57 +43,50 @@ function ScrollToAnchorProject(anchor)
     var element = document.getElementById(anchor);
     element.scrollIntoView({behavior: "auto"});
 }
-function ChangeHeight(){
+   var img = document.getElementById("flipper");
+function ChangeHeight() {
     mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
     const projects = document.querySelector('.projects-grid-container');
-   
-    var displayText = document.getElementById("display");
+
+    var display = document.getElementById("display");
+    var displayText = display;
     var displayHeader = document.getElementById("display-header");
-    if(display === undefined)
-    {
-        display = document.getElementsByClassName("project-display-hidden")[0];
-    }	
-    var img = document.getElementById("flipper");
-    if( projects.style.height == min+"vw" || projects.style.height == mobMin+"vw")
-    {
-       // const sideMoving = document.getElementById("side-moving");
-        //sideMoving.style.marginLeft = "500vw";
-       
+
+    if (projects.style.height == min + "vw" || projects.style.height == mobMin + "vw") {
         if (mediaQuery.matches) {
-            projects.style.height = maxMob+"vw";
-        }else
-        {
-            projects.style.height = max+"vw";
+            projects.style.height = maxMob + "vw";
+        } else {
+            projects.style.height = max + "vw";
         }
+
         img.src = "../Assets/Images/Minus.svg";
         display.classList.add("project-display-bottom");
         display.classList.remove("project-display");
-        displayText.innerHTML = "Display Less";
-        displayHeader.innerHTML = "LESS PROJECTS";
+
+        // Use data attributes for text
+        displayText.innerHTML = display.dataset.displayLess;
+        displayHeader.innerHTML = displayHeader.dataset.lessProjects;
+
         moveThirdToLast();
-    }
-    else
-    {
-        //const sideMoving = document.getElementById("side-moving");
-       // sideMoving.style.marginLeft = "300vw";
-      
+    } else {
         if (mediaQuery.matches) {
-            projects.style.height = mobMin+"vw";
-        }else
-        {
-            projects.style.height = min+"vw";
+            projects.style.height = mobMin + "vw";
+        } else {
+            projects.style.height = min + "vw";
         }
-       
+
         img.src = "../Assets/Images/Plus.svg";
-        display.classList.add("project-display-top");  
+        display.classList.add("project-display-top");
         ScrollToAnchor("projects-anchor-id");
-        displayText.innerHTML = "Display More";
-        displayHeader.innerHTML = "MORE PROJECTS";
+
+        // Use data attributes for text
+        displayText.innerHTML = display.dataset.displayMore;
+        displayHeader.innerHTML = displayHeader.dataset.moreProjects;
+
         moveLastToThird();
     }
-   
-
 }
+
         function moveThirdToLast() {
             
                 var list = document.getElementById("projects-grid");
