@@ -29,7 +29,7 @@ EN:
                     line06: Development time frame;
                     line07: Complexity of design solutions and UI/UX;
                     line08: Ammount of support needed after end of the project.
-                    line09: Thus, the price of creating a website is determined individually and is based on the specifications and development goals.  <span style='color: #A9A9A9;'> After publishing your site, you receive free technical support for 30 days.</span>"
+                    line09: "Thus, the price of creating a website is determined individually and is based on the specifications and development goals.  <span style='color: #A9A9A9;'> After publishing your site, you receive free technical support for 30 days.</span>"
             service02:
                 header: 3D MODELING
                 description: We create high-quality 3D models that help you visualize your product or idea in full detail.
@@ -37,9 +37,10 @@ EN:
                 text02: The price and development time depend on the complexity of the work.
             service03:
                 header: BRAND BOOK
-                description: We collect all the elements of your brand into a clear and convenient guide - from the logo to the visual style.
+                description: We collect all the elements of your brand into a clear and convenient guide.
                 period: 2 days 
                 text: The brand book is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.
+                text02: "<span style='color: #A9A9A9;'>We develop both full branding and individual elements - according to your request. The cost is calculated individually.<span>"
             service04:
                 header: LOGO
                 description: We design a logo that reflects your brand and is easy to remember.
@@ -128,7 +129,7 @@ EN:
             text: "A holistic visual style was developed for Soa Skincare, a company specializing in the sale of skincare cosmetics:<span style='color: #F9F9F9;'> corporate colors, typography, and graphic elements reflecting the brand values were selected.</span> A brand book was created with detailed recommendations on the use of identity in digital and printed materials. A line for the production of cosmetics was also developed, combining aesthetics and functionality.<span style='color: #F9F9F9;'> Currently, work is underway to create a single website with adaptation for all standard devices.</span>"
         5w:
             description:  Branding, website
-            text: "Development of a corporate identity for a new financial company 5W:<span style='color: #F9F9F9;'> a logo was created, a color palette and typography were defined, a brand book was designed. A website with an adaptive design optimized for all types of devices was also developed.</span> The website is designed in accordance with the corporate identity and is focused on simple and clear navigation."
+            text: "For the new financial company 5W, we developed a complete visual image:<span style='color: #F9F9F9;'> logo, color palette, typography and brand book. An adaptive website was also created, fully consistent with the corporate style.</span> Particular attention was paid to the laconic design and convenient navigation on all devices."
     contact:
         header: LET'S BUILD THE FUTURE TOGETHER.
         contact: CONTACT
@@ -326,7 +327,7 @@ RU:
         text04: "<span class=\"services-highlight\">04. Тестирование:</span> после завершения разработки сайт тестируется на разных устройствах и в браузерах, чтобы убедиться в корректной работе. Обнаруженные ошибки исправляются."
         text05: "<span class=\"services-highlight\">05. Запуск:</span> после успешного тестирования сайт готов к запуску и публикации. Обеспечивается хостинг и доступ для пользователей."
     projects:
-        more: ЕЩЁ ПРОЕКТОВ
+        more: ЕЩЁ ПРОЕКТЫ
         displayMore: Показать больше
         header: ПРОЕКТЫ
         paws:
@@ -341,7 +342,7 @@ RU:
                 text07: "Сайт в процессе разработки."
         penalab:
             description: Брендинг, сайт
-            text: "<span style='color: #F9F9F9;'>Разработка логотипа и брендбука</span> (цветовая палитра, типография, иконки и графические элементы),<span style='color:#F9F9F9;'> корпоративный фирменный стиль</span> (визитки, рекламные плакаты, упаковка, шаблоны презентаций и соцсетей), а также <span style='color: #F9F9F9;'>видео и анимационные материалы, лендинг</span> для креативной студии Pena Lab. Задача — гармонично соединить концепцию бренда и минималистичную «trash» эстетику без потери идеи эфемерного искусства и осознанного потребления. Суть концепции: «Ты носишь вещь ради уникального имени, а потом она исчезает.»"
+            text: "<span style='color: #F9F9F9;'>Разработка логотипа и брендбука</span> (цветовая палитра, типографика, иконки и графические элементы),<span style='color:#F9F9F9;'> корпоративный фирменный стиль</span> (визитки, рекламные плакаты, упаковка, шаблоны презентаций и соцсетей), а также <span style='color: #F9F9F9;'>видео и анимационные материалы, лендинг</span> для креативной студии Pena Lab. Задача — гармонично соединить концепцию бренда и минималистичную «trash» эстетику без потери идеи эфемерного искусства и осознанного потребления. Суть концепции: «Ты носишь вещь ради уникального имени, а потом она исчезает.»"
         palami:
             description: Логотип, редизайн сайта
             text:
@@ -351,7 +352,7 @@ RU:
             description: 3D‑моделирование
         busstop:
             description: 3D‑моделирование
-            text: "<span style='color: #F9F9F9;'>Создание 3D‑моделей для Palami для демонстрации различных вариантов продуктов.</span> В проекте были разработаны два различных дизайна остановок в четырёх размерах с множеством конфигурационных опций: количество экранов, наличие карты, отображение расписания, а также индивидуальная печать города на стекле. Пилон — точное воспроизведение одного из существующих физических продуктов."
+            text: "<span style='color: #F9F9F9;'>Создание 3D‑моделей для демонстрации различных вариантов продуктов.</span> В проекте были разработаны два различных дизайна остановок в четырёх размерах с множеством конфигурационных опций: количество экранов, наличие карты, отображение расписания, а также индивидуальная печать города на стекле. Пилон — точное воспроизведение одного из существующих физических продуктов."
         mullers:
             description: Логотип, визитки
             text01: "<span style='color: #F9F9F9;'>Разработка логотипа и визиток для кондитерской в Латвии.</span> По желанию клиента логотип получился элегантным и минималистичным с акцентом в цветовой гамме."
@@ -380,19 +381,19 @@ RU:
                 text06: "Лёгкость восприятия: логотип должен быть простым и запоминающимся, чтобы клиенты могли легко его идентифицировать."
         financelabs:
             description: Брендинг
-            text: "Разработка бренда для нового финансового стартапа Finance Labs. <span style='color: #F9F9F9;'>Проект включал создание привлекательного логотипа, подбор цветовой гаммы и шрифтов, а также создание полного брендбука с рекомендациями по стилю.</span> Также были разработаны шаблоны для счетов и электронных подписей, включённые в пакет бренд‑идентичности."
+            text: "Разработка бренда для нового финансового стартапа Finance Labs. <span style='color: #F9F9F9;'>Проект включал создание привлекательного логотипа, подбор цветовой палитры и шрифтов, а также создание полного брендбука с рекомендациями по стилю.</span> Также были разработаны шаблоны для счетов и электронных подписей, включённые в пакет бренд‑идентичности."
         dashboard:
             description: Концепт
             text: "<span style='color: #F9F9F9;'>Дизайн интерфейса автомобильной приборной панели с удобной и современной пользовательской средой.</span> Концепция UX приборной панели авто. С развитием электрификации и программного обеспечения мы считаем необходимым переосмыслить и упростить, отходя от классических решений и ориентируясь на пассажирский опыт."
         viabon:
             description: Брендинг, сайт
-            text: "Для компании ViaBON из финансового сектора мы разработали целостный визуальный стиль: <span style='color: #F9F9F9;'>подобрали корпоративные цвета и шрифты, создали брендбук с рекомендациями по применению идентичности.</span> В настоящее время ведётся разработка корпоративного сайта с адаптацией под различные устройства."
+            text: "Для компании ViaBON, работающей в финансовой сфере, был разработан целостный визуальный стиль:<span style='color: #F9F9F9;'> подобраны фирменные цвета и шрифты, создан брендбук с рекомендациями по использованию айдентики.</span> В настоящее время ведётся работа над корпоративным сайтом с адаптацией под различные устройства."
         soa:
             description: Брендинг, сайт
             text: "Для компании Soa Skincare, специализирующейся на продаже косметических средств по уходу за кожей, был разработан целостный визуальный стиль:<span style='color: #F9F9F9;'> подобраны фирменные цвета, типографика и графические элементы, отражающие ценности бренда. </span> Создан брендбук с подробными рекомендациями по использованию фирменного стиля в цифровых и печатных материалах. Также разработана линия по производству косметики, сочетающая эстетику и функциональность. <span style='color: #F9F9F9;'>В настоящее время ведётся работа по созданию единого сайта с адаптацией под все стандартные устройства.</span>"
         5w:
             description: Брендинг, сайт
-            text: "Разработка фирменного стиля для новой финансовой компании 5W: <span style='color: #F9F9F9;'>создан логотип, определены цветовая палитра и типографика, разработан брендбук. Также разработан адаптивный сайт, оптимизированный под все устройства.</span> Сайт выполнен в соответствии с фирменным стилем и ориентирован на простую и понятную навигацию."
+            text: "Для новой финансовой компании 5W мы разработали полный визуальный образ:<span style='color: #F9F9F9;'> логотип, цветовую палитру, типографику и брендбук. Также был создан адаптивный сайт, полностью соответствующий фирменному стилю.</span> Особое внимание уделено лаконичному дизайну и удобной навигации на всех устройствах."
     contact:
         header: ПОСТРОИМ БУДУЩЕЕ ВМЕСТЕ.
         contact: КОНТАКТЫ
