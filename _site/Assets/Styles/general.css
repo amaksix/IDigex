@@ -27,6 +27,7 @@ body{
     margin: 0;
     width: 99.9vw;
     overscroll-behavior: none;
+    cursor: url('../Images/Cursor.png'), auto;
 }
 html{
 overscroll-behavior: none;
