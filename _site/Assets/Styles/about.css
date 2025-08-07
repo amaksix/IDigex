@@ -34,15 +34,15 @@
 }
 .fade-in {
   opacity: 0;
-  transform: translateY(10vw);
+  transform: translateY(100px); /* use px instead of vw */
   transition: opacity 1.5s ease-out, transform 1.5s ease-out;
-  will-change: opacity, transform;
 }
 
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
 @media only screen and (hover: none) and (pointer: coarse), 
 (max-width: 480px) {
     .about-container{
