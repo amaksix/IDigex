@@ -237,7 +237,7 @@ canvas {
         bottom: 1.9vw;
         padding: 3.3vw;
         padding-bottom: 2.6vw;
-        display: flex;         /* Stack children vertically */
+        display:none;      
         flex-direction: column;
     }
     .cookie-banner-close-button{

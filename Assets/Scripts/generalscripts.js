@@ -163,7 +163,7 @@ function openInNewTab(url) {
 
   document.addEventListener('DOMContentLoaded', function () {
     if (!localStorage.getItem('cookieConsent')) {
-      document.getElementById('cookie-banner').style.display = 'fixed';
+      document.getElementById('cookie-banner').style.display = 'flex';
     }
 
     document.getElementById('cookie-accept').addEventListener('click', function () {

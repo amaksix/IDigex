@@ -148,7 +148,7 @@ EN:
 LV:
     cookies: 
         text: Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.
-        utton: PIEKRĪT SĪKDATNĒM
+        button: PIEKRĪT SĪKDATNĒM
     nav:
         about: PAR
         services: PAKALPOJUMI
