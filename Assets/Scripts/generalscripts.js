@@ -161,4 +161,17 @@ function openInNewTab(url) {
   window.open(url, '_blank').focus();
 }
 
+  document.addEventListener('DOMContentLoaded', function () {
+    if (!localStorage.getItem('cookieConsent')) {
+      document.getElementById('cookie-banner').style.display = 'fixed';
+    }
+
+    document.getElementById('cookie-accept').addEventListener('click', function () {
+      localStorage.setItem('cookieConsent', 'true');
+      document.getElementById('cookie-banner').style.display = 'none';
+    });
+  });
+function closeCookies(){
+    document.getElementById('cookie-banner').style.display = 'none';
+}
 

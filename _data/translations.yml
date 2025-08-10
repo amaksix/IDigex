@@ -1,4 +1,7 @@
 EN:
+    cookies: 
+        text: We use cookies only to ensure our site works properly. No tracking, analytics or marketing.
+        button: ACCEPT COOKIES
     nav:
         about: ABOUT
         services: SERVICES
@@ -143,6 +146,9 @@ EN:
         contact: Contact us
         navigation: Navigation
 LV:
+    cookies: 
+        text: Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.
+        utton: PIEKRĪT SĪKDATNĒM
     nav:
         about: PAR
         services: PAKALPOJUMI
@@ -283,6 +289,9 @@ LV:
         contact: sazinaties ar mums
         navigation: navigācija
 RU:
+    cookies: 
+        text: Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга.
+        button: ПРИНЯТЬ COOKIE
     nav:
         about: О НАС
         services: УСЛУГИ
@@ -316,7 +325,7 @@ RU:
                 line09: "Таким образом, цена разработки сайта определяется индивидуально и основывается на техническом задании и целях разработки. <span style='color: #A9A9A9;'> После публикации сайта вы получаете бесплатную техподдержку в течение 30 дней.</span>"
         service02:
             header: 3D МОДЕЛИ
-            description: Мы создаем высококачественные 3D‑модели, которые помогают визуализировать ваш продукт.
+            description: Мы создаем 3D‑модели, которые помогают визуализировать ваш продукт.
             text01: IDigex превращает ваши идеи в реалистичные и детализированные 3D-модели. Мы создаём не только визуализации, но и интерактивные конфигураторы, которые подчёркивают суть вашего проекта и помогают выделиться на рынке.
             text02: Цена и срок разработки зависят от сложности работы.
         service03:

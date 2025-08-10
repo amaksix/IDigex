@@ -10,6 +10,8 @@
             const userLang = navigator.language || navigator.userLanguage; // Get browser language
             if (userLang.startsWith("lv")) {
                 window.location.href = "/lv/";
+            } else if (userLang.startsWith("ru")) {
+                window.location.href = "/ru/";
             } else {
                 window.location.href = "/en/";
             }
