@@ -1063,7 +1063,7 @@
         <input id="Email Name"  oninput="TextChange('Email Name')" class="contact-input" type="text" placeholder="NAME"/>
     </div>
     <div class="subject-form">
-        <input id="Email Subject"  oninput="TextChange('Email Subject')" class="contact-input" type="text" placeholder="SUBJECT"/>
+        <input id="Email Subject"  oninput="TextChange('Email Subject')" class="contact-input" type="text" placeholder="EMAIL"/>
     </div>
     <div class="message-form">
         <textarea id="Email Message" oninput="TextChange('Email Message')" class="contact-input contact-input-message" type="text" placeholder="MESSAGE"></textarea>
@@ -1080,15 +1080,15 @@
     </div>
      <h5 class="contact-subheader-mob">LET'S BUILD THE FUTURE TOGETHER.</h5>
     <div class="name-form">
-        <input id="Email Name"  oninput="TextChange('Email Name')" class="contact-input" type="text" placeholder="NAME"/>
+        <input id="Email NameMob"  oninput="TextChange('Email NameMob')" class="contact-input" type="text" placeholder="NAME"/>
     </div>
     <div class="subject-form">
-        <input id="Email Subject"  oninput="TextChange('Email Subject')" class="contact-input" type="text" placeholder="SUBJECT"/>
+        <input id="Email SubjectMob"  oninput="TextChange('Email SubjectMob')" class="contact-input" type="text" placeholder="EMAIL"/>
     </div>
     <div class="message-form">
-        <textarea id="Email Message" oninput="TextChange('Email Message')" class="contact-input contact-input-message" type="text" placeholder="MESSAGE"></textarea>
+        <textarea id="Email MessageMob" oninput="TextChange('Email MessageMob')" class="contact-input contact-input-message" type="text" placeholder="MESSAGE"></textarea>
     </div>
-    <button class="send-message" onclick="sendEmail()">
+    <button class="send-message" onclick="sendEmailMob()">
         <h3 class="send-message-text" >SEND MESSAGE</h3>
     </button>
 </div>
@@ -1150,11 +1150,11 @@
         <div class="preloader-counter" id="preloader-counter">0</div>
     </div>
     <div id="cookie-banner" class="cookie-banner">
-        <button onclick="closeCookies()" class="cookie-banner-close-button"><svg  viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M13.866 13.3946L13.3945 13.866C13.1342 14.1263 12.7121 14.1263 12.4517 13.866L7.03064 8.44484L1.60944 13.8659C1.34914 14.1263 0.927022 14.1263 0.666672 13.8659L0.195262 13.3945C-0.0650875 13.1342 -0.0650875 12.7121 0.195262 12.4517L5.61644 7.03064L0.195262 1.60944C-0.0650875 1.34914 -0.0650875 0.927022 0.195262 0.666672L0.666662 0.195272C0.927012 -0.065078 1.34914 -0.065078 1.60944 0.195272L7.03064 5.61644L12.4517 0.195262C12.7121 -0.0650875 13.1342 -0.0650875 13.3945 0.195262L13.866 0.666662C14.1263 0.927012 14.1263 1.34914 13.866 1.60944L8.44484 7.03064L13.866 12.4517C14.1263 12.7121 14.1263 13.1342 13.866 13.3946Z" fill="#0C0C0C"/>
-            </svg>
+        <button onclick="closeCookies()" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
         </button>
-        <h5 class="description-text">We use cookies only to ensure our site works properly. No tracking, analytics or marketing.</h5>
+        <h5 class="description-text cookie-banner-text">We use cookies only to ensure our site works properly. No tracking, analytics or marketing.</h5>
         <button id="cookie-accept" class="cookie-button"><h5 class="cookie-button-text">ACCEPT COOKIES</h5></button>
     </div>
 </body>
@@ -1171,6 +1171,7 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/servicesmob.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/servicesController.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/sideMoving.js"></script>

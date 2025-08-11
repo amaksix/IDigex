@@ -2,6 +2,7 @@ EN:
     cookies: 
         text: We use cookies only to ensure our site works properly. No tracking, analytics or marketing.
         button: ACCEPT COOKIES
+    privacy: Privacy Policy
     nav:
         about: ABOUT
         services: SERVICES
@@ -140,7 +141,7 @@ EN:
         contact: CONTACT
         send: SEND MESSAGE
         name: NAME
-        subject: SUBJECT
+        subject: EMAIL
         message: MESSAGE
     footer:
         contact: Contact us
@@ -149,6 +150,7 @@ LV:
     cookies: 
         text: Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.
         button: PIEKRĪT SĪKDATNĒM
+    privacy: Privātuma Politika
     nav:
         about: PAR
         services: PAKALPOJUMI
@@ -283,7 +285,7 @@ LV:
         contact: KONTAKTI
         send: NOSŪTĪT ZIŅU
         name: VĀRDS
-        subject: TĒMA
+        subject: E-PASTS
         message: ZIŅOJUMS
     footer:
         contact: sazinaties ar mums
@@ -292,6 +294,7 @@ RU:
     cookies: 
         text: Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга.
         button: ПРИНЯТЬ COOKIE
+    privacy: Политика Приватности
     nav:
         about: О НАС
         services: УСЛУГИ
@@ -427,7 +430,7 @@ RU:
         contact: КОНТАКТЫ
         send: ОТПРАВИТЬ СООБЩЕНИЕ
         name: ИМЯ
-        subject: ТЕМА
+        subject: E-MAIL
         message: СООБЩЕНИЕ
     footer:
         contact: свяжитесь с нами

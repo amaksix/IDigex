@@ -2,14 +2,6 @@
 window.addEventListener("load", (event) => {
     var elems = document.getElementsByClassName("preload")[0].classList.remove("preload");
   });
-  function sendEmail()
-{
-    var emailName = document.getElementById("Email Name").value;
-    var emailSubject = document.getElementById("Email Subject").value;
-    var emailMessage = document.getElementById("Email Message").value;
-    emailMessage.replaceAll("\n","%0D%0A");
-    window.open('mailto:lizagvozdeckaya@gmail.com?subject='+emailSubject+'&body='+emailMessage+'%0D%0A'+'Kind Regards,'+'%0D%0A'+emailName+".");
-}
 function ScrollToAnchor(anchor)
 {
     var element = document.getElementById(anchor);
@@ -175,3 +167,74 @@ function closeCookies(){
     document.getElementById('cookie-banner').style.display = 'none';
 }
 
+
+(function() {
+    emailjs.init("16i6i3kCCpv42rYJv"); 
+  })();
+  function sendEmailMob(){
+        const name = document.getElementById("Email NameMob").value.trim();
+    const email = document.getElementById("Email SubjectMob").value.trim();
+    const message = document.getElementById("Email MessageMob").value.trim();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Validate inputs
+    if (!name || !email || !message) {
+        alert("Name, email, and message must not be empty.");
+        return;
+    }
+
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address.");
+        return;
+    }
+
+    // Send email if validation passed
+    emailjs.send("service_71sjyhe", "template_a9w2hln", {
+        name: name,
+        email: email,
+        message: message
+    }).then(
+        function(response) {
+            //document.getElementById("popupSucces").style.display = "flex";
+        },
+        function(error) {
+           // document.getElementById("popupError").style.display = "flex";
+            console.error("Error:", error);
+        }
+    );
+}
+  function sendEmail(){
+    const name = document.getElementById("Email Name").value.trim();
+    const email = document.getElementById("Email Subject").value.trim();
+    const message = document.getElementById("Email Message").value.trim();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Validate inputs
+    if (!name || !email || !message) {
+        alert("Name, email, and message must not be empty.");
+        return;
+    }
+
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address.");
+        return;
+    }
+
+    // Send email if validation passed
+    emailjs.send("service_71sjyhe", "template_a9w2hln", {
+        name: name,
+        email: email,
+        message: message
+    }).then(
+        function(response) {
+            //document.getElementById("popupSucces").style.display = "flex";
+             alert("Email Sent");
+        },
+        function(error) {
+            //document.getElementById("popupError").style.display = "flex";
+            console.error("Error:", error);
+        }
+    );
+}
