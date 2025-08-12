@@ -602,12 +602,74 @@
         <div class="preloader-counter" id="preloader-counter">0</div>
     </div>
     <div id="cookie-banner" class="cookie-banner">
-        <button onclick="closeCookies()" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button onclick="closePopUp('cookie-banner')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         </button>
         <h5 class="description-text cookie-banner-text">{{t.cookies.text}}</h5>
         <button id="cookie-accept" class="cookie-button"><h5 class="cookie-button-text">{{t.cookies.button}}</h5></button>
+    </div>
+
+    <div id="mail-message" class="mail-message">    
+        <button onclick="closePopUp('mail-message')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <img src="../Assets/Images/CheckIcon.png" class="mail-message-icon" />
+        <div class="mail-message-content">
+            <h4 class="mail-message-header">{{t.message.header}}</h4>
+            <h5 class="mail-message-text">{{t.message.text}}</h5>
+        </div>
+    </div>
+    <div id="privacy-policy" class="privacy-policy">
+        <button onclick="closePopUp('privacy-policy')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <div class="privacy-content-wrapper">
+            <h3 class="privacy-header">{{t.privacy.header}}</h3>
+            <div class="privacy-line"></div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_1}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_1}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_2}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_2}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_3}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_3}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_4}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_4}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_5}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_5}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_6}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_6}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_7}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_7}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_8}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_8}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_9}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_9}}</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">{{t.privacy.title_10}}</h4>
+                <h5 class="privacy-text">{{t.privacy.text_10}}</h5>
+            </div>
+        </div>
     </div>
 </body>
 <style>
@@ -622,6 +684,7 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/about.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/servicesmob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/popups.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>

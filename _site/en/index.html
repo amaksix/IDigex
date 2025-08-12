@@ -1144,7 +1144,7 @@
                 </button>
             </div>
             <div class="footer-settings-container">
-                <button class="settings-button" onclick="OpenTerms()"></button>
+                <button class="settings-button" onclick="OpenTerms()">Privacy Policy</button>
             </div>
         </div>
     </div>
@@ -1155,12 +1155,74 @@
         <div class="preloader-counter" id="preloader-counter">0</div>
     </div>
     <div id="cookie-banner" class="cookie-banner">
-        <button onclick="closeCookies()" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button onclick="closePopUp('cookie-banner')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         </button>
         <h5 class="description-text cookie-banner-text">We use cookies only to ensure our site works properly. No tracking, analytics or marketing.</h5>
         <button id="cookie-accept" class="cookie-button"><h5 class="cookie-button-text">ACCEPT COOKIES</h5></button>
+    </div>
+
+    <div id="mail-message" class="mail-message">    
+        <button onclick="closePopUp('mail-message')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <img src="../Assets/Images/CheckIcon.png" class="mail-message-icon" />
+        <div class="mail-message-content">
+            <h4 class="mail-message-header">THANK YOU!</h4>
+            <h5 class="mail-message-text">Your message is received, we will get in touch with you within 1-2 workdays.</h5>
+        </div>
+    </div>
+    <div id="privacy-policy" class="privacy-policy">
+        <button onclick="closePopUp('privacy-policy')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <div class="privacy-content-wrapper">
+            <h3 class="privacy-header">Privacy Policy</h3>
+            <div class="privacy-line"></div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">What Information We Collect</h4>
+                <h5 class="privacy-text">We collect your name and email address when you submit our contact form.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">How We Use the Information</h4>
+                <h5 class="privacy-text">We use your information only to respond to your inquiry or provide requested information.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Legal Basis for Processing</h4>
+                <h5 class="privacy-text">If you are located in the European Economic Area, we process your personal data based on your consent and/or our legitimate interest in responding to your requests.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Data Storage and Security</h4>
+                <h5 class="privacy-text">We store your information securely and limit access to authorized personnel only.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Data Retention</h4>
+                <h5 class="privacy-text">We keep your data only as long as needed to fulfill the purpose we collected it for, and then securely delete it.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Sharing Your Information</h4>
+                <h5 class="privacy-text">We do not sell or rent your personal information. We may share it with trusted service providers solely for the purpose of running our website and communicating with you.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Your Rights</h4>
+                <h5 class="privacy-text">Depending on your location, you may have the right to access, correct, or delete your data, and to withdraw your consent.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Cookies</h4>
+                <h5 class="privacy-text">We do not use cookies or tracking technologies on this website.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Changes to This Policy</h4>
+                <h5 class="privacy-text">We may update this policy from time to time. Updates will be posted on this page with a new 'last updated' date.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Contact</h4>
+                <h5 class="privacy-text">If you have any questions, contact us at: idigexlv@gmail.com</h5>
+            </div>
+        </div>
     </div>
 </body>
 <style>
@@ -1175,6 +1237,7 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/about.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/servicesmob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/popups.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>

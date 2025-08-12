@@ -163,10 +163,13 @@ function openInNewTab(url) {
       document.getElementById('cookie-banner').style.display = 'none';
     });
   });
-function closeCookies(){
-    document.getElementById('cookie-banner').style.display = 'none';
-}
 
+function closePopUp(id){
+    document.getElementById(id).style.display = 'none';
+}
+function OpenTerms(){
+    document.getElementById("privacy-policy").style.display = "block";
+}
 
 (function() {
     emailjs.init("16i6i3kCCpv42rYJv"); 
@@ -196,11 +199,11 @@ function closeCookies(){
         message: message
     }).then(
         function(response) {
-            //document.getElementById("popupSucces").style.display = "flex";
+            document.getElementById("mail-message").style.display = "grid";
         },
         function(error) {
-           // document.getElementById("popupError").style.display = "flex";
-            console.error("Error:", error);
+            alert("Error");
+
         }
     );
 }
@@ -229,12 +232,12 @@ function closeCookies(){
         message: message
     }).then(
         function(response) {
-            //document.getElementById("popupSucces").style.display = "flex";
-             alert("Email Sent");
+            document.getElementById("mail-message").style.display = "grid";
         },
         function(error) {
             //document.getElementById("popupError").style.display = "flex";
-            console.error("Error:", error);
+            alert("Error");
+            
         }
     );
 }

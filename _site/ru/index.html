@@ -1144,7 +1144,7 @@
                 </button>
             </div>
             <div class="footer-settings-container">
-                <button class="settings-button" onclick="OpenTerms()"></button>
+                <button class="settings-button" onclick="OpenTerms()">Политика Конфиденциальности</button>
             </div>
         </div>
     </div>
@@ -1155,12 +1155,74 @@
         <div class="preloader-counter" id="preloader-counter">0</div>
     </div>
     <div id="cookie-banner" class="cookie-banner">
-        <button onclick="closeCookies()" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button onclick="closePopUp('cookie-banner')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         </button>
         <h5 class="description-text cookie-banner-text">Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга.</h5>
         <button id="cookie-accept" class="cookie-button"><h5 class="cookie-button-text">ПРИНЯТЬ COOKIE</h5></button>
+    </div>
+
+    <div id="mail-message" class="mail-message">    
+        <button onclick="closePopUp('mail-message')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <img src="../Assets/Images/CheckIcon.png" class="mail-message-icon" />
+        <div class="mail-message-content">
+            <h4 class="mail-message-header">СПАСИБО!</h4>
+            <h5 class="mail-message-text">Ваше сообщение получено, мы свяжемся с вами в течение 1–2 рабочих дней.</h5>
+        </div>
+    </div>
+    <div id="privacy-policy" class="privacy-policy">
+        <button onclick="closePopUp('privacy-policy')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <div class="privacy-content-wrapper">
+            <h3 class="privacy-header">Политика Конфиденциальности</h3>
+            <div class="privacy-line"></div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Какая информация собирается</h4>
+                <h5 class="privacy-text">Мы собираем ваше имя и адрес электронной почты, когда вы заполняете нашу контактную форму.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Как мы используем информацию</h4>
+                <h5 class="privacy-text">Мы используем вашу информацию только для ответа на ваш запрос или предоставления запрошенной информации.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Правовое основание обработки</h4>
+                <h5 class="privacy-text">Если вы находитесь в Европейской экономической зоне, мы обрабатываем ваши персональные данные на основании вашего согласия и/или нашего законного интереса в ответе на ваши запросы.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Хранение данных и безопасность</h4>
+                <h5 class="privacy-text">Мы храним вашу информацию надежно и ограничиваем доступ только уполномоченному персоналу.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Срок хранения данных</h4>
+                <h5 class="privacy-text">Мы храним ваши данные только столько, сколько необходимо для выполнения цели их сбора, а затем надежно удаляем их.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Распространение вашей информации</h4>
+                <h5 class="privacy-text">Мы не продаем и не сдаем вашу персональную информацию в аренду. Мы можем делиться ею с доверенными поставщиками услуг исключительно для управления нашим сайтом и общения с вами.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Ваши права</h4>
+                <h5 class="privacy-text">В зависимости от вашего местоположения, вы можете иметь право на доступ, исправление или удаление своих данных, а также на отзыв своего согласия.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Файлы cookie</h4>
+                <h5 class="privacy-text">Мы не используем файлы cookie или технологии отслеживания на этом сайте.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Изменения в этой политике</h4>
+                <h5 class="privacy-text">Мы можем время от времени обновлять эту политику. Обновления будут размещены на этой странице с новой датой 'последнего обновления'.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Контакты</h4>
+                <h5 class="privacy-text">Если у вас есть вопросы, свяжитесь с нами по адресу: idigexlv@gmail.com</h5>
+            </div>
+        </div>
     </div>
 </body>
 <style>
@@ -1175,6 +1237,7 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/about.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/servicesmob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/popups.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>

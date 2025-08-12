@@ -3,6 +3,9 @@ EN:
         text: We use cookies only to ensure our site works properly. No tracking, analytics or marketing.
         button: ACCEPT COOKIES
     privacy: Privacy Policy
+    message:
+        header: THANK YOU!
+        text: Your message is received, we will get in touch with you within 1-2 workdays.
     nav:
         about: ABOUT
         services: SERVICES
@@ -146,11 +149,37 @@ EN:
     footer:
         contact: Contact us
         navigation: Navigation
+    privacy:
+        header: "Privacy Policy"
+        title_1: "What Information We Collect"
+        text_1: "We collect your name and email address when you submit our contact form."
+        title_2: "How We Use the Information"
+        text_2: "We use your information only to respond to your inquiry or provide requested information."
+        title_3: "Legal Basis for Processing"
+        text_3: "If you are located in the European Economic Area, we process your personal data based on your consent and/or our legitimate interest in responding to your requests."
+        title_4: "Data Storage and Security"
+        text_4: "We store your information securely and limit access to authorized personnel only."
+        title_5: "Data Retention"
+        text_5: "We keep your data only as long as needed to fulfill the purpose we collected it for, and then securely delete it."
+        title_6: "Sharing Your Information"
+        text_6: "We do not sell or rent your personal information. We may share it with trusted service providers solely for the purpose of running our website and communicating with you."
+        title_7: "Your Rights"
+        text_7: "Depending on your location, you may have the right to access, correct, or delete your data, and to withdraw your consent."
+        title_8: "Cookies"
+        text_8: "We do not use cookies or tracking technologies on this website."
+        title_9: "Changes to This Policy"
+        text_9: "We may update this policy from time to time. Updates will be posted on this page with a new 'last updated' date."
+        title_10: "Contact"
+        text_10: "If you have any questions, contact us at: idigexlv@gmail.com"
 LV:
     cookies: 
         text: Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.
         button: PIEKRĪT SĪKDATNĒM
-    privacy: Privātuma Politika
+
+    message:
+        header: PALDIES!
+        text: Jūsu ziņojums ir saņemts, mēs ar jums sazināsimies 1–2 darba dienu laikā.
+
     nav:
         about: PAR
         services: PAKALPOJUMI
@@ -290,11 +319,35 @@ LV:
     footer:
         contact: sazinaties ar mums
         navigation: navigācija
+    privacy:
+        header: "Privātuma Politika"
+        title_1: "Kādu informāciju mēs vācam"
+        text_1: "Mēs vācam jūsu vārdu un e-pasta adresi, kad aizpildāt mūsu kontaktformu."
+        title_2: "Kā mēs izmantojam informāciju"
+        text_2: "Jūsu informāciju izmantojam tikai, lai atbildētu uz jūsu jautājumu vai sniegtu pieprasīto informāciju."
+        title_3: "Tiesiskais pamats apstrādei"
+        text_3: "Ja atrodaties Eiropas Ekonomikas zonā, mēs apstrādājam jūsu personas datus, pamatojoties uz jūsu piekrišanu un/vai mūsu leģitīmo interesi atbildēt uz jūsu pieprasījumiem."
+        title_4: "Datu glabāšana un drošība"
+        text_4: "Mēs glabājam jūsu informāciju droši un ierobežojam piekļuvi tikai pilnvarotām personām."
+        title_5: "Datu saglabāšana"
+        text_5: "Mēs glabājam jūsu datus tikai tik ilgi, cik nepieciešams, lai izpildītu mērķi, kādam tie tika vākti, un pēc tam tos droši dzēšam."
+        title_6: "Jūsu informācijas koplietošana"
+        text_6: "Mēs nepārdodam un nelīzējam jūsu personas informāciju. To varam koplietot ar uzticamiem pakalpojumu sniedzējiem tikai, lai pārvaldītu mūsu vietni un sazinātos ar jums."
+        title_7: "Jūsu tiesības"
+        text_7: "Atkarībā no jūsu atrašanās vietas, jums var būt tiesības piekļūt, labot vai dzēst savus datus, kā arī atsaukt piekrišanu."
+        title_8: "Sīkdatnes"
+        text_8: "Mēs neizmantojam sīkdatnes vai izsekošanas tehnoloģijas šajā vietnē."
+        title_9: "Izmaiņas šajā politikā"
+        text_9: "Mēs varam laiku pa laikam atjaunināt šo politiku. Atjauninājumi tiks publicēti šajā lapā ar jaunu 'pēdējās izmaiņas' datumu."
+        title_10: "Kontaktinformācija"
+        text_10: "Ja jums ir jautājumi, sazinieties ar mums: idigexlv@gmail.com"
 RU:
     cookies: 
         text: Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга.
         button: ПРИНЯТЬ COOKIE
-    privacy: Политика Приватности
+    message:
+        header: СПАСИБО!
+        text: Ваше сообщение получено, мы свяжемся с вами в течение 1–2 рабочих дней.
     nav:
         about: О НАС
         services: УСЛУГИ
@@ -435,3 +488,25 @@ RU:
     footer:
         contact: свяжитесь с нами
         navigation: навигация
+    privacy:
+        header: "Политика Конфиденциальности"
+        title_1: "Какая информация собирается"
+        text_1: "Мы собираем ваше имя и адрес электронной почты, когда вы заполняете нашу контактную форму."
+        title_2: "Как мы используем информацию"
+        text_2: "Мы используем вашу информацию только для ответа на ваш запрос или предоставления запрошенной информации."
+        title_3: "Правовое основание обработки"
+        text_3: "Если вы находитесь в Европейской экономической зоне, мы обрабатываем ваши персональные данные на основании вашего согласия и/или нашего законного интереса в ответе на ваши запросы."
+        title_4: "Хранение данных и безопасность"
+        text_4: "Мы храним вашу информацию надежно и ограничиваем доступ только уполномоченному персоналу."
+        title_5: "Срок хранения данных"
+        text_5: "Мы храним ваши данные только столько, сколько необходимо для выполнения цели их сбора, а затем надежно удаляем их."
+        title_6: "Распространение вашей информации"
+        text_6: "Мы не продаем и не сдаем вашу персональную информацию в аренду. Мы можем делиться ею с доверенными поставщиками услуг исключительно для управления нашим сайтом и общения с вами."
+        title_7: "Ваши права"
+        text_7: "В зависимости от вашего местоположения, вы можете иметь право на доступ, исправление или удаление своих данных, а также на отзыв своего согласия."
+        title_8: "Файлы cookie"
+        text_8: "Мы не используем файлы cookie или технологии отслеживания на этом сайте."
+        title_9: "Изменения в этой политике"
+        text_9: "Мы можем время от времени обновлять эту политику. Обновления будут размещены на этой странице с новой датой 'последнего обновления'."
+        title_10: "Контакты"
+        text_10: "Если у вас есть вопросы, свяжитесь с нами по адресу: idigexlv@gmail.com"

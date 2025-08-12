@@ -1144,7 +1144,7 @@
                 </button>
             </div>
             <div class="footer-settings-container">
-                <button class="settings-button" onclick="OpenTerms()"></button>
+                <button class="settings-button" onclick="OpenTerms()">Privātuma Politika</button>
             </div>
         </div>
     </div>
@@ -1155,12 +1155,74 @@
         <div class="preloader-counter" id="preloader-counter">0</div>
     </div>
     <div id="cookie-banner" class="cookie-banner">
-        <button onclick="closeCookies()" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button onclick="closePopUp('cookie-banner')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         </button>
         <h5 class="description-text cookie-banner-text">Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.</h5>
         <button id="cookie-accept" class="cookie-button"><h5 class="cookie-button-text">PIEKRĪT SĪKDATNĒM</h5></button>
+    </div>
+
+    <div id="mail-message" class="mail-message">    
+        <button onclick="closePopUp('mail-message')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <img src="../Assets/Images/CheckIcon.png" class="mail-message-icon" />
+        <div class="mail-message-content">
+            <h4 class="mail-message-header">PALDIES!</h4>
+            <h5 class="mail-message-text">Jūsu ziņojums ir saņemts, mēs ar jums sazināsimies 1–2 darba dienu laikā.</h5>
+        </div>
+    </div>
+    <div id="privacy-policy" class="privacy-policy">
+        <button onclick="closePopUp('privacy-policy')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <div class="privacy-content-wrapper">
+            <h3 class="privacy-header">Privātuma Politika</h3>
+            <div class="privacy-line"></div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Kādu informāciju mēs vācam</h4>
+                <h5 class="privacy-text">Mēs vācam jūsu vārdu un e-pasta adresi, kad aizpildāt mūsu kontaktformu.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Kā mēs izmantojam informāciju</h4>
+                <h5 class="privacy-text">Jūsu informāciju izmantojam tikai, lai atbildētu uz jūsu jautājumu vai sniegtu pieprasīto informāciju.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Tiesiskais pamats apstrādei</h4>
+                <h5 class="privacy-text">Ja atrodaties Eiropas Ekonomikas zonā, mēs apstrādājam jūsu personas datus, pamatojoties uz jūsu piekrišanu un/vai mūsu leģitīmo interesi atbildēt uz jūsu pieprasījumiem.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Datu glabāšana un drošība</h4>
+                <h5 class="privacy-text">Mēs glabājam jūsu informāciju droši un ierobežojam piekļuvi tikai pilnvarotām personām.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Datu saglabāšana</h4>
+                <h5 class="privacy-text">Mēs glabājam jūsu datus tikai tik ilgi, cik nepieciešams, lai izpildītu mērķi, kādam tie tika vākti, un pēc tam tos droši dzēšam.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Jūsu informācijas koplietošana</h4>
+                <h5 class="privacy-text">Mēs nepārdodam un nelīzējam jūsu personas informāciju. To varam koplietot ar uzticamiem pakalpojumu sniedzējiem tikai, lai pārvaldītu mūsu vietni un sazinātos ar jums.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Jūsu tiesības</h4>
+                <h5 class="privacy-text">Atkarībā no jūsu atrašanās vietas, jums var būt tiesības piekļūt, labot vai dzēst savus datus, kā arī atsaukt piekrišanu.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Sīkdatnes</h4>
+                <h5 class="privacy-text">Mēs neizmantojam sīkdatnes vai izsekošanas tehnoloģijas šajā vietnē.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Izmaiņas šajā politikā</h4>
+                <h5 class="privacy-text">Mēs varam laiku pa laikam atjaunināt šo politiku. Atjauninājumi tiks publicēti šajā lapā ar jaunu 'pēdējās izmaiņas' datumu.</h5>
+            </div>
+            <div class="privacy-block-container">
+                <h4 class="privacy-title">Kontaktinformācija</h4>
+                <h5 class="privacy-text">Ja jums ir jautājumi, sazinieties ar mums: idigexlv@gmail.com</h5>
+            </div>
+        </div>
     </div>
 </body>
 <style>
@@ -1175,6 +1237,7 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/about.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/servicesmob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/popups.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
