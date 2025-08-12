@@ -2,6 +2,7 @@ EN:
     cookies: 
         text: We use cookies only to ensure our site works properly. No tracking, analytics or marketing.
         button: ACCEPT COOKIES
+        settings: Cookie Settings
     privacy: Privacy Policy
     message:
         header: THANK YOU!
@@ -175,13 +176,12 @@ LV:
     cookies: 
         text: Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.
         button: PIEKRĪT SĪKDATNĒM
-
+        settings: Sīkfailu Iestatījumi
     message:
         header: PALDIES!
         text: Jūsu ziņojums ir saņemts, mēs ar jums sazināsimies 1–2 darba dienu laikā.
-
     nav:
-        about: PAR
+        about: PAR MUMS
         services: PAKALPOJUMI
         projects: PROJEKTI
         contact: KONTAKTI
@@ -194,7 +194,7 @@ LV:
       text02: "Mūsu darbs sniedzas tālāk par tīmekļa vietņu dizainu — mēs veidojam digitālas pieredzes, kas piesaista uzmanību un veicina uzticību. Apvienojot estētiku ar funkcionalitāti, mēs nodrošinām, ka katrs risinājums patiesi atspoguļo klienta vīziju un vērtības."
     services:
         price: Cena
-        from: no
+        from: "no"
         period: Izstrādes periods
         header: MŪSU PAKALPOJUMI
         service01:
@@ -345,6 +345,7 @@ RU:
     cookies: 
         text: Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга.
         button: ПРИНЯТЬ COOKIE
+        settings: Настройки Файлов Cookie
     message:
         header: СПАСИБО!
         text: Ваше сообщение получено, мы свяжемся с вами в течение 1–2 рабочих дней.

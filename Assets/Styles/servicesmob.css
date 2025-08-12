@@ -78,6 +78,7 @@
   touch-action: pan-y;
   user-select: none;
   padding-top: 10vw;
+  padding-left: 0.3vw;
 }
 .service-image-container-mob{
     width: 90vw;

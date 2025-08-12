@@ -153,16 +153,26 @@ function openInNewTab(url) {
   window.open(url, '_blank').focus();
 }
 
-  document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
+  try {
     if (!localStorage.getItem('cookieConsent')) {
       document.getElementById('cookie-banner').style.display = 'flex';
     }
+  } catch (e) {
+    console.error('localStorage error:', e);
+    // fallback: show banner
+    document.getElementById('cookie-banner').style.display = 'flex';
+  }
 
-    document.getElementById('cookie-accept').addEventListener('click', function () {
+  document.getElementById('cookie-accept').addEventListener('click', function () {
+    try {
       localStorage.setItem('cookieConsent', 'true');
-      document.getElementById('cookie-banner').style.display = 'none';
-    });
+    } catch (e) {
+      console.error('localStorage set error:', e);
+    }
+    document.getElementById('cookie-banner').style.display = 'none';
   });
+});
 
 function closePopUp(id){
     document.getElementById(id).style.display = 'none';
@@ -170,7 +180,9 @@ function closePopUp(id){
 function OpenTerms(){
     document.getElementById("privacy-policy").style.display = "block";
 }
-
+function OpenCookies(){
+    document.getElementById('cookie-banner').style.display = 'flex';
+}
 (function() {
     emailjs.init("16i6i3kCCpv42rYJv"); 
   })();
@@ -200,6 +212,9 @@ function OpenTerms(){
     }).then(
         function(response) {
             document.getElementById("mail-message").style.display = "grid";
+            document.getElementById("Email Name").innerText = "";
+            document.getElementById("Email Subject").innerText = "";
+            document.getElementById("Email Message").innerText = "";
         },
         function(error) {
             alert("Error");
@@ -233,6 +248,9 @@ function OpenTerms(){
     }).then(
         function(response) {
             document.getElementById("mail-message").style.display = "grid";
+            document.getElementById("Email Name").innerText = "";
+            document.getElementById("Email Subject").innerText = "";
+            document.getElementById("Email Message").innerText = "";
         },
         function(error) {
             //document.getElementById("popupError").style.display = "flex";

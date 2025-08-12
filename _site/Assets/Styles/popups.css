@@ -1,6 +1,6 @@
 .cookie-banner{
         position: fixed;
-        background-color: #F9F9F9;
+        background-color: #FFf;
         width: 46.4vw;
         height: 4.3vw;
         border-radius: 1.4vw;
@@ -180,7 +180,7 @@
     }
     .cookie-banner-text{
         font-size:3.5vw;
-        line-height: 4vw;
+        line-height: 5vw;
         width: 70vw;
         margin-top: 0;
     }
