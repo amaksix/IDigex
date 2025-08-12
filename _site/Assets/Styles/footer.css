@@ -22,6 +22,7 @@ footer{
     
 }
 .footer-button{
+    width: 25%;
     margin-bottom: 2vw;
     margin-top: 0vw;
     color:#1E1E1E;
@@ -45,7 +46,18 @@ footer{
 .social-media-button-footer:hover .footer-social-media-image path{
   fill: #A9A9A9;
 }
-
+.footer-settings-container{
+    margin-top: 3.1vw;
+}
+.settings-button{
+    color: #0C0C0C;
+    font-size: 1.1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.settings-button:hover{
+    color: #A9A9A9;
+}
 @media only screen and (hover: none) and (pointer: coarse), 
 (max-width: 480px) {
     .footer-top-grid{
@@ -76,5 +88,11 @@ footer{
     }
     .footer-menu-button{
         margin-bottom: 5vw;
+    }
+    .settings-button{
+        font-size: 3.5vw;
+    }
+    .footer-settings-container{
+    margin-top: 12vw;
     }
 }

@@ -73,10 +73,10 @@
         position: fixed;
         right: 1.9vw;
         bottom: 1.9vw;
-        background-color: #F9F9F9;
+        background-color: #FfFfFf;
         z-index: 1000;
         border-radius:1.4vw ;
-        display: grid;
+        display: none;
         grid-template-columns: auto auto;
         gap: 1.1vw;
 
@@ -94,11 +94,70 @@
         margin: 0;
         margin-top: 0.55vw;
     }
+    .privacy-policy{
+        width: 46.4vw;
+        height: 60vh;
+        padding: 3.3vw;
+        position: fixed;
+        right: 1.9vw;
+        bottom: 1.9vw;
+        background-color: #ffffff;
+        z-index: 1000;
+        border-radius:1.4vw ;
+        display: none;
+    }
+    .privacy-header{
+        text-transform:uppercase;
+        color: #0C0C0C;
+        margin-top: 0;
+        margin-bottom: 2.2vw;
+    }
+    .privacy-line{
+        height: 0.07vw;
+        width: 100%;
+        background-color: #E6E6E6;
+    }
+    .privacy-block-container{
+        margin-top: 2.2vw;
+    }
+    .privacy-title{
+        color: #0C0C0C;
+        text-transform: uppercase;
+        margin-bottom: 0.55vw;
+        margin-top: 0;
+    }
+    .privacy-text{
+        margin: 0;
+    }
+    .privacy-content-wrapper{
+        overflow: auto;
+        height: 100%;
+        padding-right: 2vw;
+    }
+  .privacy-content-wrapper::-webkit-scrollbar {
+    width: 0.13vw;
+    height: 0.5vw;
+}
+
+.privacy-content-wrapper::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.privacy-content-wrapper::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
+    border-radius: 6px;
+}
+
+.privacy-content-wrapper::-webkit-scrollbar-track {
+    background-color: transparent;
+}
         @media only screen and (hover: none) and (pointer: coarse), 
     (max-width: 480px) {
             .cookie-banner{
         width:74.5vw;
-        height: 54.8vw;
+        height: 34.8vw;
         border-radius: 5vw;
         z-index: 1000;
         right: 5.3vw;
@@ -120,7 +179,10 @@
         height: 3.5vw;
     }
     .cookie-banner-text{
-        width: 100%;
+        font-size:3.5vw;
+        line-height: 4vw;
+        width: 70vw;
+        margin-top: 0;
     }
     .cookie-button{
         width:100%;
@@ -156,4 +218,34 @@
     .mail-message-text{
         margin-top: 4vw;
     }
+        .privacy-policy{
+        width:77.0vw;
+        height: 60vh;
+        padding: 6vw;
+        padding-top: 14vw;
+        padding-bottom: 10vw;
+        right: 5.3vw;
+        bottom: 5.3vw;
+        border-radius:1.4vw ;
+    }
+      .privacy-content-wrapper::-webkit-scrollbar {
+    width:0.5vw;
+    height: 1.5vw;
+}
+  .privacy-header{
+        margin-bottom: 6vw;
+    }
+    .privacy-line{
+        height: 0.25vw;
+        width: 100%;
+    }
+    .privacy-block-container{
+        margin-top: 8.1vw;
+    }
+    .privacy-title{
+        text-transform: uppercase;
+        margin-bottom: 6vw;
+        margin-top: 0;
+    }
+
     }
