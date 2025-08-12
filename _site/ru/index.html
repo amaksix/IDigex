@@ -1149,6 +1149,25 @@
     <div class="preloader" id="preloader">
         <div class="preloader-counter" id="preloader-counter">0</div>
     </div>
+    <div id="cookie-banner" class="cookie-banner">
+        <button onclick="closePopUp('cookie-banner')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <h5 class="description-text cookie-banner-text">Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга.</h5>
+        <button id="cookie-accept" class="cookie-button"><h5 class="cookie-button-text">ПРИНЯТЬ COOKIE</h5></button>
+    </div>
+    <div id="mail-message" class="mail-message">    
+        <button onclick="closePopUp('mail-message')" class="cookie-banner-close-button"><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+        <img src="../Assets/Images/CheckIcon.png" class="mail-message-icon" />
+        <div class="mail-message-content">
+            <h4 class="mail-message-header">СПАСИБО!</h4>
+            <h5 class="mail-message-text">Ваше сообщение получено, мы свяжемся с вами в течение 1–2 рабочих дней.</h5>
+        </div>
+    </div>
 </body>
 <style>
 </style>
@@ -1162,6 +1181,7 @@
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/about.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
 <link rel='stylesheet' type='text/css' href='../Assets/Styles/servicesmob.css'>
+<link rel='stylesheet' type='text/css' href='../Assets/Styles/popups.css'>
 <script src="../Assets/Scripts/loader.js?=v1"></script>
 <script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
 <script type="text/javascript" src="../Assets/Scripts/servicesController.js"></script>

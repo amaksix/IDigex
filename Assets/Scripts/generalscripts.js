@@ -161,4 +161,88 @@ function openInNewTab(url) {
   window.open(url, '_blank').focus();
 }
 
+  document.addEventListener('DOMContentLoaded', function () {
+    if (!localStorage.getItem('cookieConsent')) {
+      document.getElementById('cookie-banner').style.display = 'flex';
+    }
 
+    document.getElementById('cookie-accept').addEventListener('click', function () {
+      localStorage.setItem('cookieConsent', 'true');
+      document.getElementById('cookie-banner').style.display = 'none';
+    });
+  });
+function closeCookies(){
+    document.getElementById('cookie-banner').style.display = 'none';
+}
+
+
+(function() {
+    emailjs.init("16i6i3kCCpv42rYJv"); 
+  })();
+  function sendEmailMob(){
+        const name = document.getElementById("Email NameMob").value.trim();
+    const email = document.getElementById("Email SubjectMob").value.trim();
+    const message = document.getElementById("Email MessageMob").value.trim();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Validate inputs
+    if (!name || !email || !message) {
+        alert("Name, email, and message must not be empty.");
+        return;
+    }
+
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address.");
+        return;
+    }
+
+    // Send email if validation passed
+    emailjs.send("service_71sjyhe", "template_a9w2hln", {
+        name: name,
+        email: email,
+        message: message
+    }).then(
+        function(response) {
+            //document.getElementById("popupSucces").style.display = "flex";
+        },
+        function(error) {
+           // document.getElementById("popupError").style.display = "flex";
+            console.error("Error:", error);
+        }
+    );
+}
+  function sendEmail(){
+    const name = document.getElementById("Email Name").value.trim();
+    const email = document.getElementById("Email Subject").value.trim();
+    const message = document.getElementById("Email Message").value.trim();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Validate inputs
+    if (!name || !email || !message) {
+        alert("Name, email, and message must not be empty.");
+        return;
+    }
+
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address.");
+        return;
+    }
+
+    // Send email if validation passed
+    emailjs.send("service_71sjyhe", "template_a9w2hln", {
+        name: name,
+        email: email,
+        message: message
+    }).then(
+        function(response) {
+            //document.getElementById("popupSucces").style.display = "flex";
+             alert("Email Sent");
+        },
+        function(error) {
+            //document.getElementById("popupError").style.display = "flex";
+            console.error("Error:", error);
+        }
+    );
+}

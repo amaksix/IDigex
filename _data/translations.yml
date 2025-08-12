@@ -1,4 +1,11 @@
 EN:
+    cookies: 
+        text: We use cookies only to ensure our site works properly. No tracking, analytics or marketing.
+        button: ACCEPT COOKIES
+    privacy: Privacy Policy
+    message:
+        header: THANK YOU!
+        text: Your message is received, we will get in touch with you within 1-2 workdays.
     nav:
         about: ABOUT
         services: SERVICES
@@ -143,6 +150,13 @@ EN:
         contact: Contact us
         navigation: Navigation
 LV:
+    cookies: 
+        text: Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.
+        button: PIEKRĪT SĪKDATNĒM
+    privacy: Privātuma Politika
+    message:
+        header: PALDIES!
+        text: Jūsu ziņojums ir saņemts, mēs ar jums sazināsimies 1–2 darba dienu laikā.
     nav:
         about: PAR
         services: PAKALPOJUMI
@@ -283,6 +297,14 @@ LV:
         contact: sazinaties ar mums
         navigation: navigācija
 RU:
+
+    cookies: 
+        text: Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга.
+        button: ПРИНЯТЬ COOKIE
+    privacy: Политика Приватности
+    message:
+        header: СПАСИБО!
+        text: Ваше сообщение получено, мы свяжемся с вами в течение 1–2 рабочих дней.
     nav:
         about: О НАС
         services: УСЛУГИ
