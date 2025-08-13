@@ -46,19 +46,18 @@ EN:
             service03:
                 header: BRAND BOOK
                 description: We collect all the elements of your brand into a clear and convenient guide.
-                period: 2 days 
+                period: 3 days 
                 text: The brand book is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.
                 text02: "<span style='color: #A9A9A9;'>We develop both full branding and individual elements - according to your request. The cost is calculated individually.<span>"
             service04:
                 header: LOGO
                 description: We design a logo that reflects your brand and is easy to remember.
-                period: 2 days
+                period: 3 days
                 text: Our logo design process begins with a thorough understanding of your brand, its goals and target audience. We analyze competitors and trends in your industry, and take into account your preferences and wishes, striving to create a logo that not only reflects the essence of your brand, but also resonates emotionally with your audience.
                             In addition, we take into account the adaptability of the logo for various purposes and formats of use, so that it looks equally effective both on the website and on product packaging or promotional material.
             service05:
                 header: BANNERS
                 description: We create banners for any tasks and platforms - adaptively and with an emphasis on results.
-                period: 1-2 days 
                 text: IDigex develops various types of banners, including static, animated and mobile banners. We take into account your brand, target audience and your advertising campaign goals to create banners that will effectively attract attention and generate clicks.
     stages:
         header: STAGES OF WEBSITE DEVELOPMENT
@@ -220,18 +219,17 @@ LV:
         service03:
             header: ZĪMOLA GRĀMATA
             description: Zīmola grāmata ir svarīgs rīks, kas palīdz saglabāt jūsu zīmola vienotu stilu.
-            period: 1–2 dienas
+            period: 3 dienas
             text: Zīmola grāmata ir svarīgs uzņēmuma oficiālais dokuments, kurā detalizēti aprakstīti visi zīmola izstrādes aspekti. Tajā noteikumi par logotipa, krāsu paletes, tipogrāfijas un citu būtisku zīmola elementu lietošanu, lai nodrošinātu zīmola atpazīstamību.
             text02: "<span style='color: #A9A9A9;'>Mēs izstrādājam gan pilnu brendu, gan atsevišķus elementus – pēc jūsu pieprasījuma. Izmaksas tiek aprēķinātas individuāli.</span>"
         service04:
             header: LOGOTIPS
             description: Logotips ir nepieciešams klientu uzmanības piesaistei un atpazīstamības uzlabošanai.
-            period: 1–2 dienas
+            period: 3 dienas
             text: Mūsu logotipa izstrādes process sākas ar rūpīgu jūsu zīmola, tā mērķu un mērķauditorijas izpratni. Mēs analizējam konkurentus un nozares tendences, ņemot vērā jūsu vēlmes un prasības, lai radītu logotipu, kas ne tikai atspoguļo jūsu zīmola būtību, bet arī emocionāli rezonē ar auditoriju. Turklāt mēs ņemam vērā logotipa pielāgojamību dažādiem lietošanas mērķiem un formātiem, lai tas izskatītos vienlīdz efektīvi gan tīmekļa vietnē, gan uz produkta iepakojuma vai reklāmas materiāliem.
         service05:
             header: BANERI
             description: Mums ir pieredze dažādu baneru veidošanā dažādiem mērķiem un platformām.
-            period: 1–2 dienas
             text: IDigex izstrādā dažāda veida banerus, tostarp statiskus, animētus un mobilos. Mēs ņemam vērā jūsu zīmolu, mērķauditoriju un reklāmas kampaņas mērķus, lai veidotu banerus, kas efektīvi piesaista uzmanību un veicina klikšķus.
     stages:
         header: VIETNES IZSTRĀDES POSMI
@@ -390,19 +388,18 @@ RU:
         service03:
             header: БРЕНДБУК
             description: Собираем все элементы вашего бренда в понятный и удобный гайд.
-            period: 2 дней
+            period: 3 дней
             text: Брендбук — официальный документ компании, подробно описывающий все аспекты создания бренда. В нём изложены правила использования логотипа, цветовой палитры, типографики и других элементов брендинга, чтобы обеспечить узнаваемость бренда.
             text02: Разрабатываем как полный брендинг, так и отдельные элементы — под ваш запрос. Стоимость рассчитывается индивидуально.
         service04:
             header: ЛОГОТИП
             description: Разрабатываем логотип, который отражает ваш бренд и легко запоминается.
-            period: 2 дней
+            period: 3 дней
             text: Наш процесс создания логотипа начинается с глубокого понимания вашего бренда, его целей и целевой аудитории. Мы анализируем конкурентов, тренды отрасли и учитываем ваши предпочтения, чтобы создать логотип, который не только отражает суть бренда, но и эмоционально резонирует с аудиторией.
                     Кроме того, мы учитываем адаптивность логотипа для различных целей и форматов, чтобы он выглядел эффективно на сайте, упаковке или рекламных материалах.
         service05:
             header: БАННЕРЫ
             description: Создаём баннеры под любые задачи и платформы.
-            period: 1–2 дня
             text: IDigex разрабатывает различные типы баннеров, включая статические, анимированные и мобильные. Мы учитываем ваш бренд, целевую аудиторию и цели рекламной кампании, чтобы создавать баннеры, которые эффективно привлекают внимание и генерируют клики.
     stages:
         header: ЭТАПЫ РАЗРАБОТКИ САЙТА
