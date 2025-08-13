@@ -212,9 +212,9 @@ function OpenCookies(){
     }).then(
         function(response) {
             document.getElementById("mail-message").style.display = "grid";
-            document.getElementById("Email Name").innerText = "";
-            document.getElementById("Email Subject").innerText = "";
-            document.getElementById("Email Message").innerText = "";
+            document.getElementById("Email Name").value = "";
+            document.getElementById("Email Subject").value = "";
+            document.getElementById("Email Message").value = "";
         },
         function(error) {
             alert("Error");
