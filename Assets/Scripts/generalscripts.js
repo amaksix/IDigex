@@ -239,7 +239,7 @@ function OpenCookies(){
         alert("Please enter a valid email address.");
         return;
     }
-
+   
     // Send email if validation passed
     emailjs.send("service_71sjyhe", "template_a9w2hln", {
         name: name,
@@ -248,9 +248,9 @@ function OpenCookies(){
     }).then(
         function(response) {
             document.getElementById("mail-message").style.display = "grid";
-            document.getElementById("Email Name").innerText = "";
-            document.getElementById("Email Subject").innerText = "";
-            document.getElementById("Email Message").innerText = "";
+            document.getElementById("Email Name").value = "";
+            document.getElementById("Email Subject").value = "";
+            document.getElementById("Email Message").value = "";
         },
         function(error) {
             //document.getElementById("popupError").style.display = "flex";
