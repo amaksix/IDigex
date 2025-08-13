@@ -165,13 +165,14 @@ EN:
         title_6: "Sharing Your Information"
         text_6: "We do not sell or rent your personal information. We may share it with trusted service providers solely for the purpose of running our website and communicating with you."
         title_7: "Your Rights"
-        text_7: "Depending on your location, you may have the right to access, correct, or delete your data, and to withdraw your consent."
+        text_7: "You have the right to revoke your consent to data processing at any time."
         title_8: "Cookies"
-        text_8: "We do not use cookies or tracking technologies on this website."
+        text_8: "We use cookies only to ensure our site works properly. No tracking, analytics or marketing."
         title_9: "Changes to This Policy"
         text_9: "We may update this policy from time to time. Updates will be posted on this page with a new 'last updated' date."
         title_10: "Contact"
         text_10: "If you have any questions, contact us at: idigexlv@gmail.com"
+        text_11: "Latest update: 13.08.2025"
 LV:
     cookies: 
         text: Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga.
@@ -334,13 +335,14 @@ LV:
         title_6: "Jūsu informācijas koplietošana"
         text_6: "Mēs nepārdodam un nelīzējam jūsu personas informāciju. To varam koplietot ar uzticamiem pakalpojumu sniedzējiem tikai, lai pārvaldītu mūsu vietni un sazinātos ar jums."
         title_7: "Jūsu tiesības"
-        text_7: "Atkarībā no jūsu atrašanās vietas, jums var būt tiesības piekļūt, labot vai dzēst savus datus, kā arī atsaukt piekrišanu."
+        text_7: "Jums ir tiesības jebkurā laikā atsaukt savu piekrišanu datu apstrādei."
         title_8: "Sīkdatnes"
-        text_8: "Mēs neizmantojam sīkdatnes vai izsekošanas tehnoloģijas šajā vietnē."
+        text_8: "Mēs izmantojam sīkdatnes tikai, lai nodrošinātu mūsu vietnes pareizu darbību. Nav izsekošanas, analītikas vai mārketinga."
         title_9: "Izmaiņas šajā politikā"
         text_9: "Mēs varam laiku pa laikam atjaunināt šo politiku. Atjauninājumi tiks publicēti šajā lapā ar jaunu 'pēdējās izmaiņas' datumu."
         title_10: "Kontaktinformācija"
         text_10: "Ja jums ir jautājumi, sazinieties ar mums: idigexlv@gmail.com"
+        text_11: "Pēdējoreiz atjaunināts: 13.08.2025"
 RU:
     cookies: 
         text: Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга.
@@ -504,10 +506,11 @@ RU:
         title_6: "Распространение вашей информации"
         text_6: "Мы не продаем и не сдаем вашу персональную информацию в аренду. Мы можем делиться ею с доверенными поставщиками услуг исключительно для управления нашим сайтом и общения с вами."
         title_7: "Ваши права"
-        text_7: "В зависимости от вашего местоположения, вы можете иметь право на доступ, исправление или удаление своих данных, а также на отзыв своего согласия."
+        text_7: "Вы имеете право в любое время отозвать своё согласие на обработку данных."
         title_8: "Файлы cookie"
-        text_8: "Мы не используем файлы cookie или технологии отслеживания на этом сайте."
+        text_8: "Мы используем файлы cookie только для обеспечения правильной работы нашего сайта. Без отслеживания, аналитики или маркетинга."
         title_9: "Изменения в этой политике"
         text_9: "Мы можем время от времени обновлять эту политику. Обновления будут размещены на этой странице с новой датой 'последнего обновления'."
         title_10: "Контакты"
         text_10: "Если у вас есть вопросы, свяжитесь с нами по адресу: idigexlv@gmail.com"
+        text_11: "Последнее обновление: 13.08.2025"

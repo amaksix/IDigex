@@ -44,6 +44,11 @@
 }
 @media only screen and (hover: none) and (pointer: coarse), 
 (max-width: 480px) {
+    .fade-in{
+        opacity: 1;
+        transform: translateY(0) translateZ(0);
+        transition: 0s;
+    }
     .about-container{
         margin-left: 0;
         margin-top: 35.6vw;

@@ -47,7 +47,7 @@ footer{
   fill: #A9A9A9;
 }
 .footer-settings-container{
-    margin-top: 3.1vw;
+    margin-top: 4vw;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -56,7 +56,7 @@ footer{
     color: #0C0C0C;
     font-size: 1.1vw;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1.6vw;
+    margin-bottom: 2.3vw;
 }
 .settings-button:hover{
     color: #A9A9A9;
@@ -94,7 +94,7 @@ footer{
     }
     .settings-button{
         font-size: 3.5vw;
-        margin-bottom: 5.8vw;
+        margin-bottom: 7vw;
     }
     .footer-settings-container{
     margin-top: 12vw;
