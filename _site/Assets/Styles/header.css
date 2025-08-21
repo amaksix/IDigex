@@ -43,7 +43,7 @@
    margin-bottom: 0.6vw;
 }
 .languages-button{
-    color:#666666;
+    color:#919191;
     font-family: "Arial", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -54,7 +54,7 @@
     text-decoration: none;
 }
 .languages-button:hover{
-    color:#A9A9A9;   
+    color:#e1e1e1;   
 }
 .languages-button:active{
     color:#F9F9F9;   
