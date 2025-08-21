@@ -19,7 +19,7 @@ function scrollRight(containerId) {
     var imageWidthVW = 43.74; // Assuming each image is 43.75vw wide
     var mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
     if (mediaQuery.matches) {
-        imageWidthVW = 94;
+        imageWidthVW = 88;
     }else
     {
         imageWidthVW = 43.74;

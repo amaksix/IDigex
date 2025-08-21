@@ -195,8 +195,8 @@
         margin-right: 7vw;
         margin-bottom: 0.5vw;
         margin-top: 0.5vw;
-        font-size: 3.5vw;
-        line-height: 4.5vw;
+        font-size: 3.2vw;
+        line-height: 4.2vw;
     }
     .project-description-text-container{
         width: 94vw;
@@ -218,7 +218,7 @@
         border-radius: 5vw;
     }
     .project-image{
-        width: 94vw;
+        width: 88vw;
         margin: 0 0;
         transition: transform 0.9s;
     }
