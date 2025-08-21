@@ -14,7 +14,7 @@ EN:
         contact: CONTACT
     header:
         title: DIGITAL STUDIO
-        text: " We bring ideas to life through tailored digital solutions, including<span style='color:#a9a9a9'> web development, brand identity, and 3D visualization.</span>"
+        text: " We bring ideas to life through tailored digital solutions, including<span style='color:#e1e1e1'> web development, brand identity, and 3D visualization.</span>"
     about:
         header: ABOUT
         text01: We possess extensive expertise in UI/UX design, development, and 3D modeling, enabling us to craft solutions that are not only visually engaging but also intuitive and aligned with business objectives. Every project is approached individually, with full-cycle involvement to ensure all client requirements and expectations are met.
@@ -37,7 +37,7 @@ EN:
                     line06: Development time frame;
                     line07: Complexity of design solutions and UI/UX;
                     line08: Ammount of support needed after end of the project.
-                    line09: "Thus, the price of creating a website is determined individually and is based on the specifications and development goals.  <span style='color: #A9A9A9;'> After publishing your site, you receive free technical support for 30 days.</span>"
+                    line09: "Thus, the price of creating a website is determined individually and is based on the specifications and development goals.  <span style='color: #e1e1e1;'> After publishing your site, you receive free technical support for 30 days.</span>"
             service02:
                 header: 3D MODELING
                 description: We create high-quality 3D models that help you visualize your product or idea in full detail.
@@ -48,7 +48,7 @@ EN:
                 description: We collect all the elements of your brand into a clear and convenient guide.
                 period: 3 days 
                 text: The brand book is an important official document of the company, which sets out in detail all aspects of brand development. It outlines the rules for using your logo, color palette, typography, and other important branding elements to ensure your brand remains recognizable.
-                text02: "<span style='color: #A9A9A9;'>We develop both full branding and individual elements - according to your request. The cost is calculated individually.<span>"
+                text02: "<span style='color: #e1e1e1;'>We develop both full branding and individual elements - according to your request. The cost is calculated individually.<span>"
             service04:
                 header: LOGO
                 description: We design a logo that reflects your brand and is easy to remember.
@@ -187,7 +187,7 @@ LV:
         contact: KONTAKTI
     header:
         title: DIGITAL STUDIO
-        text: Mēs īstenojam idejas, izmantojot pielāgotus digitālos risinājumus,<span style='color:#a9a9a9'> tostarp majaslapas izstrādi, zīmola identitāti un 3D vizualizāciju</span>.
+        text: Mēs īstenojam idejas, izmantojot pielāgotus digitālos risinājumus,<span style='color:#e1e1e1'> tostarp majaslapas izstrādi, zīmola identitāti un 3D vizualizāciju</span>.
     about:
       header: PAR
       text01: Mums ir plaša pieredze UI/UX dizainā, izstrādē un 3D modelēšanā, kas ļauj mums veidot risinājumus, kas ir ne tikai vizuāli pievilcīgi, bet arī intuitīvi un saskaņoti ar biznesa mērķiem. Katram projektam pieejam individuāli, nodrošinot pilna cikla iesaisti, lai izpildītu visas klienta prasības un cerības.
@@ -210,7 +210,7 @@ LV:
                 line06: Izstrādes termiņa;
                 line07: Dizaina risinājumu un UI/UX sarežģītības;
                 line08: Nepieciešamās atbalsta apjoma pēc projekta pabeigšanas.
-                line09: "Līdz ar to vietnes izstrādes cena tiek noteikta individuāli, pamatojoties uz specifikāciju un izstrādes mērķiem. <span style='color: #A9A9A9;'> Pēc vietnes publicēšanas jūs saņemsiet bezmaksas tehnisko atbalstu 30 dienas.</span>"
+                line09: "Līdz ar to vietnes izstrādes cena tiek noteikta individuāli, pamatojoties uz specifikāciju un izstrādes mērķiem. <span style='color: #e1e1e1;'> Pēc vietnes publicēšanas jūs saņemsiet bezmaksas tehnisko atbalstu 30 dienas.</span>"
         service02:
             header: 3D MODELĒŠANA
             description: Mēs veidojam augstas kvalitātes 3D modeļus, kas palīdzēs pilnībā vizualizēt jūsu produktu vai ideju.
@@ -221,7 +221,7 @@ LV:
             description: Zīmola grāmata ir svarīgs rīks, kas palīdz saglabāt jūsu zīmola vienotu stilu.
             period: 3 dienas
             text: Zīmola grāmata ir svarīgs uzņēmuma oficiālais dokuments, kurā detalizēti aprakstīti visi zīmola izstrādes aspekti. Tajā noteikumi par logotipa, krāsu paletes, tipogrāfijas un citu būtisku zīmola elementu lietošanu, lai nodrošinātu zīmola atpazīstamību.
-            text02: "<span style='color: #A9A9A9;'>Mēs izstrādājam gan pilnu brendu, gan atsevišķus elementus – pēc jūsu pieprasījuma. Izmaksas tiek aprēķinātas individuāli.</span>"
+            text02: "<span style='color: #e1e1e1;'>Mēs izstrādājam gan pilnu brendu, gan atsevišķus elementus – pēc jūsu pieprasījuma. Izmaksas tiek aprēķinātas individuāli.</span>"
         service04:
             header: LOGOTIPS
             description: Logotips ir nepieciešams klientu uzmanības piesaistei un atpazīstamības uzlabošanai.
@@ -356,7 +356,7 @@ RU:
         contact: КОНТАКТЫ
     header:
         title: DIGITAL STUDIO
-        text: Мы воплощаем идеи в жизнь с помощью индивидуальных цифровых решений,<span style='color:#a9a9a9'> включая веб-разработку, фирменный стиль и 3D-визуализацию</span>.
+        text: Мы воплощаем идеи в жизнь с помощью индивидуальных цифровых решений,<span style='color:#e1e1e1'> включая веб-разработку, фирменный стиль и 3D-визуализацию</span>.
     about:
         header: О НАС
         text01: У нас обширный опыт в UI/UX-дизайне, разработке и 3D-моделировании, что позволяет создавать решения, которые не только визуально привлекательны, но и интуитивно понятны и соответствуют бизнес-целям. К каждому проекту мы подходим индивидуально, обеспечивая полное сопровождение на всех этапах для полного соответствия требованиям и ожиданиям клиента.
@@ -379,7 +379,7 @@ RU:
                 line06: Сроки разработки;
                 line07: Сложность дизайн‑решений и UI/UX;
                 line08: Объём поддержки после завершения проекта.
-                line09: "Таким образом, цена разработки сайта определяется индивидуально и основывается на техническом задании и целях разработки. <span style='color: #A9A9A9;'> После публикации сайта вы получаете бесплатную техподдержку в течение 30 дней.</span>"
+                line09: "Таким образом, цена разработки сайта определяется индивидуально и основывается на техническом задании и целях разработки. <span style='color: #e1e1e1;'> После публикации сайта вы получаете бесплатную техподдержку в течение 30 дней.</span>"
         service02:
             header: 3D МОДЕЛИ
             description: Мы создаем 3D‑модели, которые помогают визуализировать ваш продукт.

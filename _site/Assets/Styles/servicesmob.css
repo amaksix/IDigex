@@ -20,7 +20,7 @@
 /* Scrollbar track */
 .tabs-scroll-wrapper-mob::-webkit-scrollbar-track,
 .slider-container-mob::-webkit-scrollbar-track {
-  background-color: #A9A9A9; 
+  background-color: #E1E1E1; 
   border-radius: 1vw;
 }
 
@@ -51,7 +51,7 @@
    font-family: "Arial", sans-serif;
     font-style: light;
     font-weight: 300;
-    color: #A9A9A9;
+    color: #E1E1E1;
     letter-spacing: 2%;
     font-size: 3.5vw;
 }
@@ -91,7 +91,7 @@
     height: 101vw;
 }
 .service-header-mob{
-     color:#A9A9A9;
+     color:#E1E1E1;
      margin: 0;
      margin-top: 10vw;
      font-size: 7vw;
