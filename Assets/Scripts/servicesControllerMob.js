@@ -40,15 +40,15 @@ tabs.forEach(tab => {
 });
 
 // Drag/swipe
-sliderTrack.addEventListener('mousedown', startDrag);
-sliderTrack.addEventListener('touchstart', startDrag, { passive: true });
+//sliderTrack.addEventListener('mousedown', startDrag);
+//sliderTrack.addEventListener('touchstart', startDrag, { passive: true });
 
-sliderTrack.addEventListener('mousemove', drag);
-sliderTrack.addEventListener('touchmove', drag, { passive: false });
+//sliderTrack.addEventListener('mousemove', drag);
+//sliderTrack.addEventListener('touchmove', drag, { passive: false });
 
-sliderTrack.addEventListener('mouseup', endDrag);
-sliderTrack.addEventListener('mouseleave', () => isDragging && endDrag());
-sliderTrack.addEventListener('touchend', endDrag);
+//sliderTrack.addEventListener('mouseup', endDrag);
+//sliderTrack.addEventListener('mouseleave', () => isDragging && endDrag());
+//sliderTrack.addEventListener('touchend', endDrag);
 
 function getPositionX(e) {
   return e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
