@@ -1,0 +1,495 @@
+<div class="projects">
+            <div class="scroll-image-anchor" id="scroll-image-anchor"></div>
+            <div class="projects-anchor" id="projects-anchor-id"></div>
+            <h2  id="projects" class="projects-header">{{t.projects.header }}</h2>
+            <div id="projects-grid-container" class="projects-grid-container">
+                <div id="projects-grid" class="projects-grid">
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >FINANCE LABS</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.financelabs.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="twelve-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_4.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                {{t.projects.financelabs.text }}
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#twelve-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >VIABON</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.viabon.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="eight-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_3.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                {{t.projects.viabon.text}}
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>     
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#eight-project')">
+                                <img loading="lazy" class="project-button-image">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >5W</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects["5w"].description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="fourteen-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5w_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_4.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_5.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                {{t.projects["5w"].text }}
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#fourteen-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div id="project-display" class="project project-display">
+                        <div class="project-text-grid">
+                            <button  class="project-head" onclick="ChangeHeight()">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3 id="display-header" data-more-projects="{{t.projects.more }}"data-less-projects="{{t.projects.less }}"
+                                 style = "height: 3vw;margin-bottom: 1.7vw;" class="project-button-text" >{{t.projects.more }}</h3>
+                            </button>
+                        </div>
+                        <div class="project-image-container more-projects-image-container">
+                            <button class="more-projects-button" onclick="ChangeHeight()"><img id="flipper" class="flipper" src="../Assets/Images/Plus.svg"></button>
+                            <h3 id="display"   data-display-more="{{t.projects.displayMore }}" 
+                            data-display-less="{{t.projects.displayLess }}" class="display">{{t.projects.displayMore }}</h3>
+                        </div>     
+                    </div>         
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <button class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >U&Paws</h3>
+                            </button>
+                            <h5 class="project-text">{{t.projects.paws.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="eleven-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_4.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                {{t.projects.paws.text.text01 }}
+                                                {{t.projects.paws.text.text02 }}
+                                            </h5>
+                                            <h5 class="project-description-text">
+                                                <ul>
+                                                    <li> {{t.projects.paws.text.text03 }}</li>
+                                                    <li> {{t.projects.paws.text.text05 }}</li>
+                                                    <li> {{t.projects.paws.text.text06 }}</li>
+                                                </ul>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#eleven-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >PENA LAB</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.penalab.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="thirteen-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_4.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_5.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                {{t.projects.penalab.text}}
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#thirteen-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <button  class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >PALAMI</h3>
+                            </button>
+                            <h5 class="project-text">{{t.projects.palami.description }} </h5>
+                        </div>
+                        <div class="project-image-container">
+                                <div id="first-project" class="projects-carousel">
+                                    <div class="carousel-image-container">
+                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_2.jpg">
+                                    </div>
+                                    <div class="carousel-image-container">
+                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_1.jpg">
+                                    </div>
+                                    <div class="carousel-image-container">
+                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_3.jpg">
+                                    </div>
+                                    <div class="carousel-image-container project-image project-description">
+                                        <div class="project-description-text-container">
+                                            <div class="project-description-text-container-inner">
+                                                <h5 class="project-description-text">
+                                                {{t.projects.palami.text.text01 }}
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>       
+                                    <!-- Add more images as needed -->
+                                </div>
+                            <button class="project-button" onclick="scrollRight('#first-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>    
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <button class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >CONFIGURATOR</h3>
+                            </button>
+                            <h5 class="project-text"> {{t.projects.configurator.description }} </h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div class="screen">
+                                <img loading="lazy" src="../Assets/Images/Configurator_Large.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">                     
+                            <button  class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >BUS STOP, PYLON </h3>
+                            </button>
+                            <h5 class="project-text">{{t.projects.busstop.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="fourth-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Pylon.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                            {{t.projects.busstop.text }}
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>  
+                                    <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#fourth-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >MÜLLER'S</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.mullers.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="third-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_3.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                {{t.projects.mullers.text01 }}
+                                            </h5>
+                                            <h5 class="project-description-text">
+                                                {{t.projects.mullers.text02 }}
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>      
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#third-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >REALWIN</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.realwin.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="fifth-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/RealWin_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/RealWin_2.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                {{t.projects.realwin.text }}
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#fifth-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >ECCA</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.ecca.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="sixt-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_3.jpg">
+                                </div>
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#sixt-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >MAJA</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.maja.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="ten-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_3.jpg">
+                                </div>
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#ten-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >DASHBOARD</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.dashboard.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="seventh-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_2.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_3.jpg">
+                                </div>
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#seventh-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                   
+                    <div class="project">
+                        <div class="project-text-grid">
+                            <div class="project-head">
+                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
+                                <h3  class="project-button-text" >SOA</h3>
+                            </div>
+                            <h5 class="project-text">{{t.projects.soa.description }}</h5>
+                        </div>
+                        <div class="project-image-container">
+                            <div id="nine-project" class="projects-carousel">
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Soa_1.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Soa_3.jpg">
+                                </div>
+                                <div class="carousel-image-container">
+                                    <img loading="lazy" class="project-image" src="../Assets/Images/Soa_2.jpg">
+                                </div>
+                                <div class="carousel-image-container project-image project-description">
+                                    <div class="project-description-text-container">
+                                        <div class="project-description-text-container-inner">
+                                            <h5 class="project-description-text">
+                                                {{t.projects.soa.text}}                      
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>       
+                                <!-- Add more images as needed -->
+                            </div>
+                            <button class="project-button" onclick="scrollRight('#nine-project')">
+                                <img loading="lazy" class="project-button-image" >
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

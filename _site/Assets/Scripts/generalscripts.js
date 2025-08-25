@@ -11,7 +11,12 @@ function ScrollToAnchor(anchor)
 function openInNewTab(url) {
   window.open(url, '_blank').focus();
 }
+const iframe = document.getElementById('portfolio-widget');
 
+iframe.onload = () => {
+  const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+  iframe.style.height = iframeDoc.body.scrollHeight + 'px';
+};
 function scrollRight(containerId) {
     const carousel = document.querySelector(containerId);
     const images = document.querySelectorAll(containerId + ' .project-image');
@@ -113,7 +118,7 @@ function swapElements() {
          movingTextUpAnim('about');
         movingTextUpAnim('services');
         movingTextUpAnim('contact');
-        movingTextUpAnim('projects');
+        //movingTextUpAnim('projects');
         movingTextUpAnim('first-shot');
         /*movingTextUpAnim('first-shot-mob');
         movingTextUpAnim('about-mob');

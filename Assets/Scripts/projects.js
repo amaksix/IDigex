@@ -4,7 +4,7 @@ const mobMin = 330;
 const max = 327;
 const maxMob = 1245;
 let currentIndexMap = {};
-initializeCarousel('#first-project');
+/*initializeCarousel('#first-project');
 initializeCarousel('#third-project');
 initializeCarousel('#fourth-project');
 initializeCarousel('#fifth-project');
@@ -16,7 +16,7 @@ initializeCarousel('#ten-project');
 initializeCarousel('#eleven-project');
 initializeCarousel('#twelve-project');
 initializeCarousel('#thirteen-project');
-initializeCarousel('#fourteen-project');
+initializeCarousel('#fourteen-project');*/
 
 function initializeCarousel(containerId) {
     const carousel = document.querySelector(containerId);
@@ -30,14 +30,14 @@ function initializeCarousel(containerId) {
 }
 
 var mediaQuery = window.matchMedia('(hover: none) and (pointer: coarse),(max-width: 480px)');
-if (mediaQuery.matches) {
+/*if (mediaQuery.matches) {
     document.querySelector('.projects-grid-container').style.height = mobMin+"vw";
 }else
 {
     document.querySelector('.projects-grid-container').style.height = min+"vw";
-}
+}*/
 
-var display = document.getElementsByClassName("project-display")[0];
+/*var display = document.getElementsByClassName("project-display")[0];
 function ScrollToAnchorProject(anchor)
 {
     var element = document.getElementById(anchor);
@@ -113,7 +113,7 @@ function ChangeHeight() {
                    
                 } 
         }
-
+*/
 const elements = document.querySelectorAll('.scrollable-image');
 const anchorscroll = document.getElementById('scroll-image-anchor');
 const isMobile = window.matchMedia('(hover: none) and (pointer: coarse), (max-width: 480px)').matches;

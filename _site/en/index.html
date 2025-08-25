@@ -3,12 +3,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/loader.css?=v2'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/loader.css?=v2'>
 
 <head> 
- <link rel="icon" href="../Assets/Images/48x48.png" sizes="48x48" type="image/png" >
- <link rel="icon" href="../Assets/Images/48x48.svg" sizes="48x48" type="image/svg+xml">
- <link rel="apple-touch-icon" href="../Assets/Images/180x180.png" sizes="180x180">
+ <link rel="icon" href="../assets/Images/48x48.png" sizes="48x48" type="image/png" >
+ <link rel="icon" href="../assets/Images/48x48.svg" sizes="48x48" type="image/svg+xml">
+ <link rel="apple-touch-icon" href="../assets/Images/180x180.png" sizes="180x180">
   <title>IDIGEX</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -522,511 +522,23 @@
             <div class="custom-scroll-track">
                 <div class="custom-scroll-thumb"></div>
             </div>
+            <div class="scroll-image-anchor" id="scroll-image-anchor"></div>
+            <iframe id="portfolio-widget" 
+                src="../widgets/showcase.html" 
+                style="width:100%; border:none; overflow:hidden;" 
+                scrolling="yes"
+                sandbox="allow-scripts allow-same-origin"></iframe>
         </div>
 
-        <div class="projects">
-            <div class="scroll-image-anchor" id="scroll-image-anchor"></div>
-            <div class="projects-anchor" id="projects-anchor-id"></div>
-            <h2  id="projects" class="projects-header">PROJECTS</h2>
-            <div id="projects-grid-container" class="projects-grid-container">
-                <div id="projects-grid" class="projects-grid">
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >FINANCE LABS</h3>
-                            </div>
-                            <h5 class="project-text">Branding</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="twelve-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_3.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/FinanceLabs_4.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                                Brand development for the newly established company, Finance Labs, operating in the financial sector.<span style='color: #F9F9F9;'> The project involved designing an attractive logo, selecting color and font options, and creating comprehensive style guidelines presented in a brand book.</span> Additionally, invoice and email signature templates were developed and delivered as part of the branding package.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#twelve-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >VIABON</h3>
-                            </div>
-                            <h5 class="project-text">Branding, website</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="eight-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Viabon_3.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                                For the company viabon, working in the financial sector, a holistic visual style was developed: <span style='color: #F9F9F9;'>corporate colors and fonts were selected, a brand book with recommendations for using the identity was created.</span> At the moment, work is underway on a corporate website with adaptation for various devices.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>     
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#eight-project')">
-                                <img loading="lazy" class="project-button-image">
-                            </button>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >5W</h3>
-                            </div>
-                            <h5 class="project-text">Branding, website</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="fourteen-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/5w_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_3.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_4.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/5W_5.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                                For the new financial company 5W, we developed a complete visual image:<span style='color: #F9F9F9;'> logo, color palette, typography and brand book. An adaptive website was also created, fully consistent with the corporate style.</span> Particular attention was paid to the laconic design and convenient navigation on all devices.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>       
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#fourteen-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>
-                    <div id="project-display" class="project project-display">
-                        <div class="project-text-grid">
-                            <button  class="project-head" onclick="ChangeHeight()">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3 id="display-header" data-more-projects="MORE PROJECTS"data-less-projects="LESS PROJECTS"
-                                 style = "height: 3vw;margin-bottom: 1.7vw;" class="project-button-text" >MORE PROJECTS</h3>
-                            </button>
-                        </div>
-                        <div class="project-image-container more-projects-image-container">
-                            <button class="more-projects-button" onclick="ChangeHeight()"><img id="flipper" class="flipper" src="../Assets/Images/Plus.svg"></button>
-                            <h3 id="display"   data-display-more="Display More" 
-                            data-display-less="Display Less" class="display">Display More</h3>
-                        </div>     
-                    </div>         
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <button class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >U&Paws</h3>
-                            </button>
-                            <h5 class="project-text">Branding, website</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="eleven-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_3.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Paws_4.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                                <span style='color: #F9F9F9;'>Logo development, creation of an online store in Webflow for selling dog accessories. </span>
-                                                The <span style='color: #F9F9F9;'>main goals</span> of the project:
-                                            </h5>
-                                            <h5 class="project-description-text">
-                                                <ul>
-                                                    <li> User-friendly interface: creating an intuitive design for comfortable searching and purchasing of goods.</li>
-                                                    <li> Visual: implementation of animation elements to improve user experience, create an attractive visual design and retain the attention of visitors.</li>
-                                                    <li> Secure payments: providing a reliable system of payment and delivery of goods.</li>
-                                                </ul>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>       
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#eleven-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div> 
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >PENA LAB</h3>
-                            </div>
-                            <h5 class="project-text">Branding</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="thirteen-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_3.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_4.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/PenaLabs_5.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                                <span style='color: #F9F9F9;'>Development of a logo and brand book</span> (including color palette, typography, icons and graphic elements),<span style='color:#F9F9F9;'> creation of a corporate identity</span> (business cards, advertising posters, packaging, templates for presentations and social networks), as well as <span style='color: #F9F9F9;'>video and animation materials, landing page</span> for the creative studio Pena Lab. The task was to harmoniously combine the brand concept with minimalist "trash" aesthetics, without losing the main idea of ​​ephemeral art and conscious consumption. The essence of the concept: 'You wear a thing for the sake of a unique name, and then it disappears.'
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#thirteen-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div> 
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <button  class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >PALAMI</h3>
-                            </button>
-                            <h5 class="project-text">Logo, website design rebranding </h5>
-                        </div>
-                        <div class="project-image-container">
-                                <div id="first-project" class="projects-carousel">
-                                    <div class="carousel-image-container">
-                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_2.jpg">
-                                    </div>
-                                    <div class="carousel-image-container">
-                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_1.jpg">
-                                    </div>
-                                    <div class="carousel-image-container">
-                                        <img loading="lazy" class="project-image" src="../Assets/Images/Palami_3.jpg">
-                                    </div>
-                                    <div class="carousel-image-container project-image project-description">
-                                        <div class="project-description-text-container">
-                                            <div class="project-description-text-container-inner">
-                                                <h5 class="project-description-text">
-                                                Website rebranding for a company which develops LED screens, media facades and bus stops. <span style='color: #F9F9F9;'>We created a logo, website design in Shopify, 3D models of pylons and bus stops, configurator, banners and animations for the website.</span>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>       
-                                    <!-- Add more images as needed -->
-                                </div>
-                            <button class="project-button" onclick="scrollRight('#first-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>    
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <button class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >CONFIGURATOR</h3>
-                            </button>
-                            <h5 class="project-text"> 3D Modeling </h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div class="screen">
-                                <img loading="lazy" src="../Assets/Images/Configurator_Large.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-text-grid">                     
-                            <button  class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >BUS STOP, PYLON </h3>
-                            </button>
-                            <h5 class="project-text">3D Modeling</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="fourth-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/BusStop_3.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Pylon.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                            <span style='color: #F9F9F9;'>Development of 3D models for Palami to showcase a variety of products.</span> The project required creating two distinct bus stop designs, each available in four sizes and offering numerous configuration options. These options included the number of screens, availability of a map, schedule display, and custom city prints on the glass. Additionally, the pylon model was a faithful recreation of one of their existing physical products.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>  
-                                    <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#fourth-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >MÜLLER'S</h3>
-                            </div>
-                            <h5 class="project-text">Logo, business cards</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="third-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Mullers_3.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                                <span style='color: #F9F9F9;'>Development of a logo and business cards for a sweet workshop in Latvia.</span> At the request of the customer, the logo should be elegant and minimalistic, with a certain emphasis in the color palette
-                                            </h5>
-                                            <h5 class="project-description-text">
-                                                <span style='color: #F9F9F9;'>Design:</span> the logo for the sweet workshop was designed to be attractive and creative. Readable and stylish font and contrasting red color, which reflects the degree of premium and quality of the product. A calligraphic element was used to add a touch of sophistication.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>      
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#third-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div> 
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >REALWIN</h3>
-                            </div>
-                            <h5 class="project-text">Logo</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="fifth-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/RealWin_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/RealWin_2.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                                The RealWin logo for an online casino is a key element of the project's visual identity. It is designed keeping in mind the goals and values ​​of the project, as well as taking into account the requirements of the target audience. <span style='color: #F9F9F9;'> The logo reflects the uniqueness and character of the project, creating a recognizable and memorable image.</span>
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>       
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#fifth-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >ECCA</h3>
-                            </div>
-                            <h5 class="project-text">Logo</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="sixt-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Ecca_3.jpg">
-                                </div>
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#sixt-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >MAJA</h3>
-                            </div>
-                            <h5 class="project-text">Branding</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="ten-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Maja_3.jpg">
-                                </div>
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#ten-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>
-                
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow"  src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >DASHBOARD</h3>
-                            </div>
-                            <h5 class="project-text">Concept</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="seventh-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_2.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/DashBoard_3.jpg">
-                                </div>
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#seventh-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>
-                   
-                    <div class="project">
-                        <div class="project-text-grid">
-                            <div class="project-head">
-                                <img loading="lazy" class="project-button-arrow" src="../Assets/Images/Arrow_Right.svg">
-                                <h3  class="project-button-text" >SOA</h3>
-                            </div>
-                            <h5 class="project-text">Branding, website</h5>
-                        </div>
-                        <div class="project-image-container">
-                            <div id="nine-project" class="projects-carousel">
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Soa_1.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Soa_3.jpg">
-                                </div>
-                                <div class="carousel-image-container">
-                                    <img loading="lazy" class="project-image" src="../Assets/Images/Soa_2.jpg">
-                                </div>
-                                <div class="carousel-image-container project-image project-description">
-                                    <div class="project-description-text-container">
-                                        <div class="project-description-text-container-inner">
-                                            <h5 class="project-description-text">
-                                                A holistic visual style was developed for Soa Skincare, a company specializing in the sale of skincare cosmetics:<span style='color: #F9F9F9;'> corporate colors, typography, and graphic elements reflecting the brand values were selected.</span> A brand book was created with detailed recommendations on the use of identity in digital and printed materials. A line for the production of cosmetics was also developed, combining aesthetics and functionality.                      
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>       
-                                <!-- Add more images as needed -->
-                            </div>
-                            <button class="project-button" onclick="scrollRight('#nine-project')">
-                                <img loading="lazy" class="project-button-image" >
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!--heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeere-->
+
     </div>
-    
         <div class="scrollable-image-container">
             <div class="desktop">
-                <img id="scrollable-image" class="scrollable-image" src="../Assets/Images/Scrollable.jpg">
+                <img id="scrollable-image" class="scrollable-image" src="../assets/Images/Scrollable.jpg">
             </div>
             <div class="mobile">
-                <img id="scrollable-image" class="scrollable-image" src="../Assets/Images/Scrollable_Mob.jpg">
+                <img id="scrollable-image" class="scrollable-image" src="../assets/Images/Scrollable_Mob.jpg">
             </div>
         </div>
     <div class="background-holder background-holder-second"> 
@@ -1147,7 +659,7 @@
         <path d="M11.2008 0.800049L0.800781 11.2001M0.800781 0.800049L11.2008 11.2001"  stroke-width="1.20001" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         </button>
-        <img src="../Assets/Images/CheckIcon.svg" class="mail-message-icon" />
+        <img src="../assets/Images/CheckIcon.svg" class="mail-message-icon" />
         <div class="mail-message-content">
             <h4 class="mail-message-header">THANK YOU!</h4>
             <h5 class="mail-message-text">Your message is received, we will get in touch with you within 1-2 workdays.</h5>
@@ -1209,26 +721,28 @@
 </body>
 <style>
 </style>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/general.css?=v1'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/header.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/services.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/contact.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/horizontalScroll.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/projects.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/headermob.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/about.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/footer.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/servicesmob.css'>
-<link rel='stylesheet' type='text/css' href='../Assets/Styles/popups.css'>
-<script src="../Assets/Scripts/loader.js?=v1"></script>
+
+<link rel='stylesheet' type='text/css' href='../assets/styles/general.css?=v1'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/header.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/services.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/contact.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/horizontalScroll.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/projects.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/headermob.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/about.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/footer.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/servicesmob.css'>
+<link rel='stylesheet' type='text/css' href='../assets/styles/popups.css'>
+<script src="../assets/scripts/loader.js?=v1"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script type="text/javascript" src="../Assets/Scripts/languageButton.js"></script>
-<script type="text/javascript" src="../Assets/Scripts/servicesController.js"></script>
-<script type="text/javascript" src="../Assets/Scripts/sideMoving.js"></script>
-<script type="text/javascript" src="../Assets/Scripts/projects.js"></script>
-<script type="text/javascript" src="../Assets/Scripts/generalscripts.js"></script>
-<script type="text/javascript" src="../Assets/Scripts/horizontalScroll.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
-<script src="../Assets/Scripts/lava-lamp.js"></script>
-<script src="../Assets/Scripts/servicesControllerMob.js"></script>
+<script type="text/javascript" src="../assets/scripts/languageButton.js"></script>
+<script type="text/javascript" src="../assets/scripts/servicesController.js"></script>
+<script type="text/javascript" src="../assets/scripts/sideMoving.js"></script>
+<script type="text/javascript" src="../assets/scripts/generalscripts.js"></script>
+<script type="text/javascript" src="../assets/scripts/horizontalScroll.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
+<script type="text/javascript" src="../assets/scripts/liko-portfolio-widget.js"></script>
+<script type="text/javascript" src="../assets/scripts/projects.js"></script>
+<script type="text/javascript" src="../assets/scripts/lava-lamp.js"></script>
+<script type="text/javascript" src="../assets/scripts/servicesControllerMob.js"></script>
 </html>
