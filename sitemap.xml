@@ -3,7 +3,7 @@
   {% for page in site.pages %}
     {% if page.url != "/404.html" and (page.url contains '/en/' or page.url contains '/lv/' or page.url contains '/ru/' ) %}
       <url>
-       <loc>https://amaksix.github.io/</loc>
+       <loc>https://www.idigex.lv/</loc>
         <lastmod>2025-04-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
